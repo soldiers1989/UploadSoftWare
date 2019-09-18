@@ -1,0 +1,2201 @@
+10:32:35
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013010310761601</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301032345800003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>341125199010121416</DABH>
+        <PositionNo>LLQ0139</PositionNo>
+        <Name>董亚虎</Name>
+        <SubItemCode>01003</SubItemCode>
+        <SubItemName>羊肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 10:32:32</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1711080001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+10:32:38
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 10:32:34</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+10:32:38
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013010310761601</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301032345800002</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>341125199010121416</DABH>
+        <PositionNo>LLQ0139</PositionNo>
+        <Name>董亚虎</Name>
+        <SubItemCode>01003</SubItemCode>
+        <SubItemName>羊肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 10:32:32</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1711080001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+10:32:42
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 10:32:38</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+10:32:46
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013010310761601</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301032345800003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>341125199010121416</DABH>
+        <PositionNo>LLQ0139</PositionNo>
+        <Name>董亚虎</Name>
+        <SubItemCode>01003</SubItemCode>
+        <SubItemName>羊肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 10:32:32</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1711080001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+10:32:49
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 10:32:45</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+11:41:18
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013011405898001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301141177000002</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01005</SubItemCode>
+        <SubItemName>马肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:41:15</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:41:26
+数据上传 - 响应：
+1000
+
+11:41:26
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013011405898001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301141177000003</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01005</SubItemCode>
+        <SubItemName>马肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:41:15</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:41:30
+数据上传 - 响应：
+1000
+
+11:41:30
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013011405898001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301141177000004</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01005</SubItemCode>
+        <SubItemName>马肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:41:15</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:41:34
+数据上传 - 响应：
+1000
+
+11:41:38
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013011405898001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301141177000002</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01005</SubItemCode>
+        <SubItemName>马肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:41:15</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>1</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:41:41
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 11:41:37</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该编码已存在！</error></errorList></response></webService>
+
+11:43:45
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013011431616501</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301143444400005</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199703153928</DABH>
+        <PositionNo>JQ003</PositionNo>
+        <Name>李光旭</Name>
+        <SubItemCode>01010</SubItemCode>
+        <SubItemName>牛蹄筋</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:43:42</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:43:49
+数据上传 - 响应：
+1000
+
+11:43:49
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013011431616501</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301143444400002</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199703153928</DABH>
+        <PositionNo>JQ003</PositionNo>
+        <Name>李光旭</Name>
+        <SubItemCode>01010</SubItemCode>
+        <SubItemName>牛蹄筋</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:43:42</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:43:53
+数据上传 - 响应：
+1000
+
+11:43:53
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013011431616501</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301143444400003</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199703153928</DABH>
+        <PositionNo>JQ003</PositionNo>
+        <Name>李光旭</Name>
+        <SubItemCode>01010</SubItemCode>
+        <SubItemName>牛蹄筋</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:43:42</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:43:57
+数据上传 - 响应：
+1000
+
+11:43:57
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013011431616501</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301143444400004</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199703153928</DABH>
+        <PositionNo>JQ003</PositionNo>
+        <Name>李光旭</Name>
+        <SubItemCode>01010</SubItemCode>
+        <SubItemName>牛蹄筋</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:43:42</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:44:01
+数据上传 - 响应：
+1000
+
+11:45:51
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013011443384101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900002</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:45:55
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 11:45:51</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+11:45:55
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013011443384101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:45:58
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 11:45:54</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+11:45:58
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013011443384101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:46:01
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 11:45:57</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+11:46:05
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013011443384101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:46:09
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 11:46:05</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+11:46:57
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013011464762301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900002</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:47:01
+数据上传 - 响应：
+1000
+
+11:47:01
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013011464762301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:47:05
+数据上传 - 响应：
+1000
+
+11:47:05
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013011464762301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:47:09
+数据上传 - 响应：
+1000
+
+13:21:35
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode />
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013203596401</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>0.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>1</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:21:38
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:21:35</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|单位编码或名称不对</error></errorList></response></webService>
+
+13:21:38
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode />
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013203596401</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>0.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>1</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:21:41
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:21:38</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|单位编码或名称不对</error></errorList></response></webService>
+
+13:23:00
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode />
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013223132301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:23:03
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:23:00</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|单位编码或名称不对</error></errorList></response></webService>
+
+13:23:03
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode />
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013223132301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:23:06
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:23:04</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|单位编码或名称不对</error></errorList></response></webService>
+
+13:24:09
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode />
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013235368801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:24:12
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:24:10</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|单位编码或名称不对</error></errorList></response></webService>
+
+13:24:13
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode />
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013235368801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:24:16
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:24:13</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|单位编码或名称不对</error></errorList></response></webService>
+
+13:24:50
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode />
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013235368801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:31:01
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013305241101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:31:08
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:31:05</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该编码已存在！</error></errorList></response></webService>
+
+13:31:08
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013305241101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:31:11
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:31:09</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该编码已存在！</error></errorList></response></webService>
+
+13:31:28
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013305241101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145510900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:31:31
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:31:29</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该编码已存在！</error></errorList></response></webService>
+
+13:41:10
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013405327801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145610900003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:41:13
+数据上传 - 响应：
+1000
+
+13:41:17
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013405327801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301145610900004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:45:48</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:41:21
+数据上传 - 响应：
+1000
+
+13:43:47
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013013431666801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301143444300005</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199703153928</DABH>
+        <PositionNo>JQ003</PositionNo>
+        <Name>李光旭</Name>
+        <SubItemCode>01010</SubItemCode>
+        <SubItemName>牛蹄筋</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:43:42</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:43:51
+数据上传 - 响应：
+1000
+
+13:43:51
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013013431666801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301143444300004</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199703153928</DABH>
+        <PositionNo>JQ003</PositionNo>
+        <Name>李光旭</Name>
+        <SubItemCode>01010</SubItemCode>
+        <SubItemName>牛蹄筋</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:43:42</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:43:54
+数据上传 - 响应：
+1000
+
+13:44:53
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013013443267101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301141174000003</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01005</SubItemCode>
+        <SubItemName>马肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:41:15</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:44:57
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:44:54</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+13:44:57
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013013443267101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301141174000004</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01005</SubItemCode>
+        <SubItemName>马肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:41:15</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:45:00
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:44:57</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+13:45:17
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013013443267101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301141174000004</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01005</SubItemCode>
+        <SubItemName>马肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:41:15</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:45:20
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 13:45:17</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+13:47:57
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013013473036301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301141174000003</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01005</SubItemCode>
+        <SubItemName>马肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:41:15</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:48:00
+数据上传 - 响应：
+1000
+
+13:48:16
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013013473036301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301141174000004</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01005</SubItemCode>
+        <SubItemName>马肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 11:41:15</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:48:19
+数据上传 - 响应：
+1000
+
+14:00:49
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013542270201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301400496000002</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342422197604037034</DABH>
+        <PositionNo>LLQ0135</PositionNo>
+        <Name>王少兵</Name>
+        <SubItemCode>03024</SubItemCode>
+        <SubItemName>空心菜</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:00:47</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:00:53
+数据上传 - 响应：
+1000
+
+14:00:53
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013542270201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301400496000003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342422197604037034</DABH>
+        <PositionNo>LLQ0135</PositionNo>
+        <Name>王少兵</Name>
+        <SubItemCode>03024</SubItemCode>
+        <SubItemName>空心菜</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:00:47</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:00:57
+数据上传 - 响应：
+1000
+
+14:01:15
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013542270201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301401157100004</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342422197604037034</DABH>
+        <PositionNo>LLQ0135</PositionNo>
+        <Name>王少兵</Name>
+        <SubItemCode>03024</SubItemCode>
+        <SubItemName>空心菜</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:01:14</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>3.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:01:20
+数据上传 - 响应：
+1000
+
+14:01:39
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018013013542270201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301401389100005</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342422197604037034</DABH>
+        <PositionNo>LLQ0135</PositionNo>
+        <Name>王少兵</Name>
+        <SubItemCode>03024</SubItemCode>
+        <SubItemName>空心菜</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:01:37</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:01:42
+数据上传 - 响应：
+1000
+
+14:03:01
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013014023928001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301403010500002</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>32032519680906286X</DABH>
+        <PositionNo>SC6002</PositionNo>
+        <Name>冯昌英</Name>
+        <SubItemCode>03005</SubItemCode>
+        <SubItemName>大白菜</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:02:59</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>3.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:03:04
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 14:03:02</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不对！多个摊位号只需要上传一个即可！</error></errorList></response></webService>
+
+14:03:08
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013014023928001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301403010500002</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>32032519680906286X</DABH>
+        <PositionNo>SC6002</PositionNo>
+        <Name>冯昌英</Name>
+        <SubItemCode>03005</SubItemCode>
+        <SubItemName>大白菜</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:02:59</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>3.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:03:11
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 14:03:08</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不对！多个摊位号只需要上传一个即可！</error></errorList></response></webService>
+
+14:03:46
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013014032486801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301403458800003</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199206143911</DABH>
+        <PositionNo>SC002</PositionNo>
+        <Name>谭威风</Name>
+        <SubItemCode>03008</SubItemCode>
+        <SubItemName>辣椒</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:03:44</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>3.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:03:50
+数据上传 - 响应：
+1000
+
+14:04:00
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JS32050020170411</marketCode>
+    <marketName>苏州亿通在线网络科技有限公司</marketName>
+    <tokenNo>2018013014032486801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301403599900004</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199206143911</DABH>
+        <PositionNo>SC002</PositionNo>
+        <Name>谭威风</Name>
+        <SubItemCode>03008</SubItemCode>
+        <SubItemName>辣椒</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:03:58</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州亿通在线网络科技有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>JS32050020170411</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300002</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:04:03
+数据上传 - 响应：
+1000
+
+14:05:01
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013014043939801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301405016000002</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199725412114</DABH>
+        <PositionNo>SC003</PositionNo>
+        <Name>李雨珍</Name>
+        <SubItemCode>11008</SubItemCode>
+        <SubItemName>山核桃</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:04:59</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>5.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:05:05
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 14:05:02</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不对！多个摊位号只需要上传一个即可！</error></errorList></response></webService>
+
+14:05:10
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013014043939801</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301405016000002</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>411481199725412114</DABH>
+        <PositionNo>SC003</PositionNo>
+        <Name>李雨珍</Name>
+        <SubItemCode>11008</SubItemCode>
+        <SubItemName>山核桃</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:04:59</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>5.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:05:14
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/1/30 14:05:11</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不对！多个摊位号只需要上传一个即可！</error></errorList></response></webService>
+
+14:06:10
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013014055181301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301406098500002</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>03018</SubItemCode>
+        <SubItemName>南瓜</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:06:08</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>8.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:06:14
+数据上传 - 响应：
+1000
+
+14:06:22
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>91320508579481682C</marketCode>
+    <marketName>苏州绿原超市有限公司</marketName>
+    <tokenNo>2018013014055181301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201801301406217500003</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>03018</SubItemCode>
+        <SubItemName>南瓜</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-01-30 14:06:20</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>2.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>苏州绿原超市有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>91320508579481682C</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300003</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:06:25
+数据上传 - 响应：
+1000
+

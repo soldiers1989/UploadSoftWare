@@ -1,0 +1,48 @@
+﻿<Window x:Class="AIO.xaml.Dialog.KsBusinessMsg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="经营户查询管理" Height="600" Width="700" 
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        Loaded="Window_Loaded" Icon="/DY-Detector;component/app_icon.ico">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,17,0,0" Name="txtName" VerticalAlignment="Top" Width="225" TextChanged="txtName_TextChanged"/>
+        <Button Content="查询" FontSize="20" Height="40" Margin="0,6,355,0" Name="Search" VerticalAlignment="Top" Click="Search_Click" HorizontalAlignment="Right" Width="100" />
+        <Button Content="选择" FontSize="20" Height="40" Margin="0,6,250,0" x:Name="Search_Copy" VerticalAlignment="Top" Click="Search_Click" HorizontalAlignment="Right" Width="100" />
+        <Button Content="查看经营户" FontSize="20" Height="40" Margin="0,6,145,0" Name="btnChoose" VerticalAlignment="Top" Click="btnChoose_Click" RenderTransformOrigin="0.604,0.464" HorizontalAlignment="Right" Width="100" />
+        <Button Content="更新" FontSize="20" Height="40" Margin="0,6,40,0" Name="btnImport" VerticalAlignment="Top" Click="btnImport_Click" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="100" />
+        <DataGrid AutoGenerateColumns="False" Visibility="Collapsed" IsReadOnly="True" ItemsSource="{Binding}" Margin="0,51,0,0" Name="DataGridRecord" MouseDoubleClick="DataGridRecord_MouseDoubleClick" LoadingRow="DataGridRecord_LoadingRow" FontSize="20">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=ID}" Header="ID" Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=TWQY}" Header="摊位区域" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Path=TWNum}" Header="摊位号"  Width="100"/>
+                <DataGridTextColumn Binding="{Binding Path=TWNume}" Header="摊主姓名" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Path=LinkPhone}" Header="联系方式" Width="130"/>
+                <DataGridTextColumn Binding="{Binding Path=IdentityCard}" Header="身份证号" />
+                <DataGridTextColumn Binding="{Binding Path=BusinessLicense}" Header="营业执照注册号"  Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=FamilyAddress}" Header="家庭住所"  Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=BusinessScope}" Header="主要经营品种"  Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=InboundChannel}" Header="主要进货渠道"  Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=ProtocolcODE}" Header="协议编号"  Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=ContractDate}" Header="签约日期"  Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=Contractarea}" Header="签约面积"  Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=ContractAmount}" Header="签约金额"  Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=IsCharge}" Header="是否已收费" Visibility="Collapsed" />
+                <DataGridTextColumn Binding="{Binding Path=Issigned}" Header="是否已签署食品安全承诺书"  Visibility="Collapsed"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}" Margin="0,51,0,0" Name="DataGridRecord_AreaMarket" MouseDoubleClick="DataGridRecord_AreaMarket_MouseDoubleClick" LoadingRow="DataGridRecord_AreaMarket_LoadingRow" FontSize="20">
+            <DataGrid.ContextMenu>
+                <ContextMenu Name="DataGridMenu" StaysOpen="true">
+                    <MenuItem Name="miShowBusiness" Click="miShowBusiness_Click" Header="查看经营户"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding SysCode}" Header="SysCode" Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding LicenseNo}" Header="单位主体编码" Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding MarketName}" Header="单位主体名称" Width="300"/>
+                <DataGridTextColumn Binding="{Binding Abbreviation}" Header="单位主体简称" Width="250"/>
+                <DataGridTextColumn Binding="{Binding MarketRef}" Header="单位主体类别" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,45 @@
+10:18:37
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018022710122027001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802271018297500005</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>342423198704152671</DABH>
+        <PositionNo>LLQ0140</PositionNo>
+        <Name>夏仁福</Name>
+        <SubItemCode>01004</SubItemCode>
+        <SubItemName>驴肉</SubItemName>
+        <QuickCheckItemCode>06</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0501</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-27 10:18:29</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>阳性</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>ppb</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>阴性</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+10:18:43
+数据上传 - 响应：
+1000
+

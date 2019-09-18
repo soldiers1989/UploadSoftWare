@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="checkIn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkInResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="checkInResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkOut">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkOutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="checkOutResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="saveQuickCheckItemInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="saveQuickCheckItemInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="saveQuickCheckItemInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="savePurchaseBill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="savePurchaseBillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="savePurchaseBillResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="saveSalesBill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="saveSalesBillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="saveSalesBillResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="saveUnitQuickInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="saveUnitQuickInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="saveUnitQuickInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="saveRegisterQuickSN">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="saveRegisterQuickSNResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="saveRegisterQuickSNResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryMarket">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryMarketResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryMarketResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuerySignContact">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuerySignContactResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QuerySignContactResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryCheckItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryCheckItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryCheckItemResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuerySalesItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuerySalesItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QuerySalesItemResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSignContact">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSignContactResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSignContactResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreaMarket">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreaMarketResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAreaMarketResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreaSignContact">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreaSignContactResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAreaSignContactResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="checkInSoapIn">
+    <wsdl:part name="parameters" element="tns:checkIn" />
+  </wsdl:message>
+  <wsdl:message name="checkInSoapOut">
+    <wsdl:part name="parameters" element="tns:checkInResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkOutSoapIn">
+    <wsdl:part name="parameters" element="tns:checkOut" />
+  </wsdl:message>
+  <wsdl:message name="checkOutSoapOut">
+    <wsdl:part name="parameters" element="tns:checkOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="saveQuickCheckItemInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:saveQuickCheckItemInfo" />
+  </wsdl:message>
+  <wsdl:message name="saveQuickCheckItemInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:saveQuickCheckItemInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="savePurchaseBillSoapIn">
+    <wsdl:part name="parameters" element="tns:savePurchaseBill" />
+  </wsdl:message>
+  <wsdl:message name="savePurchaseBillSoapOut">
+    <wsdl:part name="parameters" element="tns:savePurchaseBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="saveSalesBillSoapIn">
+    <wsdl:part name="parameters" element="tns:saveSalesBill" />
+  </wsdl:message>
+  <wsdl:message name="saveSalesBillSoapOut">
+    <wsdl:part name="parameters" element="tns:saveSalesBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="saveUnitQuickInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:saveUnitQuickInfo" />
+  </wsdl:message>
+  <wsdl:message name="saveUnitQuickInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:saveUnitQuickInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="saveRegisterQuickSNSoapIn">
+    <wsdl:part name="parameters" element="tns:saveRegisterQuickSN" />
+  </wsdl:message>
+  <wsdl:message name="saveRegisterQuickSNSoapOut">
+    <wsdl:part name="parameters" element="tns:saveRegisterQuickSNResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryMarketSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryMarket" />
+  </wsdl:message>
+  <wsdl:message name="QueryMarketSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryMarketResponse" />
+  </wsdl:message>
+  <wsdl:message name="QuerySignContactSoapIn">
+    <wsdl:part name="parameters" element="tns:QuerySignContact" />
+  </wsdl:message>
+  <wsdl:message name="QuerySignContactSoapOut">
+    <wsdl:part name="parameters" element="tns:QuerySignContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryCheckItemSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryCheckItem" />
+  </wsdl:message>
+  <wsdl:message name="QueryCheckItemSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryCheckItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="QuerySalesItemSoapIn">
+    <wsdl:part name="parameters" element="tns:QuerySalesItem" />
+  </wsdl:message>
+  <wsdl:message name="QuerySalesItemSoapOut">
+    <wsdl:part name="parameters" element="tns:QuerySalesItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSignContactSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSignContact" />
+  </wsdl:message>
+  <wsdl:message name="GetSignContactSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSignContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAreaMarketSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAreaMarket" />
+  </wsdl:message>
+  <wsdl:message name="GetAreaMarketSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAreaMarketResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAreaSignContactSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAreaSignContact" />
+  </wsdl:message>
+  <wsdl:message name="GetAreaSignContactSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAreaSignContactResponse" />
+  </wsdl:message>
+  <wsdl:portType name="sDataInfraceSoap">
+    <wsdl:operation name="checkIn">
+      <wsdl:input message="tns:checkInSoapIn" />
+      <wsdl:output message="tns:checkInSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="checkOut">
+      <wsdl:input message="tns:checkOutSoapIn" />
+      <wsdl:output message="tns:checkOutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="saveQuickCheckItemInfo">
+      <wsdl:input message="tns:saveQuickCheckItemInfoSoapIn" />
+      <wsdl:output message="tns:saveQuickCheckItemInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="savePurchaseBill">
+      <wsdl:input message="tns:savePurchaseBillSoapIn" />
+      <wsdl:output message="tns:savePurchaseBillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="saveSalesBill">
+      <wsdl:input message="tns:saveSalesBillSoapIn" />
+      <wsdl:output message="tns:saveSalesBillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="saveUnitQuickInfo">
+      <wsdl:input message="tns:saveUnitQuickInfoSoapIn" />
+      <wsdl:output message="tns:saveUnitQuickInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="saveRegisterQuickSN">
+      <wsdl:input message="tns:saveRegisterQuickSNSoapIn" />
+      <wsdl:output message="tns:saveRegisterQuickSNSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryMarket">
+      <wsdl:input message="tns:QueryMarketSoapIn" />
+      <wsdl:output message="tns:QueryMarketSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QuerySignContact">
+      <wsdl:input message="tns:QuerySignContactSoapIn" />
+      <wsdl:output message="tns:QuerySignContactSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryCheckItem">
+      <wsdl:input message="tns:QueryCheckItemSoapIn" />
+      <wsdl:output message="tns:QueryCheckItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QuerySalesItem">
+      <wsdl:input message="tns:QuerySalesItemSoapIn" />
+      <wsdl:output message="tns:QuerySalesItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSignContact">
+      <wsdl:input message="tns:GetSignContactSoapIn" />
+      <wsdl:output message="tns:GetSignContactSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaMarket">
+      <wsdl:input message="tns:GetAreaMarketSoapIn" />
+      <wsdl:output message="tns:GetAreaMarketSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaSignContact">
+      <wsdl:input message="tns:GetAreaSignContactSoapIn" />
+      <wsdl:output message="tns:GetAreaSignContactSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="sDataInfraceSoap" type="tns:sDataInfraceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="checkIn">
+      <soap:operation soapAction="http://tempuri.org/checkIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkOut">
+      <soap:operation soapAction="http://tempuri.org/checkOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveQuickCheckItemInfo">
+      <soap:operation soapAction="http://tempuri.org/saveQuickCheckItemInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="savePurchaseBill">
+      <soap:operation soapAction="http://tempuri.org/savePurchaseBill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveSalesBill">
+      <soap:operation soapAction="http://tempuri.org/saveSalesBill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveUnitQuickInfo">
+      <soap:operation soapAction="http://tempuri.org/saveUnitQuickInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveRegisterQuickSN">
+      <soap:operation soapAction="http://tempuri.org/saveRegisterQuickSN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryMarket">
+      <soap:operation soapAction="http://tempuri.org/QueryMarket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuerySignContact">
+      <soap:operation soapAction="http://tempuri.org/QuerySignContact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryCheckItem">
+      <soap:operation soapAction="http://tempuri.org/QueryCheckItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuerySalesItem">
+      <soap:operation soapAction="http://tempuri.org/QuerySalesItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSignContact">
+      <soap:operation soapAction="http://tempuri.org/GetSignContact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaMarket">
+      <soap:operation soapAction="http://tempuri.org/GetAreaMarket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaSignContact">
+      <soap:operation soapAction="http://tempuri.org/GetAreaSignContact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="sDataInfraceSoap12" type="tns:sDataInfraceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="checkIn">
+      <soap12:operation soapAction="http://tempuri.org/checkIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkOut">
+      <soap12:operation soapAction="http://tempuri.org/checkOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveQuickCheckItemInfo">
+      <soap12:operation soapAction="http://tempuri.org/saveQuickCheckItemInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="savePurchaseBill">
+      <soap12:operation soapAction="http://tempuri.org/savePurchaseBill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveSalesBill">
+      <soap12:operation soapAction="http://tempuri.org/saveSalesBill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveUnitQuickInfo">
+      <soap12:operation soapAction="http://tempuri.org/saveUnitQuickInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveRegisterQuickSN">
+      <soap12:operation soapAction="http://tempuri.org/saveRegisterQuickSN" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryMarket">
+      <soap12:operation soapAction="http://tempuri.org/QueryMarket" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuerySignContact">
+      <soap12:operation soapAction="http://tempuri.org/QuerySignContact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryCheckItem">
+      <soap12:operation soapAction="http://tempuri.org/QueryCheckItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuerySalesItem">
+      <soap12:operation soapAction="http://tempuri.org/QuerySalesItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSignContact">
+      <soap12:operation soapAction="http://tempuri.org/GetSignContact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaMarket">
+      <soap12:operation soapAction="http://tempuri.org/GetAreaMarket" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaSignContact">
+      <soap12:operation soapAction="http://tempuri.org/GetAreaSignContact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="sDataInfrace">
+    <wsdl:port name="sDataInfraceSoap" binding="tns:sDataInfraceSoap">
+      <soap:address location="http://ncp.szscgl.com:9000/Interface/sDataInfrace.asmx" />
+    </wsdl:port>
+    <wsdl:port name="sDataInfraceSoap12" binding="tns:sDataInfraceSoap12">
+      <soap12:address location="http://ncp.szscgl.com:9000/Interface/sDataInfrace.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

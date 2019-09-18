@@ -1,0 +1,90 @@
+09:41:50
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000286785</marketCode>
+    <marketName>昆山市大市农贸市场有限公司</marketName>
+    <tokenNo>2018032309411867901</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803230849534900013</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>321281198608136813</DABH>
+        <PositionNo>SC005</PositionNo>
+        <Name>张建军</Name>
+        <SubItemCode>09001</SubItemCode>
+        <SubItemName>豇豆</SubItemName>
+        <QuickCheckItemCode>03</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0201</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-23 08:49:51</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>0.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>%</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>0 ~ 50</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>昆山市大市农贸市场有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>320583000286785</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500I-17081326</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:41:55
+数据上传 - 响应：
+1000
+
+09:41:55
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000286785</marketCode>
+    <marketName>昆山市大市农贸市场有限公司</marketName>
+    <tokenNo>2018032309411867901</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803230849534900014</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>32052319631022854x</DABH>
+        <PositionNo>SC002</PositionNo>
+        <Name>刘三珍</Name>
+        <SubItemCode>09011</SubItemCode>
+        <SubItemName>芸豆</SubItemName>
+        <QuickCheckItemCode>03</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0201</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-23 08:49:51</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>0.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>%</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>0 ~ 50</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>昆山市大市农贸市场有限公司</QuickCheckUnitName>
+        <QuickCheckUnitId>320583000286785</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500I-17081326</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:41:59
+数据上传 - 响应：
+1000
+

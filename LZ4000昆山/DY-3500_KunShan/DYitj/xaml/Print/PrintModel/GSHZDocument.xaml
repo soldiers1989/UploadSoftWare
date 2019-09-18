@@ -1,0 +1,186 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="6000" FontSize="16" FontFamily="黑体"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" TextOptions.TextFormattingMode="Display">
+    <FlowDocument.Resources>
+        <Style TargetType="Table" x:Key="BorderedTable">
+            <Setter Property="CellSpacing" Value="0"></Setter>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <Setter Property="BorderBrush" Value="#000"></Setter>
+        </Style>
+        <Style TargetType="TableCell" x:Key="BorderedCell">
+            <Setter Property="BorderThickness" Value="0.5"></Setter>
+            <Setter Property="BorderBrush" Value="#000"></Setter>
+            <Setter Property="Padding" Value="3"></Setter>
+            <Setter Property="Paragraph.TextAlignment" Value="Center"></Setter>
+        </Style>
+    </FlowDocument.Resources>
+    <!--标题-->
+    <Table>
+        <Table.Columns>
+            <TableColumn Width="400"></TableColumn>
+            <TableColumn Width="300"></TableColumn>
+        </Table.Columns>
+        <TableRowGroup>
+            <TableRow>
+                <TableCell ColumnSpan="2">
+                    <Paragraph FontSize="26" FontWeight="Bold" TextAlignment="Center">
+                        食品快速检测结果通知单(存根)
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+        <TableRowGroup Name="rowsDetails">
+            <TableRow >
+                <TableCell ColumnSpan="2">
+                    <Paragraph></Paragraph>
+                    <Paragraph TextAlignment="Center" FontSize="16" FontFamily="仿宋">
+                        __________(______)快检______号
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+        <TableRowGroup>
+            <TableRow>
+                <TableCell ColumnSpan="2">
+                    <Paragraph></Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        <Run Text="{Binding CheckedCompanyName}" TextDecorations="Underline"></Run>(受检单位)
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+        
+        <TableRowGroup>
+            <TableRow >
+                <TableCell ColumnSpan="2">
+                    <Paragraph></Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        我单位于
+                        <Run Text="{Binding SamplingData}" TextDecorations="Underline" />
+                        随机抽取你单位销售的产地(标称生成企业或供货单位)为
+                        <Run Text="{Binding CheckedCompanyAddress}" TextDecorations="Underline" />
+                        ，规格批次为______________的
+                        <Run Text="{Binding FoodName}" TextDecorations="Underline" />
+                        食品，对其
+                        <Run Text="{Binding ItemsList}" TextDecorations="Underline" />
+                        项目进行了快速检测。经检测，样品中
+                        <Run Text="{Binding UnqualifiedItemsList}" TextDecorations="Underline" />项目不合格。你单位接此通知后，立即停止销售，等候食品药品监督管理部门处理。
+                    </Paragraph>
+                    <Paragraph></Paragraph>
+                    <Paragraph></Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+
+        <TableRowGroup>
+            <TableRow>
+                <TableCell></TableCell>
+                <TableCell >
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        食品快速检测单位(盖章)：
+                    </Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        检查人员：
+                        <Run Text="{Binding Surveyor}" TextDecorations="Underline" FontSize="16" FontFamily="仿宋" />
+                    </Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        受检单位(个人)：______
+                    </Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        ________年____月____日____时____分
+                    </Paragraph>
+                    <Paragraph></Paragraph>
+                    <Paragraph></Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+    </Table>
+
+    <Paragraph TextAlignment="Center"></Paragraph>
+    <Paragraph TextAlignment="Center"></Paragraph>
+    <Paragraph TextAlignment="Center">----------------------------------------------------------------------------------------</Paragraph>
+    <Paragraph TextAlignment="Center"></Paragraph>
+    <Paragraph TextAlignment="Center"></Paragraph>
+    
+    <Table>
+        <Table.Columns>
+            <TableColumn Width="400"></TableColumn>
+            <TableColumn Width="300"></TableColumn>
+        </Table.Columns>
+        <TableRowGroup>
+            <TableRow >
+                <TableCell ColumnSpan="2">
+                    <Paragraph FontSize="26" FontWeight="Bold" TextAlignment="Center">
+                        食品快速检测结果通知单(存根)
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+        <TableRowGroup Name="rowsDetails1">
+            <TableRow >
+                <TableCell ColumnSpan="2">
+                    <Paragraph></Paragraph>
+                    <Paragraph TextAlignment="Center"  FontSize="16" FontFamily="仿宋">
+                        __________(______)快检______号
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+        <TableRowGroup>
+            <TableRow>
+                <TableCell ColumnSpan="2">
+                    <Paragraph></Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        <Run Text="{Binding CheckedCompanyName}" TextDecorations="Underline"></Run> (受检单位)
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+
+        <TableRowGroup>
+            <TableRow >
+                <TableCell ColumnSpan="2">
+                    <Paragraph></Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        我单位于
+                        <Run Text="{Binding SamplingData}" TextDecorations="Underline" />
+                        随机抽取你单位销售的产地(标称生成企业或供货单位)为
+                        <Run Text="{Binding CheckedCompanyAddress}" TextDecorations="Underline" />
+                        ，规格批次为__________的
+                        <Run Text="{Binding FoodName}" TextDecorations="Underline" />
+                        食品，对其
+                        <Run Text="{Binding ItemsList}" TextDecorations="Underline" />
+                        项目进行了快速检测。经检测，样品中
+                        <Run Text="{Binding UnqualifiedItemsList}" TextDecorations="Underline" /> 项目不合格。你单位接此通知后，立即停止销售，等候食品药品监督管理部门处理。
+                    </Paragraph>
+                    <Paragraph></Paragraph>
+                    <Paragraph></Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+
+        <TableRowGroup>
+            <TableRow>
+                <TableCell></TableCell>
+                <TableCell >
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        食品快速检测单位(盖章)：
+                    </Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        检查人员：
+                        <Run Text="{Binding Surveyor}" TextDecorations="Underline" />
+                    </Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        受检单位(个人)：______
+                    </Paragraph>
+                    <Paragraph TextAlignment="Left" FontSize="16" FontFamily="仿宋">
+                        ________年____月____日____时____分
+                    </Paragraph>
+                    <Paragraph></Paragraph>
+                    <Paragraph></Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+    </Table>
+
+</FlowDocument>

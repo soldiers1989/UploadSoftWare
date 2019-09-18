@@ -1,0 +1,446 @@
+09:07:25
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JY33205830074299</marketCode>
+    <marketName>昆山通海实验学校</marketName>
+    <tokenNo>2018031209060933401</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081101188700001</JCCode>
+        <MarketType>0</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>05</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0402</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 11:01:18</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>阴性</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>ppb</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>阴性</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:10:42
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/12 9:07:38</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不能同时为空！!</error></errorList></response></webService>
+
+09:15:21
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JY33205830074299</marketCode>
+    <marketName>昆山通海实验学校</marketName>
+    <tokenNo>2018031209060933401</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081101188700001</JCCode>
+        <MarketType>0</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>05</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0402</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 11:01:18</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>阴性</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>ppb</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>阴性</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:15:24
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/12 9:15:34</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不能同时为空！!</error></errorList></response></webService>
+
+09:34:51
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JY33205830074299</marketCode>
+    <marketName>昆山通海实验学校</marketName>
+    <tokenNo>2018031209341804001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081101188700001</JCCode>
+        <MarketType>单位食堂</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>05</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0402</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 11:01:18</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>阴性</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>ppb</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>阴性</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:40:26
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JY33205830074299</marketCode>
+    <marketName>昆山通海实验学校</marketName>
+    <tokenNo>2018031209401070201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081101188700001</JCCode>
+        <MarketType>9</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>05</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0402</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 11:01:18</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>阴性</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>ppb</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>阴性</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:41:29
+数据上传 - 响应：
+
+
+09:41:40
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JY33205830074299</marketCode>
+    <marketName>昆山通海实验学校</marketName>
+    <tokenNo>2018031209401070201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081101188700001</JCCode>
+        <MarketType>9</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>05</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0402</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 11:01:18</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>阴性</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>ppb</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>阴性</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:42:12
+数据上传 - 响应：
+1000
+
+09:42:41
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JY33205830074299</marketCode>
+    <marketName>昆山通海实验学校</marketName>
+    <tokenNo>2018031209401070201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081056580500001</JCCode>
+        <MarketType>9</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>05</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0403</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 10:56:57</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>阴性</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>ppb</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>阴性</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:42:45
+数据上传 - 响应：
+1000
+
+09:42:46
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>92320583MAIPMG2C63</marketCode>
+    <marketName>昆山市巴城镇吉麦隆购物中心</marketName>
+    <tokenNo>2018031209401070201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803080951568000002</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>03021</SubItemCode>
+        <SubItemName>金花菜</SubItemName>
+        <QuickCheckItemCode>03</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0201</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 09:51:54</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>0.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>%</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>0 ~ 50</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:42:50
+数据上传 - 响应：
+1000
+
+09:42:52
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>92320583MAIPMG2C63</marketCode>
+    <marketName>昆山市巴城镇吉麦隆购物中心</marketName>
+    <tokenNo>2018031209401070201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081018009500001</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>05</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0401</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 10:18:00</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>阴性</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>ppb</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>阴性</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:42:56
+数据上传 - 响应：
+1000
+
+09:42:56
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>92320583MAIPMG2C63</marketCode>
+    <marketName>昆山市巴城镇吉麦隆购物中心</marketName>
+    <tokenNo>2018031209401070201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081045350700004</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>03021</SubItemCode>
+        <SubItemName>金花菜</SubItemName>
+        <QuickCheckItemCode>03</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0201</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 10:45:33</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>5.748</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>%</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>0 ~ 50</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:42:59
+数据上传 - 响应：
+1000
+
+09:42:59
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>JY33205830074299</marketCode>
+    <marketName>昆山通海实验学校</marketName>
+    <tokenNo>2018031209401070201</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081056287900002</JCCode>
+        <MarketType>9</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>05</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0401</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 10:56:28</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>阴性</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>ppb</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>阴性</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>参考国标</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>user</QuickChecker>
+        <QuickReChecker>user</QuickReChecker>
+        <QuickCheckUnitName>快检巴城分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187031</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500i-17081445</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+09:43:03
+数据上传 - 响应：
+1000
+

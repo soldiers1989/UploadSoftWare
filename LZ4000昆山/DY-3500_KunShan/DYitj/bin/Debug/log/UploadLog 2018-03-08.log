@@ -1,0 +1,405 @@
+16:11:56
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187040</marketCode>
+    <marketName>仓米超市</marketName>
+    <tokenNo>2018030816115908701</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081611516500002</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01006</SubItemCode>
+        <SubItemName>鹿肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 16:11:29</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>昆山市检测中心</QuickCheckUnitName>
+        <QuickCheckUnitId>SZKSJC20170001</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+16:12:00
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/8 16:12:02</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+16:12:03
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187040</marketCode>
+    <marketName>仓米超市</marketName>
+    <tokenNo>2018030816115908701</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081611516500002</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01006</SubItemCode>
+        <SubItemName>鹿肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 16:11:29</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>昆山市检测中心</QuickCheckUnitName>
+        <QuickCheckUnitId>SZKSJC20170001</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+16:12:06
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/8 16:12:09</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+16:18:27
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187040</marketCode>
+    <marketName>仓米超市</marketName>
+    <tokenNo>2018030816115908701</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081611516500002</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01006</SubItemCode>
+        <SubItemName>鹿肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 16:11:29</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>昆山市检测中心</QuickCheckUnitName>
+        <QuickCheckUnitId>SZKSJC20170001</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500(BX1)</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+16:18:30
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/8 16:18:32</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+16:18:54
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187040</marketCode>
+    <marketName>仓米超市</marketName>
+    <tokenNo>2018030816115908701</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081611516500002</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01006</SubItemCode>
+        <SubItemName>鹿肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 16:11:29</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>昆山市检测中心</QuickCheckUnitName>
+        <QuickCheckUnitId>SZKSJC20170001</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3000(BX1)</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+16:18:57
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/8 16:19:00</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+16:22:37
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187040</marketCode>
+    <marketName>仓米超市</marketName>
+    <tokenNo>2018030816115908701</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081611516500002</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01006</SubItemCode>
+        <SubItemName>鹿肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 16:11:29</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>昆山市检测中心</QuickCheckUnitName>
+        <QuickCheckUnitId>SZKSJC20170001</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3000(BX1)</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+16:22:40
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/8 16:22:42</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+16:23:21
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187040</marketCode>
+    <marketName>仓米超市</marketName>
+    <tokenNo>2018030816225594901</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081623211100003</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01006</SubItemCode>
+        <SubItemName>鹿肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 16:23:17</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>昆山市检测中心</QuickCheckUnitName>
+        <QuickCheckUnitId>SZKSJC20170001</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3000(BX1)</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+16:23:25
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/8 16:23:27</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+16:23:32
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187040</marketCode>
+    <marketName>仓米超市</marketName>
+    <tokenNo>2018030816225594901</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081623211100003</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01006</SubItemCode>
+        <SubItemName>鹿肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 16:23:17</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>昆山市检测中心</QuickCheckUnitName>
+        <QuickCheckUnitId>SZKSJC20170001</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3000(BX1)</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+16:23:36
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/8 16:23:38</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+16:25:15
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187040</marketCode>
+    <marketName>仓米超市</marketName>
+    <tokenNo>2018030816225594901</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081623211100003</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01006</SubItemCode>
+        <SubItemName>鹿肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 16:23:17</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>昆山市检测中心</QuickCheckUnitName>
+        <QuickCheckUnitId>SZKSJC20170001</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3000(BX1)</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+16:25:18
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/3/8 16:25:20</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该检测设备编码未注册，请厂商联系我们公司。</error></errorList></response></webService>
+
+16:26:42
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187040</marketCode>
+    <marketName>仓米超市</marketName>
+    <tokenNo>2018030816225594901</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201803081623211100003</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01006</SubItemCode>
+        <SubItemName>鹿肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-03-08 16:23:17</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>昆山市检测中心</QuickCheckUnitName>
+        <QuickCheckUnitId>SZKSJC20170001</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>8759854</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+16:26:51
+数据上传 - 响应：
+1000
+

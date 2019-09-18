@@ -1,0 +1,622 @@
+11:03:47
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017186979</marketCode>
+    <marketName>玉山菜场</marketName>
+    <tokenNo>2018022411023140501</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241101106800002</JCCode>
+        <MarketType>2</MarketType>
+        <DABH />
+        <PositionNo>2017186979</PositionNo>
+        <Name>玉山菜场</Name>
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 11:00:21</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:04:08
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/2/24 11:03:33</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不对！多个摊位号只需要上传一个即可！</error></errorList></response></webService>
+
+11:08:08
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode />
+    <marketName />
+    <tokenNo>2018022411071913601</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241101106800002</JCCode>
+        <MarketType>2</MarketType>
+        <DABH />
+        <PositionNo>2017186979</PositionNo>
+        <Name>玉山菜场</Name>
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 11:00:21</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:08:21
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/2/24 11:07:52</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|单位编码或名称不对</error></errorList></response></webService>
+
+11:09:21
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017186979</marketCode>
+    <marketName>玉山菜场</marketName>
+    <tokenNo>2018022411071913601</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241108544900002</JCCode>
+        <MarketType>2</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01010</SubItemCode>
+        <SubItemName>牛蹄筋</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 11:08:42</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:55:50
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187034</marketCode>
+    <marketName>快检周市分中心</marketName>
+    <tokenNo>2018022411550283901</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241155490200002</JCCode>
+        <MarketType />
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 11:55:40</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:55:59
+数据上传 - 响应：
+1000
+
+11:58:22
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187034</marketCode>
+    <marketName>快检周市分中心</marketName>
+    <tokenNo>2018022411574468701</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241155490200002</JCCode>
+        <MarketType />
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 11:55:40</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>1</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+11:58:27
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/2/24 11:58:06</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|该编码已存在！</error></errorList></response></webService>
+
+13:40:44
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017186979</marketCode>
+    <marketName>玉山菜场</marketName>
+    <tokenNo>2018022413395438101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241339389800002</JCCode>
+        <MarketType>0</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 13:39:15</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:42:24
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/2/24 13:40:28</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不能同时为空！!</error></errorList></response></webService>
+
+13:43:05
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017186979</marketCode>
+    <marketName>玉山菜场</marketName>
+    <tokenNo>2018022413395438101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241339389800002</JCCode>
+        <MarketType>0</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>02001</SubItemCode>
+        <SubItemName>活鸡</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 13:39:15</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:43:08
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/2/24 13:42:49</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不能同时为空！!</error></errorList></response></webService>
+
+13:49:28
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017186979</marketCode>
+    <marketName>玉山菜场</marketName>
+    <tokenNo>2018022413484047101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241348553500002</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>341125199010121416</DABH>
+        <PositionNo>LLQ0139</PositionNo>
+        <Name>董亚虎</Name>
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 13:48:15</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:49:43
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/2/24 13:49:13</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不对！多个摊位号只需要上传一个即可！</error></errorList></response></webService>
+
+13:49:56
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017186979</marketCode>
+    <marketName>玉山菜场</marketName>
+    <tokenNo>2018022413484047101</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241348553500003</JCCode>
+        <MarketType>0</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01002</SubItemCode>
+        <SubItemName>牛肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 13:48:15</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:50:00
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/2/24 13:49:40</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不能同时为空！!</error></errorList></response></webService>
+
+13:55:58
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018022413551437001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241355063600002</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>341125199010121416</DABH>
+        <PositionNo>LLQ0139</PositionNo>
+        <Name>董亚虎</Name>
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 13:54:45</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+13:56:06
+数据上传 - 响应：
+1000
+
+13:56:27
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017186979</marketCode>
+    <marketName>玉山菜场</marketName>
+    <tokenNo>2018022413551437001</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241355063600003</JCCode>
+        <MarketType>0</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01001</SubItemCode>
+        <SubItemName>猪肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 13:54:45</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:31:25
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>320583000262264</marketCode>
+    <marketName>昆山市花桥集贸市场有限公司</marketName>
+    <tokenNo>2018022414304148901</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241430427500002</JCCode>
+        <MarketType>2</MarketType>
+        <DABH>341125199010121416</DABH>
+        <PositionNo>LLQ0139</PositionNo>
+        <Name>董亚虎</Name>
+        <SubItemCode>01002</SubItemCode>
+        <SubItemName>牛肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 14:30:02</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:31:32
+数据上传 - 响应：
+1000
+
+14:31:46
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017186979</marketCode>
+    <marketName>玉山菜场</marketName>
+    <tokenNo>2018022414304148901</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241430427500003</JCCode>
+        <MarketType>2</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01002</SubItemCode>
+        <SubItemName>牛肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 14:30:02</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:32:00
+数据上传 - 响应：
+<?xml version="1.0" encoding="utf-8"?><webService><head><sendTime>2018/2/24 14:31:30</sendTime><successNum></successNum><failNum></failNum><ResultCode>1</ResultCode>			<describe>1</describe></head><response><errorList><error>-1001|经营者摊位号或者身份证号不能同时为空！!</error></errorList></response></webService>
+
+14:34:57
+数据上传 - 请求：
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187039</marketCode>
+    <marketName>欧尚超市</marketName>
+    <tokenNo>2018022414342169601</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>201802241434365100002</JCCode>
+        <MarketType>6</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>01002</SubItemCode>
+        <SubItemName>牛肉</SubItemName>
+        <QuickCheckItemCode>04</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0312</QuickCheckSubItemCode>
+        <QuickCheckDate>2018-02-24 14:34:25</QuickCheckDate>
+        <QuickCheckResult>+</QuickCheckResult>
+        <QuickCheckResultValue>1.000</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>mg/kg</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>2 ~ 2</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>农业部公告第235号</QuickCheckResultDependOn>
+        <QuickCheckRemarks>暂无备注说明</QuickCheckRemarks>
+        <QuickChecker>1</QuickChecker>
+        <QuickReChecker>1</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广州达元食品安全技术有限公司</JCManufactor>
+        <JCModel>DY-3500食品综合分析仪</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>
+
+14:35:04
+数据上传 - 响应：
+1000
+

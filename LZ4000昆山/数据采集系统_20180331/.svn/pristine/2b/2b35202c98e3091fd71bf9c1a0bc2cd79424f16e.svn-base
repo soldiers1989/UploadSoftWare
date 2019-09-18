@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187034</marketCode>
+    <marketName>快检周市分中心</marketName>
+    <tokenNo>2018040410401627301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>73E7B3F6-46E3-4BE6-B4E9-051C003786D4</JCCode>
+        <MarketType>0</MarketType>
+        <DABH>37132419650504771X</DABH>
+        <PositionNo>sc24-25</PositionNo>
+        <Name>张清田</Name>
+        <SubItemCode>03018</SubItemCode>
+        <SubItemName>南瓜</SubItemName>
+        <QuickCheckItemCode>03</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0201</QuickCheckSubItemCode>
+        <QuickCheckDate>2018/03/15 9:24:38</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>0.38</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>%</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>50</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>GB/T 5009.199-2003</QuickCheckResultDependOn>
+        <QuickCheckRemarks>无</QuickCheckRemarks>
+        <QuickChecker>admin</QuickChecker>
+        <QuickReChecker>admin</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广东达元食品药品安全技术有限公司</JCManufactor>
+        <JCModel>LZ4000</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService><?xml version="1.0" encoding="utf-8"?>
+<webService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <marketCode>2017187034</marketCode>
+    <marketName>快检周市分中心</marketName>
+    <tokenNo>2018040410401627301</tokenNo>
+  </head>
+  <request>
+    <dataList>
+      <QuickCheckItemJC>
+        <JCCode>61C703D8-9343-4F24-BB3D-4A061B438663</JCCode>
+        <MarketType>1</MarketType>
+        <DABH />
+        <PositionNo />
+        <Name />
+        <SubItemCode>05001</SubItemCode>
+        <SubItemName>香菇</SubItemName>
+        <QuickCheckItemCode>03</QuickCheckItemCode>
+        <QuickCheckSubItemCode>0201</QuickCheckSubItemCode>
+        <QuickCheckDate>2018/03/15 9:24:38</QuickCheckDate>
+        <QuickCheckResult>-</QuickCheckResult>
+        <QuickCheckResultValue>10.88</QuickCheckResultValue>
+        <QuickCheckResultValueUnit>%</QuickCheckResultValueUnit>
+        <QuickCheckResultValueCKarea>50</QuickCheckResultValueCKarea>
+        <QuickCheckResultDependOn>GB/T 5009.199-2003</QuickCheckResultDependOn>
+        <QuickCheckRemarks>无</QuickCheckRemarks>
+        <QuickChecker>admin</QuickChecker>
+        <QuickReChecker>admin</QuickReChecker>
+        <QuickCheckUnitName>快检周市分中心</QuickCheckUnitName>
+        <QuickCheckUnitId>2017187034</QuickCheckUnitId>
+        <JCManufactor>广东达元食品药品安全技术有限公司</JCManufactor>
+        <JCModel>LZ4000</JCModel>
+        <JCSN>DY-3500-1801300001</JCSN>
+        <ReviewIs>0</ReviewIs>
+      </QuickCheckItemJC>
+    </dataList>
+  </request>
+</webService>

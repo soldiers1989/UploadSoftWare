@@ -1,0 +1,19 @@
+新增分局版本
+
+检测中心
+测试地址：http://fs.52myb.com/ncpcs/sDataInfrace.asmx
+
+
+登录地址：http://fs.52myb.com/ncpWEB/Login.aspx
+
+
+//正式地址：
+
+http://ncp.szscgl.com:9000/Interface/sDataInfrace.asmx?WSDL
+分局测试账号：kjzszx  , kjzszx ,  DY-3500-1801300001
+
+
+市场测试账号：szyt ,  szy ,  DY-3500-1801300002
+
+
+超市测试账号：kscmcs，szlycs DY-3500-1801300003

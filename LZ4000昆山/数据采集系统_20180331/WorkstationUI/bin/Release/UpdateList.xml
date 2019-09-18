@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>CJZS_KunShan autoUpdate</description>
+  <Updater>
+    <Url>http://rj.chinafst.cn:8099/CJZS_KunShan/</Url>
+    <LastUpdateTime>2018-05-08</LastUpdateTime>
+  </Updater>
+  <Application applicationId="数据采集系统">
+    <EntryPoint>数据采集系统.exe</EntryPoint>
+    <Location>.</Location>
+    <Version>1.0.0.0</Version>
+  </Application>
+  <Files>
+    <File Ver="1.0.0.0" Name="WorkstationBLL.dll" />
+    <File Ver="1.0.0.0" Name="WorkstationDAL.dll" />
+    <File Ver="1.0.0.0" Name="WorkstationModel.dll" />
+    <File Ver="1.0.0.0" Name="数据采集系统.exe" />
+    <File Ver="1.0.0.0" Name="UpdateList.xml" />
+    <File Ver="1.0.0.0" Name="CSkin.dll" />
+    <File Ver="1.0.0.0" Name="IrisSkin2.dll" />
+    <File Ver="1.0.0.0" Name="IrisSkin4.dll" />
+    <File Ver="1.0.0.0" Name="Microsoft.Office.Interop.Excel.dll" />
+    <File Ver="1.0.0.0" Name="Microsoft.Office.Interop.Word.dll" />
+    <File Ver="1.0.0.0" Name="Newtonsoft.Json.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.OOXML.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.OpenXml4Net.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.OpenXmlFormats.dll" />
+    <File Ver="1.0.0.0" Name="数据采集系统.exe.config" />
+    <File Ver="1.0.0.0" Name="Data\local.Mdb" />
+    <File Ver="1.0.0.0" Name="pic\app_icon.ico" />
+    <File Ver="1.0.0.0" Name="pic\background.png" />
+    <File Ver="1.0.0.0" Name="pic\xuan.png" />
+    <File Ver="1.0.0.0" Name="report\CheckedReportModel.html" />
+    <File Ver="1.0.0.0" Name="report\CheckedReportOfficialSeal.png" />
+    <File Ver="1.0.0.0" Name="report\CheckedReportTitle.txt" />
+    <File Ver="1.0.0.0" Name="report\deviceHole.dat" />
+    <File Ver="1.0.0.0" Name="report\dlReport.png" />
+    <File Ver="1.0.0.0" Name="report\操作指导书.doc" />
+    <File Ver="1.0.0.0" Name="report\操作指导书.rtf" />
+  </Files>
+  <UpdateNotes>
+    <UpdateNote Note="数据采集系统_CJZS_KunShan" />
+    <UpdateNote Note="版本更新说明：" />
+    <UpdateNote Note="  " />
+    <UpdateNote Note="- 1." />
+    <UpdateNote Note="- 2." />
+    <UpdateNote Note="  " />
+    <UpdateNote Note="新版本更新预告：" />
+    <UpdateNote Note="- 1.暂无。" />
+    <UpdateNote Note="  " />
+    <UpdateNote Note="备注：新版本更新预告内容仅供参考。" />
+  </UpdateNotes>
+</AutoUpdater>
