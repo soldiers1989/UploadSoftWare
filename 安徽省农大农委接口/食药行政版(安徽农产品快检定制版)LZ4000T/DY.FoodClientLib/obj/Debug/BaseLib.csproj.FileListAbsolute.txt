@@ -1,0 +1,5 @@
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\bin\Debug\BaseLib.dll
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\bin\Debug\BaseLib.pdb
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\obj\Debug\BaseLib.dll
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\obj\Debug\BaseLib.pdb

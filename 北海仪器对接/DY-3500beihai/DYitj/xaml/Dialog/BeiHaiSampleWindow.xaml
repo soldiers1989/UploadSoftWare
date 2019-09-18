@@ -1,0 +1,27 @@
+﻿<Window x:Class="AIO.xaml.Dialog.BeiHaiSampleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="请选择待检样品" 
+        Height="400" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Loaded="Window_Loaded"
+        >
+    <Grid>
+        <Label Content="样品名称" Height="28" HorizontalAlignment="Left" Margin="4,13,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="68,15,0,0" Name="TextBox_Sample" VerticalAlignment="Top" Width="140"/>
+        <Button Content="查  询" Height="40" HorizontalAlignment="Left" FontSize="20" Margin="214,6,0,0" Name="SearchSample" VerticalAlignment="Top" Width="80" Click="SearchSample_Click"/>
+        <Button Content="选  择" Height="40" HorizontalAlignment="Left" FontSize="20" Margin="300,6,0,0" Name="Choose" VerticalAlignment="Top" Width="80" Click="Choose_Click" />
+       
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}" Margin="0,52,0,-1" Name="DataGridRecord" MouseDoubleClick="DataGridRecord_MouseDoubleClick" LoadingRow="DataGridRecord_LoadingRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=goodsName}" Header="样品名称"/>
+                <DataGridTextColumn Binding="{Binding Path=productId}" Header="样品ID" />
+                <DataGridTextColumn Binding="{Binding Path=marketName}" Header="被检单位" />
+                <DataGridTextColumn Binding="{Binding Path=operateName}" Header="经营户" />
+                <DataGridTextColumn Binding="{Binding Path=samplingTime}" Header="采样时间" />
+                <DataGridTextColumn Binding="{Binding Path=positionAddress}" Header="采样地点" />
+                <DataGridTextColumn Binding="{Binding Path=samplingPerson}" Header="采样人" />
+                <DataGridTextColumn Binding="{Binding Path=ID}" Header="ID" Visibility="Collapsed"  />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+服务器地址：http://36.7.107.82:5680/kjsys_new/webservice/instrumentDockingServiceProviderService?wsdl
+用户名：gzdytest 
+密码: 123456 
+地址：  http://kj.ada.gov.cn:5680/kjsys_new/
+仪器编号：dy3000gz999

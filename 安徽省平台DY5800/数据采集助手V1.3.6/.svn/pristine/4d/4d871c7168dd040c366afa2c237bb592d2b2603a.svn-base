@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <!--配置信息-->
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="WorkstationUI.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <appSettings>
+    
+    <!-- 接口厂家 快检车DYBuss  快检服务DYKJFW、标准版tongyong、安徽AH-->
+    <add key="InterfaceManufacture"  value="AH" />
+    <!--仪器型号 快检服务系列号-->
+    <add key="InstrumentNameModel" value="DY-2620"/>
+    <!--仪器系列号-->
+    <add key="IntrumentSeriersNum" value="" />
+    <!--湖北泰扬数据上传的服务器配置-->
+    <add key="ServerAddr" value=""/>
+    <add key="ServerName"  value="" />
+    <add key="ServerPassword" value=""/>
+    <!--山东科润数据上传-->
+    <add  key="UpDetectUnit" value="" />
+    <add key="UpDetectUnitNo" value=""/>
+    <add key="UploadType"  value="基地上传" />
+    <add key="IntrumentNum"  value="LZ6000" />
+    <!--达元-->
+    <add key="Organize"  value="" />
+    <add key="OrganizeNo" value=""/>
+    <add key="ChkUnitType" value=""/>
+    <add key="NickName"  value=""/>
+    <add key="pointID"  value="" />
+    <!--安徽-->
+    <add key ="IntrumentType" value =""/>
+    <add key ="IntrumentNums" value =""/>
+    <add key ="MacAddr" value ="5A:00:E3:C7:F0:35"/>
+    <add key ="InterfaceVer" value ="1.0"/>
+   
+    
+    <!--山东阳谷xianshi-->
+    <add key="UpUnit"  value="shi" />
+    <!--浙江农产品-->
+    <add key="InstrumManufact"  value="广东达元食品药品安全技术有限公司" />
+    
+  </appSettings>
+  <applicationSettings>
+    <WorkstationUI.Properties.Settings>
+      <setting name="数据采集系统_WebReference_PutService" serializeAs="String">
+        <value>http://111.1.62.181/Put.jws</value>
+      </setting>
+      <setting name="数据采集系统_WebReference1_instrumentDockingServiceProviderService" serializeAs="String">
+        <value>http://36.7.107.82:5680/kjsys_new/webservice/instrumentDockingServiceProviderService</value>
+      </setting>
+    </WorkstationUI.Properties.Settings>
+  </applicationSettings>
+</configuration>

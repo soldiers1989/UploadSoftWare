@@ -1,0 +1,240 @@
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\FoodClientTools.exe
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\FoodClientTools.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\DY.WebService.dll
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\DY.WebService.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\bin\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\bin\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2012-11-08山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\bin\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\bin\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\bin\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\bin\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\bin\Debug\DY.WebService.dll
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\DY.WebService.dll
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\DY.WebService.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.csproj.GenerateResource.Cache
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\bin\Debug\DY.WebService.dll
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.csprojResolveAssemblyReference.cache
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.csproj.GenerateResource.Cache
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\DY.WebService.dll
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.csprojResolveAssemblyReference.cache
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.csproj.GenerateResource.Cache
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\FoodClientTools.exe
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\FoodClientTools.pdb
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\DY.WebService.dll
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb

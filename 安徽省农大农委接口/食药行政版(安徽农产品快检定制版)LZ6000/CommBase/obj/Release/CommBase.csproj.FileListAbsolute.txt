@@ -1,0 +1,72 @@
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Release\CommBase.dll
+E:\Project\Company_Source\new_client\Client_Update\CommBase\bin\Release\CommBase.dll
+E:\Project\Company_Source\new_client\Client_Update\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\CommBase\obj\Release\CommBase.dll
+E:\Project\Company_Source\new_client\workstation\CommBase\bin\Release\CommBase.dll
+E:\Project\Company_Source\new_client\workstation\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\CommBase\obj\Release\CommBase.dll
+E:\Project\Company_Source\workstation\CommBase\bin\Release\CommBase.dll
+E:\Project\Company_Source\workstation\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\workstation\CommBase\obj\Release\CommBase.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\CommBase\bin\Release\CommBase.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\CommBase\obj\Release\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\CommBase\obj\Release\CommBase.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\CommBase\bin\Release\CommBase.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\CommBase\obj\Release\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\CommBase\obj\Release\CommBase.dll
+E:\Workstation_4th Sent[2012-11-08山西投标]\CommBase\bin\Release\CommBase.dll
+E:\Workstation_4th Sent[2012-11-08山西投标]\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-08山西投标]\CommBase\obj\Release\CommBase.dll
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\CommBase\bin\Release\CommBase.dll
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\CommBase\obj\Release\CommBase.dll
+E:\Workstation_4th Sent[2013-01-31(新单机版)]\CommBase\bin\Release\CommBase.dll
+E:\Workstation_4th Sent[2013-01-31(新单机版)]\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2013-01-31(新单机版)]\CommBase\obj\Release\CommBase.dll
+E:\Workstation_4th Sent[New Stand-alone]\CommBase\bin\Release\CommBase.dll
+E:\Workstation_4th Sent[New Stand-alone]\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[New Stand-alone]\CommBase\obj\Release\CommBase.dll
+C:\Documents and Settings\Administrator\桌面\农产品质量安全检测工作站系统(单机版)\农产品质量安全检测工作站系统(单机版)\Workstation_4th Sent[农产品]\CommBase\bin\Release\CommBase.dll
+C:\Documents and Settings\Administrator\桌面\农产品质量安全检测工作站系统(单机版)\农产品质量安全检测工作站系统(单机版)\Workstation_4th Sent[农产品]\CommBase\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\农产品质量安全检测工作站系统(单机版)\农产品质量安全检测工作站系统(单机版)\Workstation_4th Sent[农产品]\CommBase\obj\Release\CommBase.dll
+D:\Code\农产品质量安全检测工作站系统(单机版)（修改后）添加授权文件\CommBase\bin\Release\CommBase.dll
+D:\Code\农产品质量安全检测工作站系统(单机版)（修改后）添加授权文件\CommBase\obj\Release\ResolveAssemblyReference.cache
+D:\Code\农产品质量安全检测工作站系统(单机版)（修改后）添加授权文件\CommBase\obj\Release\CommBase.dll
+D:\农产品质量安全检测工作站系统(单机版)（修改后）添加授权文件\CommBase\bin\Release\CommBase.dll
+D:\农产品质量安全检测工作站系统(单机版)（修改后）添加授权文件\CommBase\obj\Release\ResolveAssemblyReference.cache
+D:\农产品质量安全检测工作站系统(单机版)（修改后）添加授权文件\CommBase\obj\Release\CommBase.dll
+F:\农产品质量安全检测工作站系统(单机版)（修改后）添加授权文件\CommBase\bin\Release\CommBase.dll
+F:\农产品质量安全检测工作站系统(单机版)（修改后）添加授权文件\CommBase\obj\Release\ResolveAssemblyReference.cache
+F:\农产品质量安全检测工作站系统(单机版)（修改后）添加授权文件\CommBase\obj\Release\CommBase.dll
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\CommBase\bin\Release\CommBase.dll
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\CommBase\obj\Release\ResolveAssemblyReference.cache
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\CommBase\obj\Release\CommBase.dll
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\CommBase\bin\Release\CommBase.dll
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\CommBase\obj\Release\ResolveAssemblyReference.cache
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\CommBase\obj\Release\CommBase.dll
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\CommBase\bin\Release\CommBase.dll
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\CommBase\obj\Release\ResolveAssemblyReference.cache
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\CommBase\obj\Release\CommBase.dll
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\CommBase\bin\Release\CommBase.dll
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\CommBase\obj\Release\CommBase.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\CommBase\bin\Release\CommBase.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\CommBase\obj\Release\CommBase.dll
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\CommBase\bin\Release\CommBase.dll
+D:\研发源代码-NowingCode\达元食品药品安全检测工作站系统--快检通(行政版)\CommBase\obj\Release\CommBase.dll
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\CommBase\bin\Release\CommBase.dll
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\CommBase\obj\Release\CommBase.dll
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\CommBase\bin\Release\CommBase.dll
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\CommBase\obj\Release\CommBase.dll
+F:\Projects\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\CommBase\bin\Release\CommBase.dll
+F:\Projects\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\CommBase\obj\Release\CommBase.dll
+F:\Projects\SVN\WorkStation_onLine\CommBase\bin\Release\CommBase.dll
+F:\Projects\SVN\WorkStation_onLine\CommBase\obj\Release\CommBase.dll
+F:\Projects\SVN\WorkStation\食药工作站(行政版)\CommBase\bin\Release\CommBase.dll
+F:\Projects\SVN\WorkStation\食药工作站(行政版)\CommBase\obj\Release\CommBase.dll
+F:\Projects\SVN\WorkStation\食药行政版(安徽项目)\CommBase\bin\Release\CommBase.dll
+F:\Projects\SVN\WorkStation\食药行政版(安徽项目)\CommBase\obj\Release\CommBase.dll
+C:\Users\Administrator\Desktop\合肥农贸市场工作站系统_zh\合肥农贸市场工作站系统\CommBase\bin\Release\CommBase.dll
+C:\Users\Administrator\Desktop\合肥农贸市场工作站系统_zh\合肥农贸市场工作站系统\CommBase\obj\Release\CommBase.dll
+F:\Projects\SVN\WorkStation\食药行政版(合肥农贸市场)\CommBase\bin\Release\CommBase.dll
+F:\Projects\SVN\WorkStation\食药行政版(合肥农贸市场)\CommBase\obj\Release\CommBase.dll

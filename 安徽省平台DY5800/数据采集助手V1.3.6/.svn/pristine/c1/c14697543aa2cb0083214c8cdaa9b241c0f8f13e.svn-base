@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04295024-0F29-4E3C-991D-8A94600018F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorkstationUI</RootNamespace>
+    <AssemblyName>数据采集系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin, Version=16.1.14.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DY.Process, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\数据采集助手_DY7200_快检车\WorkstationUI\bin\Debug\DY.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word1">
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic\BasicContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Basic\BasicContent.Designer.cs">
+      <DependentUpon>BasicContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\BasicNavigation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Basic\BasicNavigation.Designer.cs">
+      <DependentUpon>BasicNavigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\MainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Basic\MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\ShowData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Basic\ShowData.Designer.cs">
+      <DependentUpon>ShowData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\ucSecondTitle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Basic\ucSecondTitle.Designer.cs">
+      <DependentUpon>ucSecondTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgressbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgressbar.Designer.cs">
+      <DependentUpon>frmProgressbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysUpdate.Designer.cs">
+      <DependentUpon>frmSysUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmAddSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmAddSample.Designer.cs">
+      <DependentUpon>frmAddSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\FrmBHSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\FrmBHSample.Designer.cs">
+      <DependentUpon>FrmBHSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmChkUnitInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmChkUnitInfo.Designer.cs">
+      <DependentUpon>frmChkUnitInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\FrmCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\FrmCompany.Designer.cs">
+      <DependentUpon>FrmCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmEditUser.Designer.cs">
+      <DependentUpon>frmEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frminputdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frminputdata.Designer.cs">
+      <DependentUpon>frminputdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmIntrument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmIntrument.Designer.cs">
+      <DependentUpon>frmIntrument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmMachine.Designer.cs">
+      <DependentUpon>frmMachine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmnewdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmnewdata.Designer.cs">
+      <DependentUpon>frmnewdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmPubIntru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmPubIntru.Designer.cs">
+      <DependentUpon>frmPubIntru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmQueryModifi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmQueryModifi.Designer.cs">
+      <DependentUpon>frmQueryModifi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmRepairData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmRepairData.Designer.cs">
+      <DependentUpon>frmRepairData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\FrmSearchSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\FrmSearchSample.Designer.cs">
+      <DependentUpon>FrmSearchSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmServer.Designer.cs">
+      <DependentUpon>frmServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmSetResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmSetResult.Designer.cs">
+      <DependentUpon>frmSetResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmTask.Designer.cs">
+      <DependentUpon>frmTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmunit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmunit.Designer.cs">
+      <DependentUpon>frmunit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmunitrepair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmunitrepair.Designer.cs">
+      <DependentUpon>frmunitrepair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\frmUpUnitData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\frmUpUnitData.Designer.cs">
+      <DependentUpon>frmUpUnitData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\reportform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\reportform.Designer.cs">
+      <DependentUpon>reportform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucAddSample.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucAddSample.Designer.cs">
+      <DependentUpon>ucAddSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucAddUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucAddUnit.Designer.cs">
+      <DependentUpon>ucAddUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucDetectTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucDetectTask.Designer.cs">
+      <DependentUpon>ucDetectTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucDiary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucDiary.Designer.cs">
+      <DependentUpon>ucDiary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucEquipmenManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucEquipmenManage.Designer.cs">
+      <DependentUpon>ucEquipmenManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucHelp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucHelp.Designer.cs">
+      <DependentUpon>ucHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucSearchData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucSearchData.Designer.cs">
+      <DependentUpon>ucSearchData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucServer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucServer.Designer.cs">
+      <DependentUpon>ucServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucShopmall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucShopmall.Designer.cs">
+      <DependentUpon>ucShopmall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucStatiscal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucStatiscal.Designer.cs">
+      <DependentUpon>ucStatiscal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucTaskSample.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucTaskSample.Designer.cs">
+      <DependentUpon>ucTaskSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\ucUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="function\ucUser.Designer.cs">
+      <DependentUpon>ucUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\UCAll_LZ4000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\UCAll_LZ4000.Designer.cs">
+      <DependentUpon>UCAll_LZ4000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY1000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY1000.Designer.cs">
+      <DependentUpon>ucDY1000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY2620.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY2620.Designer.cs">
+      <DependentUpon>ucDY2620.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY4300.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY4300.Designer.cs">
+      <DependentUpon>ucDY4300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY5000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY5000.Designer.cs">
+      <DependentUpon>ucDY5000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY5800.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY5800.Designer.cs">
+      <DependentUpon>ucDY5800.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY6100.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY6100.Designer.cs">
+      <DependentUpon>ucDY6100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY6200.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY6200.Designer.cs">
+      <DependentUpon>ucDY6200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY64000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY64000.Designer.cs">
+      <DependentUpon>ucDY64000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY6600.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY6600.Designer.cs">
+      <DependentUpon>ucDY6600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY7200.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY7200.Designer.cs">
+      <DependentUpon>ucDY7200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY8120.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY8120.Designer.cs">
+      <DependentUpon>ucDY8120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDY8200.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDY8200.Designer.cs">
+      <DependentUpon>ucDY8200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucDYRS2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucDYRS2.Designer.cs">
+      <DependentUpon>ucDYRS2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucHandEnter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucHandEnter.Designer.cs">
+      <DependentUpon>ucHandEnter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucJunLuo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucJunLuo.Designer.cs">
+      <DependentUpon>ucJunLuo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucLZ2000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucLZ2000.Designer.cs">
+      <DependentUpon>ucLZ2000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\UControl_LZ4000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\UControl_LZ4000.Designer.cs">
+      <DependentUpon>UControl_LZ4000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucTL300.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucTL300.Designer.cs">
+      <DependentUpon>ucTL300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucTL310.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucTL310.Designer.cs">
+      <DependentUpon>ucTL310.cs</DependentUpon>
+    </Compile>
+    <Compile Include="machine\ucTTNJ16.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="machine\ucTTNJ16.Designer.cs">
+      <DependentUpon>ucTTNJ16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\LeftUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test\LeftUserControl1.Designer.cs">
+      <DependentUpon>LeftUserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TestControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test\TestControl.Designer.cs">
+      <DependentUpon>TestControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Basic\BasicContent.resx">
+      <DependentUpon>BasicContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\BasicNavigation.resx">
+      <DependentUpon>BasicNavigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\ShowData.resx">
+      <DependentUpon>ShowData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\ucSecondTitle.resx">
+      <DependentUpon>ucSecondTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgressbar.resx">
+      <DependentUpon>frmProgressbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysUpdate.resx">
+      <DependentUpon>frmSysUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmAddSample.resx">
+      <DependentUpon>frmAddSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\FrmBHSample.resx">
+      <DependentUpon>FrmBHSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmChkUnitInfo.resx">
+      <DependentUpon>frmChkUnitInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\FrmCompany.resx">
+      <DependentUpon>FrmCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmEditUser.resx">
+      <DependentUpon>frmEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frminputdata.resx">
+      <DependentUpon>frminputdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmIntrument.resx">
+      <DependentUpon>frmIntrument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmMachine.resx">
+      <DependentUpon>frmMachine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmnewdata.resx">
+      <DependentUpon>frmnewdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmPubIntru.resx">
+      <DependentUpon>frmPubIntru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmQueryModifi.resx">
+      <DependentUpon>frmQueryModifi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmRepairData.resx">
+      <DependentUpon>frmRepairData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\FrmSearchSample.resx">
+      <DependentUpon>FrmSearchSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmServer.resx">
+      <DependentUpon>frmServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmSetResult.resx">
+      <DependentUpon>frmSetResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmTask.resx">
+      <DependentUpon>frmTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmunit.resx">
+      <DependentUpon>frmunit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmunitrepair.resx">
+      <DependentUpon>frmunitrepair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\frmUpUnitData.resx">
+      <DependentUpon>frmUpUnitData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\reportform.resx">
+      <DependentUpon>reportform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucAddSample.resx">
+      <DependentUpon>ucAddSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucAddUnit.resx">
+      <DependentUpon>ucAddUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucDetectTask.resx">
+      <DependentUpon>ucDetectTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucDiary.resx">
+      <DependentUpon>ucDiary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucEquipmenManage.resx">
+      <DependentUpon>ucEquipmenManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucHelp.resx">
+      <DependentUpon>ucHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucSearchData.resx">
+      <DependentUpon>ucSearchData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucServer.resx">
+      <DependentUpon>ucServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucShopmall.resx">
+      <DependentUpon>ucShopmall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucStatiscal.resx">
+      <DependentUpon>ucStatiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucTaskSample.resx">
+      <DependentUpon>ucTaskSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\ucUser.resx">
+      <DependentUpon>ucUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\UCAll_LZ4000.resx">
+      <DependentUpon>UCAll_LZ4000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY1000.resx">
+      <DependentUpon>ucDY1000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY2620.resx">
+      <DependentUpon>ucDY2620.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY4300.resx">
+      <DependentUpon>ucDY4300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY5000.resx">
+      <DependentUpon>ucDY5000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY5800.resx">
+      <DependentUpon>ucDY5800.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY6100.resx">
+      <DependentUpon>ucDY6100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY6200.resx">
+      <DependentUpon>ucDY6200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY64000.resx">
+      <DependentUpon>ucDY64000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY6600.resx">
+      <DependentUpon>ucDY6600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY7200.resx">
+      <DependentUpon>ucDY7200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY8120.resx">
+      <DependentUpon>ucDY8120.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDY8200.resx">
+      <DependentUpon>ucDY8200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucDYRS2.resx">
+      <DependentUpon>ucDYRS2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucHandEnter.resx">
+      <DependentUpon>ucHandEnter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucJunLuo.resx">
+      <DependentUpon>ucJunLuo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucLZ2000.resx">
+      <DependentUpon>ucLZ2000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\UControl_LZ4000.resx">
+      <DependentUpon>UControl_LZ4000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucTL300.resx">
+      <DependentUpon>ucTL300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucTL310.resx">
+      <DependentUpon>ucTL310.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine\ucTTNJ16.resx">
+      <DependentUpon>ucTTNJ16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Test\LeftUserControl1.resx">
+      <DependentUpon>LeftUserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TestControl.resx">
+      <DependentUpon>TestControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\WebReference1\instrumentDictionaryResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebReference1\instrumentDockingServiceProviderService.wsdl" />
+    <None Include="Web References\WebReference1\instrumentDockingServiceProviderService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\WebReference1\instrumentDockingServiceProviderService0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\WebReference1\instrumentInfoResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebReference1\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebReference\Put.wsdl" />
+    <None Include="Web References\WebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WorkstationBLL\WorkstationBLL.csproj">
+      <Project>{b17a72cb-3b9e-42ea-bad8-5a1c6303a29d}</Project>
+      <Name>WorkstationBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkstationDAL\WorkstationDAL.csproj">
+      <Project>{b8f89c30-4cc3-4cf9-9441-be212b0baae5}</Project>
+      <Name>WorkstationDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkstationModel\WorkstationModel.csproj">
+      <Project>{d185234b-786c-4c40-bafa-8d7aea2f89b5}</Project>
+      <Name>WorkstationModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app_icon.ico" />
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Office">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://111.1.62.181/Put.jws%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReference\</RelPath>
+      <UpdateFromURL>http://111.1.62.181/Put.jws%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>数据采集系统_WebReference_PutService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://36.7.107.82:5680/kjsys_new/webservice/instrumentDockingServiceProviderService%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReference1\</RelPath>
+      <UpdateFromURL>http://36.7.107.82:5680/kjsys_new/webservice/instrumentDockingServiceProviderService%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>数据采集系统_WebReference1_instrumentDockingServiceProviderService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

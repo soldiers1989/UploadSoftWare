@@ -1,0 +1,9 @@
+查看上传数据地址：http://121.40.19.73/clbweb2005/China/shandong/lcyg/index.htm 
+用户名：040150020001003032  密码：111111
+
+
+测试接口地址：http://121.40.19.73/CommonService/MService.asmx
+用户名：040150020001003032  密码：111111
+
+
+

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAP8AAEpNSv//StbT1qWmpf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAhlAAEIHEiwoEGBAQIcVEgwIcOCCQc6fNgwosODEicK2MiRY0aFAwCE
+        HAlAwEeQIlMOMAnA4YCIJEOadNkSpsqZAUgmlNmxpcmYIgUMILARQAGhKlMKIFpS4M+kK3+y7EiVKsar
+        AQEAOw==
+</value>
+  </data>
+  <data name="cmdEdit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAEpNSqVNSv//StbT1v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAheAAEIHEiwoMGCAQIcNBhAgACFCwcmTBhRYIABAyBKnMgRI0eLAwCE
+        zOhRJACICkee9DgSpUqSF02iNBnyYkqRLmlS5DhToU+cAwhQXElTptCTFou2TImSp9OhFQsGBAA7
+</value>
+  </data>
+  <data name="cmdPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAEpNSv///9bT1qWmpf//SgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAhdAAEIHEiwoMEACBMmPCigocOGARgqDCAgYkGKDx1aJEhxYsWFAjFm
+        rDggQEkAEyeWLIlwgMuXME3KTEnTZUuYAwjotHnSJM4CQG0iRElTpUWfOHluJFp0qcGnAgMCADs=
+</value>
+  </data>
+  <data name="cmdExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKZJREFUOE+1k0ES
+        gCAIRfHarlzpsU0IDBW0FjXDTIP8h/EpgP3UnPNyEmMEqBVyKdDeg6OlNAKGwFwTV0iJ8p4YDyg0QIvP
+        AOzSAIk7UTfujGIL0Lv2ThNkD8BiL/hTfgbw0GR4/TZqkJSTuqMLXDy48Alg2XhwwdqJ1Rm28LQHAlud
+        8QE4IBWepQKgT5T6e+2fxG4nEDCIyRkF2Im7C9Ntd7/j27ML0tSEkw7tcmUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdAdd01.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAKWmpf//SkpNStbT1v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAhnAAEIHEiwIMEABg0KEBhgIQCECRs+ZOgwooCGEhMKvLgwgMcAA0KK
+        fOhx4sKTABYOYPiQY0qUAlY2vJgyI8qVAGTChIlzAMyUOUX2BMpTAIGQAn0SBTrgaM6kS08ijZlUqFWh
+        GrMGBAA7
+</value>
+  </data>
+  <metadata name="c1CommandHolder1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cmdQuery.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAEpNSsbDxv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAhPAAEIHEiwYMEACAciDGAQQAABDAU+jHgwoUSLBBcm1EhRIsSNHzty
+        HGkRYciPITdONMlSo8OVGlMyJPmSo8OQB3HCzLmwJsaLPRsKHdowIAA7
+</value>
+  </data>
+  <data name="cmdSend.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAKWmpdbT1kpNSkpNpf////9NSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAhsAAEACECwoMCDCAMIWLgwwACBBBIWmDjR4UMCEQ8WLDjAIcaPAgNQ
+        rOgQAEaIAxk2HPDQJMqNBDu2PBhR5MiYA3GmVInTZsedDHtOZNmRoQEBQikW5dnS5lAARIlqHDkT4VSl
+        Vq1GZZm168GAADs=
+</value>
+  </data>
+  <data name="cmdAdd02.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJFJREFUOE+tUwEO
+        gCAI9Ok8zZ+RR5IkYNPFxprAHSdhKf8ZcSkn/ig4AQMzjHetQT0BEbF1kOp5bhAS7Kj4VLDqjtxSQU8u
+        BYUEtVZhtl/MQM0SOwIF2WIrAQCVHl5BO4MIHoEzApGd/KYwZxUwoOL3YgzP4u+6Buitp6Fkcff85L46
+        QLvaSTx8v24pelUWf0guE5XjJFVS8EQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="c1CommandMenu1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAKWmpf//SkpNStbT1v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAhnAAEIHEiwIMEABg0KEBhgIQCECRs+ZOgwooCGEhMKvLgwgMcAA0KK
+        fOhx4sKTABYOYPiQY0qUAlY2vJgyI8qVAGTChIlzAMyUOUX2BMpTAIGQAn0SBTrgaM6kS08ijZlUqFWh
+        GrMGBAA7
+</value>
+  </data>
+  <data name="c1Command3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAEpNSkpN/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAhFAAEIHEiwIMEAAhAqTMiQYMOHCg8mBBAxYkGEACAazLhw4caODANs
+        hDjx40SPIzGG3MiSpciWBwO8hCmzJs2aNmHqHBgQADs=
+</value>
+  </data>
+  <data name="c1Command4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAEqmSqWmpUpNSv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAhRAAEIHEiwYMEAAhAOTCjAYMIACh8GMBiAAESEFxtStHhRoUGBFTN+
+        BJmQ40WKEk1OLCgRokmKHV2eHDkwpEaBA2gWHMBTJ06ePWkCHeqzqMCAADs=
+</value>
+  </data>
+  <data name="c1Command6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAISGhPf39zFhADHP/zFh/wAAnACe/wBhADGeAM7/zv///zHPMQAA/wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAA4ALAAAAAAQABAAAAhzAB04CECwoMEAAhMGEMBQwAACBRgSBKBQgAEBBwpARGBRAEWBAS4K
+        SEAAgYIEDA18HLjgIgMEBUx2XLmwYYMGEQUsWEBzp8+fDGneHEr0Js2GSBvyVFi0ac+fUD0mBEC1qtWq
+        UxNq3SoQK9etV7+KHZswIAA7
+</value>
+  </data>
+  <data name="c1Command7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI9JREFUOE+1U9EO
+        gCAI1N9uPrp+2UeSKQ3kmtQWm4MU7w6MnKbVs5LEO1+Okl0OA7TWtovzJpklFICU6AbRMYPzt+x1BR5A
+        ElaPlEEA6vakwIMDBSITeV3CIAIAWgHHq/RQDzSTvWCbCxVEnlFy/gHguiM2ylyaODfkIOrNHx2eBTQr
+        mnE3S+4cyX0N8vnCBR9lrTOtYcYaAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="c1CommandMenu2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAAAAAEpNSqWmStbT1v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAAAAALAAAAAAQABAAAAhhAAEIBBCgoMGDAQYKDCAgwICHDx0mXIiw4kSCDSFGHMAwocWKDTE6
+        1CixYciOGjkWNOkxI0mWJ11C7MgSY8ODAmC2zMmTZ8eCNkF2HMjwZkGORonmPIj0ItGPThVKnSowIAA7
+</value>
+  </data>
+  <data name="cmdShowAll.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYAACBAAAAgYAAAIIAAACCgAAAg
+        wAAAIOAAAEAAAABAIAAAQEAAAEBgAABAgAAAQKAAAEDAAABA4AAAYAAAAGAgAABgQAAAYGAAAGCAAABg
+        oAAAYMAAAGDgAACAAAAAgCAAAIBAAACAYAAAgIAAAICgAACAwAAAgOAAAKAAAACgIAAAoEAAAKBgAACg
+        gAAAoKAAAKDAAACg4AAAwAAAAMAgAADAQAAAwGAAAMCAAADAoAAAwMAAAMDgAADgAAAA4CAAAOBAAADg
+        YAAA4IAAAOCgAADgwAAA4OAAQAAAAEAAIABAAEAAQABgAEAAgABAAKAAQADAAEAA4ABAIAAAQCAgAEAg
+        QABAIGAAQCCAAEAgoABAIMAAQCDgAEBAAABAQCAAQEBAAEBAYABAQIAAQECgAEBAwABAQOAAQGAAAEBg
+        IABAYEAAQGBgAEBggABAYKAAQGDAAEBg4ABAgAAAQIAgAECAQABAgGAAQICAAECAoABAgMAAQIDgAECg
+        AABAoCAAQKBAAECgYABAoIAAQKCgAECgwABAoOAAQMAAAEDAIABAwEAAQMBgAEDAgABAwKAAQMDAAEDA
+        4ABA4AAAQOAgAEDgQABA4GAAQOCAAEDgoABA4MAAQODgAIAAAACAACAAgABAAIAAYACAAIAAgACgAIAA
+        wACAAOAAgCAAAIAgIACAIEAAgCBgAIAggACAIKAAgCDAAIAg4ACAQAAAgEAgAIBAQACAQGAAgECAAIBA
+        oACAQMAAgEDgAIBgAACAYCAAgGBAAIBgYACAYIAAgGCgAIBgwACAYOAAgIAAAICAIACAgEAAgIBgAICA
+        gACAgKAAgIDAAICA4ACAoAAAgKAgAICgQACAoGAAgKCAAICgoACAoMAAgKDgAIDAAACAwCAAgMBAAIDA
+        YACAwIAAgMCgAIDAwACAwOAAgOAAAIDgIACA4EAAgOBgAIDggACA4KAAgODAAIDg4ADAAAAAwAAgAMAA
+        QADAAGAAwACAAMAAoADAAMAAwADgAMAgAADAICAAwCBAAMAgYADAIIAAwCCgAMAgwADAIOAAwEAAAMBA
+        IADAQEAAwEBgAMBAgADAQKAAwEDAAMBA4ADAYAAAwGAgAMBgQADAYGAAwGCAAMBgoADAYMAAwGDgAMCA
+        AADAgCAAwIBAAMCAYADAgIAAwICgAMCAwADAgOAAwKAAAMCgIADAoEAAwKBgAMCggADAoKAAwKDAAMCg
+        4ADAwAAAwMAgAMDAQADAwGAAwMCAAMDAoADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAA91JSUlJSUlJSUlIAUgAAAPcICAgICAgICAgIUm1SAAD3/1dX
+        /9LS/2pqUm1/fwAA9/9XV//SUlJS921/f1IAAPf/////UggICPf391IAAAD3////CAj//wgI9/cAAAAA
+        9//3CPf/////CAj3AAAAAPf////3//////8I9wAAAAD3//cI9wj/////91IAAAAA9//////3CP//CPdS
+        AAAAAPf/9/f3//f39wj/UgAAAAD3//////////8ICFIAAAAA9//39/f39/cI9/f3AAAAAPf/////////
+        //f3AAAAAAD39/f39/f39/f3AAAAAP//AADABQAAwAAAAMAAAADAAAAAwAEAAMADAADAAwAAwAMAAMAD
+        AADAAwAAwAMAAMADAADAAwAAwAcAAMAPAAA=
+</value>
+  </data>
+  <data name="c1Command2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAZpJREFUWEfVl1uW
+        wyAMQ7N0lpadZcY0ojcOUEOYnjP9oQ9AspFEum3PXsfv8iOllMdnW8VXF0AD3vf9sJeN3yCRgQw4pe0C
+        /g0SH8H/kkQY3Eis1sQU+CpNTIOvIDAMLtC3UOftOQUuWyobZrVw2qxtNaldglPFGl04DQdU1+cRcCNA
+        S56dCEddJsCEI6i+1xyOZxIqEadI5MUrwEVmtBOX6mcrf0V1ccBQJ4oA1YXomatigdt6ZEEmIVI9TcAB
+        bx301M5zlx6oE1tLcs6iN2FeCHgx9gTHuSLMkdYMd0Dt1DHQ57XKc5/PVnPU9yDRtOStA6zMC0sbUi82
+        x4Pz908PLVUC2pRVsyp/5prPzmk+NHHvAlWq9tNSUrU26ZGogYc60SLBQCFwjQSr1XvZkvObQqiRIAG2
+        2Oc+AafAxcqT8AQYMgwdX6nvRsQJpTMkMUKAoP7cR2/GTSSg3nJfyBU+dv1lprXD4K3j0I1JAj5uH1fu
+        FQo72k/+L1n5TNs+rrz3CMOcqF0wkZsv/Ig0QOQydfrMlzD7L5v8AG/JFmPid3yBAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="c1FlexGrid1.ColumnInfo" xml:space="preserve">
+    <value>13,0,0,40,0,0,Columns:0{Width:57;Name:"ID";Caption:"样品编号";AllowEditing:False;TextAlignFixed:CenterCenter;}	1{Width:70;Name:"FoodType2";Caption:"食品种类";AllowEditing:False;TextAlignFixed:CenterCenter;}	2{Width:55;Name:"Type";Caption:"抑制率";AllowEditing:False;TextAlign:RightCenter;TextAlignFixed:CenterCenter;}	3{Width:61;Name:"Result";Caption:"检测结果";AllowEditing:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	4{Width:59;Name:"Date";Caption:"检测日期";AllowEditing:False;TextAlignFixed:CenterCenter;}	5{Width:75;Name:"BJDWLX";Caption:"被检单位类别";AllowEditing:False;TextAlignFixed:CenterCenter;}	6{Width:72;Name:"BJDW";Caption:"被检单位";AllowEditing:False;TextAlignFixed:CenterCenter;}	7{Width:45;Name:"CD";Caption:"产地";AllowEditing:False;TextAlignFixed:CenterCenter;}	8{Width:55;Name:"SCDW";Caption:"生产单位";AllowEditing:False;TextAlignFixed:CenterCenter;}	9{Width:64;Caption:"检测单位";AllowEditing:False;TextAlignFixed:CenterCenter;}	10{Caption:"检测人";TextAlignFixed:CenterCenter;}	11{Width:57;Caption:"仪器类型";AllowEditing:False;TextAlignFixed:CenterCenter;}	12{Width:56;Caption:"发送日期";TextAlignFixed:CenterCenter;}	</value>
+  </data>
+  <data name="c1FlexGrid1.Styles" xml:space="preserve">
+    <value>Normal{BackColor:White;ForeColor:Black;Border:Flat,1,Wheat,Both;}	Alternate{BackColor:White;ForeColor:Black;}	Fixed{BackColor:CadetBlue;ForeColor:Black;Border:None,1,Black,Both;}	Highlight{BackColor:Wheat;ForeColor:DarkSlateBlue;}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	EmptyArea{BackColor:Ivory;Border:Flat,1,ControlDarkDark,Both;}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYAACBAAAAgYAAAIIAAACCgAAAg
+        wAAAIOAAAEAAAABAIAAAQEAAAEBgAABAgAAAQKAAAEDAAABA4AAAYAAAAGAgAABgQAAAYGAAAGCAAABg
+        oAAAYMAAAGDgAACAAAAAgCAAAIBAAACAYAAAgIAAAICgAACAwAAAgOAAAKAAAACgIAAAoEAAAKBgAACg
+        gAAAoKAAAKDAAACg4AAAwAAAAMAgAADAQAAAwGAAAMCAAADAoAAAwMAAAMDgAADgAAAA4CAAAOBAAADg
+        YAAA4IAAAOCgAADgwAAA4OAAQAAAAEAAIABAAEAAQABgAEAAgABAAKAAQADAAEAA4ABAIAAAQCAgAEAg
+        QABAIGAAQCCAAEAgoABAIMAAQCDgAEBAAABAQCAAQEBAAEBAYABAQIAAQECgAEBAwABAQOAAQGAAAEBg
+        IABAYEAAQGBgAEBggABAYKAAQGDAAEBg4ABAgAAAQIAgAECAQABAgGAAQICAAECAoABAgMAAQIDgAECg
+        AABAoCAAQKBAAECgYABAoIAAQKCgAECgwABAoOAAQMAAAEDAIABAwEAAQMBgAEDAgABAwKAAQMDAAEDA
+        4ABA4AAAQOAgAEDgQABA4GAAQOCAAEDgoABA4MAAQODgAIAAAACAACAAgABAAIAAYACAAIAAgACgAIAA
+        wACAAOAAgCAAAIAgIACAIEAAgCBgAIAggACAIKAAgCDAAIAg4ACAQAAAgEAgAIBAQACAQGAAgECAAIBA
+        oACAQMAAgEDgAIBgAACAYCAAgGBAAIBgYACAYIAAgGCgAIBgwACAYOAAgIAAAICAIACAgEAAgIBgAICA
+        gACAgKAAgIDAAICA4ACAoAAAgKAgAICgQACAoGAAgKCAAICgoACAoMAAgKDgAIDAAACAwCAAgMBAAIDA
+        YACAwIAAgMCgAIDAwACAwOAAgOAAAIDgIACA4EAAgOBgAIDggACA4KAAgODAAIDg4ADAAAAAwAAgAMAA
+        QADAAGAAwACAAMAAoADAAMAAwADgAMAgAADAICAAwCBAAMAgYADAIIAAwCCgAMAgwADAIOAAwEAAAMBA
+        IADAQEAAwEBgAMBAgADAQKAAwEDAAMBA4ADAYAAAwGAgAMBgQADAYGAAwGCAAMBgoADAYMAAwGDgAMCA
+        AADAgCAAwIBAAMCAYADAgIAAwICgAMCAwADAgOAAwKAAAMCgIADAoEAAwKBgAMCggADAoKAAwKDAAMCg
+        4ADAwAAAwMAgAMDAQADAwGAAwMCAAMDAoADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAA91JSUlJSUlJSUlIAUgAAAPcICAgICAgICAgIUm1SAAD3/1dX
+        /9LS/2pqUm1/fwAA9/9XV//SUlJS921/f1IAAPf/////UggICPf391IAAAD3////CAj//wgI9/cAAAAA
+        9//3CPf/////CAj3AAAAAPf////3//////8I9wAAAAD3//cI9wj/////91IAAAAA9//////3CP//CPdS
+        AAAAAPf/9/f3//f39wj/UgAAAAD3//////////8ICFIAAAAA9//39/f39/cI9/f3AAAAAPf/////////
+        //f3AAAAAAD39/f39/f39/f3AAAAAP//AADABQAAwAAAAMAAAADAAAAAwAEAAMADAADAAwAAwAMAAMAD
+        AADAAwAAwAMAAMADAADAAwAAwAcAAMAPAAA=
+</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>167, 17</value>
+  </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>268, 17</value>
+  </metadata>
+  <metadata name="c1Report1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>412, 17</value>
+  </metadata>
+  <data name="c1Report1.ReportDefinition" xml:space="preserve">
+    <value>&lt;!--Report *** WorkSheetReport ***--&gt;&lt;Report version="2.5.20052.176"&gt;&lt;Name&gt;WorkSheetReport&lt;/Name&gt;&lt;DataSource /&gt;&lt;Layout&gt;&lt;Width&gt;13335&lt;/Width&gt;&lt;MarginLeft&gt;1800&lt;/MarginLeft&gt;&lt;MarginRight&gt;1800&lt;/MarginRight&gt;&lt;MarginBottom&gt;619.2&lt;/MarginBottom&gt;&lt;Orientation&gt;1&lt;/Orientation&gt;&lt;PaperSize&gt;9&lt;/PaperSize&gt;&lt;/Layout&gt;&lt;Font&gt;&lt;Name&gt;Times New Roman&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;Tag&gt;0&lt;/Tag&gt;&lt;Groups /&gt;&lt;Sections&gt;&lt;Section&gt;&lt;Name&gt;Detail&lt;/Name&gt;&lt;Type&gt;0&lt;/Type&gt;&lt;Height&gt;16500&lt;/Height&gt;&lt;/Section&gt;&lt;Section&gt;&lt;Name&gt;Header&lt;/Name&gt;&lt;Type&gt;1&lt;/Type&gt;&lt;Height&gt;5&lt;/Height&gt;&lt;Visible&gt;0&lt;/Visible&gt;&lt;/Section&gt;&lt;Section&gt;&lt;Name&gt;Footer&lt;/Name&gt;&lt;Type&gt;2&lt;/Type&gt;&lt;Visible&gt;0&lt;/Visible&gt;&lt;/Section&gt;&lt;Section&gt;&lt;Name&gt;PageHeader&lt;/Name&gt;&lt;Type&gt;3&lt;/Type&gt;&lt;Height&gt;1100&lt;/Height&gt;&lt;/Section&gt;&lt;Section&gt;&lt;Name&gt;PageFooter&lt;/Name&gt;&lt;Type&gt;4&lt;/Type&gt;&lt;Visible&gt;0&lt;/Visible&gt;&lt;/Section&gt;&lt;/Sections&gt;&lt;Fields&gt;&lt;Field&gt;&lt;Name&gt;Line3&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field12&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;受检人（单位）&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;90&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line5&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Height&gt;6840&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line8&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;1665&lt;/Left&gt;&lt;Top&gt;15&lt;/Top&gt;&lt;Height&gt;4545&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20.1&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line13&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;8955&lt;/Left&gt;&lt;Height&gt;6840&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line41&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;575&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;titleLbl&lt;/Name&gt;&lt;Section&gt;3&lt;/Section&gt;&lt;Text&gt;食品快速检测工作单&lt;/Text&gt;&lt;Left&gt;3810&lt;/Left&gt;&lt;Width&gt;3285&lt;/Width&gt;&lt;Height&gt;600&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Bold&gt;-1&lt;/Bold&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;15.75&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;1710&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;90&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line2&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;1135&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line4&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;4555&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line6&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;2285&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line14&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;6840&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;45&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line15&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;5145&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line16&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;150&lt;/Left&gt;&lt;Top&gt;5700&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;经营地址&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;675&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field1&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;经营性质&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;1245&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field2&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;营业执照编号&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;1830&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field3&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;联系人&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;2370&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line1&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;3195&lt;/Left&gt;&lt;Top&gt;2280&lt;/Top&gt;&lt;Height&gt;2295&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line9&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;6120&lt;/Left&gt;&lt;Top&gt;1710&lt;/Top&gt;&lt;Height&gt;3990&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field5&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;商品名称&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;2955&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line20&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;3995&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line21&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;3420&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line22&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;2845&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field4&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;质量等级&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;3525&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field22&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;抽样数量&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;4110&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field23&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;送检单位&lt;/Text&gt;&lt;Left&gt;210&lt;/Left&gt;&lt;Top&gt;4680&lt;/Top&gt;&lt;Width&gt;2925&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field24&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;备注&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;5250&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field6&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;库存情况&lt;/Text&gt;&lt;Left&gt;6210&lt;/Left&gt;&lt;Top&gt;4680&lt;/Top&gt;&lt;Width&gt;1125&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field7&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;注册商标&lt;/Text&gt;&lt;Left&gt;6210&lt;/Left&gt;&lt;Top&gt;3525&lt;/Top&gt;&lt;Width&gt;1125&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field8&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;邮政编码&lt;/Text&gt;&lt;Left&gt;6210&lt;/Left&gt;&lt;Top&gt;1830&lt;/Top&gt;&lt;Width&gt;1125&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field9&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;规格型号&lt;/Text&gt;&lt;Left&gt;6210&lt;/Left&gt;&lt;Top&gt;2955&lt;/Top&gt;&lt;Width&gt;1125&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field10&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;传真&lt;/Text&gt;&lt;Left&gt;6210&lt;/Left&gt;&lt;Top&gt;2370&lt;/Top&gt;&lt;Width&gt;1125&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field11&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;批号或编号&lt;/Text&gt;&lt;Left&gt;3255&lt;/Left&gt;&lt;Top&gt;3525&lt;/Top&gt;&lt;Width&gt;1275&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field13&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;检测类型&lt;/Text&gt;&lt;Left&gt;3255&lt;/Left&gt;&lt;Top&gt;2955&lt;/Top&gt;&lt;Width&gt;1275&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field14&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;电  话&lt;/Text&gt;&lt;Left&gt;3255&lt;/Left&gt;&lt;Top&gt;2370&lt;/Top&gt;&lt;Width&gt;1275&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field15&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;抽样人：&lt;/Text&gt;&lt;Left&gt;210&lt;/Left&gt;&lt;Top&gt;5985&lt;/Top&gt;&lt;Width&gt;1065&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line7&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;7425&lt;/Left&gt;&lt;Top&gt;1710&lt;/Top&gt;&lt;Height&gt;3990&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line10&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;4605&lt;/Left&gt;&lt;Top&gt;2295&lt;/Top&gt;&lt;Height&gt;2260&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line11&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;1665&lt;/Left&gt;&lt;Top&gt;5145&lt;/Top&gt;&lt;Height&gt;555&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line12&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;3195&lt;/Left&gt;&lt;Top&gt;4575&lt;/Top&gt;&lt;Height&gt;560&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field16&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;抽样基数&lt;/Text&gt;&lt;Left&gt;3255&lt;/Left&gt;&lt;Top&gt;4110&lt;/Top&gt;&lt;Width&gt;1275&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field17&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;进货数量&lt;/Text&gt;&lt;Left&gt;6210&lt;/Left&gt;&lt;Top&gt;4110&lt;/Top&gt;&lt;Width&gt;1125&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field18&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;抽样日期&lt;/Text&gt;&lt;Left&gt;6210&lt;/Left&gt;&lt;Top&gt;5250&lt;/Top&gt;&lt;Width&gt;1125&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field19&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;受检人（单位）：&lt;/Text&gt;&lt;Left&gt;3780&lt;/Left&gt;&lt;Top&gt;5985&lt;/Top&gt;&lt;Width&gt;1695&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line17&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;12540&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line18&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;7410&lt;/Top&gt;&lt;Height&gt;5115&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line19&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;8955&lt;/Left&gt;&lt;Top&gt;7410&lt;/Top&gt;&lt;Height&gt;5115&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line23&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;7410&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line24&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;9695&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line25&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;9120&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line26&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;8545&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line27&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;135&lt;/Left&gt;&lt;Top&gt;7985&lt;/Top&gt;&lt;Width&gt;8805&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;14.4&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field20&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;备注&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;9285&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field21&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;样品编号&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;8700&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field25&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;标准值&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;8130&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field26&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;检测项目&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;7530&lt;/Top&gt;&lt;Width&gt;1470&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field27&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;检测日期&lt;/Text&gt;&lt;Left&gt;5775&lt;/Left&gt;&lt;Top&gt;9285&lt;/Top&gt;&lt;Width&gt;1320&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field28&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;结论&lt;/Text&gt;&lt;Left&gt;5775&lt;/Left&gt;&lt;Top&gt;8700&lt;/Top&gt;&lt;Width&gt;1320&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field29&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;实测值&lt;/Text&gt;&lt;Left&gt;5775&lt;/Left&gt;&lt;Top&gt;8130&lt;/Top&gt;&lt;Width&gt;1320&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field30&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;检测依据&lt;/Text&gt;&lt;Left&gt;5775&lt;/Left&gt;&lt;Top&gt;7530&lt;/Top&gt;&lt;Width&gt;1320&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line28&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;5715&lt;/Left&gt;&lt;Top&gt;7410&lt;/Top&gt;&lt;Height&gt;2260&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line29&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;1665&lt;/Left&gt;&lt;Top&gt;7425&lt;/Top&gt;&lt;Height&gt;2260&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Line30&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;7140&lt;/Left&gt;&lt;Top&gt;7410&lt;/Top&gt;&lt;Height&gt;2260&lt;/Height&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;LineWidth&gt;20&lt;/LineWidth&gt;&lt;LineSlant&gt;1&lt;/LineSlant&gt;&lt;Font&gt;&lt;Name&gt;Arial&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field31&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;检测人：&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;9900&lt;/Top&gt;&lt;Width&gt;1065&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field32&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;核准人：&lt;/Text&gt;&lt;Left&gt;4560&lt;/Left&gt;&lt;Top&gt;9900&lt;/Top&gt;&lt;Width&gt;1065&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field33&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;检测单位盖章：&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;10740&lt;/Top&gt;&lt;Width&gt;1635&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field34&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;受检人对检验结果确认签名：&lt;/Text&gt;&lt;Left&gt;165&lt;/Left&gt;&lt;Top&gt;11835&lt;/Top&gt;&lt;Width&gt;2925&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field35&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;ComName&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;90&lt;/Top&gt;&lt;Width&gt;7155&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field36&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;Address&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;675&lt;/Top&gt;&lt;Width&gt;7155&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field38&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;CompanyID&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;1830&lt;/Top&gt;&lt;Width&gt;4305&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field39&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;LinkMan&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;2370&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field40&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;FoodName&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;2955&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field41&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;SampleLevel&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;3525&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field42&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;SampleNum&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;4110&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field43&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;LinkInfo&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;4665&lt;/Left&gt;&lt;Top&gt;2370&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field44&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;CheckType&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;4665&lt;/Left&gt;&lt;Top&gt;2955&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field45&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;SampleState&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;4665&lt;/Left&gt;&lt;Top&gt;3525&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field46&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;SampleBaseNum&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;4665&lt;/Left&gt;&lt;Top&gt;4110&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field47&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;PostCode&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7485&lt;/Left&gt;&lt;Top&gt;1830&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field48&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;OtherCodeInfo&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7485&lt;/Left&gt;&lt;Top&gt;2370&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field49&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;SampleModel&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7485&lt;/Left&gt;&lt;Top&gt;2955&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field50&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;Provider&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7485&lt;/Left&gt;&lt;Top&gt;3525&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field51&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;ImportNum&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7485&lt;/Left&gt;&lt;Top&gt;4110&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field52&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;SaveNum&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7485&lt;/Left&gt;&lt;Top&gt;4680&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field53&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;TakeDate&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7485&lt;/Left&gt;&lt;Top&gt;5250&lt;/Top&gt;&lt;Width&gt;1395&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field54&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;Remark&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;5250&lt;/Top&gt;&lt;Width&gt;4305&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field55&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;SentCompany&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;3255&lt;/Left&gt;&lt;Top&gt;4680&lt;/Top&gt;&lt;Width&gt;2805&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field56&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;CheckItem&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;7530&lt;/Top&gt;&lt;Width&gt;3840&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field57&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;StandValue&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;8130&lt;/Top&gt;&lt;Width&gt;3840&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field58&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;SampleCode&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;8700&lt;/Top&gt;&lt;Width&gt;3840&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field59&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;Remark&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;9285&lt;/Top&gt;&lt;Width&gt;3840&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field60&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;CheckStartDate&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7200&lt;/Left&gt;&lt;Top&gt;9285&lt;/Top&gt;&lt;Width&gt;1695&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field61&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;Result&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7200&lt;/Left&gt;&lt;Top&gt;8700&lt;/Top&gt;&lt;Width&gt;1695&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field62&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;CheckValueInfo&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7200&lt;/Left&gt;&lt;Top&gt;8130&lt;/Top&gt;&lt;Width&gt;1695&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field63&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;ReferStandard&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;7200&lt;/Left&gt;&lt;Top&gt;7530&lt;/Top&gt;&lt;Width&gt;1695&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field64&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;Checker&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1305&lt;/Left&gt;&lt;Top&gt;5985&lt;/Top&gt;&lt;Width&gt;1680&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field65&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;ComName&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;5490&lt;/Left&gt;&lt;Top&gt;5985&lt;/Top&gt;&lt;Width&gt;3420&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field66&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;Checker&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1305&lt;/Left&gt;&lt;Top&gt;9900&lt;/Top&gt;&lt;Width&gt;2175&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field67&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;Assessor&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;5670&lt;/Left&gt;&lt;Top&gt;9900&lt;/Top&gt;&lt;Width&gt;2175&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;titleLbl1&lt;/Name&gt;&lt;Section&gt;3&lt;/Section&gt;&lt;Text&gt;ShortName&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;1200&lt;/Left&gt;&lt;Width&gt;2610&lt;/Width&gt;&lt;Height&gt;600&lt;/Height&gt;&lt;Align&gt;8&lt;/Align&gt;&lt;Font&gt;&lt;Bold&gt;-1&lt;/Bold&gt;&lt;Underline&gt;-1&lt;/Underline&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;15.75&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field68&lt;/Name&gt;&lt;Section&gt;3&lt;/Section&gt;&lt;Text&gt;编号：&lt;/Text&gt;&lt;Left&gt;4980&lt;/Left&gt;&lt;Top&gt;600&lt;/Top&gt;&lt;Width&gt;975&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;8&lt;/Align&gt;&lt;Font&gt;&lt;Bold&gt;-1&lt;/Bold&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;14.25&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field69&lt;/Name&gt;&lt;Section&gt;3&lt;/Section&gt;&lt;Text&gt;CheckNo&lt;/Text&gt;&lt;Calculated&gt;-1&lt;/Calculated&gt;&lt;Left&gt;5970&lt;/Left&gt;&lt;Top&gt;600&lt;/Top&gt;&lt;Width&gt;2295&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;14.25&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field37&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;国有&lt;/Text&gt;&lt;Left&gt;1740&lt;/Left&gt;&lt;Top&gt;1245&lt;/Top&gt;&lt;Width&gt;465&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;7&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field70&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;2190&lt;/Left&gt;&lt;Top&gt;1320&lt;/Top&gt;&lt;Width&gt;210&lt;/Width&gt;&lt;Height&gt;210&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;Font&gt;&lt;Name&gt;Times New Roman&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field71&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;集体&lt;/Text&gt;&lt;Left&gt;2520&lt;/Left&gt;&lt;Top&gt;1245&lt;/Top&gt;&lt;Width&gt;570&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;8&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field72&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;3120&lt;/Left&gt;&lt;Top&gt;1320&lt;/Top&gt;&lt;Width&gt;210&lt;/Width&gt;&lt;Height&gt;210&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;Font&gt;&lt;Name&gt;Times New Roman&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field73&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;私营&lt;/Text&gt;&lt;Left&gt;3495&lt;/Left&gt;&lt;Top&gt;1245&lt;/Top&gt;&lt;Width&gt;570&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;8&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field74&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;4095&lt;/Left&gt;&lt;Top&gt;1320&lt;/Top&gt;&lt;Width&gt;210&lt;/Width&gt;&lt;Height&gt;210&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;Font&gt;&lt;Name&gt;Times New Roman&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field75&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;外商投资&lt;/Text&gt;&lt;Left&gt;4410&lt;/Left&gt;&lt;Top&gt;1245&lt;/Top&gt;&lt;Width&gt;1020&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;8&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field76&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;5460&lt;/Left&gt;&lt;Top&gt;1320&lt;/Top&gt;&lt;Width&gt;210&lt;/Width&gt;&lt;Height&gt;210&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;Font&gt;&lt;Name&gt;Times New Roman&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field77&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;个体户&lt;/Text&gt;&lt;Left&gt;5820&lt;/Left&gt;&lt;Top&gt;1245&lt;/Top&gt;&lt;Width&gt;750&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;8&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field78&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;6570&lt;/Left&gt;&lt;Top&gt;1320&lt;/Top&gt;&lt;Width&gt;210&lt;/Width&gt;&lt;Height&gt;210&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;Font&gt;&lt;Name&gt;Times New Roman&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field79&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Text&gt;其他&lt;/Text&gt;&lt;Left&gt;6960&lt;/Left&gt;&lt;Top&gt;1245&lt;/Top&gt;&lt;Width&gt;570&lt;/Width&gt;&lt;Height&gt;360&lt;/Height&gt;&lt;Align&gt;8&lt;/Align&gt;&lt;Font&gt;&lt;Name&gt;SimSun&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;Field&gt;&lt;Name&gt;Field80&lt;/Name&gt;&lt;Section&gt;0&lt;/Section&gt;&lt;Left&gt;7545&lt;/Left&gt;&lt;Top&gt;1320&lt;/Top&gt;&lt;Width&gt;210&lt;/Width&gt;&lt;Height&gt;210&lt;/Height&gt;&lt;Align&gt;6&lt;/Align&gt;&lt;BorderStyle&gt;1&lt;/BorderStyle&gt;&lt;Font&gt;&lt;Name&gt;Times New Roman&lt;/Name&gt;&lt;Size&gt;10.5&lt;/Size&gt;&lt;/Font&gt;&lt;/Field&gt;&lt;/Fields&gt;&lt;/Report&gt;</value>
+  </data>
+</root>

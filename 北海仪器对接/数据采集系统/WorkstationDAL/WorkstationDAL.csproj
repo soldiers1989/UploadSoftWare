@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B8F89C30-4CC3-4CF9-9441-BE212B0BAAE5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorkstationDAL</RootNamespace>
+    <AssemblyName>WorkstationDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WorkstationUI\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="system.web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic\clsDataBasic.cs" />
+    <Compile Include="Basic\clsIntrument.cs" />
+    <Compile Include="Basic\clsSaveResult.cs" />
+    <Compile Include="Basic\clsSetCom.cs" />
+    <Compile Include="Basic\clsUpdateData.cs" />
+    <Compile Include="Basic\CommBasic.cs" />
+    <Compile Include="Basic\DataBase.cs" />
+    <Compile Include="Basic\HolesSetting.cs" />
+    <Compile Include="HID\Debugging.cs" />
+    <Compile Include="HID\DebuggingDeclarations.cs" />
+    <Compile Include="HID\DeviceManagement.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HID\DeviceManagement.Designer.cs">
+      <DependentUpon>DeviceManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HID\DeviceManagementDeclarations.cs" />
+    <Compile Include="HID\DeviceManagementer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HID\FileIODeclarations.cs" />
+    <Compile Include="HID\Hid.cs" />
+    <Compile Include="HID\HidDeclarations.cs" />
+    <Compile Include="Model\clsCheckComType.cs" />
+    <Compile Include="Model\clsCheckData.cs" />
+    <Compile Include="Model\clsCheckedUnit.cs" />
+    <Compile Include="Model\clsDistrict.cs" />
+    <Compile Include="Model\clsMachine.cs" />
+    <Compile Include="Model\clsMachineOpr.cs" />
+    <Compile Include="Model\clsProduct.cs" />
+    <Compile Include="Model\clsResultReport.cs" />
+    <Compile Include="Model\clsReportData.cs" />
+    <Compile Include="Model\clsShareOption.cs" />
+    <Compile Include="Model\clsSqlExecute.cs" />
+    <Compile Include="Model\clsTool.cs" />
+    <Compile Include="Model\clsUserInfo.cs" />
+    <Compile Include="Model\clsUserUnit.cs" />
+    <Compile Include="Model\Global.cs" />
+    <Compile Include="Model\HolesSetingOpr.cs" />
+    <Compile Include="Model\updatereport.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpLoadData\checkUserConnect.cs" />
+    <Compile Include="UpLoadData\Company.cs" />
+    <Compile Include="UpLoadData\ItemAndStandard.cs" />
+    <Compile Include="UpLoadData\Simple.cs" />
+    <Compile Include="UpLoadData\TestSamples.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

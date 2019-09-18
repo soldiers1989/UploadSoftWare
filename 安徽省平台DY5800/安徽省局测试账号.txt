@@ -1,0 +1,16 @@
+用户：5009101  密码：F9F67D794225FDD2379736C4807459DD
+仪器类型：DY-3000(BX1) ? 仪器编码：dy3000gz999
+Mac: （随便）     接口版本：1.0
+ 
+省局平台地址：http://kj.ada.gov.cn:5680/kjsys_new/
+  用户：gzdytest  密码：123456  
+
+BX1、3500上传服务器：
+http://36.7.107.82:5680/kjsys_new/webservice/instrumentDockingServiceProviderService?wsdl
+http://218.22.14.68:5680/kjsys_new/webservice/instrumentDockingServiceProviderService?wsdl
+修改为：http://kj.ahsyjj.cn:5680/kjsys_new/webservice/instrumentDockingServiceProviderService?wsdl
+
+省局农委系统：
+http://eco.ahau.edu.cn/jc/dtrans
+
+340102000 瑶海区快检站；
