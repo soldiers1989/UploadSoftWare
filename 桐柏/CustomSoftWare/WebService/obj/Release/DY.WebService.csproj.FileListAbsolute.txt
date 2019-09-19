@@ -1,0 +1,10 @@
+E:\Project\Company_Source\new_client\workstation\WebService\bin\DY.WebService.dll
+E:\Project\Company_Source\new_client\workstation\WebService\bin\DY.WebService.pdb
+E:\Project\Company_Source\new_client\workstation\WebService\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\WebService\obj\Release\DY.WebService.dll
+E:\Project\Company_Source\new_client\workstation\WebService\obj\Release\DY.WebService.pdb
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\WebService\obj\Release\ResolveAssemblyReference.cache
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\WebService\obj\Release\DY.WebService.dll
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\WebService\obj\Release\DY.WebService.pdb
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\WebService\bin\DY.WebService.dll
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\WebService\bin\DY.WebService.pdb

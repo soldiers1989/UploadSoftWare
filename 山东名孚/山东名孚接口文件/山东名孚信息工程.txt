@@ -1,0 +1,15 @@
+
+山东名孚
+测试账号：040090030001002835
+
+测试密码：111111
+
+URL http://121.40.19.73/clbweb2005/China/shandong/LanLin/Login.aspx
+
+
+另一个服务器：
+测试账号：040170070001006191
+测试密码：111111
+URL http://121.41.122.62/CommonService/MService.asmx
+
+ http://121.40.19.73/CommonService/MService.asmx

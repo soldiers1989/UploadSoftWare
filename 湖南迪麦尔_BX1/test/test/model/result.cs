@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace test.model
+{
+    public  class result
+    {
+        public string userToken { set; get; }
+        public string body { set; get; }
+    }
+    public class Bodys
+    {
+        public string samplename { set; get; }
+        public string controlvalue { set; get; }
+        public string testproject { set; get; }
+        public string testingtime { set; get; }
+        public string testresult { set; get; }
+        public string inspector { set; get; }
+        public string samplenum { set; get; }
+        public string stand_num { set; get; }
+        public string deviceNumber { set; get; }
+        public string decisionoutcome { set; get; }
+        public string cov_unit { set; get; }
+
+        public string site { set; get; }
+      
+    }
+
+    public class returnList
+    {
+        public string code { set; get; }
+        public string ok { set; get; }
+        public string msg { set; get; }
+        public object body { set; get; }
+        
+    }
+
+    public class returnBody
+    {
+        public string token { set; get; }
+        public string token_type { set; get; }
+        public string expires_in { set; get; }
+        public string scope { set; get; }
+        public string jti { set; get; }
+    }
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope" xmlns:tns="http://face.webservice.fsweb.excellence.com" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" targetNamespace="http://face.webservice.fsweb.excellence.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://face.webservice.fsweb.excellence.com">
+      <xsd:element name="uploadCheckData">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="uploadCheckDataResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="checkUserConnection">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="checkUserConnectionResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="downLoadBaseData">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in4" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="downLoadBaseDataResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="downLoadBaseDataResponse">
+    <wsdl:part name="parameters" element="tns:downLoadBaseDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="uploadCheckDataResponse">
+    <wsdl:part name="parameters" element="tns:uploadCheckDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkUserConnectionResponse">
+    <wsdl:part name="parameters" element="tns:checkUserConnectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="downLoadBaseDataRequest">
+    <wsdl:part name="parameters" element="tns:downLoadBaseData" />
+  </wsdl:message>
+  <wsdl:message name="checkUserConnectionRequest">
+    <wsdl:part name="parameters" element="tns:checkUserConnection" />
+  </wsdl:message>
+  <wsdl:message name="uploadCheckDataRequest">
+    <wsdl:part name="parameters" element="tns:uploadCheckData" />
+  </wsdl:message>
+  <wsdl:portType name="dataSyncPortType">
+    <wsdl:operation name="uploadCheckData">
+      <wsdl:input name="uploadCheckDataRequest" message="tns:uploadCheckDataRequest" />
+      <wsdl:output name="uploadCheckDataResponse" message="tns:uploadCheckDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkUserConnection">
+      <wsdl:input name="checkUserConnectionRequest" message="tns:checkUserConnectionRequest" />
+      <wsdl:output name="checkUserConnectionResponse" message="tns:checkUserConnectionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="downLoadBaseData">
+      <wsdl:input name="downLoadBaseDataRequest" message="tns:downLoadBaseDataRequest" />
+      <wsdl:output name="downLoadBaseDataResponse" message="tns:downLoadBaseDataResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="dataSyncHttpBinding" type="tns:dataSyncPortType">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="uploadCheckData">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="uploadCheckDataRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="uploadCheckDataResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkUserConnection">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="checkUserConnectionRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="checkUserConnectionResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="downLoadBaseData">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="downLoadBaseDataRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="downLoadBaseDataResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="dataSync">
+    <wsdl:port name="dataSyncHttpPort" binding="tns:dataSyncHttpBinding">
+      <wsdlsoap:address location="http://124.42.240.136:6089/sacmfda/services/dataSync" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="AIO.xaml.Record.TimerUploadWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="系统自动任务提示" Height="90" Width="300" 
+        ResizeMode="NoResize" Loaded="Window_Loaded"
+        Icon="/DY-Detector;component/assets/logo_v.png">
+    <Grid>
+        <Label Name="LbUploadInfo" Content="有检测数据未上传，即将进行自动上传操作！" ToolTip="点击查看详情" Margin="10,10,10,0" VerticalAlignment="Top" MouseMove="LbUploadInfo_MouseMove" MouseLeave="LbUploadInfo_MouseLeave" Foreground="#FFFD0A0A"/>
+        <Button Name="Btn_Suspended" Content="暂停上传" HorizontalAlignment="Left" Margin="209,66,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="Bnt_Stop" Content="取消上传" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

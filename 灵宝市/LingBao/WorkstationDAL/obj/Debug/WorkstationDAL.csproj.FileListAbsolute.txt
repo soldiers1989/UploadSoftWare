@@ -1,0 +1,127 @@
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationDAL\bin\Debug\WorkstationModel.dll
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationDAL\bin\Debug\WorkstationModel.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\产品软件\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+C:\Users\lja\Desktop\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+C:\Users\lja\Desktop\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+C:\Users\lja\Desktop\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+C:\Users\lja\Desktop\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+C:\Users\lja\Desktop\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\数据采集系统达元\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统达元\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统达元\数据采集系统\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\数据采集系统达元\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统达元\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\产品软件\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统达元  山东黄岛\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\数据上传\山东LZ4000\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\数据上传\山东LZ4000\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\数据上传\山东LZ4000\数据采集系统\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\数据上传\山东LZ4000\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\数据上传\山东LZ4000\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\数据上传\山东LZ4000\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\山东LZ4000\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\山东LZ4000\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\山东LZ4000\数据采集系统\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\山东LZ4000\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\山东LZ4000\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\山东LZ4000\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\数据上传\浙江LZ6000\浙江LZ6000\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\数据上传\浙江LZ6000\浙江LZ6000\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\数据上传\浙江LZ6000\浙江LZ6000\数据采集系统\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\数据上传\浙江LZ6000\浙江LZ6000\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\数据上传\浙江LZ6000\浙江LZ6000\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\数据上传\浙江LZ6000\浙江LZ6000\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\数据上传\北海仪器对接\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\数据上传\北海仪器对接\数据采集系统\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\数据上传\北海仪器对接\数据采集系统\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\数据上传\北海仪器对接\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\数据上传\北海仪器对接\数据采集系统\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统_20180316\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集系统_20180316\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统_20180316\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\产品软件\数据采集系统_20180316\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集系统_20180316\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集助手_DY7200_快检车\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集助手_DY7200_快检车\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集助手_DY7200_快检车\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\产品软件\数据采集助手_DY7200_快检车\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集助手_DY7200_快检车\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集助手V1.3.6_20180510\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集助手V1.3.6_20180510\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集助手V1.3.6_20180510\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\产品软件\数据采集助手V1.3.6_20180510\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\产品软件\数据采集助手V1.3.6_20180510\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集助手V1.3.6_20180510\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集助手V1.3.6_20180521\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集助手V1.3.6_20180521\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集助手V1.3.6_20180521\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\产品软件\数据采集助手V1.3.6_20180521\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集助手V1.3.6_20180521\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集助手V1.3.6_20180521\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\食安科技\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\食安科技\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\食安科技\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\食安科技\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\食安科技\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\食安科技\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\DY-Software\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\DY-Software\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\DY-Software\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\DY-Software\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\DY-Software\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\DY-Software\产品软件\数据采集助手V1.3.6_20180612(通用)\数据采集助手V1.3.6_20180521\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\bin\Debug\WorkstationDAL.dll
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\bin\Debug\WorkstationDAL.pdb
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\bin\Debug\Newtonsoft.Json.dll
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\obj\Debug\WorkstationDAL.dll
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\obj\Debug\WorkstationDAL.pdb
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\obj\Debug\WorkstationDAL.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+10:32:29
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.GszMeasureWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\DYitj\xaml\Ganshizhi\GszMeasureWindow.xaml.cs:行号 94
+
+10:35:29
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.GszMeasureWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\DYitj\xaml\Ganshizhi\GszMeasureWindow.xaml.cs:行号 94
+

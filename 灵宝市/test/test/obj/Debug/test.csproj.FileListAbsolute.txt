@@ -1,0 +1,8 @@
+D:\DY-Software\数据上传\灵宝市\test\test\bin\Debug\test.exe
+D:\DY-Software\数据上传\灵宝市\test\test\bin\Debug\test.pdb
+D:\DY-Software\数据上传\灵宝市\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+D:\DY-Software\数据上传\灵宝市\test\test\obj\Debug\test.Form1.resources
+D:\DY-Software\数据上传\灵宝市\test\test\obj\Debug\test.Properties.Resources.resources
+D:\DY-Software\数据上传\灵宝市\test\test\obj\Debug\test.csproj.GenerateResource.Cache
+D:\DY-Software\数据上传\灵宝市\test\test\obj\Debug\test.exe
+D:\DY-Software\数据上传\灵宝市\test\test\obj\Debug\test.pdb

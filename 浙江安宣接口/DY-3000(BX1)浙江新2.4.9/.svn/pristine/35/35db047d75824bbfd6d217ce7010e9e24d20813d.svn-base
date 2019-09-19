@@ -1,0 +1,42 @@
+15:49:51
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 418
+
+15:50:11
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 418
+
+16:50:04
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 422
+
+16:51:22
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 422
+
+16:54:49
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 422
+
+16:55:23
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 422
+

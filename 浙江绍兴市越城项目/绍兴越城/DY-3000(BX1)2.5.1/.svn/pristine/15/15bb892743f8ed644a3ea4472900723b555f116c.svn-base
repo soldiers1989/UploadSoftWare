@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/DY-3000食品综合分析仪/</UpdateUrl>
+    <ApplicationRevision>15</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14091432-7795-4820-9562-16994D4603BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AIO</RootNamespace>
+    <AssemblyName>DY-Detector</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <NoWarn>
+    </NoWarn>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <NoWarn>0649</NoWarn>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>38ECC42BB12EA090FCC9D6C5B9CF990EEC2B5C3C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DYitj_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AIO.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.APlayer3Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ClassLibrary\Properties\AxInterop.APlayer3Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Direct2D">
+      <HintPath>..\ClassLibrary\Properties\Curve\Direct2D.dll</HintPath>
+    </Reference>
+    <Reference Include="DY.Process">
+      <HintPath>..\ClassLibrary\Properties\DY.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="DyInterfaceHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Other\InterfaceTest\DyInterfaceHelper\bin\Debug\DyInterfaceHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicDataDisplay">
+      <HintPath>..\ClassLibrary\Properties\DynamicDataDisplay.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ClassLibrary\Properties\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.DirectX">
+      <HintPath>..\ClassLibrary\Properties\Curve\Microsoft.WindowsAPICodePack.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\ClassLibrary\Properties\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\ClassLibrary\Properties\NPOI\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\ClassLibrary\Properties\NPOI\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\ClassLibrary\Properties\NPOI\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\ClassLibrary\Properties\NPOI\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="Righthand.RealtimeGraph">
+      <HintPath>..\ClassLibrary\Properties\Curve\Righthand.RealtimeGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit">
+      <HintPath>..\ClassLibrary\Properties\System.Windows.Controls.DataVisualization.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="ThreadMessaging, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bll\ThreadMessaging.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WpfPerformance">
+      <HintPath>..\..\..\WpfCPUsadf\WpfCPU\bin\Debug\WpfPerformance.exe</HintPath>
+    </Reference>
+    <Reference Include="WPFToolkit">
+      <HintPath>..\ClassLibrary\Properties\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFVisifire.Charts">
+      <HintPath>..\ClassLibrary\Properties\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="xaml\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AnHui\checked_unit.cs" />
+    <Compile Include="AnHui\clsInstrumentInfoHandle.cs" />
+    <Compile Include="AnHui\DataOperation.cs" />
+    <Compile Include="AnHui\data_dictionary.cs" />
+    <Compile Include="AnHui\getMac.cs" />
+    <Compile Include="AnHui\standard_limit.cs" />
+    <Compile Include="AnHui\TestMoreMethodGetMac.cs" />
+    <Compile Include="AnHui\XMLNode.cs" />
+    <Compile Include="AnHui\XMLNodeList.cs" />
+    <Compile Include="AnHui\XMLParser.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="src\AdaperItems.cs" />
+    <Compile Include="src\AppUpdater.cs" />
+    <Compile Include="src\CurveSmoothing.cs" />
+    <Compile Include="src\DataBaseOpr.cs" />
+    <Compile Include="src\DeviceProp.cs" />
+    <Compile Include="src\DisPlayItems.cs" />
+    <Compile Include="src\DYItem.cs" />
+    <Compile Include="src\DyUtils.cs" />
+    <Compile Include="src\ExcelHelper.cs" />
+    <Compile Include="src\FoodClass.cs" />
+    <Compile Include="src\Global.cs" />
+    <Compile Include="src\InterfaceHelper.cs" />
+    <Compile Include="src\Json.cs" />
+    <Compile Include="src\MsgCode.cs" />
+    <Compile Include="src\MyFFT.cs" />
+    <Compile Include="src\PlayHelp.cs" />
+    <Compile Include="src\PrintHelper.cs" />
+    <Compile Include="src\Records.cs" />
+    <Compile Include="src\SampleNameAdapter.cs" />
+    <Compile Include="src\SqlHelper.cs" />
+    <Compile Include="src\TestResultConserve.cs" />
+    <Compile Include="src\UpdateServer.cs" />
+    <Compile Include="src\UserAccount.cs" />
+    <Compile Include="src\ValidCode.cs" />
+    <Compile Include="src\wave.cs" />
+    <Compile Include="src\Wisdom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\WisdomCls.cs" />
+    <Compile Include="src\WorkThread.cs" />
+    <Compile Include="src\ChildThread.cs" />
+    <Compile Include="src\XmlFiles.cs" />
+    <Compile Include="Web References\ForNet\Reference.cs" />
+    <Compile Include="Web References\localhost\Reference.cs" />
+    <Compile Include="Web References\NewInterface\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Account\LoginDisplay.xaml.cs">
+      <DependentUpon>LoginDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Account\LoginNameEdit.xaml.cs">
+      <DependentUpon>LoginNameEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\ATP\AtpWindow.xaml.cs">
+      <DependentUpon>AtpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\AddOrUpdateCompany.xaml.cs">
+      <DependentUpon>AddOrUpdateCompany.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\AddOrUpdateSample.xaml.cs">
+      <DependentUpon>AddOrUpdateSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\APlayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xaml\Dialog\APlayerForm.Designer.cs">
+      <DependentUpon>APlayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\CountryDataSearch.xaml.cs">
+      <DependentUpon>CountryDataSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\CountryDataSearchShow.xaml.cs">
+      <DependentUpon>CountryDataSearchShow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\CruveDataWindow.xaml.cs">
+      <DependentUpon>CruveDataWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\ErrorMsg.xaml.cs">
+      <DependentUpon>ErrorMsg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\FoodCategoriesWindow.xaml.cs">
+      <DependentUpon>FoodCategoriesWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\GpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xaml\Dialog\GpsForm.Designer.cs">
+      <DependentUpon>GpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\ImportItems.xaml.cs">
+      <DependentUpon>ImportItems.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\ItemWindow.xaml.cs">
+      <DependentUpon>ItemWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\LawsAndRegulationsWindow.xaml.cs">
+      <DependentUpon>LawsAndRegulationsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\ManagementCompany.xaml.cs">
+      <DependentUpon>ManagementCompany.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\ManagementSample.xaml.cs">
+      <DependentUpon>ManagementSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\OperatorWindow.xaml.cs">
+      <DependentUpon>OperatorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\PromptWindow.xaml.cs">
+      <DependentUpon>PromptWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\SampleWindow.xaml.cs">
+      <DependentUpon>SampleWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\SearchCompanyWindow.xaml.cs">
+      <DependentUpon>SearchCompanyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\SearchFoodTypeWindow.xaml.cs">
+      <DependentUpon>SearchFoodTypeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\SearchItem.xaml.cs">
+      <DependentUpon>SearchItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\SearchSample.xaml.cs">
+      <DependentUpon>SearchSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\SearchSampleidWindow.xaml.cs">
+      <DependentUpon>SearchSampleidWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\SearchSampleType.xaml.cs">
+      <DependentUpon>SearchSampleType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\SearchTaskWindow.xaml.cs">
+      <DependentUpon>SearchTaskWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\ShowError.xaml.cs">
+      <DependentUpon>ShowError.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\ItemResultEdit.xaml.cs">
+      <DependentUpon>ItemResultEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\StandardRepositoryWindow.xaml.cs">
+      <DependentUpon>StandardRepositoryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\TaskDetailedWindow.xaml.cs">
+      <DependentUpon>TaskDetailedWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\TaskDisplay.xaml.cs">
+      <DependentUpon>TaskDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\TechnologeDocument.xaml.cs">
+      <DependentUpon>TechnologeDocument.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\TimerWindow.xaml.cs">
+      <DependentUpon>TimerWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\TraceTestWindow.xaml.cs">
+      <DependentUpon>TraceTestWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\VideoPlayback.xaml.cs">
+      <DependentUpon>VideoPlayback.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\WarnTaskShow.xaml.cs">
+      <DependentUpon>WarnTaskShow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\WarnTipWindow.xaml.cs">
+      <DependentUpon>WarnTipWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\WpfTaskFinishShow.xaml.cs">
+      <DependentUpon>WpfTaskFinishShow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\CalculatedCurve.xaml.cs">
+      <DependentUpon>CalculatedCurve.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\FgdEditItemWindow.xaml.cs">
+      <DependentUpon>FgdEditItemWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\FgdMeasureWindow.xaml.cs">
+      <DependentUpon>FgdMeasureWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\FgdTest.xaml.cs">
+      <DependentUpon>FgdTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\RealTimeCurve.xaml.cs">
+      <DependentUpon>RealTimeCurve.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\ShowCurve.xaml.cs">
+      <DependentUpon>ShowCurve.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\HeavyMetal\CurveWindow.xaml.cs">
+      <DependentUpon>CurveWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\HeavyMetal\HmEditItemWindow.xaml.cs">
+      <DependentUpon>HmEditItemWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\HeavyMetal\HmMeasureWindow.xaml.cs">
+      <DependentUpon>HmMeasureWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\HeavyMetal\HmReportWindow.xaml.cs">
+      <DependentUpon>HmReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\HeavyMetal\HmSelChannelWindow.xaml.cs">
+      <DependentUpon>HmSelChannelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\HeavyMetal\HmWindow.xaml.cs">
+      <DependentUpon>HmWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\KjService\SearchCompanys.xaml.cs">
+      <DependentUpon>SearchCompanys.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\KjService\SearchReceiveTasks.xaml.cs">
+      <DependentUpon>SearchReceiveTasks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\KjService\ShowReceiveTasks.xaml.cs">
+      <DependentUpon>ShowReceiveTasks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\KjService\ShowCheckTasks.xaml.cs">
+      <DependentUpon>ShowCheckTasks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\KjService\TaskMsg.xaml.cs">
+      <DependentUpon>TaskMsg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\KjService\CheckTasks.xaml.cs">
+      <DependentUpon>CheckTasks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\KjService\ReceiveTasks.xaml.cs">
+      <DependentUpon>ReceiveTasks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Main\DataManagementWindow.xaml.cs">
+      <DependentUpon>DataManagementWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Main\KnowledgeBaseWindow.xaml.cs">
+      <DependentUpon>KnowledgeBaseWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Main\TrainingModuleWindow.xaml.cs">
+      <DependentUpon>TrainingModuleWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xaml\Main\VersionInfo.xaml.cs">
+      <DependentUpon>VersionInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Print\CheckReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xaml\Print\CheckReportForm.Designer.cs">
+      <DependentUpon>CheckReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Print\IDocumentRenderer.cs" />
+    <Compile Include="xaml\Print\OrderDocumentRenderer.cs" />
+    <Compile Include="xaml\Print\PrintPreviewWindow.xaml.cs">
+      <DependentUpon>PrintPreviewWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Print\ReportWindow.xaml.cs">
+      <DependentUpon>ReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Print\UpdateReportGSWindow.xaml.cs">
+      <DependentUpon>UpdateReportGSWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Print\UpdateReportWindow.xaml.cs">
+      <DependentUpon>UpdateReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Record\PrintPreview.xaml.cs">
+      <DependentUpon>PrintPreview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Record\RecordWindow.xaml.cs">
+      <DependentUpon>RecordWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\FgdReportWindow.xaml.cs">
+      <DependentUpon>FgdReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\FgdShowADWindow.xaml.cs">
+      <DependentUpon>FgdShowADWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\FgdWindow.xaml.cs">
+      <DependentUpon>FgdWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Fenguangdu\FgdSelChannelWindow.xaml.cs">
+      <DependentUpon>FgdSelChannelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="src\Caculate.cs" />
+    <Compile Include="xaml\Ganshizhi\GszEditItemWindow.xaml.cs">
+      <DependentUpon>GszEditItemWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Ganshizhi\GszMeasureWindow.xaml.cs">
+      <DependentUpon>GszMeasureWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Ganshizhi\GszReportWindow.xaml.cs">
+      <DependentUpon>GszReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Ganshizhi\GszSelChannelWindow.xaml.cs">
+      <DependentUpon>GszSelChannelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Ganshizhi\GszWindow.xaml.cs">
+      <DependentUpon>GszWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Dialog\InputDialog.xaml.cs">
+      <DependentUpon>InputDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Jiaotijin\JtjEditItemWindow.xaml.cs">
+      <DependentUpon>JtjEditItemWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Jiaotijin\JtjMeasureWindow.xaml.cs">
+      <DependentUpon>JtjMeasureWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Jiaotijin\JtjReportWindow.xaml.cs">
+      <DependentUpon>JtjReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Jiaotijin\JtjSelChannelWindow.xaml.cs">
+      <DependentUpon>JtjSelChannelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Jiaotijin\JtjWindow.xaml.cs">
+      <DependentUpon>JtjWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Main\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Main\SettingsWindow.xaml.cs">
+      <DependentUpon>SettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Record\StatisticalAnalysisWindow.xaml.cs">
+      <DependentUpon>StatisticalAnalysisWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\Record\TimerUploadWindow.xaml.cs">
+      <DependentUpon>TimerUploadWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xaml\TrainingModule\SecurityWindow.xaml.cs">
+      <DependentUpon>SecurityWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="xaml\Account\LoginDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Account\LoginNameEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\ATP\AtpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\AddOrUpdateCompany.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Dialog\AddOrUpdateSample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Dialog\CountryDataSearch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\CountryDataSearchShow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\CruveDataWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\ErrorMsg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\FoodCategoriesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\ImportItems.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\ItemWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\LawsAndRegulationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\ManagementCompany.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Dialog\ManagementSample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Dialog\OperatorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\PromptWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\SampleWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\SearchCompanyWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\SearchFoodTypeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\SearchItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\SearchSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\SearchSampleidWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\SearchSampleType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\SearchTaskWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\ShowError.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Dialog\ItemResultEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\StandardRepositoryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\TaskDetailedWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Dialog\TaskDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\TechnologeDocument.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\TimerWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\TraceTestWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\VideoPlayback.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Dialog\WarnTaskShow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\WarnTipWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Dialog\WpfTaskFinishShow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Fenguangdu\CalculatedCurve.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Fenguangdu\FgdEditItemWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Fenguangdu\FgdMeasureWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Fenguangdu\FgdTest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Fenguangdu\RealTimeCurve.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Fenguangdu\ShowCurve.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\HeavyMetal\CurveWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\HeavyMetal\HmEditItemWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\HeavyMetal\HmMeasureWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\HeavyMetal\HmReportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\HeavyMetal\HmSelChannelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\HeavyMetal\HmWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\KjService\SearchCompanys.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\KjService\SearchReceiveTasks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\KjService\ShowReceiveTasks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\KjService\ShowCheckTasks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\KjService\TaskMsg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\KjService\CheckTasks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\KjService\ReceiveTasks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Main\DataManagementWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Main\KnowledgeBaseWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Main\TrainingModuleWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Main\VersionInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Print\PrintModel\OrderDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Print\PrintModel\GSDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Print\PrintPreviewWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Print\ReportWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Print\UpdateReportGSWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Print\UpdateReportWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Record\PrintPreview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Record\RecordWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Fenguangdu\FgdReportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Fenguangdu\FgdShowADWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Fenguangdu\FgdWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Fenguangdu\FgdSelChannelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Ganshizhi\GszEditItemWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Ganshizhi\GszMeasureWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Ganshizhi\GszReportWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Ganshizhi\GszSelChannelWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Ganshizhi\GszWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xaml\Dialog\InputDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Jiaotijin\JtjEditItemWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Jiaotijin\JtjMeasureWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Jiaotijin\JtjReportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Jiaotijin\JtjSelChannelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Jiaotijin\JtjWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Main\LoginWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="xaml\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xaml\Main\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="xaml\Main\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Main\SettingsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Record\StatisticalAnalysisWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\Record\TimerUploadWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xaml\TrainingModule\SecurityWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xaml\Dialog\APlayerForm.resx">
+      <DependentUpon>APlayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xaml\Dialog\GpsForm.resx">
+      <DependentUpon>GpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xaml\Print\CheckReportForm.resx">
+      <DependentUpon>CheckReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Web References\ForNet\DataDriver.wsdl" />
+    <None Include="Web References\ForNet\Reference.map" />
+    <None Include="Web References\localhost\DataSyncService.wsdl" />
+    <None Include="Web References\localhost\Reference.map" />
+    <None Include="Web References\localhost\vssver2.scc" />
+    <None Include="Web References\NewInterface\dataSync.wsdl" />
+    <None Include="Web References\NewInterface\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\background_mainwindow.png" />
+    <Resource Include="assets\logo_h.png" />
+    <Resource Include="assets\logo_v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj">
+      <Project>{486146fb-c7da-419f-bc4f-fdef32cd3eac}</Project>
+      <Name>ClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataSet\DYSeriesDataSet.csproj">
+      <Project>{59d197be-2ade-42d0-b089-cf975dec3f53}</Project>
+      <Name>DYSeriesDataSet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\app_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\add.ico" />
+    <Resource Include="assets\audit.ico" />
+    <Resource Include="assets\a_del.ico" />
+    <Resource Include="assets\a_notAudit.ico" />
+    <Resource Include="assets\a_return.ico" />
+    <Resource Include="assets\a_save.ico" />
+    <Resource Include="assets\a_search.ico" />
+    <Resource Include="note.txt" />
+    <Resource Include="assets\fusion.png" />
+    <Resource Include="App.ICO" />
+    <Resource Include="assets\Curve.png" />
+    <Resource Include="assets\Reset.png" />
+    <Resource Include="app_icon.ico" />
+    <Resource Include="assets\sampleValue.png" />
+    <Resource Include="assets\alarm.png" />
+    <Resource Include="dongying.ico" />
+    <Resource Include="assets\Search.png" />
+    <Resource Include="assets\logo_kjfw.png" />
+    <Resource Include="assets\dongying.ico" />
+    <Resource Include="assets\shan.png" />
+    <Resource Include="assets\tishi.png" />
+    <Content Include="Web References\ForNet\DataDriver.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Themes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://124.42.240.136:6089/sacmfda/services/dataSync%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\NewInterface\</RelPath>
+      <UpdateFromURL>http://124.42.240.136:6089/sacmfda/services/dataSync%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DY_Detector_NewInterface_dataSync</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

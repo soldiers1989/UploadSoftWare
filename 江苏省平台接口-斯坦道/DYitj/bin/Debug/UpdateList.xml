@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>DY-3500_JiangSu autoUpdate</description>
+  <Updater>
+    <Url>http://rj.chinafst.cn:8099/DY-3500_JiangSu/</Url>
+    <LastUpdateTime>2017-10-13</LastUpdateTime>
+  </Updater>
+  <Application applicationId="DY-Detector">
+    <EntryPoint>DY-Detector.exe</EntryPoint>
+    <Location>.</Location>
+    <Version>1.0.0.0</Version>
+  </Application>
+  <Files>
+    <File Ver="1.0.0.0" Name="ClassLibrary.dll" />
+    <File Ver="1.0.0.0" Name="DataSet.dll" />
+    <File Ver="1.0.0.0" Name="DY-Detector.exe" />
+    <File Ver="1.0.0.0" Name="DY-Detector.exe.Config" />
+    <File Ver="1.0.0.0" Name="AxInterop.APlayer3Lib.dll" />
+    <File Ver="1.0.0.0" Name="Interop.APlayer3Lib.dll" />
+    <File Ver="1.0.0.0" Name="DY.Process.dll" />
+    <File Ver="1.0.0.0" Name="DynamicDataDisplay.dll" />
+    <File Ver="1.0.0.0" Name="ICSharpCode.SharpZipLib.dll" />
+    <File Ver="1.0.0.0" Name="JsonObject.dll" />
+    <File Ver="1.0.0.0" Name="Newtonsoft.Json.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.OOXML.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.OpenXml4Net.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.OpenXmlFormats.dll" />
+    <File Ver="1.0.0.0" Name="ThreadMessaging.dll" />
+    <File Ver="1.0.0.0" Name="UpdateList.xml" />
+    <File Ver="1.0.0.0" Name="WpfPerformance.exe" />
+    <File Ver="1.0.0.0" Name="WPFVisifire.Charts.dll" />
+    <File Ver="1.0.0.0" Name="Accounts\FoodClass.dat" />
+    <File Ver="1.0.0.0" Name="Accounts\userAccounts.dat" />
+    <File Ver="1.0.0.0" Name="Data\local.Mdb" />
+    <File Ver="1.0.0.0" Name="Items\fgdItems.dat" />
+    <File Ver="1.0.0.0" Name="Items\fgdItems.xml" />
+    <File Ver="1.0.0.0" Name="Items\gszItems.dat" />
+    <File Ver="1.0.0.0" Name="Items\hmItems.dat" />
+    <File Ver="1.0.0.0" Name="Items\jtjItems.dat" />
+    <File Ver="1.0.0.0" Name="Items\Items.zip" />
+    <File Ver="1.0.0.0" Name="Others\deviceHole.dat" />
+  </Files>
+  <UpdateNotes>
+    <UpdateNote Note="DY-3500食品综合分析仪_V2.4.2.170928_江苏省"/>
+    <UpdateNote Note=" "/>
+    <UpdateNote Note="版本更新说明："/>
+    <UpdateNote Note=" "/>
+    <UpdateNote Note="- 1.江苏省局定制版（对接斯坦道接口）"/>
+    <UpdateNote Note=" "/>
+    <UpdateNote Note="新版本更新预告："/>
+    <UpdateNote Note="- 暂无。"/>
+    <UpdateNote Note=" "/>
+    <UpdateNote Note="备注：新版本更新预告内容仅供参考。"/>
+  </UpdateNotes>
+</AutoUpdater>

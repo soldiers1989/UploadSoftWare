@@ -1,0 +1,24 @@
+11:48:54
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.JtjReportWindow.CalcResult() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1341
+
+11:52:29
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.JtjReportWindow.CalcResult() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1341
+
+11:53:22
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.JtjReportWindow.CalcResult() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1341
+
+12:01:06
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.JtjReportWindow.CalcResult() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1341
+
+12:01:16
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.JtjReportWindow.CalcResult() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1341
+
+12:01:31
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.JtjReportWindow.CalcResult() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1341
+

@@ -1,0 +1,12 @@
+ID:050100040001005895
+Pwd:111111
+
+http://www.fubosoft.com/CommonService/MService.asmx
+
+
+
+
+调用服务地址：http://122.227.66.178:8080/CommonService/MService.asmx
+
+ID:050100040001005895
+Pwd:111111

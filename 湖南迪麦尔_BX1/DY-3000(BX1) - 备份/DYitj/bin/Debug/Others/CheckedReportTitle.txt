@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<style>
+body{ margin:0; font-family:'微软雅黑';}
+#main{ width:840px; height:100%; margin:0 auto; overflow:auto;}
+span{ font-size:18px; float:left; margin-top:26px; margin-left:10px;}
+.title,.form,.form2,.form_01,.form_box,.form_02,.form_box_01,.conclusion,.FM,.NT{float:left;}
+.title{ letter-spacing:2px; font-size:30px; margin-left:290px; margin-top:50px;}
+.number{ float:right; margin-right:38px; margin-top:120px; font-size:16px;}
+.form{ width:758px; height:868px; margin-left:20px; margin-top:16px; border:1px #000000 solid;}
+.form_01{ height:76px; width:798px; border-bottom:1px #000000 solid;}
+.form_box{ width:189px; height:76px; border-right:1px #000000 solid;}
+.form_02{ width:758px; height:54px; border-bottom:1px #000000 solid;}
+.form_box_01{ width:150px; height:54px; border-right:1px #000000 solid;}
+.FM{ font-size:18px; margin-top:15px; margin-left:44px;}
+.form2{width:758px; height:340px; border-bottom:1px #000000 solid;}
+.conclusion{ margin-left:20px; font-size:18px; margin-top:20px;}
+.unit{ float:left; font-size:18px; margin-top:260px; margin-left:442px;}
+.note{ width:758px; height:54px;}
+.NT{ font-size:16px; margin-top:16px;}
+.personnel{ float:left; margin-top:30px; font-size:18px; margin-left:100px;}
+.img{ float:right; margin-top:64px; margin-right:-10px;}
+
+.as{border:1px #000000 solid; border-right:hidden;}
+.bs,.ds{border:1px #000000 solid; border-right:hidden; border-top:hidden;}
+.box{ border-right:1px #000000 solid;}
+.forming{width:758px; height:340px; border:1px #000000 solid; border-top:hidden; float:left;}
+#unique{border:1px #000000 solid;border-top:hidden;}
+</style>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+
+<body>
+	<div id="main">
+    
+    	<div class="title">食品安全快检报告</div>

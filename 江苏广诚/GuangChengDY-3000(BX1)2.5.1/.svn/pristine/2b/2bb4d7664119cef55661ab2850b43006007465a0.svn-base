@@ -1,0 +1,4 @@
+15:47:25
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcResult() 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 533
+

@@ -1,0 +1,122 @@
+﻿<Window x:Class="AIO.xaml.KjService.ReceiveTasks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KjTasks" 
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        FontFamily="SimHei" 
+        Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="任务查询管理" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+            <Label Content="" FontSize="20" Foreground="{StaticResource ForeGroudColorText}" HorizontalAlignment="Right" Name="LabelInfo" VerticalAlignment="Bottom" Width="200" Margin="0,0,6,0" />
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" >
+            <Button Name="Btn_Refresh" Height="60" VerticalAlignment="Center" Margin="20,20,0,20" Content="刷  新" FontSize="24" Click="Btn_Refresh_Click" HorizontalAlignment="Left" Width="100" />
+            <Button Name="Btn_Show" Height="60" VerticalAlignment="Center" Margin="125,20,0,20" Content="查看详情" FontSize="24" Click="Btn_Show_Click" HorizontalAlignment="Left" Width="100" />
+            <Button Name="Btn_Home" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,20,20"  Content="返回" FontSize="24" Click="Btn_Home_Click"/>
+        </Grid>
+
+        <!-- 中 -->
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <StackPanel Orientation="Vertical" Margin="0,0,0,0">
+                <StackPanel VerticalAlignment="Center" Orientation="Vertical" Margin="12,0" Height="36">
+                    <Grid Height="35">
+                        <StackPanel Width="1000" Height="30"  Margin="0,2,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                            <StackPanel Height="30"  HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                                <Label FontSize="16" Content="任务编号" Height="30" VerticalContentAlignment="Center" />
+                                <TextBox Name="Txt_TaskCode" Width="135" FontSize="16" Height="25" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" />
+                            </StackPanel>
+                            <StackPanel Height="30"  Margin="10,0,0,0" Orientation="Horizontal" >
+                                <Label FontSize="16" Content="任务标题" Height="30" VerticalContentAlignment="Center"  />
+                                <TextBox Name="Txt_TaskTitle" Width="135" FontSize="16" Height="25" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" />
+                            </StackPanel>
+                            <StackPanel Height="30"  Margin="10,0,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                                <Label FontSize="16" Content="任务内容" Height="30" VerticalContentAlignment="Center" />
+                                <TextBox Name="Txt_TaskContent" Width="135" FontSize="16" Height="25" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" />
+                            </StackPanel>
+                            <StackPanel Height="30"  Margin="10,0,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" />
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+
+                <DataGrid Name="DataGridRecord" Height="480" ItemsSource="{Binding}" AutoGenerateColumns="false" IsReadOnly="True" SelectionChanged="DataGridRecord_SelectionChanged" MouseDoubleClick="DataGridRecord_MouseDoubleClick" LoadingRow="DataGridRecord_LoadingRow" FontSize="16" Margin="12,0" >
+                    <DataGrid.ContextMenu>
+                        <ContextMenu Name="DataGridMenu" StaysOpen="true">
+                            <MenuItem Name="miRefresh" Click="Btn_Refresh_Click" Header="刷新"/>
+                            <MenuItem Name="miShow" Click="Btn_Show_Click" Header="查看详情"/>
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="发布日期" Binding="{Binding Path = t_task_cdate}"/>
+                        <DataGridTextColumn Header="主任务ID" Binding="{Binding Path = t_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务编号" Binding="{Binding Path = t_task_code}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务标题" Binding="{Binding Path = t_task_title}"/>
+                        <DataGridTextColumn Header="任务内容" Binding="{Binding Path = t_task_content}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="检测样品" Binding="{Binding Path = d_sample}" />
+                        <DataGridTextColumn Header="检测项目" Binding="{Binding Path = d_item}" />
+                        <DataGridTextColumn Header="二级分发任务父ID" Binding="{Binding Path = t_task_detail_pId}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="归属项目ID" Binding="{Binding Path = t_project_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务类型" Binding="{Binding Path = t_task_type}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务来源" Binding="{Binding Path = t_task_source}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务状态" Binding="{Binding Path = t_task_status}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务数量" Binding="{Binding Path =  d_task_total}"/>
+                        <DataGridTextColumn Header="已完成数量" Binding="{Binding Path = t_sample_number}"/>
+                        <DataGridTextColumn Header="起始日期" Binding="{Binding Path = t_task_sdate}"/>
+                        <DataGridTextColumn Header="结束日期" Binding="{Binding Path = t_task_edate}"/>
+                        <DataGridTextColumn Header="警报时间" Binding="{Binding Path = t_task_pdate}"/>
+                        <DataGridTextColumn Header="完成日期" Binding="{Binding Path = t_task_fdate}"/>
+                        <DataGridTextColumn Header="发布任务组织ID" Binding="{Binding Path = t_task_departId}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="发布任务人ID" Binding="{Binding Path = t_task_announcer}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="备注" Binding="{Binding Path = t_remark}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="查看状态" Binding="{Binding Path = t_view_flag}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="删除状态" Binding="{Binding Path = t_delete_flag}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="附件" Binding="{Binding Path = t_file_path}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="创建人id" Binding="{Binding Path = t_create_by}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="创建时间" Binding="{Binding Path = t_create_date}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="修改人id" Binding="{Binding Path = t_update_by}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="修改时间" Binding="{Binding Path = t_update_date}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务明细ID" Binding="{Binding Path = d_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="主任务ID" Binding="{Binding Path = d_task_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务明细编号" Binding="{Binding Path = d_detail_code}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="检测样品ID" Binding="{Binding Path = d_sample_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="检测项目ID" Binding="{Binding Path = d_item_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="完成日期" Binding="{Binding Path = d_task_fdate}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="接收检测机构ID" Binding="{Binding Path = d_receive_pointid}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="接收检测机构名称" Binding="{Binding Path = d_receive_point}"/>
+                        <DataGridTextColumn Header="接收检测点ID" Binding="{Binding Path = d_receive_nodeid}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="接收检测点" Binding="{Binding Path = d_receive_node}"/>
+                        <DataGridTextColumn Header="任务接收人ID" Binding="{Binding Path = d_receive_userid}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务接收人名称" Binding="{Binding Path = d_receive_username}"/>
+                        <DataGridTextColumn Header="接收状态" Binding="{Binding Path = d_receive_status}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务数量总数" Binding="{Binding Path = t_task_total}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="已抽检数量" Binding="{Binding Path = d_sample_number}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="备注" Binding="{Binding Path = d_remark}" Visibility="Collapsed"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <!--<WrapPanel Visibility="Collapsed" Height="27" Name="wrapPanel1" Margin="12,0">
+                    <Button Content="首页" FontSize="18" Height="26" Name="btnHomePage" Width="75" Click="btnHomePage_Click" />
+                    <Label Content="" Height="28" Name="label5" Width="13" />
+                    <Button Content="末页" FontSize="18" Height="26" Name="btnEndPage" Width="75" Click="btnEndPage_Click" />
+                    <Label Content="" Height="28" Name="label4" Width="32" />
+                    <Button Content="上一页" FontSize="18" Height="26" Name="btnUpPage" Width="75" Click="btnUpPage_Click" />
+                    <Label Content="" Height="28" Name="label1" Width="13" />
+                    <Button Content="下一页" FontSize="18" Height="26" Name="btnNextPage" Width="75" Click="btnNextPage_Click" />
+                    <Label Content="  跳转到第" FontSize="18" Height="28" Name="label2" Width="100" />
+                    <TextBox Height="23" Name="textBoxPage" FontSize="18" Width="32" TextChanged="textBoxPage_TextChanged" />
+                    <Label Content="页" FontSize="18" Height="28" Name="label3" Width="30" />
+                    <Button Content="GO" FontSize="18" Height="26" Name="btnGo" Width="41" Click="btnGo_Click" />
+                    <Label Content="" Height="28" FontSize="18" Name="labelCount" Width="342" />
+                </WrapPanel>-->
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

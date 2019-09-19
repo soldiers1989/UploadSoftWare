@@ -1,0 +1,13 @@
+16:54:34
+System.Net.WebException: 请求失败，错误信息为:
+--
+<html><head><title>302 Moved Temporarily</title></head>
+<body bgcolor="#FFFFFF">
+<p>This document you requested has moved temporarily.</p>
+<p>It's now at <a href="http://www.anxuan360.com:9091/open/">http://www.anxuan360.com:9091/open/</a>.</p>
+</body></html>
+
+--.
+   在 AIO.WorkThread.DownLoadAllData(String url, String checkNumber, String checkName, String checkType, String checkOrg, String user, String pwd, String downType) 位置 d:\数据上传\浙江接口\DY-3000(BX1)浙江新\DYitj\src\WorkThread.cs:行号 2939
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 d:\数据上传\浙江接口\DY-3000(BX1)浙江新\DYitj\src\WorkThread.cs:行号 1094
+

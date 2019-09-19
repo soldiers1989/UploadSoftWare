@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://111.1.62.181/Put.jws" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://111.1.62.181/Put.jws" targetNamespace="http://111.1.62.181/Put.jws" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="saveExResponse">
+    <wsdl:part name="saveExReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="saveRequest">
+    <wsdl:part name="name" type="xsd:string" />
+    <wsdl:part name="checkPrj" type="xsd:string" />
+    <wsdl:part name="clazz" type="xsd:string" />
+    <wsdl:part name="mode" type="xsd:string" />
+    <wsdl:part name="dept" type="xsd:string" />
+    <wsdl:part name="checker" type="xsd:string" />
+    <wsdl:part name="demoId" type="xsd:string" />
+    <wsdl:part name="pdtSource" type="xsd:string" />
+    <wsdl:part name="cksAddr" type="xsd:string" />
+    <wsdl:part name="formats" type="xsd:string" />
+    <wsdl:part name="valueFmt" type="xsd:anyType" />
+    <wsdl:part name="valueTru" type="xsd:anyType" />
+    <wsdl:part name="oneResults" type="xsd:string" />
+    <wsdl:part name="checkDate" type="xsd:dateTime" />
+    <wsdl:part name="uploadDate" type="xsd:dateTime" />
+    <wsdl:part name="factorys" type="xsd:string" />
+    <wsdl:part name="factoryDate" type="xsd:dateTime" />
+    <wsdl:part name="comp" type="xsd:string" />
+    <wsdl:part name="compType" type="xsd:string" />
+    <wsdl:part name="macComp" type="xsd:string" />
+    <wsdl:part name="cksGetDate" type="xsd:dateTime" />
+    <wsdl:part name="results" type="xsd:string" />
+    <wsdl:part name="id" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="saveExRequest">
+    <wsdl:part name="name" type="xsd:string" />
+    <wsdl:part name="checkPrj" type="xsd:string" />
+    <wsdl:part name="clazz" type="xsd:string" />
+    <wsdl:part name="mode" type="xsd:string" />
+    <wsdl:part name="dept" type="xsd:string" />
+    <wsdl:part name="checker" type="xsd:string" />
+    <wsdl:part name="demoId" type="xsd:string" />
+    <wsdl:part name="pdtSource" type="xsd:string" />
+    <wsdl:part name="cksAddr" type="xsd:string" />
+    <wsdl:part name="formats" type="xsd:string" />
+    <wsdl:part name="valueFmt" type="xsd:string" />
+    <wsdl:part name="valueTru" type="xsd:string" />
+    <wsdl:part name="oneResults" type="xsd:string" />
+    <wsdl:part name="checkDate" type="xsd:dateTime" />
+    <wsdl:part name="uploadDate" type="xsd:dateTime" />
+    <wsdl:part name="factorys" type="xsd:string" />
+    <wsdl:part name="factoryDate" type="xsd:dateTime" />
+    <wsdl:part name="comp" type="xsd:string" />
+    <wsdl:part name="compType" type="xsd:string" />
+    <wsdl:part name="macComp" type="xsd:string" />
+    <wsdl:part name="cksGetDate" type="xsd:dateTime" />
+    <wsdl:part name="results" type="xsd:string" />
+    <wsdl:part name="id" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="saveResponse">
+    <wsdl:part name="saveReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="saveExScResponse">
+    <wsdl:part name="saveExScReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="saveExScRequest">
+    <wsdl:part name="name" type="xsd:string" />
+    <wsdl:part name="checkPrj" type="xsd:string" />
+    <wsdl:part name="clazz" type="xsd:string" />
+    <wsdl:part name="mode" type="xsd:string" />
+    <wsdl:part name="dept" type="xsd:string" />
+    <wsdl:part name="checker" type="xsd:string" />
+    <wsdl:part name="demoId" type="xsd:string" />
+    <wsdl:part name="pdtSource" type="xsd:string" />
+    <wsdl:part name="cksAddr" type="xsd:string" />
+    <wsdl:part name="formats" type="xsd:string" />
+    <wsdl:part name="valueFmt" type="xsd:string" />
+    <wsdl:part name="valueTru" type="xsd:string" />
+    <wsdl:part name="oneResults" type="xsd:string" />
+    <wsdl:part name="checkDate" type="xsd:dateTime" />
+    <wsdl:part name="uploadDate" type="xsd:dateTime" />
+    <wsdl:part name="factorys" type="xsd:string" />
+    <wsdl:part name="factoryDate" type="xsd:dateTime" />
+    <wsdl:part name="comp" type="xsd:string" />
+    <wsdl:part name="compType" type="xsd:string" />
+    <wsdl:part name="macComp" type="xsd:string" />
+    <wsdl:part name="cksGetDate" type="xsd:dateTime" />
+    <wsdl:part name="results" type="xsd:string" />
+    <wsdl:part name="id" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="Put">
+    <wsdl:operation name="save" parameterOrder="name checkPrj clazz mode dept checker demoId pdtSource cksAddr formats valueFmt valueTru oneResults checkDate uploadDate factorys factoryDate comp compType macComp cksGetDate results id">
+      <wsdl:input name="saveRequest" message="impl:saveRequest" />
+      <wsdl:output name="saveResponse" message="impl:saveResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="saveEx" parameterOrder="name checkPrj clazz mode dept checker demoId pdtSource cksAddr formats valueFmt valueTru oneResults checkDate uploadDate factorys factoryDate comp compType macComp cksGetDate results id">
+      <wsdl:input name="saveExRequest" message="impl:saveExRequest" />
+      <wsdl:output name="saveExResponse" message="impl:saveExResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="saveExSc" parameterOrder="name checkPrj clazz mode dept checker demoId pdtSource cksAddr formats valueFmt valueTru oneResults checkDate uploadDate factorys factoryDate comp compType macComp cksGetDate results id">
+      <wsdl:input name="saveExScRequest" message="impl:saveExScRequest" />
+      <wsdl:output name="saveExScResponse" message="impl:saveExScResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PutSoapBinding" type="impl:Put">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="save">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="saveRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="saveResponse">
+        <wsdlsoap:body use="encoded" namespace="http://111.1.62.181/Put.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveEx">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="saveExRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="saveExResponse">
+        <wsdlsoap:body use="encoded" namespace="http://111.1.62.181/Put.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveExSc">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="saveExScRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="saveExScResponse">
+        <wsdlsoap:body use="encoded" namespace="http://111.1.62.181/Put.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PutService">
+    <wsdl:port name="Put" binding="impl:PutSoapBinding">
+      <wsdlsoap:address location="http://111.1.62.181/Put.jws" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

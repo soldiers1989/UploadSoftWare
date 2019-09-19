@@ -1,0 +1,12 @@
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnMessageEventHandler 生成存根: 类型已密封。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnStateChangedEventHandler 生成存根: 类型已密封。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnSeekCompletedEventHandler 生成存根: 类型已密封。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnBufferEventHandler 生成存根: 类型已密封。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnDownloadCodecEventHandler 生成存根: 类型已密封。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnEventEventHandler 生成存根: 类型已密封。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnMessageEventHandler 生成填充码: 类型是一个委托。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnStateChangedEventHandler 生成填充码: 类型是一个委托。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnSeekCompletedEventHandler 生成填充码: 类型是一个委托。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnBufferEventHandler 生成填充码: 类型是一个委托。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnDownloadCodecEventHandler 生成填充码: 类型是一个委托。
+F:\Projects\SVN\DY-3000(BX1)\DYitj\Fakes\AxInterop.APlayer3Lib.fakes : warning : 无法为 AxAPlayer3Lib._IPlayerEvents_OnEventEventHandler 生成填充码: 类型是一个委托。

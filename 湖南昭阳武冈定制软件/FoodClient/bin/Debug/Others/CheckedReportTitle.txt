@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<style>
+body{ margin:0; font-family:'微软雅黑';}
+#main{ width:860px; height:auto; margin:0 auto; overflow:auto;}
+
+.mc,.rq,.dh,.mingcheng,.ds,.bottom,.zc{ color:#1a1a1a;}
+.mc{ letter-spacing:2px; font-size:30px; text-align:center; padding-top:40px; font-weight:500; color:#000000;}
+.zc{ letter-spacing:2px; font-size:27px; text-align:center; padding-top:4px;}
+.sz{ font-size:16px; padding-right:60px; float:right; margin-top:20px; color:#333333;}
+.dh{ font-size:16px; float:right; margin-top:20px; font-weight:bold; margin-right:8px;}
+
+.content,.monitoring,.left_form,.organ,.neirong,.Monitor,.Mon_form,.Mon_organ,.Mon_neirong{ float:left;}
+
+.content{ width:800px; height:auto; border:1px #1a1a1a solid; margin-left:29px; margin-top:16px;}
+.monitoring{ width:800px; height:165px; border-bottom:1px #1a1a1a solid;}
+.left_form{ width:30px; height:155px; border-right:1px #1a1a1a solid; font-size:18px; margin-left:12px; padding-top:10px;}
+.organ{ width:150px; height:82px; border-right:1px #1a1a1a solid; border-bottom:1px #1a1a1a solid; text-align:center;}
+.neirong{ width:606px; height:82px; border-bottom:1px #1a1a1a solid;}
+.wenan{ font-size:18px; line-height:80px; font-weight:600;}
+.wenan_box{ font-size:17px; line-height:80px;}
+
+.Monitor{ width:800px; height:250px; border-bottom:1px #1a1a1a solid;}
+.Mon_form{ width:30px; height:201px; border-right:1px #1a1a1a solid; font-size:18px; margin-left:12px; padding-top:50px;}
+.Mon_organ{ width:90px; height:49px; border-right:1px #1a1a1a solid; border-bottom:1px #1a1a1a solid; text-align:center;}
+.Mon_wenan{ font-size:18px; line-height:50px; font-weight:600;}
+.Mon_wenan_box{ font-size:17px; line-height:50px;}
+.Mon_neirong{ width:90px; height:49px; border-bottom:1px #1a1a1a solid; border-right:1px #1a1a1a solid;}
+
+.seal{ width:400px; height:210px; float:left; border-right:1px #1a1a1a solid;}
+.seal_wenzi{ float:left; font-size:18px; margin-top:12px; margin-left:18px;}
+</style>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+	<div id="main">        	
+        <div class="mc">武冈市农产品质量安全检验检测站</div>
+        <div class="zc">农产品质量检测报告单</div>         
+        <div class="sz">001001002001SG1707190001</div>
+        <div class="dh">抽样单号 :</div>

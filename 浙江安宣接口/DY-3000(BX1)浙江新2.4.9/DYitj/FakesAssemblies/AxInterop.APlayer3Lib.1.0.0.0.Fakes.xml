@@ -1,0 +1,1940 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AxInterop.APlayer3Lib.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AxAPlayer3Lib.Fakes.ShimAxPlayer">
+            <summary>AxAPlayer3Lib.AxPlayer 的填充码类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.#ctor(AxAPlayer3Lib.AxPlayer)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.Bind(System.ComponentModel.IComponent)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.Bind(System.ComponentModel.ICustomTypeDescriptor)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.Bind(System.ComponentModel.ISupportInitialize)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayer.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AttachInterfaces">
+            <summary>设置 AxPlayer.AttachInterfaces() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.Close">
+            <summary>设置 AxPlayer.Close() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.Constructor">
+            <summary>设置 AxPlayer.AxPlayer() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.CreateSink">
+            <summary>设置 AxPlayer.CreateSink() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.DetachSink">
+            <summary>设置 AxPlayer.DetachSink() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.GetBufferProgress">
+            <summary>设置 AxPlayer.GetBufferProgress() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.GetConfigInt32">
+            <summary>设置 AxPlayer.GetConfig(Int32 nConfigId) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.GetDuration">
+            <summary>设置 AxPlayer.GetDuration() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.GetPosition">
+            <summary>设置 AxPlayer.GetPosition() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.GetState">
+            <summary>设置 AxPlayer.GetState() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.GetVersion">
+            <summary>设置 AxPlayer.GetVersion() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.GetVideoHeight">
+            <summary>设置 AxPlayer.GetVideoHeight() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.GetVideoWidth">
+            <summary>设置 AxPlayer.GetVideoWidth() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.GetVolume">
+            <summary>设置 AxPlayer.GetVolume() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.IsSeeking">
+            <summary>设置 AxPlayer.IsSeeking() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnBufferAdd_IPlayerEvents_OnBufferEventHandler">
+            <summary>设置 AxPlayer.add_OnBuffer(_IPlayerEvents_OnBufferEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnBufferRemove_IPlayerEvents_OnBufferEventHandler">
+            <summary>设置 AxPlayer.remove_OnBuffer(_IPlayerEvents_OnBufferEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnDownloadCodecAdd_IPlayerEvents_OnDownloadCodecEventHandler">
+            <summary>设置 AxPlayer.add_OnDownloadCodec(_IPlayerEvents_OnDownloadCodecEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnDownloadCodecRemove_IPlayerEvents_OnDownloadCodecEventHandler">
+            <summary>设置 AxPlayer.remove_OnDownloadCodec(_IPlayerEvents_OnDownloadCodecEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnEventAdd_IPlayerEvents_OnEventEventHandler">
+            <summary>设置 AxPlayer.add_OnEvent(_IPlayerEvents_OnEventEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnEventRemove_IPlayerEvents_OnEventEventHandler">
+            <summary>设置 AxPlayer.remove_OnEvent(_IPlayerEvents_OnEventEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnMessageAdd_IPlayerEvents_OnMessageEventHandler">
+            <summary>设置 AxPlayer.add_OnMessage(_IPlayerEvents_OnMessageEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnMessageRemove_IPlayerEvents_OnMessageEventHandler">
+            <summary>设置 AxPlayer.remove_OnMessage(_IPlayerEvents_OnMessageEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnOpenSucceededAddEventHandler">
+            <summary>设置 AxPlayer.add_OnOpenSucceeded(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnOpenSucceededRemoveEventHandler">
+            <summary>设置 AxPlayer.remove_OnOpenSucceeded(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnSeekCompletedAdd_IPlayerEvents_OnSeekCompletedEventHandler">
+            <summary>设置 AxPlayer.add_OnSeekCompleted(_IPlayerEvents_OnSeekCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnSeekCompletedRemove_IPlayerEvents_OnSeekCompletedEventHandler">
+            <summary>设置 AxPlayer.remove_OnSeekCompleted(_IPlayerEvents_OnSeekCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnStateChangedAdd_IPlayerEvents_OnStateChangedEventHandler">
+            <summary>设置 AxPlayer.add_OnStateChanged(_IPlayerEvents_OnStateChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnStateChangedRemove_IPlayerEvents_OnStateChangedEventHandler">
+            <summary>设置 AxPlayer.remove_OnStateChanged(_IPlayerEvents_OnStateChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnVideoSizeChangedAddEventHandler">
+            <summary>设置 AxPlayer.add_OnVideoSizeChanged(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OnVideoSizeChangedRemoveEventHandler">
+            <summary>设置 AxPlayer.remove_OnVideoSizeChanged(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.OpenString">
+            <summary>设置 AxPlayer.Open(String strUrl) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.Pause">
+            <summary>设置 AxPlayer.Pause() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.Play">
+            <summary>设置 AxPlayer.Play() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.RaiseOnOnBufferObject_IPlayerEvents_OnBufferEvent">
+            <summary>设置 AxPlayer.RaiseOnOnBuffer(Object sender, _IPlayerEvents_OnBufferEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.RaiseOnOnDownloadCodecObject_IPlayerEvents_OnDownloadCodecEvent">
+            <summary>设置 AxPlayer.RaiseOnOnDownloadCodec(Object sender, _IPlayerEvents_OnDownloadCodecEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.RaiseOnOnEventObject_IPlayerEvents_OnEventEvent">
+            <summary>设置 AxPlayer.RaiseOnOnEvent(Object sender, _IPlayerEvents_OnEventEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.RaiseOnOnMessageObject_IPlayerEvents_OnMessageEvent">
+            <summary>设置 AxPlayer.RaiseOnOnMessage(Object sender, _IPlayerEvents_OnMessageEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.RaiseOnOnOpenSucceededObjectEventArgs">
+            <summary>设置 AxPlayer.RaiseOnOnOpenSucceeded(Object sender, EventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.RaiseOnOnSeekCompletedObject_IPlayerEvents_OnSeekCompletedEvent">
+            <summary>设置 AxPlayer.RaiseOnOnSeekCompleted(Object sender, _IPlayerEvents_OnSeekCompletedEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.RaiseOnOnStateChangedObject_IPlayerEvents_OnStateChangedEvent">
+            <summary>设置 AxPlayer.RaiseOnOnStateChanged(Object sender, _IPlayerEvents_OnStateChangedEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.RaiseOnOnVideoSizeChangedObjectEventArgs">
+            <summary>设置 AxPlayer.RaiseOnOnVideoSizeChanged(Object sender, EventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.SetConfigInt32String">
+            <summary>设置 AxPlayer.SetConfig(Int32 nConfigId, String strValue) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.SetCustomLogoInt32">
+            <summary>设置 AxPlayer.SetCustomLogo(Int32 nLogo) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.SetPositionInt32">
+            <summary>设置 AxPlayer.SetPosition(Int32 nPosition) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.SetVolumeInt32">
+            <summary>设置 AxPlayer.SetVolume(Int32 nVolume) 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.AttachInterfaces">
+            <summary>设置 AxPlayer.AttachInterfaces() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.Close">
+            <summary>设置 AxPlayer.Close() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.CreateSink">
+            <summary>设置 AxPlayer.CreateSink() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.DetachSink">
+            <summary>设置 AxPlayer.DetachSink() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.GetBufferProgress">
+            <summary>设置 AxPlayer.GetBufferProgress() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.GetConfigInt32">
+            <summary>设置 AxPlayer.GetConfig(Int32 nConfigId) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.GetDuration">
+            <summary>设置 AxPlayer.GetDuration() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.GetPosition">
+            <summary>设置 AxPlayer.GetPosition() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.GetState">
+            <summary>设置 AxPlayer.GetState() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.GetVersion">
+            <summary>设置 AxPlayer.GetVersion() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.GetVideoHeight">
+            <summary>设置 AxPlayer.GetVideoHeight() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.GetVideoWidth">
+            <summary>设置 AxPlayer.GetVideoWidth() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.GetVolume">
+            <summary>设置 AxPlayer.GetVolume() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.IsSeeking">
+            <summary>设置 AxPlayer.IsSeeking() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnBufferAdd_IPlayerEvents_OnBufferEventHandler">
+            <summary>设置 AxPlayer.add_OnBuffer(_IPlayerEvents_OnBufferEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnBufferRemove_IPlayerEvents_OnBufferEventHandler">
+            <summary>设置 AxPlayer.remove_OnBuffer(_IPlayerEvents_OnBufferEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnDownloadCodecAdd_IPlayerEvents_OnDownloadCodecEventHandler">
+            <summary>设置 AxPlayer.add_OnDownloadCodec(_IPlayerEvents_OnDownloadCodecEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnDownloadCodecRemove_IPlayerEvents_OnDownloadCodecEventHandler">
+            <summary>设置 AxPlayer.remove_OnDownloadCodec(_IPlayerEvents_OnDownloadCodecEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnEventAdd_IPlayerEvents_OnEventEventHandler">
+            <summary>设置 AxPlayer.add_OnEvent(_IPlayerEvents_OnEventEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnEventRemove_IPlayerEvents_OnEventEventHandler">
+            <summary>设置 AxPlayer.remove_OnEvent(_IPlayerEvents_OnEventEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnMessageAdd_IPlayerEvents_OnMessageEventHandler">
+            <summary>设置 AxPlayer.add_OnMessage(_IPlayerEvents_OnMessageEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnMessageRemove_IPlayerEvents_OnMessageEventHandler">
+            <summary>设置 AxPlayer.remove_OnMessage(_IPlayerEvents_OnMessageEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnOpenSucceededAddEventHandler">
+            <summary>设置 AxPlayer.add_OnOpenSucceeded(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnOpenSucceededRemoveEventHandler">
+            <summary>设置 AxPlayer.remove_OnOpenSucceeded(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnSeekCompletedAdd_IPlayerEvents_OnSeekCompletedEventHandler">
+            <summary>设置 AxPlayer.add_OnSeekCompleted(_IPlayerEvents_OnSeekCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnSeekCompletedRemove_IPlayerEvents_OnSeekCompletedEventHandler">
+            <summary>设置 AxPlayer.remove_OnSeekCompleted(_IPlayerEvents_OnSeekCompletedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnStateChangedAdd_IPlayerEvents_OnStateChangedEventHandler">
+            <summary>设置 AxPlayer.add_OnStateChanged(_IPlayerEvents_OnStateChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnStateChangedRemove_IPlayerEvents_OnStateChangedEventHandler">
+            <summary>设置 AxPlayer.remove_OnStateChanged(_IPlayerEvents_OnStateChangedEventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnVideoSizeChangedAddEventHandler">
+            <summary>设置 AxPlayer.add_OnVideoSizeChanged(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OnVideoSizeChangedRemoveEventHandler">
+            <summary>设置 AxPlayer.remove_OnVideoSizeChanged(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.OpenString">
+            <summary>设置 AxPlayer.Open(String strUrl) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.Pause">
+            <summary>设置 AxPlayer.Pause() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.Play">
+            <summary>设置 AxPlayer.Play() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.RaiseOnOnBufferObject_IPlayerEvents_OnBufferEvent">
+            <summary>设置 AxPlayer.RaiseOnOnBuffer(Object sender, _IPlayerEvents_OnBufferEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.RaiseOnOnDownloadCodecObject_IPlayerEvents_OnDownloadCodecEvent">
+            <summary>设置 AxPlayer.RaiseOnOnDownloadCodec(Object sender, _IPlayerEvents_OnDownloadCodecEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.RaiseOnOnEventObject_IPlayerEvents_OnEventEvent">
+            <summary>设置 AxPlayer.RaiseOnOnEvent(Object sender, _IPlayerEvents_OnEventEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.RaiseOnOnMessageObject_IPlayerEvents_OnMessageEvent">
+            <summary>设置 AxPlayer.RaiseOnOnMessage(Object sender, _IPlayerEvents_OnMessageEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.RaiseOnOnOpenSucceededObjectEventArgs">
+            <summary>设置 AxPlayer.RaiseOnOnOpenSucceeded(Object sender, EventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.RaiseOnOnSeekCompletedObject_IPlayerEvents_OnSeekCompletedEvent">
+            <summary>设置 AxPlayer.RaiseOnOnSeekCompleted(Object sender, _IPlayerEvents_OnSeekCompletedEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.RaiseOnOnStateChangedObject_IPlayerEvents_OnStateChangedEvent">
+            <summary>设置 AxPlayer.RaiseOnOnStateChanged(Object sender, _IPlayerEvents_OnStateChangedEvent e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.RaiseOnOnVideoSizeChangedObjectEventArgs">
+            <summary>设置 AxPlayer.RaiseOnOnVideoSizeChanged(Object sender, EventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.SetConfigInt32String">
+            <summary>设置 AxPlayer.SetConfig(Int32 nConfigId, String strValue) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.SetCustomLogoInt32">
+            <summary>设置 AxPlayer.SetCustomLogo(Int32 nLogo) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.SetPositionInt32">
+            <summary>设置 AxPlayer.SetPosition(Int32 nPosition) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayer.AllInstances.SetVolumeInt32">
+            <summary>设置 AxPlayer.SetVolume(Int32 nVolume) 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster">
+            <summary>AxAPlayer3Lib.AxPlayerEventMulticaster 的填充码类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.#ctor(AxAPlayer3Lib.AxPlayerEventMulticaster)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.Bind(APlayer3Lib._IPlayerEvents)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.ConstructorAxPlayer">
+            <summary>设置 AxPlayerEventMulticaster.AxPlayerEventMulticaster(AxPlayer parent) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.OnBufferInt32">
+            <summary>设置 AxPlayerEventMulticaster.OnBuffer(Int32 nPercent) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.OnDownloadCodecString">
+            <summary>设置 AxPlayerEventMulticaster.OnDownloadCodec(String strCodecPath) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.OnEventInt32Int32">
+            <summary>设置 AxPlayerEventMulticaster.OnEvent(Int32 nEventCode, Int32 nEventParam) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.OnMessageInt32Int32Int32">
+            <summary>设置 AxPlayerEventMulticaster.OnMessage(Int32 nMessage, Int32 wParam, Int32 lParam) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.OnOpenSucceeded">
+            <summary>设置 AxPlayerEventMulticaster.OnOpenSucceeded() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.OnSeekCompletedInt32">
+            <summary>设置 AxPlayerEventMulticaster.OnSeekCompleted(Int32 nPosition) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.OnStateChangedInt32Int32">
+            <summary>设置 AxPlayerEventMulticaster.OnStateChanged(Int32 nOldState, Int32 nNewState) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.OnVideoSizeChanged">
+            <summary>设置 AxPlayerEventMulticaster.OnVideoSizeChanged() 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.AllInstances.OnBufferInt32">
+            <summary>设置 AxPlayerEventMulticaster.OnBuffer(Int32 nPercent) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.AllInstances.OnDownloadCodecString">
+            <summary>设置 AxPlayerEventMulticaster.OnDownloadCodec(String strCodecPath) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.AllInstances.OnEventInt32Int32">
+            <summary>设置 AxPlayerEventMulticaster.OnEvent(Int32 nEventCode, Int32 nEventParam) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.AllInstances.OnMessageInt32Int32Int32">
+            <summary>设置 AxPlayerEventMulticaster.OnMessage(Int32 nMessage, Int32 wParam, Int32 lParam) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.AllInstances.OnOpenSucceeded">
+            <summary>设置 AxPlayerEventMulticaster.OnOpenSucceeded() 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.AllInstances.OnSeekCompletedInt32">
+            <summary>设置 AxPlayerEventMulticaster.OnSeekCompleted(Int32 nPosition) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.AllInstances.OnStateChangedInt32Int32">
+            <summary>设置 AxPlayerEventMulticaster.OnStateChanged(Int32 nOldState, Int32 nNewState) 的 填充码</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.ShimAxPlayerEventMulticaster.AllInstances.OnVideoSizeChanged">
+            <summary>设置 AxPlayerEventMulticaster.OnVideoSizeChanged() 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnBufferEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnBufferEvent 的填充码类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnBufferEvent.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnBufferEvent.#ctor(AxAPlayer3Lib._IPlayerEvents_OnBufferEvent)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnBufferEvent.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnBufferEvent.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnBufferEvent.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnBufferEvent.ConstructorInt32">
+            <summary>设置 _IPlayerEvents_OnBufferEvent._IPlayerEvents_OnBufferEvent(Int32 nPercent) 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnBufferEvent.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnDownloadCodecEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnDownloadCodecEvent 的填充码类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnDownloadCodecEvent.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnDownloadCodecEvent.#ctor(AxAPlayer3Lib._IPlayerEvents_OnDownloadCodecEvent)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnDownloadCodecEvent.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnDownloadCodecEvent.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnDownloadCodecEvent.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnDownloadCodecEvent.ConstructorString">
+            <summary>设置 _IPlayerEvents_OnDownloadCodecEvent._IPlayerEvents_OnDownloadCodecEvent(String strCodecPath) 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnDownloadCodecEvent.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnEventEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnEventEvent 的填充码类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnEventEvent.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnEventEvent.#ctor(AxAPlayer3Lib._IPlayerEvents_OnEventEvent)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnEventEvent.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnEventEvent.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnEventEvent.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnEventEvent.ConstructorInt32Int32">
+            <summary>设置 _IPlayerEvents_OnEventEvent._IPlayerEvents_OnEventEvent(Int32 nEventCode, Int32 nEventParam) 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnEventEvent.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnMessageEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnMessageEvent 的填充码类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnMessageEvent.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnMessageEvent.#ctor(AxAPlayer3Lib._IPlayerEvents_OnMessageEvent)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnMessageEvent.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnMessageEvent.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnMessageEvent.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnMessageEvent.ConstructorInt32Int32Int32">
+            <summary>设置 _IPlayerEvents_OnMessageEvent._IPlayerEvents_OnMessageEvent(Int32 nMessage, Int32 wParam, Int32 lParam) 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnMessageEvent.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnSeekCompletedEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnSeekCompletedEvent 的填充码类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnSeekCompletedEvent.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnSeekCompletedEvent.#ctor(AxAPlayer3Lib._IPlayerEvents_OnSeekCompletedEvent)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnSeekCompletedEvent.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnSeekCompletedEvent.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnSeekCompletedEvent.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnSeekCompletedEvent.ConstructorInt32">
+            <summary>设置 _IPlayerEvents_OnSeekCompletedEvent._IPlayerEvents_OnSeekCompletedEvent(Int32 nPosition) 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnSeekCompletedEvent.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnStateChangedEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnStateChangedEvent 的填充码类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnStateChangedEvent.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnStateChangedEvent.#ctor(AxAPlayer3Lib._IPlayerEvents_OnStateChangedEvent)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnStateChangedEvent.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnStateChangedEvent.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnStateChangedEvent.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnStateChangedEvent.ConstructorInt32Int32">
+            <summary>设置 _IPlayerEvents_OnStateChangedEvent._IPlayerEvents_OnStateChangedEvent(Int32 nOldState, Int32 nNewState) 的 填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Shim_IPlayerEvents_OnStateChangedEvent.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.StubAxPlayer">
+            <summary>AxAPlayer3Lib.AxPlayer 的存根类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.AllowDropGet">
+            <summary>设置 Control.get_AllowDrop() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.AllowDropSetBoolean">
+            <summary>设置 Control.set_AllowDrop(Boolean value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.AnchorGet">
+            <summary>设置 Control.get_Anchor() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.AnchorSetAnchorStyles">
+            <summary>设置 Control.set_Anchor(AnchorStyles value) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToAllowDrop">
+            <summary>附加委托以将 StubAxPlayer.AllowDrop 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToAnchor">
+            <summary>附加委托以将 StubAxPlayer.Anchor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToAutoScrollOffset">
+            <summary>附加委托以将 StubAxPlayer.AutoScrollOffset 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToAutoSize">
+            <summary>附加委托以将 StubAxPlayer.AutoSize 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToBackColor">
+            <summary>附加委托以将 StubAxPlayer.BackColor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToBackgroundImage">
+            <summary>附加委托以将 StubAxPlayer.BackgroundImage 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToBackgroundImageLayout">
+            <summary>附加委托以将 StubAxPlayer.BackgroundImageLayout 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToBindingContext">
+            <summary>附加委托以将 StubAxPlayer.BindingContext 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToContextMenu">
+            <summary>附加委托以将 StubAxPlayer.ContextMenu 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToContextMenuStrip">
+            <summary>附加委托以将 StubAxPlayer.ContextMenuStrip 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToCursor">
+            <summary>附加委托以将 StubAxPlayer.Cursor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToDock">
+            <summary>附加委托以将 StubAxPlayer.Dock 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToDoubleBuffered">
+            <summary>附加委托以将 StubAxPlayer.DoubleBuffered 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToEnabled">
+            <summary>附加委托以将 StubAxPlayer.Enabled 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToFont">
+            <summary>附加委托以将 StubAxPlayer.Font 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToForeColor">
+            <summary>附加委托以将 StubAxPlayer.ForeColor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToImeModeBase">
+            <summary>附加委托以将 StubAxPlayer.ImeModeBase 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToMaximumSize">
+            <summary>附加委托以将 StubAxPlayer.MaximumSize 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToMinimumSize">
+            <summary>附加委托以将 StubAxPlayer.MinimumSize 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToRightToLeft">
+            <summary>附加委托以将 StubAxPlayer.RightToLeft 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachBackingFieldToText">
+            <summary>附加委托以将 StubAxPlayer.Text 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachInterfaces">
+            <summary>设置 AxPlayer.AttachInterfaces() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.AttachInterfaces01">
+            <summary>设置 AxPlayer.AttachInterfaces() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.AutoScrollOffsetGet">
+            <summary>设置 Control.get_AutoScrollOffset() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.AutoScrollOffsetSetPoint">
+            <summary>设置 Control.set_AutoScrollOffset(Point value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.AutoSizeGet">
+            <summary>设置 Control.get_AutoSize() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.AutoSizeSetBoolean">
+            <summary>设置 Control.set_AutoSize(Boolean value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.BackColorGet">
+            <summary>设置 AxHost.get_BackColor() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.BackColorSetColor">
+            <summary>设置 AxHost.set_BackColor(Color value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.BackgroundImageGet">
+            <summary>设置 AxHost.get_BackgroundImage() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.BackgroundImageLayoutGet">
+            <summary>设置 AxHost.get_BackgroundImageLayout() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.BackgroundImageLayoutSetImageLayout">
+            <summary>设置 AxHost.set_BackgroundImageLayout(ImageLayout value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.BackgroundImageSetImage">
+            <summary>设置 AxHost.set_BackgroundImage(Image value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.BindingContextGet">
+            <summary>设置 Control.get_BindingContext() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.BindingContextSetBindingContext">
+            <summary>设置 Control.set_BindingContext(BindingContext value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CanEnableImeGet">
+            <summary>设置 Control.get_CanEnableIme() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CanRaiseEventsGet">
+            <summary>设置 Control.get_CanRaiseEvents() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.Close">
+            <summary>设置 AxPlayer.Close() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.Close01">
+            <summary>设置 AxPlayer.Close() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ContextMenuGet">
+            <summary>设置 AxHost.get_ContextMenu() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ContextMenuSetContextMenu">
+            <summary>设置 AxHost.set_ContextMenu(ContextMenu value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ContextMenuStripGet">
+            <summary>设置 Control.get_ContextMenuStrip() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ContextMenuStripSetContextMenuStrip">
+            <summary>设置 Control.set_ContextMenuStrip(ContextMenuStrip value) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateAccessibilityInstance">
+            <summary>设置 Control.CreateAccessibilityInstance() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateAccessibilityInstance01">
+            <summary>设置 Control.CreateAccessibilityInstance() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateControlsInstance">
+            <summary>设置 Control.CreateControlsInstance() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateControlsInstance01">
+            <summary>设置 Control.CreateControlsInstance() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateHandle">
+            <summary>设置 AxHost.CreateHandle() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateHandle01">
+            <summary>设置 AxHost.CreateHandle() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateInstanceCore(System.Guid)">
+            <summary>设置 AxHost.CreateInstanceCore(Guid clsid) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateInstanceCoreGuid">
+            <summary>设置 AxHost.CreateInstanceCore(Guid clsid) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateParamsGet">
+            <summary>设置 AxHost.get_CreateParams() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateSink">
+            <summary>设置 AxPlayer.CreateSink() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateSink01">
+            <summary>设置 AxPlayer.CreateSink() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CursorGet">
+            <summary>设置 AxHost.get_Cursor() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.CursorSetCursor">
+            <summary>设置 AxHost.set_Cursor(Cursor value) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>设置 Control.DefWndProc(Message&amp; m) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DefWndProcMessageRef">
+            <summary>设置 Control.DefWndProc(Message&amp; m) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultCursorGet">
+            <summary>设置 Control.get_DefaultCursor() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultImeModeGet">
+            <summary>设置 Control.get_DefaultImeMode() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultMarginGet">
+            <summary>设置 Control.get_DefaultMargin() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultMaximumSizeGet">
+            <summary>设置 Control.get_DefaultMaximumSize() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultMinimumSizeGet">
+            <summary>设置 Control.get_DefaultMinimumSize() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultPaddingGet">
+            <summary>设置 Control.get_DefaultPadding() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultSizeGet">
+            <summary>设置 AxHost.get_DefaultSize() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.DestroyHandle">
+            <summary>设置 AxHost.DestroyHandle() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DestroyHandle01">
+            <summary>设置 AxHost.DestroyHandle() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.DetachSink">
+            <summary>设置 AxPlayer.DetachSink() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DetachSink01">
+            <summary>设置 AxPlayer.DetachSink() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DisplayRectangleGet">
+            <summary>设置 Control.get_DisplayRectangle() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.Dispose(System.Boolean)">
+            <summary>设置 AxHost.Dispose(Boolean disposing) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DisposeBoolean">
+            <summary>设置 AxHost.Dispose(Boolean disposing) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DockGet">
+            <summary>设置 Control.get_Dock() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DockSetDockStyle">
+            <summary>设置 Control.set_Dock(DockStyle value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DoubleBufferedGet">
+            <summary>设置 Control.get_DoubleBuffered() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.DoubleBufferedSetBoolean">
+            <summary>设置 Control.set_DoubleBuffered(Boolean value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.EnabledGet">
+            <summary>设置 AxHost.get_Enabled() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.EnabledSetBoolean">
+            <summary>设置 AxHost.set_Enabled(Boolean value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.FocusedGet">
+            <summary>设置 Control.get_Focused() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.FontGet">
+            <summary>设置 AxHost.get_Font() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.FontSetFont">
+            <summary>设置 AxHost.set_Font(Font value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ForeColorGet">
+            <summary>设置 AxHost.get_ForeColor() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ForeColorSetColor">
+            <summary>设置 AxHost.set_ForeColor(Color value) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetAccessibilityObjectById(System.Int32)">
+            <summary>设置 Control.GetAccessibilityObjectById(Int32 objectId) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetAccessibilityObjectByIdInt32">
+            <summary>设置 Control.GetAccessibilityObjectById(Int32 objectId) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetBufferProgress">
+            <summary>设置 AxPlayer.GetBufferProgress() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetBufferProgress01">
+            <summary>设置 AxPlayer.GetBufferProgress() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetConfig(System.Int32)">
+            <summary>设置 AxPlayer.GetConfig(Int32 nConfigId) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetConfigInt32">
+            <summary>设置 AxPlayer.GetConfig(Int32 nConfigId) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetDuration">
+            <summary>设置 AxPlayer.GetDuration() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetDuration01">
+            <summary>设置 AxPlayer.GetDuration() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetPosition">
+            <summary>设置 AxPlayer.GetPosition() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetPosition01">
+            <summary>设置 AxPlayer.GetPosition() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetPreferredSize(System.Drawing.Size)">
+            <summary>设置 Control.GetPreferredSize(Size proposedSize) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetPreferredSizeSize">
+            <summary>设置 Control.GetPreferredSize(Size proposedSize) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>设置 AxHost.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>设置 AxHost.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetService(System.Type)">
+            <summary>设置 Component.GetService(Type service) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetServiceType">
+            <summary>设置 Component.GetService(Type service) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetState">
+            <summary>设置 AxPlayer.GetState() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetState01">
+            <summary>设置 AxPlayer.GetState() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetVersion">
+            <summary>设置 AxPlayer.GetVersion() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetVersion01">
+            <summary>设置 AxPlayer.GetVersion() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetVideoHeight">
+            <summary>设置 AxPlayer.GetVideoHeight() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetVideoHeight01">
+            <summary>设置 AxPlayer.GetVideoHeight() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetVideoWidth">
+            <summary>设置 AxPlayer.GetVideoWidth() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetVideoWidth01">
+            <summary>设置 AxPlayer.GetVideoWidth() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.GetVolume">
+            <summary>设置 AxPlayer.GetVolume() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.GetVolume01">
+            <summary>设置 AxPlayer.GetVolume() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ImeModeBaseGet">
+            <summary>设置 Control.get_ImeModeBase() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ImeModeBaseSetImeMode">
+            <summary>设置 Control.set_ImeModeBase(ImeMode value) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.InitLayout">
+            <summary>设置 Control.InitLayout() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.InitLayout01">
+            <summary>设置 Control.InitLayout() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.InitializeStub">
+            <summary>初始化 type StubAxPlayer 的新实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.IsInputChar(System.Char)">
+            <summary>设置 AxHost.IsInputChar(Char charCode) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.IsInputCharChar">
+            <summary>设置 AxHost.IsInputChar(Char charCode) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>设置 Control.IsInputKey(Keys keyData) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.IsInputKeyKeys">
+            <summary>设置 Control.IsInputKey(Keys keyData) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.IsSeeking">
+            <summary>设置 AxPlayer.IsSeeking() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.IsSeeking01">
+            <summary>设置 AxPlayer.IsSeeking() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.LayoutEngineGet">
+            <summary>设置 Control.get_LayoutEngine() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.MaximumSizeGet">
+            <summary>设置 Control.get_MaximumSize() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.MaximumSizeSetSize">
+            <summary>设置 Control.set_MaximumSize(Size value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.MinimumSizeGet">
+            <summary>设置 Control.get_MinimumSize() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.MinimumSizeSetSize">
+            <summary>设置 Control.set_MinimumSize(Size value) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>设置 Control.NotifyInvalidate(Rectangle invalidatedArea) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.NotifyInvalidateRectangle">
+            <summary>设置 Control.NotifyInvalidate(Rectangle invalidatedArea) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnAutoSizeChanged(System.EventArgs)">
+            <summary>设置 Control.OnAutoSizeChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnAutoSizeChangedEventArgs">
+            <summary>设置 Control.OnAutoSizeChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnBackColorChanged(System.EventArgs)">
+            <summary>设置 AxHost.OnBackColorChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnBackColorChangedEventArgs">
+            <summary>设置 AxHost.OnBackColorChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>设置 Control.OnBackgroundImageChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnBackgroundImageChangedEventArgs">
+            <summary>设置 Control.OnBackgroundImageChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>设置 Control.OnBackgroundImageLayoutChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>设置 Control.OnBackgroundImageLayoutChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnBindingContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnBindingContextChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnBindingContextChangedEventArgs">
+            <summary>设置 Control.OnBindingContextChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnCausesValidationChanged(System.EventArgs)">
+            <summary>设置 Control.OnCausesValidationChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnCausesValidationChangedEventArgs">
+            <summary>设置 Control.OnCausesValidationChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>设置 Control.OnChangeUICues(UICuesEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnChangeUICuesUICuesEventArgs">
+            <summary>设置 Control.OnChangeUICues(UICuesEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnClick(System.EventArgs)">
+            <summary>设置 Control.OnClick(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnClickEventArgs">
+            <summary>设置 Control.OnClick(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnClientSizeChanged(System.EventArgs)">
+            <summary>设置 Control.OnClientSizeChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnClientSizeChangedEventArgs">
+            <summary>设置 Control.OnClientSizeChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnContextMenuChanged(System.EventArgs)">
+            <summary>设置 Control.OnContextMenuChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnContextMenuChangedEventArgs">
+            <summary>设置 Control.OnContextMenuChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>设置 Control.OnContextMenuStripChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnContextMenuStripChangedEventArgs">
+            <summary>设置 Control.OnContextMenuStripChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>设置 Control.OnControlAdded(ControlEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnControlAddedControlEventArgs">
+            <summary>设置 Control.OnControlAdded(ControlEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>设置 Control.OnControlRemoved(ControlEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnControlRemovedControlEventArgs">
+            <summary>设置 Control.OnControlRemoved(ControlEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnCreateControl">
+            <summary>设置 Control.OnCreateControl() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnCreateControl01">
+            <summary>设置 Control.OnCreateControl() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnCursorChanged(System.EventArgs)">
+            <summary>设置 Control.OnCursorChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnCursorChangedEventArgs">
+            <summary>设置 Control.OnCursorChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDockChanged(System.EventArgs)">
+            <summary>设置 Control.OnDockChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDockChangedEventArgs">
+            <summary>设置 Control.OnDockChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDoubleClick(System.EventArgs)">
+            <summary>设置 Control.OnDoubleClick(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDoubleClickEventArgs">
+            <summary>设置 Control.OnDoubleClick(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>设置 Control.OnDragDrop(DragEventArgs drgevent) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDragDropDragEventArgs">
+            <summary>设置 Control.OnDragDrop(DragEventArgs drgevent) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>设置 Control.OnDragEnter(DragEventArgs drgevent) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDragEnterDragEventArgs">
+            <summary>设置 Control.OnDragEnter(DragEventArgs drgevent) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDragLeave(System.EventArgs)">
+            <summary>设置 Control.OnDragLeave(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDragLeaveEventArgs">
+            <summary>设置 Control.OnDragLeave(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>设置 Control.OnDragOver(DragEventArgs drgevent) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnDragOverDragEventArgs">
+            <summary>设置 Control.OnDragOver(DragEventArgs drgevent) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnEnabledChanged(System.EventArgs)">
+            <summary>设置 Control.OnEnabledChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnEnabledChangedEventArgs">
+            <summary>设置 Control.OnEnabledChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnEnter(System.EventArgs)">
+            <summary>设置 Control.OnEnter(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnEnterEventArgs">
+            <summary>设置 Control.OnEnter(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnFontChanged(System.EventArgs)">
+            <summary>设置 AxHost.OnFontChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnFontChangedEventArgs">
+            <summary>设置 AxHost.OnFontChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnForeColorChanged(System.EventArgs)">
+            <summary>设置 AxHost.OnForeColorChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnForeColorChangedEventArgs">
+            <summary>设置 AxHost.OnForeColorChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>设置 Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>设置 Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnGotFocus(System.EventArgs)">
+            <summary>设置 Control.OnGotFocus(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnGotFocusEventArgs">
+            <summary>设置 Control.OnGotFocus(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnHandleCreated(System.EventArgs)">
+            <summary>设置 AxHost.OnHandleCreated(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnHandleCreatedEventArgs">
+            <summary>设置 AxHost.OnHandleCreated(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnHandleDestroyed(System.EventArgs)">
+            <summary>设置 Control.OnHandleDestroyed(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnHandleDestroyedEventArgs">
+            <summary>设置 Control.OnHandleDestroyed(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>设置 Control.OnHelpRequested(HelpEventArgs hevent) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnHelpRequestedHelpEventArgs">
+            <summary>设置 Control.OnHelpRequested(HelpEventArgs hevent) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnImeModeChanged(System.EventArgs)">
+            <summary>设置 Control.OnImeModeChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnImeModeChangedEventArgs">
+            <summary>设置 Control.OnImeModeChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnInPlaceActive">
+            <summary>设置 AxHost.OnInPlaceActive() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnInPlaceActive01">
+            <summary>设置 AxHost.OnInPlaceActive() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>设置 Control.OnInvalidated(InvalidateEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnInvalidatedInvalidateEventArgs">
+            <summary>设置 Control.OnInvalidated(InvalidateEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>设置 Control.OnKeyDown(KeyEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnKeyDownKeyEventArgs">
+            <summary>设置 Control.OnKeyDown(KeyEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>设置 Control.OnKeyPress(KeyPressEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnKeyPressKeyPressEventArgs">
+            <summary>设置 Control.OnKeyPress(KeyPressEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>设置 Control.OnKeyUp(KeyEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnKeyUpKeyEventArgs">
+            <summary>设置 Control.OnKeyUp(KeyEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>设置 Control.OnLayout(LayoutEventArgs levent) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnLayoutLayoutEventArgs">
+            <summary>设置 Control.OnLayout(LayoutEventArgs levent) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnLeave(System.EventArgs)">
+            <summary>设置 Control.OnLeave(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnLeaveEventArgs">
+            <summary>设置 Control.OnLeave(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnLocationChanged(System.EventArgs)">
+            <summary>设置 Control.OnLocationChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnLocationChangedEventArgs">
+            <summary>设置 Control.OnLocationChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnLostFocus(System.EventArgs)">
+            <summary>设置 AxHost.OnLostFocus(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnLostFocusEventArgs">
+            <summary>设置 AxHost.OnLostFocus(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMarginChanged(System.EventArgs)">
+            <summary>设置 Control.OnMarginChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMarginChangedEventArgs">
+            <summary>设置 Control.OnMarginChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>设置 Control.OnMouseCaptureChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseCaptureChangedEventArgs">
+            <summary>设置 Control.OnMouseCaptureChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseClick(MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseClickMouseEventArgs">
+            <summary>设置 Control.OnMouseClick(MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseDoubleClick(MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseDoubleClickMouseEventArgs">
+            <summary>设置 Control.OnMouseDoubleClick(MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseDown(MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseDownMouseEventArgs">
+            <summary>设置 Control.OnMouseDown(MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseEnter(System.EventArgs)">
+            <summary>设置 Control.OnMouseEnter(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseEnterEventArgs">
+            <summary>设置 Control.OnMouseEnter(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseHover(System.EventArgs)">
+            <summary>设置 Control.OnMouseHover(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseHoverEventArgs">
+            <summary>设置 Control.OnMouseHover(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseLeave(System.EventArgs)">
+            <summary>设置 Control.OnMouseLeave(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseLeaveEventArgs">
+            <summary>设置 Control.OnMouseLeave(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseMove(MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseMoveMouseEventArgs">
+            <summary>设置 Control.OnMouseMove(MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseUp(MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseUpMouseEventArgs">
+            <summary>设置 Control.OnMouseUp(MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseWheel(MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMouseWheelMouseEventArgs">
+            <summary>设置 Control.OnMouseWheel(MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMove(System.EventArgs)">
+            <summary>设置 Control.OnMove(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnMoveEventArgs">
+            <summary>设置 Control.OnMove(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>设置 Control.OnNotifyMessage(Message m) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnNotifyMessageMessage">
+            <summary>设置 Control.OnNotifyMessage(Message m) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPaddingChanged(System.EventArgs)">
+            <summary>设置 Control.OnPaddingChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPaddingChangedEventArgs">
+            <summary>设置 Control.OnPaddingChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>设置 Control.OnPaint(PaintEventArgs e) 的 存根</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>设置 Control.OnPaintBackground(PaintEventArgs pevent) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPaintBackgroundPaintEventArgs">
+            <summary>设置 Control.OnPaintBackground(PaintEventArgs pevent) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPaintPaintEventArgs">
+            <summary>设置 Control.OnPaint(PaintEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentBackColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentBackColorChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentBackColorChangedEventArgs">
+            <summary>设置 Control.OnParentBackColorChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentBackgroundImageChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentBackgroundImageChangedEventArgs">
+            <summary>设置 Control.OnParentBackgroundImageChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentBindingContextChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentBindingContextChangedEventArgs">
+            <summary>设置 Control.OnParentBindingContextChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentChangedEventArgs">
+            <summary>设置 Control.OnParentChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentCursorChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentCursorChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentCursorChangedEventArgs">
+            <summary>设置 Control.OnParentCursorChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentEnabledChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentEnabledChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentEnabledChangedEventArgs">
+            <summary>设置 Control.OnParentEnabledChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentFontChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentFontChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentFontChangedEventArgs">
+            <summary>设置 Control.OnParentFontChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentForeColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentForeColorChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentForeColorChangedEventArgs">
+            <summary>设置 Control.OnParentForeColorChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentRightToLeftChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentRightToLeftChangedEventArgs">
+            <summary>设置 Control.OnParentRightToLeftChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentVisibleChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentVisibleChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnParentVisibleChangedEventArgs">
+            <summary>设置 Control.OnParentVisibleChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>设置 Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>设置 Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>设置 Control.OnPrint(PaintEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnPrintPaintEventArgs">
+            <summary>设置 Control.OnPrint(PaintEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>设置 Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>设置 Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnRegionChanged(System.EventArgs)">
+            <summary>设置 Control.OnRegionChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnRegionChangedEventArgs">
+            <summary>设置 Control.OnRegionChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnResize(System.EventArgs)">
+            <summary>设置 Control.OnResize(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnResizeEventArgs">
+            <summary>设置 Control.OnResize(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnRightToLeftChanged(System.EventArgs)">
+            <summary>设置 Control.OnRightToLeftChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnRightToLeftChangedEventArgs">
+            <summary>设置 Control.OnRightToLeftChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnSizeChanged(System.EventArgs)">
+            <summary>设置 Control.OnSizeChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnSizeChangedEventArgs">
+            <summary>设置 Control.OnSizeChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnStyleChanged(System.EventArgs)">
+            <summary>设置 Control.OnStyleChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnStyleChangedEventArgs">
+            <summary>设置 Control.OnStyleChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnSystemColorsChanged(System.EventArgs)">
+            <summary>设置 Control.OnSystemColorsChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnSystemColorsChangedEventArgs">
+            <summary>设置 Control.OnSystemColorsChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnTabIndexChanged(System.EventArgs)">
+            <summary>设置 Control.OnTabIndexChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnTabIndexChangedEventArgs">
+            <summary>设置 Control.OnTabIndexChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnTabStopChanged(System.EventArgs)">
+            <summary>设置 Control.OnTabStopChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnTabStopChangedEventArgs">
+            <summary>设置 Control.OnTabStopChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnTextChanged(System.EventArgs)">
+            <summary>设置 Control.OnTextChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnTextChangedEventArgs">
+            <summary>设置 Control.OnTextChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnValidated(System.EventArgs)">
+            <summary>设置 Control.OnValidated(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnValidatedEventArgs">
+            <summary>设置 Control.OnValidated(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>设置 Control.OnValidating(CancelEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnValidatingCancelEventArgs">
+            <summary>设置 Control.OnValidating(CancelEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.OnVisibleChanged(System.EventArgs)">
+            <summary>设置 Control.OnVisibleChanged(EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OnVisibleChangedEventArgs">
+            <summary>设置 Control.OnVisibleChanged(EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.Open(System.String)">
+            <summary>设置 AxPlayer.Open(String strUrl) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.OpenString">
+            <summary>设置 AxPlayer.Open(String strUrl) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.Pause">
+            <summary>设置 AxPlayer.Pause() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.Pause01">
+            <summary>设置 AxPlayer.Pause() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.Play">
+            <summary>设置 AxPlayer.Play() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.Play01">
+            <summary>设置 AxPlayer.Play() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>设置 AxHost.PreProcessMessage(Message&amp; msg) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.PreProcessMessageMessageRef">
+            <summary>设置 AxHost.PreProcessMessage(Message&amp; msg) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>设置 Control.ProcessCmdKey(Message&amp; msg, Keys keyData) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessCmdKeyMessageRefKeys">
+            <summary>设置 Control.ProcessCmdKey(Message&amp; msg, Keys keyData) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessDialogChar(System.Char)">
+            <summary>设置 Control.ProcessDialogChar(Char charCode) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessDialogCharChar">
+            <summary>设置 Control.ProcessDialogChar(Char charCode) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>设置 AxHost.ProcessDialogKey(Keys keyData) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessDialogKeyKeys">
+            <summary>设置 AxHost.ProcessDialogKey(Keys keyData) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>设置 Control.ProcessKeyEventArgs(Message&amp; m) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessKeyEventArgsMessageRef">
+            <summary>设置 Control.ProcessKeyEventArgs(Message&amp; m) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>设置 Control.ProcessKeyMessage(Message&amp; m) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessKeyMessageMessageRef">
+            <summary>设置 Control.ProcessKeyMessage(Message&amp; m) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>设置 Control.ProcessKeyPreview(Message&amp; m) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessKeyPreviewMessageRef">
+            <summary>设置 Control.ProcessKeyPreview(Message&amp; m) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessMnemonic(System.Char)">
+            <summary>设置 AxHost.ProcessMnemonic(Char charCode) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ProcessMnemonicChar">
+            <summary>设置 AxHost.ProcessMnemonic(Char charCode) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.Refresh">
+            <summary>设置 Control.Refresh() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.Refresh01">
+            <summary>设置 Control.Refresh() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetBackColor">
+            <summary>设置 Control.ResetBackColor() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetBackColor01">
+            <summary>设置 Control.ResetBackColor() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetCursor">
+            <summary>设置 Control.ResetCursor() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetCursor01">
+            <summary>设置 Control.ResetCursor() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetFont">
+            <summary>设置 Control.ResetFont() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetFont01">
+            <summary>设置 Control.ResetFont() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetForeColor">
+            <summary>设置 Control.ResetForeColor() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetForeColor01">
+            <summary>设置 Control.ResetForeColor() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetRightToLeft">
+            <summary>设置 Control.ResetRightToLeft() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetRightToLeft01">
+            <summary>设置 Control.ResetRightToLeft() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetText">
+            <summary>设置 Control.ResetText() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ResetText01">
+            <summary>设置 Control.ResetText() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.RightToLeftGet">
+            <summary>设置 AxHost.get_RightToLeft() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.RightToLeftSetBoolean">
+            <summary>设置 AxHost.set_RightToLeft(Boolean value) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ScaleChildrenGet">
+            <summary>设置 Control.get_ScaleChildren() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>设置 Control.ScaleControl(SizeF factor, BoundsSpecified specified) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ScaleControlSizeFBoundsSpecified">
+            <summary>设置 Control.ScaleControl(SizeF factor, BoundsSpecified specified) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ScaleCore(System.Single,System.Single)">
+            <summary>设置 Control.ScaleCore(Single dx, Single dy) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ScaleCoreSingleSingle">
+            <summary>设置 Control.ScaleCore(Single dx, Single dy) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.Select(System.Boolean,System.Boolean)">
+            <summary>设置 Control.Select(Boolean directed, Boolean forward) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SelectBooleanBoolean">
+            <summary>设置 Control.Select(Boolean directed, Boolean forward) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>设置 AxHost.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>设置 AxHost.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>设置 Control.SetClientSizeCore(Int32 x, Int32 y) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SetClientSizeCoreInt32Int32">
+            <summary>设置 Control.SetClientSizeCore(Int32 x, Int32 y) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.SetConfig(System.Int32,System.String)">
+            <summary>设置 AxPlayer.SetConfig(Int32 nConfigId, String strValue) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SetConfigInt32String">
+            <summary>设置 AxPlayer.SetConfig(Int32 nConfigId, String strValue) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.SetCustomLogo(System.Int32)">
+            <summary>设置 AxPlayer.SetCustomLogo(Int32 nLogo) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SetCustomLogoInt32">
+            <summary>设置 AxPlayer.SetCustomLogo(Int32 nLogo) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.SetPosition(System.Int32)">
+            <summary>设置 AxPlayer.SetPosition(Int32 nPosition) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SetPositionInt32">
+            <summary>设置 AxPlayer.SetPosition(Int32 nPosition) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.SetVisibleCore(System.Boolean)">
+            <summary>设置 AxHost.SetVisibleCore(Boolean value) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SetVisibleCoreBoolean">
+            <summary>设置 AxHost.SetVisibleCore(Boolean value) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.SetVolume(System.Int32)">
+            <summary>设置 AxPlayer.SetVolume(Int32 nVolume) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SetVolumeInt32">
+            <summary>设置 AxPlayer.SetVolume(Int32 nVolume) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ShowFocusCuesGet">
+            <summary>设置 Control.get_ShowFocusCues() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ShowKeyboardCuesGet">
+            <summary>设置 Control.get_ShowKeyboardCues() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SiteSetISite">
+            <summary>设置 AxHost.set_Site(ISite value) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.SizeFromClientSize(System.Drawing.Size)">
+            <summary>设置 Control.SizeFromClientSize(Size clientSize) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.SizeFromClientSizeSize">
+            <summary>设置 Control.SizeFromClientSize(Size clientSize) 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.TextGet">
+            <summary>设置 AxHost.get_Text() 的 stub</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.TextSetString">
+            <summary>设置 AxHost.set_Text(String value) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.ToString">
+            <summary>设置 Component.ToString() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.ToString01">
+            <summary>设置 Component.ToString() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayer.WndProc(System.Windows.Forms.Message@)">
+            <summary>设置 AxHost.WndProc(Message&amp; m) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayer.WndProcMessageRef">
+            <summary>设置 AxHost.WndProc(Message&amp; m) 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.AllowDrop">
+            <summary>设置 Control.get_AllowDrop() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.Anchor">
+            <summary>设置 Control.get_Anchor() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.AutoScrollOffset">
+            <summary>设置 Control.get_AutoScrollOffset() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.AutoSize">
+            <summary>设置 Control.get_AutoSize() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.BackColor">
+            <summary>设置 AxHost.get_BackColor() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.BackgroundImage">
+            <summary>设置 AxHost.get_BackgroundImage() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.BackgroundImageLayout">
+            <summary>设置 AxHost.get_BackgroundImageLayout() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.BindingContext">
+            <summary>设置 Control.get_BindingContext() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.CanEnableIme">
+            <summary>设置 Control.get_CanEnableIme() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.CanRaiseEvents">
+            <summary>设置 Control.get_CanRaiseEvents() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.ContextMenu">
+            <summary>设置 AxHost.get_ContextMenu() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.ContextMenuStrip">
+            <summary>设置 Control.get_ContextMenuStrip() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.CreateParams">
+            <summary>设置 AxHost.get_CreateParams() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.Cursor">
+            <summary>设置 AxHost.get_Cursor() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultCursor">
+            <summary>设置 Control.get_DefaultCursor() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultImeMode">
+            <summary>设置 Control.get_DefaultImeMode() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultMargin">
+            <summary>设置 Control.get_DefaultMargin() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultMaximumSize">
+            <summary>设置 Control.get_DefaultMaximumSize() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultMinimumSize">
+            <summary>设置 Control.get_DefaultMinimumSize() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultPadding">
+            <summary>设置 Control.get_DefaultPadding() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.DefaultSize">
+            <summary>设置 AxHost.get_DefaultSize() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.DisplayRectangle">
+            <summary>设置 Control.get_DisplayRectangle() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.Dock">
+            <summary>设置 Control.get_Dock() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.DoubleBuffered">
+            <summary>设置 Control.get_DoubleBuffered() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.Enabled">
+            <summary>设置 AxHost.get_Enabled() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.Focused">
+            <summary>设置 Control.get_Focused() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.Font">
+            <summary>设置 AxHost.get_Font() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.ForeColor">
+            <summary>设置 AxHost.get_ForeColor() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.ImeModeBase">
+            <summary>设置 Control.get_ImeModeBase() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.LayoutEngine">
+            <summary>设置 Control.get_LayoutEngine() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.MaximumSize">
+            <summary>设置 Control.get_MaximumSize() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.MinimumSize">
+            <summary>设置 Control.get_MinimumSize() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.RightToLeft">
+            <summary>设置 AxHost.get_RightToLeft() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.ScaleChildren">
+            <summary>设置 Control.get_ScaleChildren() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.ShowFocusCues">
+            <summary>设置 Control.get_ShowFocusCues() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.ShowKeyboardCues">
+            <summary>设置 Control.get_ShowKeyboardCues() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.Site">
+            <summary>设置 AxHost.set_Site(ISite value) 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayer.Text">
+            <summary>设置 AxHost.get_Text() 的 stub</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster">
+            <summary>AxAPlayer3Lib.AxPlayerEventMulticaster 的存根类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.#ctor(AxAPlayer3Lib.AxPlayer)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.InitializeStub">
+            <summary>初始化 type StubAxPlayerEventMulticaster 的新实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnBuffer(System.Int32)">
+            <summary>设置 AxPlayerEventMulticaster.OnBuffer(Int32 nPercent) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnBufferInt32">
+            <summary>设置 AxPlayerEventMulticaster.OnBuffer(Int32 nPercent) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnDownloadCodec(System.String)">
+            <summary>设置 AxPlayerEventMulticaster.OnDownloadCodec(String strCodecPath) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnDownloadCodecString">
+            <summary>设置 AxPlayerEventMulticaster.OnDownloadCodec(String strCodecPath) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnEvent(System.Int32,System.Int32)">
+            <summary>设置 AxPlayerEventMulticaster.OnEvent(Int32 nEventCode, Int32 nEventParam) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnEventInt32Int32">
+            <summary>设置 AxPlayerEventMulticaster.OnEvent(Int32 nEventCode, Int32 nEventParam) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnMessage(System.Int32,System.Int32,System.Int32)">
+            <summary>设置 AxPlayerEventMulticaster.OnMessage(Int32 nMessage, Int32 wParam, Int32 lParam) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnMessageInt32Int32Int32">
+            <summary>设置 AxPlayerEventMulticaster.OnMessage(Int32 nMessage, Int32 wParam, Int32 lParam) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnOpenSucceeded">
+            <summary>设置 AxPlayerEventMulticaster.OnOpenSucceeded() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnOpenSucceeded01">
+            <summary>设置 AxPlayerEventMulticaster.OnOpenSucceeded() 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnSeekCompleted(System.Int32)">
+            <summary>设置 AxPlayerEventMulticaster.OnSeekCompleted(Int32 nPosition) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnSeekCompletedInt32">
+            <summary>设置 AxPlayerEventMulticaster.OnSeekCompleted(Int32 nPosition) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnStateChanged(System.Int32,System.Int32)">
+            <summary>设置 AxPlayerEventMulticaster.OnStateChanged(Int32 nOldState, Int32 nNewState) 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnStateChangedInt32Int32">
+            <summary>设置 AxPlayerEventMulticaster.OnStateChanged(Int32 nOldState, Int32 nNewState) 的 stub</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnVideoSizeChanged">
+            <summary>设置 AxPlayerEventMulticaster.OnVideoSizeChanged() 的 存根</summary>
+        </member>
+        <member name="F:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.OnVideoSizeChanged01">
+            <summary>设置 AxPlayerEventMulticaster.OnVideoSizeChanged() 的 stub</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.StubAxPlayerEventMulticaster.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnBufferEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnBufferEvent 的存根类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnBufferEvent.#ctor(System.Int32)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnBufferEvent.InitializeStub">
+            <summary>初始化 type Stub_IPlayerEvents_OnBufferEvent 的新实例</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnBufferEvent.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnBufferEvent.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnBufferEvent.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnDownloadCodecEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnDownloadCodecEvent 的存根类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnDownloadCodecEvent.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnDownloadCodecEvent.InitializeStub">
+            <summary>初始化 type Stub_IPlayerEvents_OnDownloadCodecEvent 的新实例</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnDownloadCodecEvent.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnDownloadCodecEvent.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnDownloadCodecEvent.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnEventEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnEventEvent 的存根类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnEventEvent.#ctor(System.Int32,System.Int32)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnEventEvent.InitializeStub">
+            <summary>初始化 type Stub_IPlayerEvents_OnEventEvent 的新实例</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnEventEvent.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnEventEvent.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnEventEvent.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnMessageEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnMessageEvent 的存根类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnMessageEvent.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnMessageEvent.InitializeStub">
+            <summary>初始化 type Stub_IPlayerEvents_OnMessageEvent 的新实例</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnMessageEvent.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnMessageEvent.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnMessageEvent.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnSeekCompletedEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnSeekCompletedEvent 的存根类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnSeekCompletedEvent.#ctor(System.Int32)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnSeekCompletedEvent.InitializeStub">
+            <summary>初始化 type Stub_IPlayerEvents_OnSeekCompletedEvent 的新实例</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnSeekCompletedEvent.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnSeekCompletedEvent.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnSeekCompletedEvent.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnStateChangedEvent">
+            <summary>AxAPlayer3Lib._IPlayerEvents_OnStateChangedEvent 的存根类型</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnStateChangedEvent.#ctor(System.Int32,System.Int32)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnStateChangedEvent.InitializeStub">
+            <summary>初始化 type Stub_IPlayerEvents_OnStateChangedEvent 的新实例</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnStateChangedEvent.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnStateChangedEvent.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AxAPlayer3Lib.Fakes.Stub_IPlayerEvents_OnStateChangedEvent.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.AxInteropAPlayer3LibDelegates">
+            <summary>包含用于 AxInterop.APlayer3Lib 的存根和填充码的自定义委托</summary>
+        </member>
+    </members>
+</doc>

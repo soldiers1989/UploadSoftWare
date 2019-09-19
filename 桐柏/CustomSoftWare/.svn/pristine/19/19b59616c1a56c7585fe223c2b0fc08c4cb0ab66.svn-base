@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="c1CommandHolder1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAAAAAKWmpf//SkpNStbT1v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAAACwAAAAAEAAQAAAIZwABCBxIsCDBAAYNChAYYCEAhAkb
+        PmToMKKAhhITCry4MIDHAANCinzoceLCkwAWDmD4kGNKlAJWNryYMiPKlQBkwoSJcwDMlDlF9gTKUwCB
+        kAJ9EgU64GjOpEtPIo2ZVKhVoRqzBgQAOw==
+</value>
+  </data>
+  <data name="cmdEdit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAAAAAEpNSqVNSv//StbT1v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAAACwAAAAAEAAQAAAIXgABCBxIsKDBggECHDQYQIAAhQsH
+        JkwYUWCAAQMgSpzIESNHiwMAhMzoUSQAiApHnvQ4EqVKkhdNojQZ8mJKkS5pUuQ4U6FPnAMIUFxJU6bQ
+        kxaLtkyJkqfToRULBgQAOw==
+</value>
+  </data>
+  <data name="cmdDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAAAAAP8AAEpNSv//StbT1qWmpf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAAACwAAAAAEAAQAAAIZQABCBxIsKBBgQECHFRIMCHDggkH
+        OnzYMKLDgxInCtjIkWNGhQMAhBwJQMBHkCJTDjAJwOGAiCRDmnTZEqbKmQFIJpTZsaXJmCIFDCCwEUAB
+        oSpTCiBaUuDPpCt/suxIlSrGqwEBADs=
+</value>
+  </data>
+  <data name="cmdPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAAAAAEpNSv///9bT1qWmpf//SgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAAACwAAAAAEAAQAAAIXQABCBxIsKDBAAgTJjwooKHDhgEY
+        KgwgIGJBig8dWiRIcWLFhQIxZqw4IEBJABMnliyJcIDLlzBNykxJ02VLmAMI6LR50iTOAkBtIkRJU6VF
+        nzh5biRadKnBpwIDAgA7
+</value>
+  </data>
+  <data name="cmdExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAh0lEQVQ4T72P0Q6AIAhF+XSf/G0D5Bop
+        0qottrMS7z0t2kyrtS7InlrDezrbMpWSCnpwEujOyvcCCfKzWFDDrhwJ+heAhCdJLkAhgm9/EHDowlQe
+        AtwHAj9L+bnAWATJL0QzRMorgZQ8ewFfeuYigEDkvOjo4MBERbCUBR07RCUPh84i+DxEB3AAj/OThYTW
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdShow.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAkklEQVQ4T62PCQ4DIQwDeTpP42dbHMch
+        UFBp1ZHCMYn3KH+kPr9VsGve1OD5FmQYJSZrrVNlt4IMo8T1PcgwSkzevh0gwyhxTXBf3YrPBCZba9bI
+        e/4COM36OYiQyGege957BSbwEFUGPaGzZ4xpQMjvesB7fcFliFEnP1df+hCQcE7+jfhnnKmMk99yGvoQ
+        LuUFE5XjJO+9JuEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>56</value>
+  </metadata>
+  <data name="c1FlexGrid1.ColumnInfo" xml:space="preserve">
+    <value>11,0,0,40,200,115,Columns:0{Width:112;Name:"FullName";Caption:"单位名称";AllowEditing:False;TextAlignFixed:CenterCenter;}	1{Width:66;Name:"ShortName";Caption:"单位简称";TextAlignFixed:CenterCenter;}	2{Width:70;Name:"DisplayName";Caption:"显示名称";TextAlignFixed:CenterCenter;}	3{Width:55;Name:"Property";Caption:"单位性质";AllowEditing:False;TextAlignFixed:CenterCenter;}	4{Width:57;Name:"ID";Caption:"编号";AllowEditing:False;TextAlignFixed:CenterCenter;}	5{Width:63;Name:"KindCode";Caption:"单位类别";TextAlignFixed:CenterCenter;}	6{Width:77;Caption:"地区";TextAlignFixed:CenterCenter;}	7{Width:54;Caption:"联系人";TextAlignFixed:CenterCenter;}	8{Width:66;Caption:"电话";TextAlignFixed:CenterCenter;}	9{Width:54;Name:"IsLock";Caption:"停用";DataType:System.Boolean;TextAlignFixed:CenterCenter;ImageAlign:CenterCenter;}	10{Width:61;Name:"Level";Caption:"监控级别";DataType:System.Boolean;TextAlignFixed:CenterCenter;ImageAlign:CenterCenter;}	</value>
+  </data>
+  <data name="c1FlexGrid1.Styles" xml:space="preserve">
+    <value>Normal{Font:宋体, 12pt;BackColor:White;ForeColor:Black;Border:Flat,1,Wheat,Both;}	Alternate{BackColor:White;ForeColor:Black;}	Fixed{BackColor:CadetBlue;ForeColor:Black;Border:None,1,Black,Both;}	Highlight{BackColor:Wheat;ForeColor:DarkSlateBlue;}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	EmptyArea{BackColor:Ivory;Border:Flat,1,ControlDarkDark,Both;}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	</value>
+  </data>
+  <data name="c1FlexGrid02.ColumnInfo" xml:space="preserve">
+    <value>23,0,0,40,200,115,Columns:0{Width:100;Name:"colCdcode";Caption:"经营户编号";}	1{Width:113;Name:"colCdname";Caption:"经营户名称";AllowEditing:False;TextAlignFixed:CenterCenter;}	2{Width:55;Name:"colIncorporator";Caption:"法人";AllowEditing:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	3{Width:76;Name:"colDisplayName";Caption:"档口/店面/车牌号";Visible:False;AllowEditing:False;TextAlignFixed:CenterCenter;}	4{Width:157;Name:"colCiname";Caption:"所属单位名称";AllowEditing:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	5{Width:90;Name:"colCdbuslicence";Caption:"营业执照号";TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	6{Width:100;Name:"colCAllow";Caption:"许可证号";}	7{Width:90;Name:"colCdcardid";Caption:"身份证号";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	8{Width:50;Name:"colRegCapital";Caption:"注册资金";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	9{Width:70;Name:"colUnit";Caption:"资金单位";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	10{Width:80;Name:"colRegDate";Caption:"注册时间";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	11{Name:"colPostCode";Caption:"邮政编码";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	12{Width:90;Name:"colAddress";Caption:"地址";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	13{Width:80;Name:"colLinkMan";Caption:"联系人";TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	14{Width:80;Name:"colLinkInfo";Caption:"联系方式";TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	15{Width:80;Name:"colCreditLevel";Caption:"信用等级";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	16{Width:80;Name:"colCreditRecord";Caption:"信用记录";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	17{Width:80;Name:"colProductInfo";Caption:"产品信息";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	18{Width:80;Name:"colOtherInfo";Caption:"其他信息";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	19{Width:80;Name:"colCheckLevel";Caption:"监控级别";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	20{Width:80;Name:"colFoodSafeRecord";Caption:"食品安全记录";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	21{Width:80;Name:"colIsReadOnly";Caption:"是否审核";Visible:False;DataType:System.Boolean;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;ImageAlign:CenterCenter;}	22{Width:80;Name:"colRemark";Caption:"备注说明";Visible:False;TextAlign:CenterCenter;TextAlignFixed:CenterCenter;}	</value>
+  </data>
+  <data name="c1FlexGrid02.Styles" xml:space="preserve">
+    <value>Normal{Font:宋体, 12pt;BackColor:White;ForeColor:Black;Border:Flat,1,Wheat,Both;}	Alternate{BackColor:White;ForeColor:Black;}	Fixed{BackColor:CadetBlue;ForeColor:Black;Border:None,1,Black,Both;}	Highlight{BackColor:Wheat;ForeColor:DarkSlateBlue;}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	EmptyArea{BackColor:Ivory;Border:Flat,1,ControlDarkDark,Both;}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAAACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAgAQAAAAAAAAAAAAAAAEAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYAzP//AJn//wBm//8AM///AP/M
+        /wDMzP8Amcz/AGbM/wAzzP8AAMz/AP+Z/wDMmf8AmZn/AGaZ/wAzmf8AAJn/AP9m/wDMZv8AmWb/AGZm
+        /wAzZv8AAGb/AP8z/wDMM/8AmTP/AGYz/wAzM/8AADP/AMwA/wCZAP8AZgD/ADMA/wD//8wAzP/MAJn/
+        zABm/8wAZv/MADP/zAAA/8wA/8zMAMzMzACZzMwAZszMADPMzAAAzMwA/5nMAMyZzACZmcwAZpnMADOZ
+        zAAAmcwA/2bMAMxmzACZZswAZmbMADNmzAAAZswA/zPMAMwzzACZM8wAZjPMADMzzAAAM8wA/wDMAMwA
+        zACZAMwAZgDMADMAzAAAAMwA//+ZAMz/mQCZ/5kAZv+ZADP/mQAA/5kA/8yZAMzMmQCZzJkAZsyZADPM
+        mQAAzJkA/5mZAMyZmQCZmZkAZpmZADOZmQAAmZkA/2aZAMxmmQCZZpkAZmaZADNmmQAAZpkA/zOZAMwz
+        mQCZM5kAZjOZADMzmQAAM5kA/wCZAMwAmQCZAJkAZgCZADMAmQAAAJkA//9mAMz/ZgCZ/2YAZv9mADP/
+        ZgAA/2YA/8xmAMzMZgCZzGYAZsxmADPMZgAAzGYA/5lmAMyZZgCZmWYAZplmADOZZgAAmWYA/2ZmAMxm
+        ZgCZZmYAZmZmADNmZgAAZmYA/zNmAMwzZgCZM2YAZjNmADMzZgAAM2YA/wBmAMwAZgCZAGYAZgBmADMA
+        ZgAAAGYA//8zAMz/MwCZ/zMAZv8zADP/MwAA/zMA/8wzAMzMMwCZzDMAZswzADPMMwAAzDMA/5kzAMyZ
+        MwCZmTMAZpkzADOZMwAAmTMA/2YzAMxmMwCZZjMAZmYzADNmMwAAZjMA/zMzAMwzMwCZMzMAZjMzADMz
+        MwAAMzMA/wAzAMwAMwCZADMAZgAzADMAMwAAADMAzP8AAJn/AABm/wAAM/8AAP/MAADMzAAAmcwAAGbM
+        AAAzzAAAAMwAAP+ZAADMmQAAmZkAAGaZAAAzmQAAAJkAAP9mAADMZgAAmWYAAGZmAAAAZgAAM2YAAP8z
+        AADMMwAAmTMAAGYzAAAzMwAAADMAAMwAAACZAAAAZgAAADMAAAAAAN0AAAC7AAAAqgAAAIgAAAB3AAAA
+        VQAAAEQAAAAiAADdAAAAuwAAAKoAAACIAAAAdwAAAFUAAABEAAAAIgAA3d3dAFVVVQB3d3cAd3d3AERE
+        RAAiIiIAERERAHcAAABVAAAARAAAACIAAADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApqbkpvb2ADo6OgD29vb29vb29qbk
+        5KYAAAAAAAAAAADk5OSm9vYAOjo6APb29vb29vb2puTk5AAAAAAAAAAAAOTk5Pb29gA6OjoA9vb29vb2
+        9vb2puTkAAAAAAAAAAAAAADk9vb2ADo67wD29gAAAAAA9vampgAAAAAAAAAAAAAAAAD29vYAOjo6APb2
+        AMXFxQD29gAAAAAAAAAAAAAAAAAAAPb29gA6OjoA9vYAxcXFAPb2AAcAAAAAAAAAAAAAAAAA9vb2ADo6
+        OgD29gDFxcUA9vYAOgAAAAAAAAAAAAAA7wD29vYAOjo6APb2AAAAAAD29gDsAAAAAAAAAAAAAAAAAPb2
+        9vYAAAD29vb29vb29vb2AAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vYAAAAAAAAAAAAAAAAA
+        AAAA9vb29vb29vb29vb29vb2AAAHAAAAAAAAAAAAAAAA2wAA9vb29vb29vb29vb29gAABzoAAAAAAAAA
+        AAAAAADb2wAA9vb29vb29vb29vYAAAc6BwAAAAAAAAAAAAAAANvb2wAA9vb29vb29vb2AAAAOgc6AAAA
+        AAAAAAAAAAAA29vbAAAA9vb29vb29gAAAAAHOgcAAAAAAAAAAAAAAADb29sAAAAA9vb29vYAAAAAADoH
+        OgAAAAAAAAAAAAAAAAAAAAAAAAAA9vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9gAABzoH
+        Ogc6BzoHOgc6BzoHOgAAAAAAAAAAAAAAAAAAAAc6BzoHOgc6BzoHOgc6BzoHAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHOgcAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADoHOgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzoHAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHOgc6BzoHOgc6BzoHOgc6BzoHAAAA
+        AAAAAAAAAAAAADoHOgc6BzoHOgc6BzoHOgc6BzoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAADoHOgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzoHAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6BzoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAH8AAAB/AAAAfwAAAH+AAAD/4AAA/+AAAP/gAAD/AAAAf4AAAP/AAAD/4AAA/+AA
+        AP/gAAD/4AAA/+IAIP/jAGD//4AAAf/AAAD/4AAA/+AAAP/9oLf//+D////g///wAAH/4AAA/+AAAP/g
+        AAD/+6C7///g////4P////H/
+</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>169, 17</value>
+  </metadata>
+</root>

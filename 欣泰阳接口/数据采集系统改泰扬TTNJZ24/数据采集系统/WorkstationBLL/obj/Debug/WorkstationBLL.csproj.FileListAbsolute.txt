@@ -1,0 +1,101 @@
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationBLL\bin\Debug\WorkstationModel.dll
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationBLL\bin\Debug\WorkstationModel.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+c:\users\administrator\documents\visual studio 2013\Projects\WorkstationSystem\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+D:\产品软件\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+D:\产品软件\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+D:\产品软件\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集系统\WorkstationBLL\bin\Debug\WorkstationModel.dll
+D:\产品软件\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统\WorkstationBLL\bin\Debug\WorkstationModel.pdb
+D:\产品软件\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+D:\产品软件\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+D:\产品软件\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\测试\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\测试\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\测试\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\测试\数据采集系统\WorkstationBLL\bin\Debug\WorkstationModel.dll
+C:\Users\Administrator\Desktop\测试\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\测试\数据采集系统\WorkstationBLL\bin\Debug\WorkstationModel.pdb
+C:\Users\Administrator\Desktop\测试\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\测试\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\测试\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+C:\Users\lja\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+C:\Users\lja\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+C:\Users\lja\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+C:\Users\lja\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationModel.dll
+C:\Users\lja\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+C:\Users\lja\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationModel.pdb
+C:\Users\lja\Desktop\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+C:\Users\lja\Desktop\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+C:\Users\lja\Desktop\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationModel.dll
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationBLL\bin\Debug\WorkstationModel.pdb
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统改1\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+D:\产品软件\数据采集系统湖北泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+D:\产品软件\数据采集系统湖北泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+D:\产品软件\数据采集系统湖北泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集系统湖北泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统湖北泰扬\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+D:\产品软件\数据采集系统湖北泰扬\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+D:\产品软件\数据采集系统湖北泰扬\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+D:\产品软件\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+D:\产品软件\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+D:\产品软件\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+D:\产品软件\数据采集系统改\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+D:\产品软件\数据采集系统改\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+D:\产品软件\数据采集系统改\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+D:\产品软件\数据采集系统改\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统改泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改泰扬\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\数据采集系统改泰扬\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统改泰扬\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬TTNJZ24\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.dll
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬TTNJZ24\数据采集系统\WorkstationBLL\bin\Debug\WorkstationBLL.pdb
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬TTNJZ24\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.dll
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬TTNJZ24\数据采集系统\WorkstationBLL\bin\Debug\WorkstationDAL.pdb
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬TTNJZ24\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.csprojResolveAssemblyReference.cache
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬TTNJZ24\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.dll
+D:\数据上传\欣泰阳接口\数据采集系统改泰扬TTNJZ24\数据采集系统\WorkstationBLL\obj\Debug\WorkstationBLL.pdb

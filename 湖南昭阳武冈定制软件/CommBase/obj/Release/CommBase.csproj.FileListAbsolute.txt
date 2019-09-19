@@ -1,0 +1,24 @@
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Release\CommBase.dll
+E:\Project\Company_Source\new_client\Client_Update\CommBase\bin\Release\CommBase.dll
+E:\Project\Company_Source\new_client\Client_Update\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\CommBase\obj\Release\CommBase.dll
+E:\Project\Company_Source\new_client\workstation\CommBase\bin\Release\CommBase.dll
+E:\Project\Company_Source\new_client\workstation\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\CommBase\obj\Release\CommBase.dll
+E:\Project\Company_Source\workstation\CommBase\bin\Release\CommBase.dll
+E:\Project\Company_Source\workstation\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\workstation\CommBase\obj\Release\CommBase.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\CommBase\bin\Release\CommBase.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\CommBase\obj\Release\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\CommBase\obj\Release\CommBase.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\CommBase\bin\Release\CommBase.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\CommBase\obj\Release\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\CommBase\obj\Release\CommBase.dll
+E:\Workstation_4th Sent[2012-11-13西藏食药]\CommBase\bin\Release\CommBase.dll
+E:\Workstation_4th Sent[2012-11-13西藏食药]\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-13西藏食药]\CommBase\obj\Release\CommBase.dll
+E:\Workstation_4th Sent[2012-11-29云南]\CommBase\bin\Release\CommBase.dll
+E:\Workstation_4th Sent[2012-11-29云南]\CommBase\obj\Release\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-29云南]\CommBase\obj\Release\CommBase.dll
+F:\Projects\SVN\WorkStation\工作站单机版\CommBase\bin\Release\CommBase.dll
+F:\Projects\SVN\WorkStation\工作站单机版\CommBase\obj\Release\CommBase.dll

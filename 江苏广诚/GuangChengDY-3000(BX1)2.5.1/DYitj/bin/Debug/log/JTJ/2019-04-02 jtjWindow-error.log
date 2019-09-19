@@ -1,0 +1,8 @@
+14:02:17
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjWindow.ShowJtjSelChannelWindow() 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Jiaotijin\JtjWindow.xaml.cs:行号 395
+
+14:04:22
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjWindow.ShowJtjSelChannelWindow() 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Jiaotijin\JtjWindow.xaml.cs:行号 395
+

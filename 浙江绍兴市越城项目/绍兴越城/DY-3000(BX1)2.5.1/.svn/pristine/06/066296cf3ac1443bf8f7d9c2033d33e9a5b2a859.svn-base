@@ -1,0 +1,53 @@
+﻿<Window x:Class="AIO.WpfTaskFinishShow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WpfTaskFinishShow"  
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGridCenter}"
+        FontFamily="SimHei" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="任务告警查看" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,20,0"  Content="返  回" FontSize="24" Click="ButtonPrev_Click" />
+        </Grid>
+
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <StackPanel Width="1000" Height="518" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+                <StackPanel Width="700" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+                </StackPanel>
+                <ScrollViewer Margin="10,10,10,10" Width="1000" Height="380">
+                    <DataGrid Name="DataGridRecord" Width="998"  ItemsSource="{Binding}" AutoGenerateColumns="False"  IsReadOnly="True" RowBackground ="Red" LoadingRow="DataGridRecord_LoadingRow" FontSize="16">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="任务编号" Width="150" Binding="{Binding Path=CPCODE}" />
+                            <DataGridTextColumn Header="任务主题" Width="110" Binding="{Binding Path=CPTITLE}"/>
+                            <DataGridTextColumn Header="实际抽样数" Width="100" Binding="{Binding Path=v30}"  />
+                            <DataGridTextColumn Header="完成情况" Width="80" Binding="{Binding Path=finish}"  />
+                            <DataGridTextColumn Header="起始日期" Width="90" Binding="{Binding Path=CPSDATE}"/>
+                            <DataGridTextColumn Header="结束日期" Width="90" Binding="{Binding Path=CPEDATE}"/>
+                            <DataGridTextColumn Header="任务性质" Width="80" Binding="{Binding Path=CPTPROPERTY}"  Visibility="Hidden" />
+                            <DataGridTextColumn Header="任务来源" Width="80" Binding="{Binding Path=CPFROM}" Visibility="Hidden" />
+                            <DataGridTextColumn Header="编制人" Width="100" Binding="{Binding Path=CPEDITOR}"/>
+                            <DataGridTextColumn Header="机构编码" Width="60" Binding="{Binding Path=CPPORGID}" Visibility="Hidden" />
+                            <DataGridTextColumn Header="机构名称" Width="130" Binding="{Binding Path=CPPORG}"/>
+                            <DataGridTextColumn Header="编制日期" Width="80" Binding="{Binding Path=CPEDDATE}" Visibility="Hidden" />
+                            <DataGridTextColumn Header="备注" Width="60" Binding="{Binding Path=CPMEMO}" Visibility="Hidden" />
+                            <DataGridTextColumn Header="任务详细内容" Width="300" Binding="{Binding Path=PLANDETAIL}" />
+                            <DataGridTextColumn Header="计划抽检数量" Width="80" Binding="{Binding Path=PLANDCOUNT}"  Visibility="Hidden" />
+                            <DataGridTextColumn Header="报警时间" Width="80" Binding="{Binding Path=BAOJINGTIME}"  Visibility="Hidden" />
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </ScrollViewer>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
+

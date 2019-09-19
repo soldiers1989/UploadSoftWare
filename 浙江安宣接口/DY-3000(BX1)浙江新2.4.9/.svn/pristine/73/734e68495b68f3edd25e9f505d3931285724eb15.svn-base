@@ -1,0 +1,12 @@
+15:34:57
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.SaveSetting() 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 329
+
+15:35:04
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.SaveSetting() 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 329
+
+15:36:27
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.SaveSetting() 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 329
+

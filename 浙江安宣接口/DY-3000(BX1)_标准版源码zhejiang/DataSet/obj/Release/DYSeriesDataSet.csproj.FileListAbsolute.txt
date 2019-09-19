@@ -1,0 +1,9 @@
+F:\Projects\SVN\New_DY3000\DataSet\bin\Release\DataSet.dll
+F:\Projects\SVN\New_DY3000\DataSet\bin\Release\DataSet.pdb
+F:\Projects\SVN\New_DY3000\DataSet\obj\Release\DYSeriesDataSet.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\New_DY3000\DataSet\obj\Release\DataSet.dll
+F:\Projects\SVN\New_DY3000\DataSet\obj\Release\DataSet.pdb
+F:\Projects\SVN\DY-3000(BX1)\DataSet\bin\Release\DataSet.dll
+F:\Projects\SVN\DY-3000(BX1)\DataSet\bin\Release\DataSet.pdb
+F:\Projects\SVN\DY-3000(BX1)\DataSet\obj\Release\DataSet.dll
+F:\Projects\SVN\DY-3000(BX1)\DataSet\obj\Release\DataSet.pdb

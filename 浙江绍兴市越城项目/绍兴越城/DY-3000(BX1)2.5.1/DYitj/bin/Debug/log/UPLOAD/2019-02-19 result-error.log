@@ -1,0 +1,11 @@
+10:05:15
+System.IO.IOException: 文件“C:\Users\Administrator\Desktop\DY-3000(BX1) 检测数据 - 2019-02-19.xls”正由另一进程使用，因此该进程无法访问此文件。
+   在 AIO.src.ExcelHelper.ImportExcel(String excelPath, Int32 sheetIndex) 位置 d:\DY-Software\数据上传\浙江绍兴市越城项目\绍兴越城\DY-3000(BX1)2.5.1\DYitj\src\ExcelHelper.cs:行号 78
+   在 AIO.RecordWindow.ImportToExcel() 位置 d:\DY-Software\数据上传\浙江绍兴市越城项目\绍兴越城\DY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 922
+
+10:16:25
+System.IndexOutOfRangeException: 无法找到列 45。
+   在 System.Data.DataColumnCollection.get_Item(Int32 index)
+   在 System.Data.DataRow.get_Item(Int32 columnIndex)
+   在 AIO.RecordWindow.ImportToExcel() 位置 d:\DY-Software\数据上传\浙江绍兴市越城项目\绍兴越城\DY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 955
+

@@ -1,0 +1,4 @@
+14:37:15
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.App.Application_Startup(Object sender, StartupEventArgs e) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\App.xaml.cs:行号 106
+

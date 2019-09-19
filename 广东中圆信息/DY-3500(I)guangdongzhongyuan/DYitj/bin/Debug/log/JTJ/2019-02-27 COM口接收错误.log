@@ -1,0 +1,161 @@
+09:28:45
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+09:30:59
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+09:33:41
+System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\ClassLibrary\com.lvrenyang\ComPort.cs:行号 224
+
+09:35:27
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+09:58:48
+System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\ClassLibrary\com.lvrenyang\ComPort.cs:行号 224
+
+10:03:43
+System.ArgumentException: 目标数组的长度不够。请检查 destIndex 和长度以及数组的下限。
+   在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   在 com.lvrenyang.RxBuffer.CopyArray(Byte[] source, Int32 desIndex) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 61
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 227
+
+10:03:43
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:03:43
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:03:43
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:03:49
+System.ArgumentException: 目标数组的长度不够。请检查 destIndex 和长度以及数组的下限。
+   在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   在 com.lvrenyang.RxBuffer.CopyArray(Byte[] source, Int32 desIndex) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 61
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 227
+
+10:03:49
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:03:49
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:03:49
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:03:49
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:04:21
+System.ArgumentException: 目标数组的长度不够。请检查 destIndex 和长度以及数组的下限。
+   在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   在 com.lvrenyang.RxBuffer.CopyArray(Byte[] source, Int32 desIndex) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 61
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 227
+
+10:04:21
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:04:21
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:04:21
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:04:21
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:04:21
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:04:21
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 com.lvrenyang.RxBuffer.PutByte(Byte ch) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\RxBuffer.cs:行号 33
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 236
+
+10:09:23
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+10:23:58
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+10:41:01
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+10:56:01
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+13:12:23
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+14:30:13
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\Administrator\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+14:50:02
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\Administrator\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+
+15:35:01
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\Administrator\Desktop\DY-3000(BX1)2.5.1（参考原来）\ClassLibrary\com.lvrenyang\ComPort.cs:行号 241
+

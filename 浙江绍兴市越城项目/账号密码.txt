@@ -1,0 +1,14 @@
+接口地址：http://www.sritnb.cn/sxMarket/
+用户名：国研科技
+密码：1
+设备唯一码：DY3000(BX1)10001
+型号：DY3000(BX1)
+生产厂家：广东达元食品药品安全技术有限公司
+
+平台查看地址：
+http://www.sritnb.cn/sxMarket/login	
+账号:3
+密码：1
+登录页面选择第三方。
+
+http://www.sritnb.cn/sxmarket/

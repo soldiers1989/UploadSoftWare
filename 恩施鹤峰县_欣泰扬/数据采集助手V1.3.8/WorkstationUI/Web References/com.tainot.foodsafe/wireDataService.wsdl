@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://ws.foodsafe.tongtai.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://ws.foodsafe.tongtai.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://ws.foodsafe.tongtai.com">
+      <s:element name="UploadCheckInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckInfoXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadCheckInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UploadCheckInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTicket">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTicketResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTicketResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Upload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ticket" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UploadResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDataUp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ticket" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDataUpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckDataUpResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPlatform">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ticket" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Platform" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPlatformResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UploadPlatformResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UploadCheckInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadCheckInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadCheckInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadCheckInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTicket" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadSoapIn">
+    <wsdl:part name="parameters" element="tns:Upload" />
+  </wsdl:message>
+  <wsdl:message name="UploadSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckDataUpSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckDataUp" />
+  </wsdl:message>
+  <wsdl:message name="CheckDataUpSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckDataUpResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadPlatformSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadPlatform" />
+  </wsdl:message>
+  <wsdl:message name="UploadPlatformSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadPlatformResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadCheckInfoHttpGetIn">
+    <wsdl:part name="CheckInfoXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadCheckInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadHttpGetIn">
+    <wsdl:part name="Ticket" type="s:string" />
+    <wsdl:part name="Data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckDataUpHttpGetIn">
+    <wsdl:part name="Ticket" type="s:string" />
+    <wsdl:part name="Data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckDataUpHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadPlatformHttpGetIn">
+    <wsdl:part name="Ticket" type="s:string" />
+    <wsdl:part name="Platform" type="s:string" />
+    <wsdl:part name="Data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadPlatformHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadCheckInfoHttpPostIn">
+    <wsdl:part name="CheckInfoXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadCheckInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadHttpPostIn">
+    <wsdl:part name="Ticket" type="s:string" />
+    <wsdl:part name="Data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckDataUpHttpPostIn">
+    <wsdl:part name="Ticket" type="s:string" />
+    <wsdl:part name="Data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckDataUpHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadPlatformHttpPostIn">
+    <wsdl:part name="Ticket" type="s:string" />
+    <wsdl:part name="Platform" type="s:string" />
+    <wsdl:part name="Data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadPlatformHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="wireDataServiceSoap">
+    <wsdl:operation name="UploadCheckInfo">
+      <wsdl:input message="tns:UploadCheckInfoSoapIn" />
+      <wsdl:output message="tns:UploadCheckInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicket">
+      <wsdl:input message="tns:GetTicketSoapIn" />
+      <wsdl:output message="tns:GetTicketSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Upload">
+      <wsdl:input message="tns:UploadSoapIn" />
+      <wsdl:output message="tns:UploadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckDataUp">
+      <wsdl:input message="tns:CheckDataUpSoapIn" />
+      <wsdl:output message="tns:CheckDataUpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadPlatform">
+      <wsdl:input message="tns:UploadPlatformSoapIn" />
+      <wsdl:output message="tns:UploadPlatformSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wireDataServiceHttpGet">
+    <wsdl:operation name="UploadCheckInfo">
+      <wsdl:input message="tns:UploadCheckInfoHttpGetIn" />
+      <wsdl:output message="tns:UploadCheckInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicket">
+      <wsdl:input message="tns:GetTicketHttpGetIn" />
+      <wsdl:output message="tns:GetTicketHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Upload">
+      <wsdl:input message="tns:UploadHttpGetIn" />
+      <wsdl:output message="tns:UploadHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckDataUp">
+      <wsdl:input message="tns:CheckDataUpHttpGetIn" />
+      <wsdl:output message="tns:CheckDataUpHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadPlatform">
+      <wsdl:input message="tns:UploadPlatformHttpGetIn" />
+      <wsdl:output message="tns:UploadPlatformHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wireDataServiceHttpPost">
+    <wsdl:operation name="UploadCheckInfo">
+      <wsdl:input message="tns:UploadCheckInfoHttpPostIn" />
+      <wsdl:output message="tns:UploadCheckInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicket">
+      <wsdl:input message="tns:GetTicketHttpPostIn" />
+      <wsdl:output message="tns:GetTicketHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Upload">
+      <wsdl:input message="tns:UploadHttpPostIn" />
+      <wsdl:output message="tns:UploadHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckDataUp">
+      <wsdl:input message="tns:CheckDataUpHttpPostIn" />
+      <wsdl:output message="tns:CheckDataUpHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadPlatform">
+      <wsdl:input message="tns:UploadPlatformHttpPostIn" />
+      <wsdl:output message="tns:UploadPlatformHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wireDataServiceSoap" type="tns:wireDataServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadCheckInfo">
+      <soap:operation soapAction="http://ws.foodsafe.tongtai.com/UploadCheckInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicket">
+      <soap:operation soapAction="http://ws.foodsafe.tongtai.com/GetTicket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Upload">
+      <soap:operation soapAction="http://ws.foodsafe.tongtai.com/Upload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDataUp">
+      <soap:operation soapAction="http://ws.foodsafe.tongtai.com/CheckDataUp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPlatform">
+      <soap:operation soapAction="http://ws.foodsafe.tongtai.com/UploadPlatform" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wireDataServiceSoap12" type="tns:wireDataServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadCheckInfo">
+      <soap12:operation soapAction="http://ws.foodsafe.tongtai.com/UploadCheckInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicket">
+      <soap12:operation soapAction="http://ws.foodsafe.tongtai.com/GetTicket" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Upload">
+      <soap12:operation soapAction="http://ws.foodsafe.tongtai.com/Upload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDataUp">
+      <soap12:operation soapAction="http://ws.foodsafe.tongtai.com/CheckDataUp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPlatform">
+      <soap12:operation soapAction="http://ws.foodsafe.tongtai.com/UploadPlatform" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wireDataServiceHttpGet" type="tns:wireDataServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="UploadCheckInfo">
+      <http:operation location="/UploadCheckInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicket">
+      <http:operation location="/GetTicket" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Upload">
+      <http:operation location="/Upload" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDataUp">
+      <http:operation location="/CheckDataUp" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPlatform">
+      <http:operation location="/UploadPlatform" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wireDataServiceHttpPost" type="tns:wireDataServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="UploadCheckInfo">
+      <http:operation location="/UploadCheckInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicket">
+      <http:operation location="/GetTicket" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Upload">
+      <http:operation location="/Upload" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDataUp">
+      <http:operation location="/CheckDataUp" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPlatform">
+      <http:operation location="/UploadPlatform" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wireDataService">
+    <wsdl:port name="wireDataServiceSoap" binding="tns:wireDataServiceSoap">
+      <soap:address location="http://foodsafe.tainot.com/agriapp/Services/wireDataService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wireDataServiceSoap12" binding="tns:wireDataServiceSoap12">
+      <soap12:address location="http://foodsafe.tainot.com/agriapp/Services/wireDataService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wireDataServiceHttpGet" binding="tns:wireDataServiceHttpGet">
+      <http:address location="http://foodsafe.tainot.com/agriapp/Services/wireDataService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wireDataServiceHttpPost" binding="tns:wireDataServiceHttpPost">
+      <http:address location="http://foodsafe.tainot.com/agriapp/Services/wireDataService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

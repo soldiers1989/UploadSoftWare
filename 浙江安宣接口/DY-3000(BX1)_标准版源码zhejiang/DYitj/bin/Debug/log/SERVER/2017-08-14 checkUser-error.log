@@ -1,0 +1,14 @@
+11:19:12
+System.Net.WebException: 未能解析此远程名称: 'apps.g'
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 AIO.NewInterface.dataSync.checkUserConnection(String in0, String in1) 位置 C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码_2017年8月8日\DYitj\Web References\NewInterface\Reference.cs:行号 125
+   在 AIO.WorkThread.checkUserConnection(String url, String user, String password) 位置 C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码_2017年8月8日\DYitj\src\WorkThread.cs:行号 2089
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码_2017年8月8日\DYitj\src\WorkThread.cs:行号 435
+
+11:52:13
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 AIO.Global.HttpMath(String type, String url, String paramsValue) 位置 C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码_2017年8月8日\DYitj\src\Global.cs:行号 2064
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码_2017年8月8日\DYitj\src\WorkThread.cs:行号 437
+

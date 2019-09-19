@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>Application autoUpdate</description>
+  <Updater>
+	<Url>http://192.168.19.54:8087/</Url>
+	<LastUpdateTime>2016-11-09</LastUpdateTime>
+  </Updater>
+  <Application applicationId="DY-Detector">
+    <EntryPoint>DY-Detector.exe</EntryPoint>
+    <Location>.</Location>
+	<Version>1.0.0.0</Version>
+  </Application>
+  <Files>
+	   
+  </Files>
+</AutoUpdater>

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="AIO.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <connectionStrings>
+    <add name="AIO.Properties.Settings.localConnectionString" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\bin\Debug\Data\local.Mdb;Persist Security Info=True" providerName="System.Data.OleDb" />
+    <add name="AIO.Properties.Settings.localConnectionString1" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\bin\Release\Data\local.Mdb;Persist Security Info=True" providerName="System.Data.OleDb" />
+  </connectionStrings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0" />
+  </startup>
+  <appSettings>
+    <add key="ADPORT" value="COM3" />
+    <add key="SXT1PORT" value="COM3" />
+    <add key="SXT2PORT" value="COM9" />
+    <add key="SXT3PORT" value="COM6" />
+    <add key="SXT4PORT" value="COM7" />
+    <add key="PRINTPORT" value="COM8" />
+    <add key="HOLECOUNT" value="16" />
+    <add key="SXTCOUNT" value="4" />
+    <add key="HMCOUNT" value="0" />
+    <add key="EnableWswOrAtp" value="0" />
+    <add key="IsWswOrAtp" value="WSW" />
+    <add key="MICROBIALADDRESS" value="" />
+    <add key="ISOPENFILE" value="1" />
+    <add key="FAULTDETECTION" value="0" />
+    <add key="SHOWFGD" value="0" />
+    <add key="VERSION" value="XZ" />
+    <add key="ISSETINDEX" value="0" />
+    <add key="IsEnableVideo" value="1" />
+    <add key="VIDEOADDRESS" value="Video" />
+    <add key="PDFADDRESS" value="PDF" />
+    <add key="ISDELETED" value="0" />
+    <add key="TEST" value="0" />
+    <add key="EACHDISTRICT" value="GS" />
+    <add key="ISUPDATECHECKEDVALUE" value="1" />
+    <add key="InterfaceType" value="DY" />
+    <add key="EXPORTTYPE" value="Excel" />
+    <add key="InstrumentName" value="食品综合分析仪" />
+    <add key="InstrumentNameModel" value="DY-3500" />
+    <add key="STANDARD1" value="0.2994" />
+    <add key="STANDARD2" value="0.3008" />
+    <add key="STANDARD3" value="0.2609" />
+    <add key="STANDARD4" value="0.2534" />
+    <add key="DECISIONCRITERIA1" value="0.02" />
+    <add key="DECISIONCRITERIA2" value="0.01" />
+    <add key="MachineName" value="" />
+    <add key="MachineID" value="" />
+    <add key="MachineSerialNum" value="" />
+    <add key="ManifactName" value="" />
+    <add key="UserName" value="admin_js_nt_cc_xyl" />
+    <add key="companykey" value="1,2,3,4,5,6,7,8" />
+    <add key="getsampleURL" value="https://i.gdfda.gov.cn/inspectinfo/jsp/inspect/quick_inspect.jsp?method=getsample" />
+    <add key="uploadResultURL" value="https://i.gdfda.gov.cn/inspectinfo/jsp/inspect/quick_inspect.jsp?method=inspectResult" />
+    <add key="deviceStatusURL" value="https://i.gdfda.gov.cn/inspectinfo/jsp/inspect/quick_inspect.jsp?method=deviceStatus" />
+    <add key="IsSelectSampleName" value="1" />
+    <add key="SERVERADDR" value="http://218.94.26.170:9071/services/StandardInterface?wsdl" />
+    <add key="HMPORT" value="COM11" />
+  </appSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+  <applicationSettings>
+    <AIO.Properties.Settings>
+      <setting name="DY_Detector_NewInterface_dataSync" serializeAs="String">
+        <value>http://apps.gsfda.gov.cn:8081/gsfdaweb/services/dataSync</value>
+      </setting>
+      <setting name="DY_Detector_WebReference_StandardInterface" serializeAs="String">
+        <value>http://218.94.26.170:9071/services/StandardInterface.StandardInterfaceHttpSoap11Endpoint/</value>
+      </setting>
+    </AIO.Properties.Settings>
+  </applicationSettings>
+  <system.serviceModel>
+    <bindings />
+    <client />
+  </system.serviceModel>
+</configuration>

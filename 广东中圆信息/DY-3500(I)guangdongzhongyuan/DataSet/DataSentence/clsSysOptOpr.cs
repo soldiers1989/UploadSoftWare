@@ -1,0 +1,131 @@
+using System;
+using System.Data;
+using System.Text;
+
+namespace DYSeriesDataSet
+{
+    /// <summary>
+    /// 系统配置表
+    /// </summary>
+    public class clsSysOptOpr
+    {
+        public clsSysOptOpr()
+        {
+            //
+            // TODO: 在此处添加构造函数逻辑
+            //
+        }
+        StringBuilder sql = new StringBuilder();
+        /// <summary>
+        /// 更新命令行参数
+        /// </summary>
+        /// <param name="cmmdText"></param>
+        /// <returns></returns>
+        public int UpdateCommand(string cmmdText)
+        {
+            string sErrMsg = string.Empty;
+            DataBase.ExecuteCommand(cmmdText);
+            return 0;
+        }
+
+        /// <summary>
+        /// 部分修改保存
+        /// </summary>
+        /// <param name="OprObject">对象clsSysOpt的一个实例参数</param>
+        /// <returns></returns>
+        public int Update(string setSql, string whereSql, out string errMsg)
+        {
+            errMsg = string.Empty;
+            int rtn = 0;
+
+            if (string.IsNullOrEmpty(setSql))
+            // if (setSql == null || setSql.Equals(""))
+            {
+                errMsg = "参数有误！";
+                return -1;
+            }
+
+            try
+            {
+                sql.Length = 0;
+                sql.Append("UPDATE tSysOpt SET ");
+                sql.Append(setSql);
+
+                //string updateSql = "update tSysOpt set " + setSql;
+                if (!whereSql.Equals(""))
+                {
+                    sql.Append(" WHERE ");
+                    sql.Append(whereSql);
+                    //updateSql += " where " + whereSql;
+                }
+
+                DataBase.ExecuteCommand(sql.ToString(), out errMsg);
+                sql.Length = 0;
+                rtn = 1;
+            }
+            catch (Exception e)
+            {
+                //Log.WriteLog("更新clsSysOpt",e);
+                errMsg = e.Message;
+            }
+            return rtn;
+        }
+
+        /// <summary>
+        /// 根据查询串条件查询记录
+        /// </summary>
+        /// <param name="whereSql">查询条件串,不含Where</param>
+        /// <param name="orderBySql">排序串,不含Order</param>
+        /// <returns></returns>
+        public DataTable GetAsDataTable(string whereSql, string orderBySql)
+        {
+            string errMsg = string.Empty;
+            DataTable dt = null;
+
+            try
+            {
+                sql.Length = 0;
+                sql.Append("SELECT SysCode,OptDes,OptType,OptValue,IsReadOnly,IsDisplay,IsLock,Remark FROM tSysOpt");
+
+                if (!whereSql.Equals(""))
+                {
+                    sql.Append(" WHERE ");
+                    sql.Append(whereSql);
+
+                }
+                if (!orderBySql.Equals(""))
+                {
+                    sql.Append(" ORDER BY ");
+                    sql.Append(orderBySql);
+
+                }
+                string[] sCmd = new string[1] { sql.ToString() };
+
+
+                string[] sNames = new string[1] { "SysOpt" };
+
+                dt = DataBase.GetDataSet(sCmd, sNames, out errMsg).Tables["SysOpt"];
+                sql.Length = 0;
+            }
+            catch (Exception e)
+            {
+                //Log.WriteLog("查询clsSysOpt",e);
+                errMsg = e.Message;
+            }
+            return dt;
+        }
+
+        /// <summary>
+        /// 获取指定列指定结果集结果集
+        /// 作者：
+        /// </summary>
+        /// <param name="top">表示前N个记录，小于等于0表示"*"</param>
+        /// <param name="strWhere">过滤条件组合串，输入字符串中不能包含where关键字，需要排序时在条件后加 order by</param>
+        /// <param name="columns">表示1个或者多个字段字符串，多个字段之间用","隔开如： "ID,Name,Value,...."</param>
+        /// <returns>返回结果集</returns>
+        public DataTable GetColumnDataTable(int top, string strWhere, params string[] columns)
+        {
+            return DataBase.GetColumnList("tSysOpt", top, strWhere, columns);
+        }
+    }
+}

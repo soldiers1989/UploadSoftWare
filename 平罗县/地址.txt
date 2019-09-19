@@ -1,0 +1,9 @@
+http://plx.verytong.com
+
+
+
+http://plx.verytong.com/api/Index/get_goods?token=plx_plx123
+
+http://plx.verytong.com/api/Index/save_goods?token=plx_plx123&goods_arr={1:'5%',2:'8%'}
+
+http://plx.verytong.com/api/Index/save_goods?token=plx_plx123&goods_arr={1:'2%',2:'80%'}

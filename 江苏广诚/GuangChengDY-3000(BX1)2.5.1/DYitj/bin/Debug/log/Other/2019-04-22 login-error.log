@@ -1,0 +1,8 @@
+11:49:01
+System.ComponentModel.Win32Exception (0x80004005): 拒绝访问。
+   在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 AIO.LoginWindow..ctor() 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Main\LoginWindow.xaml.cs:行号 71
+

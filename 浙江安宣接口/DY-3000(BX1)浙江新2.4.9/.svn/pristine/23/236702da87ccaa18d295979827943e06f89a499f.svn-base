@@ -1,0 +1,75 @@
+﻿<Window x:Class="AIO.xaml.KjService.SearchCompanys"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="被检单位查询选择" Height="400" Width="480" WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize" Loaded="Window_Loaded"
+        Icon="/DY-Detector;component/assets/logo_v.png">
+
+    <Grid>
+        <!--监管对象-->
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}" Margin="0,51,0,0" Name="DataGridRecord" SelectionChanged="DataGridRecord_SelectionChanged" MouseDoubleClick="DataGridRecord_MouseDoubleClick" LoadingRow="DataGridRecord_LoadingRow" FontSize="16" SelectionMode="Single">
+            <DataGrid.ContextMenu>
+                <ContextMenu Name="DataGridMenu" StaysOpen="true">
+                    <MenuItem Name="miSelected" Click="Selected_Click" Header="选择"/>
+                    <MenuItem Name="miSearch" Click="Search_Click" Header="重新加载"/>
+                    <MenuItem Name="miSearchB" Click="Btn_SearchBusiness_Click" Header="查询经营户"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding Path = id}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="组织机构id" Binding="{Binding Path = depart_id}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="被检单位名称" Binding="{Binding Path = reg_name}"/>
+                <DataGridTextColumn Header="类型" Binding="{Binding Path = reg_type}"/>
+                <DataGridTextColumn Header="联系人" Binding="{Binding Path = link_user}"/>
+                <DataGridTextColumn Header="联系方式" Binding="{Binding Path = link_phone}"/>
+                <DataGridTextColumn Header="联系人身份证" Binding="{Binding Path = link_idcard}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="传真" Binding="{Binding Path = fax}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="邮编" Binding="{Binding Path = post}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="所属区域id" Binding="{Binding Path = region_id}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="详细地址" Binding="{Binding Path = reg_address}" />
+                <DataGridTextColumn Header="x坐标" Binding="{Binding Path = place_x}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="y坐标" Binding="{Binding Path = place_y}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="是否有经营户标识：0无，1有" Binding="{Binding Path = remark}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="删除状态:0未删除，1已删除" Binding="{Binding Path = delete_flag}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="排序" Binding="{Binding Path = sorting}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="创建人id" Binding="{Binding Path = create_by}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="创建时间" Binding="{Binding Path = create_date}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="修改人id" Binding="{Binding Path = update_by}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="修改时间" Binding="{Binding Path = update_date}" Visibility="Collapsed"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!--经营户-->
+        <DataGrid Visibility="Collapsed" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}" Margin="0,51,0,0" Name="DataGridRecord_B" SelectionChanged="DataGridRecord_SelectionChanged" MouseDoubleClick="DataGridRecord_MouseDoubleClick" LoadingRow="DataGridRecord_LoadingRow" FontSize="16" SelectionMode="Single">
+            <DataGrid.ContextMenu>
+                <ContextMenu StaysOpen="true">
+                    <MenuItem Name="miSelected_B" Click="Selected_Click" Header="选择"/>
+                    <MenuItem Name="miBack" Click="miBack_Click" Header="返回"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding Path = id}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="监管对象ID" Binding="{Binding Path = reg_id}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="档口名称" Binding="{Binding Path = ope_shop_name}"/>
+                <DataGridTextColumn Header="档口编号" Binding="{Binding Path = ope_shop_code}"/>
+                <DataGridTextColumn Header="经营户名称" Binding="{Binding Path = ope_name}"/>
+                <DataGridTextColumn Header="经营户身份证号" Binding="{Binding Path = ope_idcard}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="经营户联系方式" Binding="{Binding Path = ope_phone}"/>
+                <DataGridTextColumn Header="信用等级" Binding="{Binding Path = credit_rating}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="监控级别" Binding="{Binding Path = monitoring_level}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="二维码" Binding="{Binding Path = qrcode}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="备注" Binding="{Binding Path = remark}"/>
+                <DataGridTextColumn Header="删除状态" Binding="{Binding Path = delete_flag}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="排序字段" Binding="{Binding Path = sorting}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="创建人id" Binding="{Binding Path = create_by}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="创建时间" Binding="{Binding Path = create_date}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="修改人id" Binding="{Binding Path = update_by}" Visibility="Collapsed"/>
+                <DataGridTextColumn Header="修改时间" Binding="{Binding Path = update_date}" Visibility="Collapsed"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,14,0,0" Name="txtVal" VerticalAlignment="Top" Width="150" />
+        <Button Content="查询" FontSize="20" Height="40" HorizontalAlignment="Left" Margin="170,5,0,0" Name="Btn_Search" VerticalAlignment="Top" Width="80" Click="Search_Click" />
+        <Button Content="选择" FontSize="20" Height="40" HorizontalAlignment="Left" Margin="255,5,0,0" Name="Btn_Selected" VerticalAlignment="Top" Width="80" Click="Selected_Click" />
+        <Button Content="查询经营户" FontSize="20" Height="40" HorizontalAlignment="Left" Margin="340,5,0,0" Name="Btn_SearchBusiness" VerticalAlignment="Top" Width="110" Click="Btn_SearchBusiness_Click" />
+    </Grid>
+</Window>

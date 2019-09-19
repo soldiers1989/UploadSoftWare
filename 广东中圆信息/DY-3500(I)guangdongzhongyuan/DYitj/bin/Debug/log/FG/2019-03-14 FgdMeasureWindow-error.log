@@ -1,0 +1,20 @@
+17:25:45
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 AIO.FgdMeasureWindow.UpdateADThread.HandleMessage(Message msg) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1\DYitj\xaml\Fenguangdu\FgdMeasureWindow.xaml.cs:行号 1295
+
+17:27:57
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 AIO.FgdMeasureWindow.UpdateADThread.HandleMessage(Message msg) 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1\DYitj\xaml\Fenguangdu\FgdMeasureWindow.xaml.cs:行号 1295
+

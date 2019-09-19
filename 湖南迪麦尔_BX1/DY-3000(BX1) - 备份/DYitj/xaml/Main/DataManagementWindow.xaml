@@ -1,0 +1,111 @@
+﻿<Window x:Class="AIO.xaml.Main.DataManagementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DataManagementWindow" 
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="数据管理" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,20,20" Content="返  回" FontSize="24" Click="ButtonPrev_Click"/>
+        </Grid>
+
+        <!-- 中 -->
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <StackPanel Width="1024" Height="130" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Vertical" Margin="-11,170,-11,0">
+                <WrapPanel Name="WraPanel" Height="130" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                    <WrapPanel Name="wp_jcbz">
+                        <Label Width="5" Height="10"/>
+                        <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="Fgd" Opacity="1" Width="150">
+                            <Button Background="White" Focusable="False" IsDefault="False" IsEnabled="True" Name="ButtonManagementSample" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="ButtonManagementSample_Click">
+                                <StackPanel>
+                                    <Label Content="国家检测" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                    <Label Content="标准管理" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                </StackPanel>
+                            </Button>
+                        </Border>
+                        <Label Width="5" Height="10"/>
+                    </WrapPanel>
+
+
+                    <WrapPanel Name="wp_bjdw">
+                        <Label Width="5" Height="10"/>
+                        <Border BorderBrush="#2C85C7" Name="Jtj"  BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Opacity="1" Width="150">
+                            <Button Background="White" Focusable="False" IsEnabled="True" Name="ButtonManagementCompany" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="ButtonManagementCompany_Click">
+                                <StackPanel>
+                                    <Label Content="被检单位" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                    <Label Content="管理模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                </StackPanel>
+                            </Button>
+                        </Border>
+                        <Label Width="5" Height="10"/>
+                    </WrapPanel>
+
+                    <WrapPanel Name="wp_jcjl">
+                        <Label Width="5" Height="10"/>
+                        <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="Ghx" Opacity="1" Width="150">
+                            <Button Background="White" IsEnabled="True" Name="ButtonRecord" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="ButtonRecord_Click">
+                                <StackPanel>
+                                    <Label Content="检测记录" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                    <Label Content="管理模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                </StackPanel>
+                            </Button>
+                        </Border>
+                        <Label Height="10" Width="5" />
+                    </WrapPanel>
+
+                    <WrapPanel Name="wp_bbck" Visibility="Collapsed" >
+                        <Label Height="10" Width="5" />
+                        <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="border1" Opacity="1" Width="150">
+                            <Button Background="White" IsEnabled="True" Name="btnReportSearch" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="btnReportSearch_Click">
+                                <StackPanel>
+                                    <Label Name="lb_Report" Content="报表查看" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                    <Label Content="管理模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                </StackPanel>
+                            </Button>
+                        </Border>
+                        <Label Height="10" Width="5" />
+                    </WrapPanel>
+
+                    <WrapPanel Name="wp_rwjs">
+                        <Label Width="5" Height="10"/>
+                        <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="Bd_jcrw" Opacity="1" Width="150">
+                            <Button Background="White" IsEnabled="True" Name="ButtonTask" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="ButtonTask_Click">
+                                <StackPanel>
+                                    <Label Name="Lb_Tasks" Content="任务查看" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                    <Label Content="管理模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                </StackPanel>
+                            </Button>
+                        </Border>
+                        <Label Width="5" Height="10"/>
+                    </WrapPanel>
+
+                    <WrapPanel Name="wp_zsk">
+                        <Label Width="5" Height="10"/>
+                        <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="Bd_zsk" Opacity="1" Width="150">
+                            <Button Background="White" IsEnabled="True" Name="Btn_KnowledgeBaseWindow" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="Btn_KnowledgeBaseWindow_Click">
+                                <StackPanel>
+                                    <Label Content=" 知识库" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                    <Label Content="管理模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                </StackPanel>
+                            </Button>
+                        </Border>
+                        <Label Width="5" Height="10"/>
+                    </WrapPanel>
+
+                </WrapPanel>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

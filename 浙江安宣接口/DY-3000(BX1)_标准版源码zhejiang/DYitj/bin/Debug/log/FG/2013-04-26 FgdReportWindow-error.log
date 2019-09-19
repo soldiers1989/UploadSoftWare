@@ -1,0 +1,12 @@
+01:09:17
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdReportWindow.ShowResult() 位置 c:\Users\Administrator\Desktop\zhejaing\DY-3000(BX1)_标准版源码zhejiang\DYitj\xaml\Fenguangdu\FgdReportWindow.xaml.cs:行号 556
+
+01:18:20
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdReportWindow.ShowResult() 位置 c:\Users\Administrator\Desktop\zhejaing\DY-3000(BX1)_标准版源码zhejiang\DYitj\xaml\Fenguangdu\FgdReportWindow.xaml.cs:行号 556
+
+01:25:40
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdReportWindow.ShowResult() 位置 c:\Users\Administrator\Desktop\zhejaing\DY-3000(BX1)_标准版源码zhejiang\DYitj\xaml\Fenguangdu\FgdReportWindow.xaml.cs:行号 556
+

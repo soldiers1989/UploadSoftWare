@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://impl.service.spkj.trueway.com.cn/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://service.spkj.trueway.com.cn/" name="Testplaninfo" targetNamespace="http://impl.service.spkj.trueway.com.cn/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://service.spkj.trueway.com.cn/" location="http://61.155.85.74:2205/spkj/services/Testplaninfo?wsdl=Testplaninfo.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="TestplaninfoSoapBinding" type="ns1:Testplaninfo">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestPlanInfoDataPublication">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="TestPlanInfoDataPublication">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="TestPlanInfoDataPublicationResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDataTrend">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDataTrend">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDataTrendResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOpenStateJssb">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getOpenStateJssb">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getOpenStateJssbResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitTestResultNew">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="submitTestResultNew">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="submitTestResultNewResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getExceptionResult">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getExceptionResult">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getExceptionResultResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStallInfo">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getStallInfo">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getStallInfoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitTestResult">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="submitTestResult">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="submitTestResultResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTestPlanInfoByJcsb">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getTestPlanInfoByJcsb">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getTestPlanInfoByJcsbResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTestPlanInfoByJcry">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getTestPlanInfoByJcry">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getTestPlanInfoByJcryResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Testplaninfo">
+    <wsdl:port name="TestplaninfoImpPort" binding="tns:TestplaninfoSoapBinding">
+      <soap:address location="http://61.155.85.74:2205/spkj/services/Testplaninfo" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

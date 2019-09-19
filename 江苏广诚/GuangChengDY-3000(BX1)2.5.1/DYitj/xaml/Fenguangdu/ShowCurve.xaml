@@ -1,0 +1,40 @@
+﻿<Window x:Class="AIO.xaml.Fenguangdu.ShowCurve"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:rg="clr-namespace:Righthand.RealtimeGraph;assembly=Righthand.RealtimeGraph"
+        Title="实时曲线图谱" Height="325" Width="405"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Icon="/DY-Detector;component/assets/Curve.png"
+        Closing="Window_Closing">
+
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="300" VerticalAlignment="Top" Width="400">
+            <TabItem Header="吸光度">
+                <Grid Background="#FFE5E5E5">
+                    <!--<rg:RealtimeGraphControl Name="xgdGraph" AxisColor="Blue" AxisWidth="1" VerticalLinesInterval="5" 
+                		VerticalLabelsStep="2"  SpanX="100" MaxY="5" MinY="-1" 
+                		HorizontalLinesInterval="1" Margin="0,29,10,10" />-->
+                    <rg:RealtimeGraphControl Name="xgdGraph" AxisColor="Blue" AxisWidth="1" VerticalLinesInterval="5"
+                		VerticalLabelsStep="2"  SpanX="100" MaxY="5" MinY="-1" 
+                		HorizontalLinesInterval="1" Margin="0,33,10,10" />
+
+                    <Label Content="吸光度实时曲线" FontSize="20" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top"/>
+                    <Label Name="lb_xgd" Content="0.000" FontSize="20" HorizontalAlignment="Left" Margin="170,5,0,0" VerticalAlignment="Top" Foreground="Red"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="透光率">
+                <Grid Background="#FFE5E5E5">
+                    <rg:RealtimeGraphControl Name="tglGraph" AxisColor="Blue" AxisWidth="1" VerticalLinesInterval="5"
+                		VerticalLabelsStep="2"  SpanX="100" MaxY="105" MinY="0" 
+                		HorizontalLinesInterval="10" Margin="0,33,10,10" />
+                    
+                    <Label Content="透光率实时曲线" FontSize="20" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top"/>
+                    <Label Name="lb_tgl" Content="100.00%" FontSize="20" HorizontalAlignment="Left" Margin="170,5,0,0" VerticalAlignment="Top" Foreground="Red"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="光度能量">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

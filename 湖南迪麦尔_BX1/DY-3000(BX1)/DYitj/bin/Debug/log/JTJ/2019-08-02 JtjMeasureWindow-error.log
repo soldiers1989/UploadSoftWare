@@ -1,0 +1,12 @@
+16:02:32
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 d:\DY-Software\数据上传\湖南迪麦尔_BX1\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 1420
+

@@ -1,0 +1,170 @@
+﻿<Window x:Class="AIO.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SetPortWindow"
+        Width="1024" Height="1222"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGridCenter}"
+        FontFamily="SimHei" 
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        Closing="Window_Closing" Loaded="Window_Loaded" xmlns:my="clr-namespace:System;assembly=mscorlib">
+    <Window.Resources>
+        <my:String x:Key="Name">测试设备名称</my:String>
+        <my:String x:Key="Content1">设备名称:</my:String>
+    </Window.Resources>
+    <Grid Margin="0,0,0,87">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="873*"/>
+            <RowDefinition Height="89*"/>
+        </Grid.RowDefinitions>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="0,20" />
+            <Label Content="设  置" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Height="78" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" Margin="0,0,0,-88" Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="157*"/>
+                <ColumnDefinition Width="97*"/>
+                <ColumnDefinition Width="254*"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,14,20,14"  Content="返  回" FontSize="24" Click="ButtonPrev_Click" Grid.Column="3"/>
+            <Button Content="检查更新" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="6,14,0,14" Name="btn_autoUpdater" VerticalAlignment="Center" Width="100" Click="Btn_autoUpdater_Click" Grid.ColumnSpan="2"/>
+            <Button Content="数据库修复" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="100,14,0,14" Name="Btn_DataBaseRepair" VerticalAlignment="Center" Width="125" Click="Btn_DataBaseRepair_Click" Grid.Column="2" Grid.ColumnSpan="2" Visibility="Hidden"/>
+        </Grid>
+
+        <!-- 中 -->
+         <StackPanel Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}" HorizontalAlignment="Center" VerticalAlignment="Center"  Orientation="Horizontal" >
+            <ScrollViewer Width="750" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" xmlns:sys="clr-namespace:System;assembly=mscorlib"> <ScrollViewer.Resources>
+                    <sys:Double x:Key="{x:Static SystemParameters.VerticalScrollBarWidthKey}">40</sys:Double>
+                    <sys:Double x:Key="{x:Static SystemParameters.HorizontalScrollBarHeightKey}">40</sys:Double>
+                </ScrollViewer.Resources>
+                <StackPanel Orientation="Vertical" Width="715">
+                    <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Width="710" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="端口设置" FontSize="20" HorizontalContentAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel x:Name="skpFgdTop" Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Width="355" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <!--<StackPanel Width="80" Height="60" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Top"></StackPanel>-->
+                            <Label Width="140" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="分光度端口:" FontSize="20"/>
+                            <ComboBox x:Name="ComboBoxADPort" Width="110" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" DropDownOpened="ComboBoxPort_DropDownOpened" DropDownClosed="ComboBoxADPort_DropDownClosed" IsEditable="True" Panel.ZIndex="0" />
+                            <Button x:Name="ButtonADPortTest" Width="100" Height="40" VerticalAlignment="Center"  VerticalContentAlignment="Center" FontSize="20" Content="通讯测试" Click="ButtonADPortTest_Click"/>
+                        </StackPanel>
+                        <StackPanel Width="358" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <StackPanel Width="250" Height="60" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Top">
+                                <Button x:Name="ButtonShowAD" Width="179" Height="40" VerticalContentAlignment="Center" FontSize="20" Content="查看分光光度" Click="ButtonShowAD_Click"/>
+                            </StackPanel>
+                            <Button x:Name="BtnCheckError" Width="100" Height="40" VerticalContentAlignment="Center" FontSize="20" Content="检测故障" Click="BtnCheckError_Click" />
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel x:Name="skpSxtLine1" Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Width="355" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <!--<StackPanel Width="80" Height="60" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Top"></StackPanel>-->
+                            <Label Width="140" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="摄像头端口1:" FontSize="20"/>
+                            <ComboBox x:Name="ComboBoxSXT1Port" Width="110" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" DropDownOpened="ComboBoxPort_DropDownOpened" DropDownClosed="ComboBoxSXT1Port_DropDownClosed" IsEditable="True" />
+                            <Button x:Name="ButtonSXT1PortTest" Width="100" Height="40" VerticalAlignment="Center"  VerticalContentAlignment="Center" FontSize="20" Content="通讯测试" Click="ButtonSXT1PortTest_Click"/>
+                        </StackPanel>
+                        <StackPanel Width="355" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <Label Width="140" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="摄像头端口2:" FontSize="20"/>
+                            <ComboBox x:Name="ComboBoxSXT2Port" Width="110" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" DropDownOpened="ComboBoxPort_DropDownOpened" DropDownClosed="ComboBoxSXT2Port_DropDownClosed" IsEditable="True" />
+                            <Button x:Name="ButtonSXT2PorTest" Width="100" Height="40" VerticalAlignment="Center"  VerticalContentAlignment="Center" FontSize="20" Content="通讯测试" Click="ButtonSXT2PorTest_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel x:Name="skpSxtLine2" Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Width="355" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <!--<StackPanel Width="80" Height="60" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Top"></StackPanel>-->
+                            <Label Width="140" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="摄像头端口3:" FontSize="20"/>
+                            <ComboBox x:Name="ComboBoxSXT3Port" Width="110" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" DropDownOpened="ComboBoxPort_DropDownOpened" DropDownClosed="ComboBoxSXT3Port_DropDownClosed" IsEditable="True" />
+                            <Button x:Name="ButtonSXT3PortTest" Width="100" Height="40" VerticalAlignment="Center"  VerticalContentAlignment="Center" FontSize="20" Content="通讯测试" Click="ButtonSXT3PortTest_Click"/>
+                        </StackPanel>
+                        <StackPanel Width="355" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <Label Width="140" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="摄像头端口4:" FontSize="20"/>
+                            <ComboBox x:Name="ComboBoxSXT4Port" Width="110" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" DropDownOpened="ComboBoxPort_DropDownOpened" DropDownClosed="ComboBoxSXT4Port_DropDownClosed" IsEditable="True" />
+                            <Button x:Name="ButtonSXT4PorTest" Width="100" Height="40" VerticalAlignment="Center"  VerticalContentAlignment="Center" FontSize="20" Content="通讯测试" Click="ButtonSXT4PorTest_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Height="60" Orientation="Horizontal" Width="355">
+                            <Label Content="打印机端口:" FontSize="20" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="140" />
+                            <ComboBox DropDownClosed="ComboBoxPRINTPort_DropDownClosed" DropDownOpened="ComboBoxPort_DropDownOpened" FontSize="20" Height="40" IsEditable="True" x:Name="ComboBoxPRINTPort" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="110" />
+                            <Button Click="ButtonPRINTPortTest_Click" Content="通讯测试" FontSize="20" Height="40" x:Name="ButtonPRINTPortTest" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="100" />
+                        </StackPanel>
+                        <StackPanel x:Name="skpZjs" Height="60" Orientation="Horizontal" Width="360">
+                            <Label Content="重金属端口:" FontSize="20" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="140" />
+                            <ComboBox DropDownClosed="ComboBoxHMPort_DropDownClosed" DropDownOpened="ComboBoxPort_DropDownOpened" FontSize="20" Height="40" IsEditable="True" x:Name="ComboBoxHMPort" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="110" />
+                            <Button Click="ButtonHMPortTest_Click" Content="通讯测试" FontSize="20" Height="40" x:Name="ButtonHMPortTest" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="100" />
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel x:Name="sp_ZH" Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Height="60" Orientation="Horizontal" Width="355">
+                            <Label Content="唯一机器码:" FontSize="20" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="140" />
+                            <TextBox  FontSize="20" Height="40"  x:Name="tb_DeviceId" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="110" />
+                            <Button Click="Btn_SaveDeviceId_Click" Content="保    存" FontSize="20" Height="40" x:Name="btn_SaveDeviceId" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="100" />
+                        </StackPanel>
+                        <StackPanel Height="60" Orientation="Horizontal" Width="355">
+                            <Button Click="Btn_settingZH_Click" Content="设置 - 智慧食药监账号密码" FontSize="20" Height="40" x:Name="btn_settingZH" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="349" Margin="0,10" />
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel x:Name="skpFgdC" Width="710" Height="60" Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Collapsed">
+                        <!--<StackPanel Width="80" Height="60" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Top"></StackPanel>-->
+                        <Label Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="分光光度检测通道配置" FontSize="20" Width="710" HorizontalContentAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel x:Name="StackPanelLEDSettings" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,40" Visibility="Collapsed"/>
+                    <StackPanel Width="710" Height="60" Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="服务器链接配置" FontSize="20" Width="710" HorizontalContentAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <!--<StackPanel Width="80" Height="60" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Top"></StackPanel>-->
+                            <Label Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="服务器地址:" FontSize="20"/>
+                            <TextBox x:Name="textBoxServerAddr" Width="490" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Text="http://www.anxuan360.com:9091/open" Margin="0,10" />
+                            <Button x:Name="buttonServerTest" Width="95" Height="40" VerticalContentAlignment="Center" FontSize="20" Content="通讯测试" Click="ButtonServerTest_Click" />
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <!--<StackPanel Width="80" Height="60" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Top"></StackPanel>-->
+                            <Label Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="注册ID:" FontSize="20"/>
+                            <TextBox x:Name="textBoxRegisterID" Width="120" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Text="user"/>
+                            <Label Width="120" Height="40" Margin="10,0,0,0" VerticalContentAlignment="Center" Content="注册密码:" FontSize="20"/>
+                            <PasswordBox x:Name="textBoxRegisterPassword" Width="120" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Password="123456" />
+                            <Label Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="行政机构ID:" FontSize="20" Margin="0,10" Visibility="Collapsed"/>
+                            <TextBox x:Name="textCheckPlaceCode" Width="95" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Text="000001" IsReadOnly="True" Visibility="Collapsed" />
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+                            <!--<StackPanel Width="80" Height="60" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Top"></StackPanel>-->
+                            <Label Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="检测点编号:" FontSize="20" Visibility="Collapsed"/>
+                            <TextBox x:Name="textBoxCheckNumber" Width="120" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Text="000002" IsReadOnly="True" Visibility="Collapsed"/>
+                            <Label Width="120" Height="40" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="检测点名称:" FontSize="20" Visibility="Collapsed"/>
+                            <TextBox x:Name="textBoxCheckName" Width="335" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Text="食品药品监督管理局检测中心" IsReadOnly="True" Visibility="Collapsed" />
+                            <Button Name="buttonCehckSync" Width="180" Height="40"  Margin="200,0,0,0" VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Content="检测项目下载" Click="ButtonCehckSync_Click" DataContext="{Binding}" />
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Visibility="Collapsed" Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+                            <!--<StackPanel Width="80" Height="60" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Top"></StackPanel>-->
+                            <Label Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="检测点类型:" FontSize="20" Visibility="Collapsed"/>
+                            <TextBox x:Name="textBoxCheckType" Width="120" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Text="检测中心" IsReadOnly="True" Visibility="Collapsed" />
+                            <Label Width="120" Height="40" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="所属机构:" FontSize="20" Visibility="Collapsed"/>
+                            <TextBox x:Name="textBoxCheckOrg" Width="335" Height="40"  VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Text="食品药品监督管理局" IsEnabled="True" IsReadOnly="True" Visibility="Collapsed" />
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel  Visibility="Collapsed" Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel Width="710" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <Button Name="btnCompany" Width="180" Height="40" Margin="40,0,0,0" VerticalAlignment="Center"  VerticalContentAlignment="Center" FontSize="20" Content="被检单位下载" Click="BtnCompany_Click" Visibility="Collapsed"/>
+                            <Button Name="btnCheckItems" Width="180" Height="40" Margin="40,0,0,0" VerticalAlignment="Center"  VerticalContentAlignment="Center" FontSize="20" Content="检测项目下载" Click="BtnCheckItems_Click" Visibility="Collapsed"/>
+                            <Button Name="buttonCehckSyncD" Width="180" Height="40"  Margin="40,0,0,0" VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Content="全部数据下载" Click="buttonCehckSyncD_Click" DataContext="{Binding}" Visibility="Collapsed"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+
+</Window>

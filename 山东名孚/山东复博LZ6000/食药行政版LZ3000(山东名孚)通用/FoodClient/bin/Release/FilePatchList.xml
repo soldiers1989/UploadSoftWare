@@ -1,0 +1,4 @@
+<FilePatchList PatchTime="2003-10-21 16:41:39">
+  <File File="\lhgis.exe" Http="HTTP://10.70.100.208/lhgis.exe" Ver="0.1.1" PatchTime="2003-10-21 16:41:40" />
+  <File File="d:\songzhang\help\vb_com.zip" Http="HTTP://10.70.100.208/vb_com.zip" Ver="0.1.1" PatchTime="2003-10-21 16:42:23" />
+</FilePatchList>

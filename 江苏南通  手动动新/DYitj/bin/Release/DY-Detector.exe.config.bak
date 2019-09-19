@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+  </configSections>
+  <connectionStrings>
+    <add name="AIO.Properties.Settings.localConnectionString" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\bin\Debug\Data\local.Mdb;Persist Security Info=True" providerName="System.Data.OleDb"/>
+    <add name="AIO.Properties.Settings.localConnectionString1" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\bin\Release\Data\local.Mdb;Persist Security Info=True" providerName="System.Data.OleDb"/>
+  </connectionStrings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+  </startup>
+  <appSettings>
+    <add key="ADPORT" value="COM3" />
+    <add key="SXT1PORT" value="COM4" />
+    <add key="SXT2PORT" value="COM5" />
+    <add key="SXT3PORT" value="COM6" />
+    <add key="SXT4PORT" value="COM7" />
+    <add key="PRINTPORT" value="COM8" />
+    <add key="HOLECOUNT" value="16" />
+    <add key="SXTCOUNT" value="0" />
+    <add key="HMCOUNT" value="0" />
+    <add key="MICROBIAL" value="0" />
+    <add key="MICROBIALADDRESS" value="" />
+    <add key="ISOPENFILE" value="Y" />
+    <add key="FAULTDETECTION" value="1" />
+    <add key="SHOWFGD" value="0" />
+    <add key="VERSION" value="XZ" />
+    <add key="ISSETINDEX" value="N" />
+    <add key="ISOPENVIDEO" value="N" />
+    <add key="VIDEOADDRESS" value="" />
+    <add key="PDFADDRESS" value="" />
+    <add key="ISDELETED" value="N" />
+    <add key="TEST" value="N" />
+    <add key="EACHDISTRICT" value="GS" />
+    <add key="ISUPDATECHECKEDVALUE" value="N" />
+    <add key="EXPORTTYPE" value="Excel" />
+    <add key="STANDARD1" value="0.2994" />
+    <add key="STANDARD2" value="0.3008" />
+    <add key="STANDARD3" value="0.2609" />
+    <add key="STANDARD4" value="0.2534" />
+    <add key="DECISIONCRITERIA1" value="0.02" />
+    <add key="DECISIONCRITERIA2" value="0.01" />
+    <add key="InstrumentName" value="DY-2000肉类快速检测仪" />
+    <add key="WSWPATH" value="Z:\收到的文件\达元\新建文件夹2015\RVLM 2012-04-13 Software 32bit\RVLM 2012-04-13 Software 32bit\RVLM20120413.jar" />
+    <add key="GZZPATH" value="C:\Program Files (x86)\达元一体化食品安全检测系统\FoodClient.exe" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+    <add key="SERVERADDR" value="http://127.0.0.1:8080/web/services/DataSyncService" />
+    <add key="HMPORT" value="COM11" />
+  </appSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri=""/>
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400"/>
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>

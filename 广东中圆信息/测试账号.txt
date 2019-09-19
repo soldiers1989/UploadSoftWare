@@ -1,0 +1,6 @@
+数据库：阿里云RDS （MS SQL2008）
+连接地址：gettersoft.sqlserver.rds.aliyuncs.com
+用户名称:  hengan01
+密码：     HengAn01 
+数据库名称: gtdbha01
+表名:       t_foodcheck01

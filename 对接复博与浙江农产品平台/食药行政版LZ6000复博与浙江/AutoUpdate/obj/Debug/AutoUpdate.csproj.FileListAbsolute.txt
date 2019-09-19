@@ -1,0 +1,122 @@
+E:\Project\Company_Source\单机版\WindowsFormClient\WindowsFormClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\单机版\WindowsFormClient\WindowsFormClient\bin\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.frmMain.resources
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.frmMain.resources
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\WindowsFormClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\WindowsFormClient\bin\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\AutoUpdate.frmMain.resources
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\workstation\WindowsFormClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\workstation\WindowsFormClient\bin\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\AutoUpdate.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\AutoUpdate.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\AutoUpdate.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\AutoUpdate.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClient\bin\Debug\AutoUpdate.exe
+E:\Workstation_4th Sent[2012-12-17山西投标]\FoodClient\bin\Debug\AutoUpdate.pdb
+E:\Workstation_4th Sent[2012-12-17山西投标]\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-12-17山西投标]\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-12-17山西投标]\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-12-17山西投标]\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Workstation_4th Sent[2012-12-17山西投标]\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClient\bin\Debug\AutoUpdate.exe
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClient\bin\Debug\AutoUpdate.pdb
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\AutoUpdate\obj\Debug\AutoUpdate.pdb
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.exe
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.pdb
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.exe
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.pdb
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.exe
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.pdb
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.exe
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.pdb
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.exe
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.pdb
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.exe
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.pdb
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.exe
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.pdb
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.exe
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.exe
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.pdb
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.csproj.GenerateResource.Cache
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.exe
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\FoodClient\bin\Debug\AutoUpdate.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.csproj.GenerateResource.Cache
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.exe
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\AutoUpdate\obj\Debug\AutoUpdate.pdb
+D:\研发源代码-NowingCode\快检通(行政版)\AutoUpdate\obj\Debug\AutoUpdate.exe
+D:\研发源代码-NowingCode\快检通(行政版)\AutoUpdate\obj\Debug\AutoUpdate.pdb
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClient\bin\Debug\AutoUpdate.exe
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClient\bin\Debug\AutoUpdate.pdb
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.csproj.GenerateResource.Cache
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.exe
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.pdb
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.exe
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClient\bin\Debug\AutoUpdate.exe
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\FoodClient\bin\Debug\AutoUpdate.pdb
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\AutoUpdate\obj\Debug\AutoUpdate.pdb

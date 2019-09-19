@@ -1,0 +1,89 @@
+09:42:47
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:42:51
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:43:09
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:43:55
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:44:00
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:44:05
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:44:10
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:44:15
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:44:18
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:44:20
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:44:25
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+09:44:30
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2815
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 637
+
+10:09:07
+System.InvalidOperationException: 客户端发现响应内容类型为“text/html;charset=utf-8”，但应为“text/xml”。
+请求失败，错误信息为:
+--
+<html><head><title>Apache Tomcat/6.0.35 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IllegalStateException: Can't overwrite cause
+	org.codehaus.xfire.transport.http.XFireServletController.doService(XFireServletController.java:142)
+	org.codehaus.xfire.transport.http.XFireServlet.doPost(XFireServlet.java:116)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+</pre></p><p><b>root cause</b> <pre>java.lang.IllegalStateException: Can't overwrite cause
+	java.lang.Throwable.initCause(Throwable.java:320)
+	com.ctc.wstx.compat.Jdk14Impl.setInitCause(Jdk14Impl.java:70)
+	com.ctc.wstx.exc.WstxException.<init>(WstxException.java:46)
+	com.ctc.wstx.exc.WstxIOException.<init>(WstxIOException.java:16)
+	com.ctc.wstx.stax.WstxInputFactory.doCreateSR(WstxInputFactory.java:536)
+	com.ctc.wstx.stax.WstxInputFactory.createSR(WstxInputFactory.java:592)
+	com.ctc.wstx.stax.WstxInputFactory.createSR(WstxInputFactory.java:617)
+	com.ctc.wstx.stax.WstxInputFactory.createXMLStreamReader(WstxInputFactory.java:312)
+	org.codehaus.xfire.util.STAXUtils.createXMLStreamReader(STAXUtils.java:762)
+	org.codehaus.xfire.transport.http.XFireServletController.invoke(XFireServletController.java:297)
+	org.codehaus.xfire.transport.http.XFireServletController.doService(XFireServletController.java:129)
+	org.codehaus.xfire.transport.http.XFireServlet.doPost(XFireServlet.java:116)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.35 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.35</h3></body></html>
+--.
+   在 AIO.WorkThread.DownLoadAllData(String url, String checkNumber, String checkName, String checkType, String checkOrg, String user, String pwd, String downType) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2784
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 635
+

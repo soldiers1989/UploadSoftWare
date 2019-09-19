@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>DY-3500 autoUpdate</description>
+  <Updater>
+    <Url>http://rj.chinafst.cn:8099/TEST/</Url>
+    <LastUpdateTime>2017-03-09</LastUpdateTime>
+  </Updater>
+  <Application applicationId="DY-Detector">
+    <EntryPoint>DY-Detector.exe</EntryPoint>
+    <Location>.</Location>
+    <Version>1.0.0.0</Version>
+  </Application>
+  <Files>
+    <File Ver="1.0.0.1" Name="ClassLibrary.dll" />
+    <File Ver="1.0.0.2" Name="DataSet.dll" />
+    <File Ver="1.0.0.3" Name="DY-Detector.exe" />
+    <File Ver="1.0.0.0" Name="DY-Detector.exe.config" />
+    <File Ver="1.0.0.0" Name="DY.Process.dll" />
+    <File Ver="1.0.0.0" Name="DynamicDataDisplay.dll" />
+    <File Ver="1.0.0.0" Name="ICSharpCode.SharpZipLib.dll" />
+    <File Ver="1.0.0.0" Name="JsonObject.dll" />
+    <File Ver="1.0.0.0" Name="Newtonsoft.Json.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.OOXML.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.OpenXml4Net.dll" />
+    <File Ver="1.0.0.0" Name="NPOI.OpenXmlFormats.dll" />
+    <File Ver="1.0.0.1" Name="ThreadMessaging.dll" />
+    <File Ver="1.0.0.0" Name="UpdateList.xml" />
+    <File Ver="1.0.0.0" Name="WpfPerformance.exe" />
+    <File Ver="1.0.0.0" Name="WPFVisifire.Charts.dll" />
+    <File Ver="1.0.0.0" Name="Accounts\FoodClass.dat" />
+    <File Ver="1.0.0.0" Name="Accounts\userAccounts.dat" />
+    <File Ver="1.0.0.0" Name="Data\local.Mdb" />
+    <File Ver="1.0.0.0" Name="Items\fgdItems.dat" />
+    <File Ver="1.0.0.0" Name="Items\fgdItems.xml" />
+    <File Ver="1.0.0.0" Name="Items\gszItems.dat" />
+    <File Ver="1.0.0.0" Name="Items\hmItems.dat" />
+    <File Ver="1.0.0.0" Name="Items\Items.rar" />
+    <File Ver="1.0.0.0" Name="Items\jtjItems.dat" />
+    <File Ver="1.0.0.0" Name="log\2016-12-30_JTJ.log" />
+    <File Ver="1.0.0.0" Name="Others\CheckedReportModel.html" />
+    <File Ver="1.0.0.0" Name="Others\CheckedReportOfficialSeal.gif" />
+    <File Ver="1.0.0.0" Name="Others\CheckedReportTitle.txt" />
+    <File Ver="1.0.0.0" Name="Others\deviceHole.dat" />
+    <File Ver="1.0.0.0" Name="Others\GPS.htm" />
+  </Files>
+  <UpdateNotes>
+    <UpdateNote Note="XXXXX食品综合分析仪_Ver X.X.X 版本更新说明："/>
+    <UpdateNote Note="- 1、XXXXXXXX。"/>
+    <UpdateNote Note="- 2、XXXXXXXX。"/>
+  </UpdateNotes>
+</AutoUpdater>

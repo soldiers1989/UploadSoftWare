@@ -1,0 +1,12 @@
+F:\Projects\DY3000\DataSet\bin\Release\DataSet.dll
+F:\Projects\DY3000\DataSet\bin\Release\DataSet.pdb
+F:\Projects\DY3000\DataSet\obj\Release\DataSet.dll
+F:\Projects\DY3000\DataSet\obj\Release\DataSet.pdb
+F:\Projects\SVN\DY-3000Ultimate\DataSet\bin\Release\DataSet.dll
+F:\Projects\SVN\DY-3000Ultimate\DataSet\bin\Release\DataSet.pdb
+F:\Projects\SVN\DY-3000Ultimate\DataSet\obj\Release\DataSet.dll
+F:\Projects\SVN\DY-3000Ultimate\DataSet\obj\Release\DataSet.pdb
+F:\Projects\SVN\DY-3500\DataSet\bin\Release\DataSet.dll
+F:\Projects\SVN\DY-3500\DataSet\bin\Release\DataSet.pdb
+F:\Projects\SVN\DY-3500\DataSet\obj\Release\DataSet.dll
+F:\Projects\SVN\DY-3500\DataSet\obj\Release\DataSet.pdb

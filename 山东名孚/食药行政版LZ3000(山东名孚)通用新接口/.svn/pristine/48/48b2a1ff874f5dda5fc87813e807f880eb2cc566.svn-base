@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetDicSpecials">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDicSpecialsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDicSpecialsResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetClients">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="farmid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetClientsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetClientsResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Save2005FarmSampling">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FarmID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TaskDataSet">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Save2005FarmSamplingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Save2005FarmSamplingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Check2005SamplingValue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ataskinfo">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Check2005SamplingValueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Check2005SamplingValueResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Test">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncCheckFoodData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FarmID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="XmlCheck">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlChechDetails">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncCheckFoodDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncCheckFoodDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncCheckFoodData2005">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FarmID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="XmlCheck">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlChechDetails">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncCheckFoodData2005Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncCheckFoodData2005Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncCheckFoodDataToJnServer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlCheck">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlChechDetails">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncCheckFoodDataToJnServerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncCheckFoodDataToJnServerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncMyzlCheckFoodData2005">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FarmID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="XmlCheck">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncMyzlCheckFoodData2005Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncMyzlCheckFoodData2005Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncFoodCheckDataValidate2005">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FarmID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="XmlCheck">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlChechDetails">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncFoodCheckDataValidate2005Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncFoodCheckDataValidate2005Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncVResultCollectValidate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FarmID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="XmlCheck">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncVResultCollectValidateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncVResultCollectValidateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncFarmsInfoList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FarmsXMl">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncFarmsInfoListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncFarmsInfoListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncFarmsInfoList2005">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FarmsXMl">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncFarmsInfoList2005Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncFarmsInfoList2005Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncCheckDataToServer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataXml">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncCheckDataToServerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncCheckDataToServerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncFamrsDataToServer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataXml">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncFamrsDataToServerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncFamrsDataToServerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveIntelligent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InfoTypeID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SendMan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Content" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveIntelligentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveIntelligentResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResultCollectData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RegionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResultCollectDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetResultCollectDataResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFarmsInfoList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFarmsInfoListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFarmsInfoListResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SynMVCRegionData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlRegion">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SynMVCRegionDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SynMVCRegionDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SynMVCMenuData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlRegion">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="slen" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SynMVCMenuDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SynMVCMenuDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryFM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productregcode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryFMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryFMResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDicSpecialsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDicSpecials" />
+  </wsdl:message>
+  <wsdl:message name="GetDicSpecialsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDicSpecialsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetClientsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetClients" />
+  </wsdl:message>
+  <wsdl:message name="GetClientsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetClientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Save2005FarmSamplingSoapIn">
+    <wsdl:part name="parameters" element="tns:Save2005FarmSampling" />
+  </wsdl:message>
+  <wsdl:message name="Save2005FarmSamplingSoapOut">
+    <wsdl:part name="parameters" element="tns:Save2005FarmSamplingResponse" />
+  </wsdl:message>
+  <wsdl:message name="Check2005SamplingValueSoapIn">
+    <wsdl:part name="parameters" element="tns:Check2005SamplingValue" />
+  </wsdl:message>
+  <wsdl:message name="Check2005SamplingValueSoapOut">
+    <wsdl:part name="parameters" element="tns:Check2005SamplingValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapOut">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="SyncCheckFoodDataSoapIn">
+    <wsdl:part name="parameters" element="tns:SyncCheckFoodData" />
+  </wsdl:message>
+  <wsdl:message name="SyncCheckFoodDataSoapOut">
+    <wsdl:part name="parameters" element="tns:SyncCheckFoodDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="SyncCheckFoodData2005SoapIn">
+    <wsdl:part name="parameters" element="tns:SyncCheckFoodData2005" />
+  </wsdl:message>
+  <wsdl:message name="SyncCheckFoodData2005SoapOut">
+    <wsdl:part name="parameters" element="tns:SyncCheckFoodData2005Response" />
+  </wsdl:message>
+  <wsdl:message name="SyncCheckFoodDataToJnServerSoapIn">
+    <wsdl:part name="parameters" element="tns:SyncCheckFoodDataToJnServer" />
+  </wsdl:message>
+  <wsdl:message name="SyncCheckFoodDataToJnServerSoapOut">
+    <wsdl:part name="parameters" element="tns:SyncCheckFoodDataToJnServerResponse" />
+  </wsdl:message>
+  <wsdl:message name="SyncMyzlCheckFoodData2005SoapIn">
+    <wsdl:part name="parameters" element="tns:SyncMyzlCheckFoodData2005" />
+  </wsdl:message>
+  <wsdl:message name="SyncMyzlCheckFoodData2005SoapOut">
+    <wsdl:part name="parameters" element="tns:SyncMyzlCheckFoodData2005Response" />
+  </wsdl:message>
+  <wsdl:message name="SyncFoodCheckDataValidate2005SoapIn">
+    <wsdl:part name="parameters" element="tns:SyncFoodCheckDataValidate2005" />
+  </wsdl:message>
+  <wsdl:message name="SyncFoodCheckDataValidate2005SoapOut">
+    <wsdl:part name="parameters" element="tns:SyncFoodCheckDataValidate2005Response" />
+  </wsdl:message>
+  <wsdl:message name="SyncVResultCollectValidateSoapIn">
+    <wsdl:part name="parameters" element="tns:SyncVResultCollectValidate" />
+  </wsdl:message>
+  <wsdl:message name="SyncVResultCollectValidateSoapOut">
+    <wsdl:part name="parameters" element="tns:SyncVResultCollectValidateResponse" />
+  </wsdl:message>
+  <wsdl:message name="SyncFarmsInfoListSoapIn">
+    <wsdl:part name="parameters" element="tns:SyncFarmsInfoList" />
+  </wsdl:message>
+  <wsdl:message name="SyncFarmsInfoListSoapOut">
+    <wsdl:part name="parameters" element="tns:SyncFarmsInfoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="SyncFarmsInfoList2005SoapIn">
+    <wsdl:part name="parameters" element="tns:SyncFarmsInfoList2005" />
+  </wsdl:message>
+  <wsdl:message name="SyncFarmsInfoList2005SoapOut">
+    <wsdl:part name="parameters" element="tns:SyncFarmsInfoList2005Response" />
+  </wsdl:message>
+  <wsdl:message name="SyncCheckDataToServerSoapIn">
+    <wsdl:part name="parameters" element="tns:SyncCheckDataToServer" />
+  </wsdl:message>
+  <wsdl:message name="SyncCheckDataToServerSoapOut">
+    <wsdl:part name="parameters" element="tns:SyncCheckDataToServerResponse" />
+  </wsdl:message>
+  <wsdl:message name="SyncFamrsDataToServerSoapIn">
+    <wsdl:part name="parameters" element="tns:SyncFamrsDataToServer" />
+  </wsdl:message>
+  <wsdl:message name="SyncFamrsDataToServerSoapOut">
+    <wsdl:part name="parameters" element="tns:SyncFamrsDataToServerResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveIntelligentSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveIntelligent" />
+  </wsdl:message>
+  <wsdl:message name="SaveIntelligentSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveIntelligentResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetResultCollectDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetResultCollectData" />
+  </wsdl:message>
+  <wsdl:message name="GetResultCollectDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetResultCollectDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFarmsInfoListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFarmsInfoList" />
+  </wsdl:message>
+  <wsdl:message name="GetFarmsInfoListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFarmsInfoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="SynMVCRegionDataSoapIn">
+    <wsdl:part name="parameters" element="tns:SynMVCRegionData" />
+  </wsdl:message>
+  <wsdl:message name="SynMVCRegionDataSoapOut">
+    <wsdl:part name="parameters" element="tns:SynMVCRegionDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="SynMVCMenuDataSoapIn">
+    <wsdl:part name="parameters" element="tns:SynMVCMenuData" />
+  </wsdl:message>
+  <wsdl:message name="SynMVCMenuDataSoapOut">
+    <wsdl:part name="parameters" element="tns:SynMVCMenuDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryFMSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryFM" />
+  </wsdl:message>
+  <wsdl:message name="QueryFMSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryFMResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MServiceSoap">
+    <wsdl:operation name="GetDicSpecials">
+      <wsdl:input message="tns:GetDicSpecialsSoapIn" />
+      <wsdl:output message="tns:GetDicSpecialsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClients">
+      <wsdl:input message="tns:GetClientsSoapIn" />
+      <wsdl:output message="tns:GetClientsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Save2005FarmSampling">
+      <wsdl:input message="tns:Save2005FarmSamplingSoapIn" />
+      <wsdl:output message="tns:Save2005FarmSamplingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Check2005SamplingValue">
+      <wsdl:input message="tns:Check2005SamplingValueSoapIn" />
+      <wsdl:output message="tns:Check2005SamplingValueSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:input message="tns:TestSoapIn" />
+      <wsdl:output message="tns:TestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckFoodData">
+      <wsdl:input message="tns:SyncCheckFoodDataSoapIn" />
+      <wsdl:output message="tns:SyncCheckFoodDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckFoodData2005">
+      <wsdl:input message="tns:SyncCheckFoodData2005SoapIn" />
+      <wsdl:output message="tns:SyncCheckFoodData2005SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckFoodDataToJnServer">
+      <wsdl:input message="tns:SyncCheckFoodDataToJnServerSoapIn" />
+      <wsdl:output message="tns:SyncCheckFoodDataToJnServerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncMyzlCheckFoodData2005">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">酶抑制率法检测数据上传所调用方法名称及参数</wsdl:documentation>
+      <wsdl:input message="tns:SyncMyzlCheckFoodData2005SoapIn" />
+      <wsdl:output message="tns:SyncMyzlCheckFoodData2005SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncFoodCheckDataValidate2005">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">仅用于数据检测2005(多项检测数据上传,检测单位需要认证)</wsdl:documentation>
+      <wsdl:input message="tns:SyncFoodCheckDataValidate2005SoapIn" />
+      <wsdl:output message="tns:SyncFoodCheckDataValidate2005SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncVResultCollectValidate">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">仅用于数据检测2005,单项检测数据上传,检测单位需要验证</wsdl:documentation>
+      <wsdl:input message="tns:SyncVResultCollectValidateSoapIn" />
+      <wsdl:output message="tns:SyncVResultCollectValidateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncFarmsInfoList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">其他系统调用此接口上传基地单位信息</wsdl:documentation>
+      <wsdl:input message="tns:SyncFarmsInfoListSoapIn" />
+      <wsdl:output message="tns:SyncFarmsInfoListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncFarmsInfoList2005">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">其他系统调用此接口上传基地单位信息</wsdl:documentation>
+      <wsdl:input message="tns:SyncFarmsInfoList2005SoapIn" />
+      <wsdl:output message="tns:SyncFarmsInfoList2005SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckDataToServer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">上级单位各子地区调用此接口上传检测数据到总服务器平台</wsdl:documentation>
+      <wsdl:input message="tns:SyncCheckDataToServerSoapIn" />
+      <wsdl:output message="tns:SyncCheckDataToServerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncFamrsDataToServer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">上级各子地区调用此接口上传单位信息到总服务器平台</wsdl:documentation>
+      <wsdl:input message="tns:SyncFamrsDataToServerSoapIn" />
+      <wsdl:output message="tns:SyncFamrsDataToServerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveIntelligent">
+      <wsdl:input message="tns:SaveIntelligentSoapIn" />
+      <wsdl:output message="tns:SaveIntelligentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResultCollectData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取指定地区特定时间段内的检测数据列表</wsdl:documentation>
+      <wsdl:input message="tns:GetResultCollectDataSoapIn" />
+      <wsdl:output message="tns:GetResultCollectDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFarmsInfoList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取指定地区下面的生产企业信息列表</wsdl:documentation>
+      <wsdl:input message="tns:GetFarmsInfoListSoapIn" />
+      <wsdl:output message="tns:GetFarmsInfoListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SynMVCRegionData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">同步地区(新版MVC项目地区)</wsdl:documentation>
+      <wsdl:input message="tns:SynMVCRegionDataSoapIn" />
+      <wsdl:output message="tns:SynMVCRegionDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SynMVCMenuData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">同步菜单(新版MVC项目菜单)</wsdl:documentation>
+      <wsdl:input message="tns:SynMVCMenuDataSoapIn" />
+      <wsdl:output message="tns:SynMVCMenuDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryFM">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据农资登记证号从中国农资信息网官网获取相关信息</wsdl:documentation>
+      <wsdl:input message="tns:QueryFMSoapIn" />
+      <wsdl:output message="tns:QueryFMSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MServiceSoap" type="tns:MServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDicSpecials">
+      <soap:operation soapAction="http://tempuri.org/GetDicSpecials" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClients">
+      <soap:operation soapAction="http://tempuri.org/GetClients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Save2005FarmSampling">
+      <soap:operation soapAction="http://tempuri.org/Save2005FarmSampling" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Check2005SamplingValue">
+      <soap:operation soapAction="http://tempuri.org/Check2005SamplingValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckFoodData">
+      <soap:operation soapAction="http://tempuri.org/SyncCheckFoodData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckFoodData2005">
+      <soap:operation soapAction="http://tempuri.org/SyncCheckFoodData2005" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckFoodDataToJnServer">
+      <soap:operation soapAction="http://tempuri.org/SyncCheckFoodDataToJnServer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncMyzlCheckFoodData2005">
+      <soap:operation soapAction="http://tempuri.org/SyncMyzlCheckFoodData2005" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncFoodCheckDataValidate2005">
+      <soap:operation soapAction="http://tempuri.org/SyncFoodCheckDataValidate2005" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncVResultCollectValidate">
+      <soap:operation soapAction="http://tempuri.org/SyncVResultCollectValidate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncFarmsInfoList">
+      <soap:operation soapAction="http://tempuri.org/SyncFarmsInfoList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncFarmsInfoList2005">
+      <soap:operation soapAction="http://tempuri.org/SyncFarmsInfoList2005" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckDataToServer">
+      <soap:operation soapAction="http://tempuri.org/SyncCheckDataToServer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncFamrsDataToServer">
+      <soap:operation soapAction="http://tempuri.org/SyncFamrsDataToServer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveIntelligent">
+      <soap:operation soapAction="http://tempuri.org/SaveIntelligent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResultCollectData">
+      <soap:operation soapAction="http://tempuri.org/GetResultCollectData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFarmsInfoList">
+      <soap:operation soapAction="http://tempuri.org/GetFarmsInfoList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SynMVCRegionData">
+      <soap:operation soapAction="http://tempuri.org/SynMVCRegionData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SynMVCMenuData">
+      <soap:operation soapAction="http://tempuri.org/SynMVCMenuData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryFM">
+      <soap:operation soapAction="http://tempuri.org/QueryFM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MServiceSoap12" type="tns:MServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDicSpecials">
+      <soap12:operation soapAction="http://tempuri.org/GetDicSpecials" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClients">
+      <soap12:operation soapAction="http://tempuri.org/GetClients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Save2005FarmSampling">
+      <soap12:operation soapAction="http://tempuri.org/Save2005FarmSampling" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Check2005SamplingValue">
+      <soap12:operation soapAction="http://tempuri.org/Check2005SamplingValue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckFoodData">
+      <soap12:operation soapAction="http://tempuri.org/SyncCheckFoodData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckFoodData2005">
+      <soap12:operation soapAction="http://tempuri.org/SyncCheckFoodData2005" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckFoodDataToJnServer">
+      <soap12:operation soapAction="http://tempuri.org/SyncCheckFoodDataToJnServer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncMyzlCheckFoodData2005">
+      <soap12:operation soapAction="http://tempuri.org/SyncMyzlCheckFoodData2005" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncFoodCheckDataValidate2005">
+      <soap12:operation soapAction="http://tempuri.org/SyncFoodCheckDataValidate2005" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncVResultCollectValidate">
+      <soap12:operation soapAction="http://tempuri.org/SyncVResultCollectValidate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncFarmsInfoList">
+      <soap12:operation soapAction="http://tempuri.org/SyncFarmsInfoList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncFarmsInfoList2005">
+      <soap12:operation soapAction="http://tempuri.org/SyncFarmsInfoList2005" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncCheckDataToServer">
+      <soap12:operation soapAction="http://tempuri.org/SyncCheckDataToServer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncFamrsDataToServer">
+      <soap12:operation soapAction="http://tempuri.org/SyncFamrsDataToServer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveIntelligent">
+      <soap12:operation soapAction="http://tempuri.org/SaveIntelligent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResultCollectData">
+      <soap12:operation soapAction="http://tempuri.org/GetResultCollectData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFarmsInfoList">
+      <soap12:operation soapAction="http://tempuri.org/GetFarmsInfoList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SynMVCRegionData">
+      <soap12:operation soapAction="http://tempuri.org/SynMVCRegionData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SynMVCMenuData">
+      <soap12:operation soapAction="http://tempuri.org/SynMVCMenuData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryFM">
+      <soap12:operation soapAction="http://tempuri.org/QueryFM" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MService">
+    <wsdl:port name="MServiceSoap" binding="tns:MServiceSoap">
+      <soap:address location="http://121.40.19.73/CommonService/MService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MServiceSoap12" binding="tns:MServiceSoap12">
+      <soap12:address location="http://121.40.19.73/CommonService/MService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

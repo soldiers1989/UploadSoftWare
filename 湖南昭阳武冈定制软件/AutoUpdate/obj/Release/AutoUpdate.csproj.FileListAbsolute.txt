@@ -1,0 +1,35 @@
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Release\AutoUpdate.exe
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Release\AutoUpdate.FrmMain.resources
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Release\AutoUpdate.exe
+E:\Project\Company_Source\new_client\workstation\WindowsFormClient\bin\Release\AutoUpdate.exe
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Release\AutoUpdate.exe
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Release\AutoUpdate.FrmMain.resources
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Release\AutoUpdate.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Release\AutoUpdate.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Release\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Release\AutoUpdate.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Release\AutoUpdate.exe
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\bin\Release\AutoUpdate.exe
+E:\Workstation_4th Sent[2012-11-13西藏食药]\AutoUpdate\obj\Release\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-13西藏食药]\AutoUpdate\obj\Release\AutoUpdate.FrmMain.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\AutoUpdate\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\AutoUpdate\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\AutoUpdate\obj\Release\AutoUpdate.exe
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Release\AutoUpdate.exe
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Release\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Release\AutoUpdate.FrmMain.resources
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Release\AutoUpdate.exe
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Release\AutoUpdate.exe
+F:\Projects\SVN\WorkStation\工作站单机版\AutoUpdate\obj\Release\AutoUpdate.FrmMain.resources
+F:\Projects\SVN\WorkStation\工作站单机版\AutoUpdate\obj\Release\AutoUpdate.csproj.GenerateResource.Cache
+F:\Projects\SVN\WorkStation\工作站单机版\AutoUpdate\obj\Release\AutoUpdate.exe

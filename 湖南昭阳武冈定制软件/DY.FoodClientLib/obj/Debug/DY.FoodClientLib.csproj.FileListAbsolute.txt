@@ -1,0 +1,54 @@
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\obj\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\Client_Update\BaseLib\obj\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\Client_Update\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\Client_Update\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\Client_Update\DY.FoodClientLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\Client_Update\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\workstation\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\workstation\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\workstation\DY.FoodClientLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\workstation\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\workstation\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\workstation\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\workstation\DY.FoodClientLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\workstation\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\workstation\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.FoodClientLib\obj\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-11-13西藏食药]\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\DY.FoodClientLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-13西藏食药]\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-11-13西藏食药]\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-11-29云南]\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\DY.FoodClientLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-29云南]\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-11-29云南]\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+D:\SVN\stand-aloneWorkStation\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+D:\SVN\stand-aloneWorkStation\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+D:\SVN\stand-aloneWorkStation\DY.FoodClientLib\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN\stand-aloneWorkStation\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+D:\SVN\stand-aloneWorkStation\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+F:\stand-aloneWorkStation\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+F:\stand-aloneWorkStation\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+F:\stand-aloneWorkStation\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+F:\stand-aloneWorkStation\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+F:\Projects\SVN\WorkStation\工作站单机版\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\WorkStation\工作站单机版\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+F:\Projects\SVN\WorkStation\工作站单机版\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+D:\数据上传\湖南昭阳武冈定制软件\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.dll
+D:\数据上传\湖南昭阳武冈定制软件\DY.FoodClientLib\bin\Debug\DY.FoodClientLib.pdb
+D:\数据上传\湖南昭阳武冈定制软件\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.dll
+D:\数据上传\湖南昭阳武冈定制软件\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.pdb
+D:\数据上传\湖南昭阳武冈定制软件\DY.FoodClientLib\obj\Debug\DY.FoodClientLib.csprojResolveAssemblyReference.cache

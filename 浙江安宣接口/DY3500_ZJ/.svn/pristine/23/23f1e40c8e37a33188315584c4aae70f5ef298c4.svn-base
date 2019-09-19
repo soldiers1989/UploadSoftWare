@@ -1,0 +1,57 @@
+﻿<Window x:Class="AIO.xaml.Dialog.AddSampleidWindow"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="新增 - 快检单号" Height="240" Width="580" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="*" Height="20" HorizontalAlignment="Left" Margin="51,24,0,0" Name="label1" VerticalAlignment="Top" Foreground="#FFE81212" />
+        <Label Content="快检单号：" Height="28" HorizontalAlignment="Left" Margin="64,20,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="140,23,0,0" Name="tb_sampleid" VerticalAlignment="Top" Width="120" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Left" Margin="333,16,0,0" Name="label3" VerticalAlignment="Top" Visibility="Collapsed" />
+        <Label Content="产品名称：" Height="28" HorizontalAlignment="Right" Margin="0,21,143,0" Name="label4" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,22,17,0" Name="tb_productName" VerticalAlignment="Top" Width="120" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Right" Margin="0,87,211,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="抽样日期：" Height="28" HorizontalAlignment="Right" Margin="0,84,143,0" Name="label6" VerticalAlignment="Top" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Left" Margin="51,57,0,0" Name="label7" VerticalAlignment="Top" />
+        <Label Content="抽样单位：" Height="28" HorizontalAlignment="Left" Margin="64,54,0,0" Name="label8" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="140,56,0,0" Name="tb_sampleDept" VerticalAlignment="Top" Width="120" />
+        <Label Content="抽样单位地址：" Height="28" HorizontalAlignment="Left" Margin="30,410,0,0" Name="label10" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,412,0,0" Name="tb_scompAddr" VerticalAlignment="Top" Width="120" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Right" Margin="0,55,199,0" Name="label11" VerticalAlignment="Top" />
+        <Label Content="抽样人：" Height="28" HorizontalAlignment="Right" Margin="0,52,143,0" Name="label12" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,54,17,0" Name="tb_sampPerson" VerticalAlignment="Top" Width="120" />
+        <Label Content="抽样单位联系人：" Height="28" HorizontalAlignment="Left" Margin="18,440,0,0" Name="label14" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,441,0,0" Name="tb_scompCont" VerticalAlignment="Top" Width="120" />
+        <Label Content="抽样单位联系电话：" Height="28" HorizontalAlignment="Left" Margin="6,472,0,0" Name="label16" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,472,0,0" Name="tb_scompPhon" VerticalAlignment="Top" Width="120" />
+        <Label Content="被抽样单位：" Height="28" HorizontalAlignment="Left" Margin="52,87,0,0" Name="label17" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="140,89,0,0" Name="tb_bsampCompany" VerticalAlignment="Top" Width="120" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Left" Margin="0,122,0,0" Name="label18" VerticalAlignment="Top" />
+        <Label Content="被抽样单位地址：" Height="28" HorizontalAlignment="Right" Margin="0,119,143,0" Name="label19" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,122,17,0" Name="tb_bscompAddr" VerticalAlignment="Top" Width="120" />
+        <Label Content="被抽样单位负责人：" Height="28" HorizontalAlignment="Left" Margin="16,120,0,0" Name="label20" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="140,123,0,0" Name="tb_bscompCont" VerticalAlignment="Top" Width="120" />
+        <Label Content="被抽样单位电话：" Height="28" HorizontalAlignment="Right" Margin="0,126,143,0" Name="label21" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,128,17,0" Name="tb_bscompPhon" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Left" Margin="40,91,0,0" Name="label23" VerticalAlignment="Top" />
+        <Label Content="生产日期：" Height="28" HorizontalAlignment="Right" Margin="0,411,143,0" Name="label24" VerticalAlignment="Top" />
+        <Label Content="保质期(月)：" Height="28" HorizontalAlignment="Right" Margin="0,440,143,0" Name="label25" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,442,17,0" Name="tb_shelfLife" VerticalAlignment="Top" Width="120" />
+        <Label Content="生产者名称：" Height="28" HorizontalAlignment="Right" Margin="0,470,143,0" Name="label26" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,472,13,0" Name="tb_proCompany" VerticalAlignment="Top" Width="120" />
+        <Label Content="条形码：" Height="28" HorizontalAlignment="Right" Margin="0,37,143,0" Name="label27" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,42,17,0" Name="tb_barcode" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="生产者联系电话：" Height="28" HorizontalAlignment="Left" Margin="18,499,0,0" Name="label28" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,501,0,0" Name="tb_procompPhon" VerticalAlignment="Top" Width="120" />
+        <Button Content="保存" Height="23" HorizontalAlignment="Left" Margin="176,0,0,22" Name="btn_Save" VerticalAlignment="Bottom" Width="75" Click="btn_Save_Click" />
+        <Button Content="取消" Height="23" HorizontalAlignment="Right" Margin="0,0,198,22" Name="btn_close" VerticalAlignment="Bottom" Width="75" Click="btn_close_Click" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Left" Margin="332,416,0,0" Name="label9" VerticalAlignment="Top" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Left" Margin="324,443,0,0" Name="label13" VerticalAlignment="Top" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Left" Margin="321,475,0,0" Name="label15" VerticalAlignment="Top" />
+        <DatePicker Height="30" HorizontalAlignment="Right" Margin="0,405,17,313" Name="dp_prodate" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="120" SelectedDateChanged="dp_prodate_SelectedDateChanged" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Right" Margin="0,24,211,0" Name="label22" VerticalAlignment="Top" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Right" Margin="0,40,198,0" Name="label29" VerticalAlignment="Top" Visibility="Collapsed" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Right" Margin="0,123,247,0" Name="label30" VerticalAlignment="Top" />
+        <Label Content="*" Foreground="#FFE81212" Height="20" HorizontalAlignment="Right" Margin="0,131,247,0" Name="label31" VerticalAlignment="Top" Visibility="Collapsed" />
+        <DatePicker Height="30" HorizontalAlignment="Right" Margin="0,85,17,97" x:Name="dp_sampleDate" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="120" SelectedDateChanged="dp_sampleDate_SelectedDateChanged" />
+    </Grid>
+</Window>

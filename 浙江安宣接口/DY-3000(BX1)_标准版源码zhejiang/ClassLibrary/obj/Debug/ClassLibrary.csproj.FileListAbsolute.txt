@@ -1,0 +1,112 @@
+C:\Github\vs-project\AIO\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Github\vs-project\AIO\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Github\vs-project\AIO\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Github\vs-project\AIO\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Github\vs-project\AIO\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\达元一体机\DAYUANAIO\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\达元一体机\DAYUANAIO\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\达元一体机\DAYUANAIO\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\达元一体机\DAYUANAIO\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\（DY-MAX）DY-3000食用农产品检测仪\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\（DY-MAX）DY-3000食用农产品检测仪\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\（DY-MAX）DY-3000食用农产品检测仪\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\（DY-MAX）DY-3000食用农产品检测仪\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\DY3000Code2\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\DY3000Code2\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\DY3000Code2\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\DY3000Code2\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\DY3000Code2\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\DY3000Code2\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\DY3000Code2\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\DY3000Code2\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\打印机修改完毕\DY3000Code2\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\打印机修改完毕\DY3000Code2\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\打印机修改完毕\DY3000Code2\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\打印机修改完毕\DY3000Code2\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\DY3000-修改Access\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\DY3000-修改Access\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\DY3000-修改Access\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\DY3000-修改Access\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\Projects\DY3000-修改Access\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\Projects\DY3000-修改Access\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\Projects\DY3000-修改Access\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\Projects\DY3000-修改Access\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\Projects\DY3000-修改Access\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\Projects\DY3000-修改Access\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Projects\DY3000-修改Access\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\DY3000-修改Access\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\Projects\DY3000-修改Access\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\SVNProjects\DY-3000\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\SVNProjects\DY-3000\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\SVNProjects\DY-3000\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\SVNProjects\DY-3000\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\Projects\SVNProjects\DY-3000\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\Projects\SVNProjects\DY-3000\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Projects\SVNProjects\DY-3000\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\SVNProjects\DY-3000\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\Projects\SVNProjects\DY-3000\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\SVNProjects\PC-DY3000\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\SVNProjects\PC-DY3000\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\SVNProjects\PC-DY3000\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\SVNProjects\PC-DY3000\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\Projects\SVN\DY3000 Access\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\Projects\SVN\DY3000 Access\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\Projects\SVN\DY3000 Access\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\DY3000 Access\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\Projects\SVN\DY3000 Access\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\Projects\dy3000\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\Projects\dy3000\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\Projects\dy3000\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+F:\Projects\dy3000\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\Projects\dy3000\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\Projects\SVN\DY-3000\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\Projects\SVN\DY-3000\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\Projects\SVN\DY-3000\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\DY-3000\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\Projects\SVN\DY-3000\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\Projects\NewDy-3000\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\Projects\NewDy-3000\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\Projects\NewDy-3000\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\Projects\NewDy-3000\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\Projects\SVN\New_DY-3000\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\Projects\SVN\New_DY-3000\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\Projects\SVN\New_DY-3000\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\New_DY-3000\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\Projects\SVN\New_DY-3000\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\Projects\SVN\SVNChina\New_DY3000\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\Projects\SVN\SVNChina\New_DY3000\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\Projects\SVN\SVNChina\New_DY3000\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\SVNChina\New_DY3000\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\Projects\SVN\SVNChina\New_DY3000\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\Projects\SVN\New_DY3000\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\Projects\SVN\New_DY3000\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\Projects\SVN\New_DY3000\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\New_DY3000\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\Projects\SVN\New_DY3000\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\Projects\SVN\DY-3000(BX1)\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\Projects\SVN\DY-3000(BX1)\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\Projects\SVN\DY-3000(BX1)\ClassLibrary\bin\Debug\NPOI.dll
+F:\Projects\SVN\DY-3000(BX1)\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\Projects\SVN\DY-3000(BX1)\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Administrator\Desktop\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\产品软件\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\产品软件\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\产品软件\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\bin\Debug\NPOI.dll
+D:\产品软件\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+D:\产品软件\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\产品软件\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\数据上传\浙江接口\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\数据上传\浙江接口\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\数据上传\浙江接口\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\bin\Debug\NPOI.dll
+D:\数据上传\浙江接口\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+D:\数据上传\浙江接口\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\数据上传\浙江接口\DY-3000(BX1)_标准版源码zhejiang\ClassLibrary\obj\Debug\ClassLibrary.pdb

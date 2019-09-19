@@ -1,0 +1,4 @@
+11:11:17
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.GszWindow.ShowGszSelChannelWindow() 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Ganshizhi\GszWindow.xaml.cs:行号 205
+

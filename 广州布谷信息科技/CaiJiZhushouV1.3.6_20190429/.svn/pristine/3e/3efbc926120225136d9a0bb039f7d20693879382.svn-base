@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.zhiyunda.com/zydjcy" elementFormDefault="qualified" targetNamespace="http://www.zhiyunda.com/zydjcy" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="instrumentDictionaryRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="instrument" type="xs:string" />
+        <xs:element name="instrumentNo" type="xs:string" />
+        <xs:element name="mac" type="xs:string" />
+        <xs:element name="tableData" type="xs:string" />
+        <xs:element name="reqType" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="instrumentDictionaryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="status" type="xs:string" />
+        <xs:element name="description" type="xs:string" />
+        <xs:element name="tableUpdateTime" type="xs:string" />
+        <xs:element name="updateData" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="instrumentInfoRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="instrumentDockingInfoList" nillable="true" type="tns:instrumentDockingInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="instrumentInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="status" type="xs:string" />
+        <xs:element name="description" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="instrumentDockingInfo">
+    <xs:sequence>
+      <xs:element name="instrument" type="xs:string" />
+      <xs:element name="instrumentNo" type="xs:string" />
+      <xs:element minOccurs="0" name="gps" type="xs:string" />
+      <xs:element name="mac" type="xs:string" />
+      <xs:element name="fTpye" type="xs:string" />
+      <xs:element name="fName" type="xs:string" />
+      <xs:element minOccurs="0" name="tradeMark" type="xs:string" />
+      <xs:element minOccurs="0" name="foodcode" type="xs:string" />
+      <xs:element minOccurs="0" name="proBatch" type="xs:string" />
+      <xs:element minOccurs="0" name="proDate" type="xs:string" />
+      <xs:element minOccurs="0" name="proSpecifications" type="xs:string" />
+      <xs:element minOccurs="0" name="manuUnit" type="xs:string" />
+      <xs:element minOccurs="0" name="checkedNo" type="xs:string" />
+      <xs:element name="sampleNo" type="xs:string" />
+      <xs:element name="checkedUnit" type="xs:string" />
+      <xs:element name="dataNum" type="xs:string" />
+      <xs:element name="testPro" type="xs:string" />
+      <xs:element name="quanOrQual" type="xs:string" />
+      <xs:element name="contents" type="xs:string" />
+      <xs:element minOccurs="0" name="unit" type="xs:string" />
+      <xs:element minOccurs="0" name="testResult" type="xs:string" />
+      <xs:element minOccurs="0" name="dilutionRa" type="xs:string" />
+      <xs:element minOccurs="0" name="testRange" type="xs:string" />
+      <xs:element minOccurs="0" name="standardLimit" type="xs:string" />
+      <xs:element minOccurs="0" name="basedStandard" type="xs:string" />
+      <xs:element name="testPerson" type="xs:string" />
+      <xs:element name="testTime" type="xs:string" />
+      <xs:element minOccurs="0" name="sampleTime" type="xs:string" />
+      <xs:element minOccurs="0" name="remark" type="xs:string" />
+      <xs:element minOccurs="0" name="reserve1" type="xs:string" />
+      <xs:element minOccurs="0" name="reserve2" type="xs:string" />
+      <xs:element minOccurs="0" name="reserve3" type="xs:string" />
+      <xs:element minOccurs="0" name="reserve4" type="xs:string" />
+      <xs:element minOccurs="0" name="reserve5" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,36 @@
+发送16:10:11
+{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL3100001","SampleCode":"000010031000200010152","SampleName":"木耳","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广州","LabCode":"TL310001","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"达元","Phone":"214365","Stations":"黄埔","holeNumber":"3"}]}}
+
+接收16:10:11
+{"resultCode":"1","resultMsg":"提交成功","resultContent":{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL3100001","holeNumber":"3","SampleCode":"000010031000200010152","SampleName":"木耳","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广州","LabCode":"TL310001","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"达元","Phone":"214365","Stations":"黄埔"}]}}}
+
+发送16:10:11
+{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL3100001","SampleCode":"000010031000200010152","SampleName":"木耳","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广州","LabCode":"TL310001","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"达元","Phone":"214365","Stations":"黄埔","holeNumber":"3"}]}}
+
+接收16:10:12
+{"resultCode":"1","resultMsg":"提交成功","resultContent":{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL3100001","holeNumber":"3","SampleCode":"000010031000200010152","SampleName":"木耳","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广州","LabCode":"TL310001","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"达元","Phone":"214365","Stations":"黄埔"}]}}}
+
+发送16:10:12
+{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL3100001","SampleCode":"000010031000200010152","SampleName":"木耳","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广州","LabCode":"TL310001","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"达元","Phone":"214365","Stations":"黄埔","holeNumber":"3"}]}}
+
+接收16:10:12
+{"resultCode":"1","resultMsg":"提交成功","resultContent":{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL3100001","holeNumber":"3","SampleCode":"000010031000200010152","SampleName":"木耳","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广州","LabCode":"TL310001","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"达元","Phone":"214365","Stations":"黄埔"}]}}}
+
+发送16:15:20
+{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL12343","SampleCode":"000010001","SampleName":"豆角王","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广东","LabCode":"TL31000","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"食安","Phone":"2324546","Stations":"达元","holeNumber":"3"}]}}
+
+接收16:15:20
+{"resultCode":"1","resultMsg":"提交成功","resultContent":{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL12343","holeNumber":"3","SampleCode":"000010001","SampleName":"豆角王","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广东","LabCode":"TL31000","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"食安","Phone":"2324546","Stations":"达元"}]}}}
+
+发送16:15:20
+{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL12343","SampleCode":"000010001","SampleName":"豆角王","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广东","LabCode":"TL31000","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"食安","Phone":"2324546","Stations":"达元","holeNumber":"3"}]}}
+
+接收16:15:20
+{"resultCode":"1","resultMsg":"提交成功","resultContent":{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL12343","holeNumber":"3","SampleCode":"000010001","SampleName":"豆角王","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广东","LabCode":"TL31000","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"食安","Phone":"2324546","Stations":"达元"}]}}}
+
+发送16:15:20
+{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL12343","SampleCode":"000010001","SampleName":"豆角王","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广东","LabCode":"TL31000","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"食安","Phone":"2324546","Stations":"达元","holeNumber":"3"}]}}
+
+接收16:15:20
+{"resultCode":"1","resultMsg":"提交成功","resultContent":{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL12343","holeNumber":"3","SampleCode":"000010001","SampleName":"豆角王","BoothCode":"1232","DetectionValue":"0.0","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广东","LabCode":"TL31000","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-25 12:26:27","BoothName":"达元","Manger":"食安","Phone":"2324546","Stations":"达元"}]}}}
+

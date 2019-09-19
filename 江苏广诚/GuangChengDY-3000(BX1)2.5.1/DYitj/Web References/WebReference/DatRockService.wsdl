@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://service.food.chengyun.com/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="DatRockService" targetNamespace="http://service.food.chengyun.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://service.food.chengyun.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="getBooth" type="tns:getBooth" />
+      <xs:element name="getBoothResponse" type="tns:getBoothResponse" />
+      <xs:element name="getCompany" type="tns:getCompany" />
+      <xs:element name="getCompanyResponse" type="tns:getCompanyResponse" />
+      <xs:element name="getDepartment" type="tns:getDepartment" />
+      <xs:element name="getDepartmentResponse" type="tns:getDepartmentResponse" />
+      <xs:element name="getUser" type="tns:getUser" />
+      <xs:element name="getUserResponse" type="tns:getUserResponse" />
+      <xs:element name="uploadDataDock" type="tns:uploadDataDock" />
+      <xs:element name="uploadDataDockResponse" type="tns:uploadDataDockResponse" />
+      <xs:element name="uploadDataDockks" type="tns:uploadDataDockks" />
+      <xs:element name="uploadDataDockksResponse" type="tns:uploadDataDockksResponse" />
+      <xs:complexType name="getDepartment">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="token" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDepartmentResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getBooth">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:string" />
+          <xs:element minOccurs="0" name="token" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getBoothResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUser">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="username" type="xs:string" />
+          <xs:element minOccurs="0" name="password" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUserResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getCompany">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:string" />
+          <xs:element minOccurs="0" name="token" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getCompanyResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="uploadDataDock">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="data" type="xs:string" />
+          <xs:element minOccurs="0" name="token" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="uploadDataDockResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="uploadDataDockks">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sampNumber" type="xs:string" />
+          <xs:element minOccurs="0" name="detComp" type="xs:string" />
+          <xs:element minOccurs="0" name="boothNumber" type="xs:string" />
+          <xs:element minOccurs="0" name="linkman" type="xs:string" />
+          <xs:element minOccurs="0" name="phone" type="xs:string" />
+          <xs:element minOccurs="0" name="busLicense" type="xs:string" />
+          <xs:element minOccurs="0" name="category" type="xs:string" />
+          <xs:element minOccurs="0" name="sampleName" type="xs:string" />
+          <xs:element minOccurs="0" name="testItem" type="xs:string" />
+          <xs:element minOccurs="0" name="standardVal" type="xs:string" />
+          <xs:element minOccurs="0" name="detection" type="xs:string" />
+          <xs:element minOccurs="0" name="detectionCom" type="xs:string" />
+          <xs:element minOccurs="0" name="detResult" type="xs:string" />
+          <xs:element minOccurs="0" name="detGist" type="xs:string" />
+          <xs:element minOccurs="0" name="detDate" type="xs:string" />
+          <xs:element minOccurs="0" name="inspector" type="xs:string" />
+          <xs:element minOccurs="0" name="samplefee" type="xs:string" />
+          <xs:element minOccurs="0" name="department" type="xs:string" />
+          <xs:element minOccurs="0" name="detRoom" type="xs:string" />
+          <xs:element minOccurs="0" name="equipment" type="xs:string" />
+          <xs:element minOccurs="0" name="productionCom" type="xs:string" />
+          <xs:element minOccurs="0" name="producDate" type="xs:string" />
+          <xs:element minOccurs="0" name="processing" type="xs:string" />
+          <xs:element minOccurs="0" name="company" type="xs:string" />
+          <xs:element minOccurs="0" name="arg24" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="uploadDataDockksResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getDepartment">
+    <wsdl:part name="parameters" element="tns:getDepartment" />
+  </wsdl:message>
+  <wsdl:message name="getBooth">
+    <wsdl:part name="parameters" element="tns:getBooth" />
+  </wsdl:message>
+  <wsdl:message name="getUser">
+    <wsdl:part name="parameters" element="tns:getUser" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyResponse">
+    <wsdl:part name="parameters" element="tns:getCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserResponse">
+    <wsdl:part name="parameters" element="tns:getUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCompany">
+    <wsdl:part name="parameters" element="tns:getCompany" />
+  </wsdl:message>
+  <wsdl:message name="uploadDataDockksResponse">
+    <wsdl:part name="parameters" element="tns:uploadDataDockksResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDepartmentResponse">
+    <wsdl:part name="parameters" element="tns:getDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="uploadDataDock">
+    <wsdl:part name="parameters" element="tns:uploadDataDock" />
+  </wsdl:message>
+  <wsdl:message name="uploadDataDockks">
+    <wsdl:part name="parameters" element="tns:uploadDataDockks" />
+  </wsdl:message>
+  <wsdl:message name="getBoothResponse">
+    <wsdl:part name="parameters" element="tns:getBoothResponse" />
+  </wsdl:message>
+  <wsdl:message name="uploadDataDockResponse">
+    <wsdl:part name="parameters" element="tns:uploadDataDockResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DatRockService">
+    <wsdl:operation name="getDepartment">
+      <wsdl:input name="getDepartment" message="tns:getDepartment" />
+      <wsdl:output name="getDepartmentResponse" message="tns:getDepartmentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getBooth">
+      <wsdl:input name="getBooth" message="tns:getBooth" />
+      <wsdl:output name="getBoothResponse" message="tns:getBoothResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getUser">
+      <wsdl:input name="getUser" message="tns:getUser" />
+      <wsdl:output name="getUserResponse" message="tns:getUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompany">
+      <wsdl:input name="getCompany" message="tns:getCompany" />
+      <wsdl:output name="getCompanyResponse" message="tns:getCompanyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="uploadDataDock">
+      <wsdl:input name="uploadDataDock" message="tns:uploadDataDock" />
+      <wsdl:output name="uploadDataDockResponse" message="tns:uploadDataDockResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="uploadDataDockks">
+      <wsdl:input name="uploadDataDockks" message="tns:uploadDataDockks" />
+      <wsdl:output name="uploadDataDockksResponse" message="tns:uploadDataDockksResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DatRockServiceSoapBinding" type="tns:DatRockService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getBooth">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getBooth">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getBoothResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDepartment">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDepartment">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDepartmentResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUser">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getUser">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getUserResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCompany">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getCompany">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getCompanyResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadDataDock">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="uploadDataDock">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="uploadDataDockResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadDataDockks">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="uploadDataDockks">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="uploadDataDockksResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DatRockService">
+    <wsdl:port name="DatRockServiceImplPort" binding="tns:DatRockServiceSoapBinding">
+      <soap:address location="http://39.96.163.128:8089/food/services/DatRockService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

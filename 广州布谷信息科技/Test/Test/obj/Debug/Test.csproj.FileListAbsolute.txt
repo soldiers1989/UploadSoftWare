@@ -1,0 +1,16 @@
+D:\DY-Software\数据上传\广东中圆信息\Test\Test\bin\Debug\Test.exe
+D:\DY-Software\数据上传\广东中圆信息\Test\Test\bin\Debug\Test.pdb
+D:\DY-Software\数据上传\广东中圆信息\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\DY-Software\数据上传\广东中圆信息\Test\Test\obj\Debug\Test.Form1.resources
+D:\DY-Software\数据上传\广东中圆信息\Test\Test\obj\Debug\Test.Properties.Resources.resources
+D:\DY-Software\数据上传\广东中圆信息\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+D:\DY-Software\数据上传\广东中圆信息\Test\Test\obj\Debug\Test.exe
+D:\DY-Software\数据上传\广东中圆信息\Test\Test\obj\Debug\Test.pdb
+D:\DY-Software\数据上传\广东\Test\Test\obj\Debug\Test.exe
+D:\DY-Software\数据上传\广东\Test\Test\obj\Debug\Test.pdb
+D:\DY-Software\数据上传\广东\Test\Test\bin\Debug\Test.exe
+D:\DY-Software\数据上传\广东\Test\Test\bin\Debug\Test.pdb
+D:\DY-Software\数据上传\广东\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\DY-Software\数据上传\广东\Test\Test\obj\Debug\Test.Form1.resources
+D:\DY-Software\数据上传\广东\Test\Test\obj\Debug\Test.Properties.Resources.resources
+D:\DY-Software\数据上传\广东\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache

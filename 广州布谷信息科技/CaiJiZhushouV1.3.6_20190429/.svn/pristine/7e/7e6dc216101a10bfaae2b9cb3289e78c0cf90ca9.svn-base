@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://www.zhiyunda.com/service/instrumentDockingService" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="interfaceVersion" nillable="true" type="xs:string" />
+  <xs:element name="key" nillable="true" type="xs:string" />
+  <xs:element name="userName" nillable="true" type="xs:string" />
+</xs:schema>

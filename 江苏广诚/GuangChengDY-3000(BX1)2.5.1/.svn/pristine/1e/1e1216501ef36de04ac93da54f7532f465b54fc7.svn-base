@@ -1,0 +1,12 @@
+﻿<Window x:Class="AIO.xaml.Dialog.TraceTestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TraceTestWindow" Height="78" Width="428" 
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize" WindowStyle="None" Loaded="Window_Loaded">
+
+    <Grid>
+        <Label Content="请稍等，正在操作···" FontSize="20" Height="36" HorizontalAlignment="Center" Name="label1" VerticalAlignment="Center" Width="404" Foreground="#FF1A48DE" Margin="2,0,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+    </Grid>
+
+</Window>

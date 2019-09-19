@@ -1,0 +1,76 @@
+E:\Project\Company_Source\单机版\WindowsFormClient\WindowsFormClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\单机版\WindowsFormClient\WindowsFormClient\bin\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.frmMain.resources
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Project\Company_Source\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.frmMain.resources
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\WindowsFormClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\WindowsFormClient\bin\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\单机版\WindowsFormClient\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\AutoUpdate.frmMain.resources
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\Client_Update\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\workstation\WindowsFormClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\workstation\WindowsFormClient\bin\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\workstation\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\AutoUpdate.exe
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\AutoUpdate.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\AutoUpdate.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\AutoUpdate.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\AutoUpdate.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\AutoUpdate\obj\Debug\AutoUpdate.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\AutoUpdate.exe
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\AutoUpdate.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Debug\AutoUpdate.exe
+E:\Workstation_4th Sent[2012-11-29云南]\AutoUpdate\obj\Debug\AutoUpdate.pdb
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\AutoUpdate.exe
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\AutoUpdate.pdb
+D:\SVN\stand-aloneWorkStation\AutoUpdate\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN\stand-aloneWorkStation\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+D:\SVN\stand-aloneWorkStation\AutoUpdate\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\SVN\stand-aloneWorkStation\AutoUpdate\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\SVN\stand-aloneWorkStation\AutoUpdate\obj\Debug\AutoUpdate.exe
+D:\SVN\stand-aloneWorkStation\AutoUpdate\obj\Debug\AutoUpdate.pdb
+F:\stand-aloneWorkStation\FoodClient\bin\Debug\AutoUpdate.exe
+F:\stand-aloneWorkStation\FoodClient\bin\Debug\AutoUpdate.pdb
+F:\stand-aloneWorkStation\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+F:\stand-aloneWorkStation\AutoUpdate\obj\Debug\AutoUpdate.csproj.GenerateResource.Cache
+F:\stand-aloneWorkStation\AutoUpdate\obj\Debug\AutoUpdate.exe
+F:\stand-aloneWorkStation\AutoUpdate\obj\Debug\AutoUpdate.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Debug\AutoUpdate.exe
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Debug\AutoUpdate.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+F:\Projects\SVN\WorkStation\工作站单机版\AutoUpdate\obj\Debug\AutoUpdate.csproj.GenerateResource.Cache
+F:\Projects\SVN\WorkStation\工作站单机版\AutoUpdate\obj\Debug\AutoUpdate.exe
+F:\Projects\SVN\WorkStation\工作站单机版\AutoUpdate\obj\Debug\AutoUpdate.pdb
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\bin\Debug\AutoUpdate.exe
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\bin\Debug\AutoUpdate.pdb
+D:\数据上传\湖南昭阳武冈定制软件\AutoUpdate\obj\Debug\AutoUpdate.FrmMain.resources
+D:\数据上传\湖南昭阳武冈定制软件\AutoUpdate\obj\Debug\AutoUpdate.csproj.GenerateResource.Cache
+D:\数据上传\湖南昭阳武冈定制软件\AutoUpdate\obj\Debug\AutoUpdate.exe
+D:\数据上传\湖南昭阳武冈定制软件\AutoUpdate\obj\Debug\AutoUpdate.pdb

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)http://localhost:52507/untitled/export.html?_ijt=c3pt74g1hko1nd86fdl73aj809 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+    body{ margin:0; font-family:'微软雅黑';}
+    #main{ width:840px; height:100%; margin:0 auto; overflow:auto;}
+    span{ font-size:18px; float:left; margin-top:26px; margin-left:10px;}
+    .title,.form,.form2,.form_01,.form_box,.form_02,.form_box_01,.conclusion,.FM,.NT{float:left;}
+    .title{ letter-spacing:2px; font-size:30px; margin-left:290px; margin-top:50px;}
+    .number{ float:right; margin-right:38px; margin-top:120px; font-size:16px;}
+    .form{ width:758px; height:868px; margin-left:20px; margin-top:16px; border:1px #000000 solid;}
+    .form_01{ height:76px; width:798px; border-bottom:1px #000000 solid;}
+    .form_box{ width:189px; height:76px; border-right:1px #000000 solid;}
+    .form_02{ width:758px; height:54px; border-bottom:1px #000000 solid;}
+    .form_box_01{ width:150px; height:54px; border-right:1px #000000 solid;}
+    .FM{ font-size:18px; margin-top:15px; margin-left:44px;}
+    .form2{width:758px; height:340px; border-bottom:1px #000000 solid;}
+    .conclusion{ margin-left:20px; font-size:18px; margin-top:20px;}
+    .unit{ float:left; font-size:18px; margin-top:260px; margin-left:442px;}
+    .note{ width:758px; height:54px;}
+    .NT{ font-size:16px; margin-top:16px;}
+    .personnel{ float:left; margin-top:30px; font-size:18px; margin-left:100px;}
+    .img{ float:right; margin-top:64px; margin-right:-10px;}
+    .as{border:1px #000000 solid;border-bottom:hidden;}
+    .bs,.ds{border:1px #000000 solid; }
+    .box{ border-right:1px #000000 solid;}
+    .forming{width:798px; height:130px; border:1px #000000 solid; border-top:hidden; float:left;position: relative;}
+    #unique{border:1px #000000 solid;border-top:hidden;}
+    .cs-pos{
+        position:absolute;
+        bottom:20px;
+        right:0px;
+    }
+    .cs-pos2{
+        bottom:50px;
+    }
+    .cs-pos tr td{
+        text-align: left;
+    }
+    .bottm-line td{
+        padding:15px;
+        width:33%;
+    }
+</style>
+
+    
+    <title></title>
+</head>
+<body>
+<div id="main">
+    <div class="title">食品安全检测报告</div>
+    <div style="float:left; margin-left:0px; margin-top:20px;">
+        <table width="800" border="0" cellpadding="0" cellspacing="0" style="
+    border-collapse: collapse;">
+            <tbody>
+            <tr>
+                <th width="180" height="60" class="as">检测仪器</th><td width="180" height="60" align="center" class="as">DY-3500(I)食品综合分析仪</td><th width="190" height="76" class="as">被检单位</th><td width="190" height="76" align="center" class="as box">1</td></tr></tbody></table><table width="800" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;"><tbody><tr><th height="54" width="152" class="ds">样品编号</th><th height="54" width="152" class="ds">样品名称</th><th height="54" width="152" class="ds">检测项目</th><th height="54" width="152" class="ds">检测方法</th><th height="54" width="152" class="ds">检测依据</th><th height="54" width="152" class="ds">限量值</th><th height="54" width="152" class="ds">检测结果</th><th height="54" width="152" class="ds">结论</th><th height="54" width="182" class="ds">检测时间</th></tr><tr><td height="54" width="152" align="center" class="ds">00005</td><td height="54" width="152" align="center" class="ds">鹅肉</td><td height="54" width="152" align="center" class="ds">盐酸克伦特罗</td><td height="54" width="152" align="center" class="ds">定性比色法</td><td height="54" width="152" align="center" class="ds">中华人民共和国农业部公告第235号</td><td height="54" width="152" align="center" class="ds">0</td><td height="54" width="152" align="center" class="ds">检测无效</td><td height="54" width="152" align="center" class="ds">检测无效</td><td height="54" width="152" align="center" class="ds">2019-03-15 14:22:16</td></tr><tr><td height="54" width="152" align="center" class="ds">00004</td><td height="54" width="152" align="center" class="ds">鹅肉</td><td height="54" width="152" align="center" class="ds">盐酸克伦特罗</td><td height="54" width="152" align="center" class="ds">定性比色法</td><td height="54" width="152" align="center" class="ds">中华人民共和国农业部公告第235号</td><td height="54" width="152" align="center" class="ds">0</td><td height="54" width="152" align="center" class="ds">阳性</td><td height="54" width="152" align="center" class="ds">不合格</td><td height="54" width="152" align="center" class="ds">2019-03-15 14:22:16</td></tr><tr><td height="54" width="152" align="center" class="ds">00003</td><td height="54" width="152" align="center" class="ds">鹅肉</td><td height="54" width="152" align="center" class="ds">盐酸克伦特罗</td><td height="54" width="152" align="center" class="ds">定性比色法</td><td height="54" width="152" align="center" class="ds">中华人民共和国农业部公告第235号</td><td height="54" width="152" align="center" class="ds">0</td><td height="54" width="152" align="center" class="ds">阴性</td><td height="54" width="152" align="center" class="ds">合格</td><td height="54" width="152" align="center" class="ds">2019-03-15 14:22:16</td></tr><tr><td height="54" width="152" align="center" class="ds">00002</td><td height="54" width="152" align="center" class="ds">鹅肉</td><td height="54" width="152" align="center" class="ds">盐酸克伦特罗</td><td height="54" width="152" align="center" class="ds">定性比色法</td><td height="54" width="152" align="center" class="ds">中华人民共和国农业部公告第235号</td><td height="54" width="152" align="center" class="ds">0</td><td height="54" width="152" align="center" class="ds">阴性</td><td height="54" width="152" align="center" class="ds">合格</td><td height="54" width="152" align="center" class="ds">2019-03-15 14:22:16</td></tr><tr><td height="54" width="152" align="center" class="ds">00001</td><td height="54" width="152" align="center" class="ds">鹅肉</td><td height="54" width="152" align="center" class="ds">盐酸克伦特罗</td><td height="54" width="152" align="center" class="ds">定性比色法</td><td height="54" width="152" align="center" class="ds">中华人民共和国农业部公告第235号</td><td height="54" width="152" align="center" class="ds">0</td><td height="54" width="152" align="center" class="ds">阳性</td><td height="54" width="152" align="center" class="ds">不合格</td><td height="54" width="152" align="center" class="ds">2019-03-15 14:16:40</td></tr><tr><td height="54" width="152" align="center" class="ds">00000</td><td height="54" width="152" align="center" class="ds">鹅肉</td><td height="54" width="152" align="center" class="ds">盐酸克伦特罗</td><td height="54" width="152" align="center" class="ds">定性比色法</td><td height="54" width="152" align="center" class="ds">中华人民共和国农业部公告第235号</td><td height="54" width="152" align="center" class="ds">0</td><td height="54" width="152" align="center" class="ds">阴性</td><td height="54" width="152" align="center" class="ds">合格</td><td height="54" width="152" align="center" class="ds">2019-03-15 14:16:40</td></tr></tbody></table><div class="forming"><table class="cs-pos cs-pos2" width="800" border="0" cellpadding="0" cellspacing="0" style=" float:left; margin-top:-54px;font-size:16px;"><tbody><tr><td height="54" width="380"></td><td height="54" width="380" style="padding-left:40px;">检测单位：</td></tr></tbody></table><table class="cs-pos" width="800" border="0" cellpadding="0" cellspacing="0" style="float:left; margin-top:-20px;font-size:16px;"><tbody><tr><td height="54" width="380"></td><td height="54" width="380" style="padding-left:40px;">报告时间：2019-04-01 14:41:20</td></tr></tbody></table></div><div class="forming" style="height:54px; margin-top:0; float:left;"><div class="note"><span class="NT">备注：检测结论为不合格时，应该及时上报。</span></div></div></div><table class="bottm-line" width="800" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td>检测人：1</td><td>审核：</td><td>批准：</td></tr></tbody></table></div></body></html>

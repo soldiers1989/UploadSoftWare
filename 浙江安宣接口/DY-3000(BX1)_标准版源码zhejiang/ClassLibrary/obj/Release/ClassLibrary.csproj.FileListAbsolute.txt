@@ -1,0 +1,17 @@
+C:\Github\vs-project\AIO\ClassLibrary\bin\Release\ClassLibrary.dll
+C:\Github\vs-project\AIO\ClassLibrary\bin\Release\ClassLibrary.pdb
+C:\Github\vs-project\AIO\ClassLibrary\obj\Release\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Github\vs-project\AIO\ClassLibrary\obj\Release\ClassLibrary.dll
+C:\Github\vs-project\AIO\ClassLibrary\obj\Release\ClassLibrary.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\ClassLibrary\bin\Release\ClassLibrary.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\ClassLibrary\bin\Release\ClassLibrary.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\ClassLibrary\obj\Release\ClassLibrary.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\ClassLibrary\obj\Release\ClassLibrary.pdb
+F:\Projects\SVN\New_DY3000\ClassLibrary\bin\Release\ClassLibrary.dll
+F:\Projects\SVN\New_DY3000\ClassLibrary\bin\Release\ClassLibrary.pdb
+F:\Projects\SVN\New_DY3000\ClassLibrary\obj\Release\ClassLibrary.dll
+F:\Projects\SVN\New_DY3000\ClassLibrary\obj\Release\ClassLibrary.pdb
+F:\Projects\SVN\DY-3000(BX1)\ClassLibrary\bin\Release\ClassLibrary.dll
+F:\Projects\SVN\DY-3000(BX1)\ClassLibrary\bin\Release\ClassLibrary.pdb
+F:\Projects\SVN\DY-3000(BX1)\ClassLibrary\obj\Release\ClassLibrary.dll
+F:\Projects\SVN\DY-3000(BX1)\ClassLibrary\obj\Release\ClassLibrary.pdb

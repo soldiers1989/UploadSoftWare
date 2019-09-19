@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59D197BE-2ADE-42D0-B089-CF975DEC3F53}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DYSeriesDataSet</RootNamespace>
+    <AssemblyName>DataSet</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBase.cs" />
+    <Compile Include="DataModel\clsATP.cs" />
+    <Compile Include="DataModel\clsCheckComType.cs" />
+    <Compile Include="DataModel\clsCheckItem.cs" />
+    <Compile Include="DataModel\clsCheckLevel.cs" />
+    <Compile Include="DataModel\clsCheckType.cs" />
+    <Compile Include="DataModel\clsCompany.cs" />
+    <Compile Include="DataModel\clsCompanyKind.cs" />
+    <Compile Include="DataModel\clsCompanyProperty.cs" />
+    <Compile Include="DataModel\clsCom_District.cs" />
+    <Compile Include="DataModel\clsCom_ProduceArea.cs" />
+    <Compile Include="DataModel\clsCom_UserUnit.cs" />
+    <Compile Include="DataModel\clsCreditLevel.cs" />
+    <Compile Include="DataModel\clsCurve.cs" />
+    <Compile Include="DataModel\clsCurveDatas.cs" />
+    <Compile Include="DataModel\clsDistrict.cs" />
+    <Compile Include="DataModel\clsFoodClass.cs" />
+    <Compile Include="DataModel\clsMachine.cs" />
+    <Compile Include="DataModel\clsProduceArea.cs" />
+    <Compile Include="DataModel\clsProprietors.cs" />
+    <Compile Include="DataModel\clsReport.cs" />
+    <Compile Include="DataModel\clsReportDetail.cs" />
+    <Compile Include="DataModel\clsReportGS.cs" />
+    <Compile Include="DataModel\clsReportGSDetail.cs" />
+    <Compile Include="DataModel\clsResult.cs" />
+    <Compile Include="DataModel\clsSaleRecord.cs" />
+    <Compile Include="DataModel\clsSend_Result.cs" />
+    <Compile Include="DataModel\clsStandard.cs" />
+    <Compile Include="DataModel\clsStandardType.cs" />
+    <Compile Include="DataModel\clsStockRecord.cs" />
+    <Compile Include="DataModel\clsSysOpt.cs" />
+    <Compile Include="DataModel\clsTask.cs" />
+    <Compile Include="DataModel\clsTB_SAMPLING.cs" />
+    <Compile Include="DataModel\clsttStandardDecide.cs" />
+    <Compile Include="DataModel\clsUpdate_Result.cs" />
+    <Compile Include="DataModel\clsUserInfo.cs" />
+    <Compile Include="DataModel\clsUserUnit.cs" />
+    <Compile Include="DataModel\CurrentUser.cs" />
+    <Compile Include="DataModel\HolesSetting.cs" />
+    <Compile Include="DataModel\ReportClass.cs" />
+    <Compile Include="DataModel\tlsTrTask.cs" />
+    <Compile Include="DataModel\tlsTtResultSecond.cs" />
+    <Compile Include="DataModel\Wisdom\deviceStatus.cs" />
+    <Compile Include="DataModel\Wisdom\downloadCheck.cs" />
+    <Compile Include="DataModel\Wisdom\downloadResult.cs" />
+    <Compile Include="DataModel\Wisdom\getsample.cs" />
+    <Compile Include="DataModel\Wisdom\uploadResult.cs" />
+    <Compile Include="DataModel\Wisdom\uploadSample.cs" />
+    <Compile Include="DataSentence\clsAtpOpr.cs" />
+    <Compile Include="DataSentence\clsCheckComTypeOpr.cs" />
+    <Compile Include="DataSentence\clsCheckItemOpr.cs" />
+    <Compile Include="DataSentence\clsCheckLevelOpr.cs" />
+    <Compile Include="DataSentence\clsCheckTypeOpr.cs" />
+    <Compile Include="DataSentence\clsCompanyKindOpr.cs" />
+    <Compile Include="DataSentence\clsCompanyOpr.cs" />
+    <Compile Include="DataSentence\clsCompanyPropertyOpr.cs" />
+    <Compile Include="DataSentence\clsCom_DistrictOpr.cs" />
+    <Compile Include="DataSentence\clsCom_ProduceAreaOpr.cs" />
+    <Compile Include="DataSentence\clsCom_UserUnitOpr.cs" />
+    <Compile Include="DataSentence\clsCreditLevelOpr.cs" />
+    <Compile Include="DataSentence\clsDistrictOpr.cs" />
+    <Compile Include="DataSentence\clsFoodClassOpr.cs" />
+    <Compile Include="DataSentence\clsMachineOpr.cs" />
+    <Compile Include="DataSentence\clsProduceAreaOpr.cs" />
+    <Compile Include="DataSentence\clsProprietorsOpr.cs" />
+    <Compile Include="DataSentence\clsResultOpr.cs" />
+    <Compile Include="DataSentence\clsSaleRecordOpr.cs" />
+    <Compile Include="DataSentence\clsSend_ResultOpr.cs" />
+    <Compile Include="DataSentence\clsStandardOpr.cs" />
+    <Compile Include="DataSentence\clsStandardTypeOpr.cs" />
+    <Compile Include="DataSentence\clsStockRecordOpr.cs" />
+    <Compile Include="DataSentence\clsSysOptOpr.cs" />
+    <Compile Include="DataSentence\clsTaskOpr.cs" />
+    <Compile Include="DataSentence\clsttStandardDecideOpr.cs" />
+    <Compile Include="DataSentence\clsUpdate_ResultOpr.cs" />
+    <Compile Include="DataSentence\clsUserInfoOpr.cs" />
+    <Compile Include="DataSentence\clsUserUnitOpr.cs" />
+    <Compile Include="DataSentence\HolesSetingOpr.cs" />
+    <Compile Include="DataSentence\Kjc\CheckUserConnect.cs" />
+    <Compile Include="DataSentence\Kjc\kjcCompany.cs" />
+    <Compile Include="DataSentence\Kjc\kjcCompanyBLL.cs" />
+    <Compile Include="DataSentence\Kjc\kjcCheckPlan.cs" />
+    <Compile Include="DataSentence\Kjc\kjcUploadEntity.cs" />
+    <Compile Include="DataSentence\Kjc\ResultMsg.cs" />
+    <Compile Include="DataSentence\tlsttResultSecondOpr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CommonReflect\" />
+    <Folder Include="MessageReflectPreson\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

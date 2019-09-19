@@ -1,0 +1,15 @@
+11:54:34
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 AIO.Global.HttpMath(String type, String url, String paramsValue) 位置 d:\数据上传\浙江接口\DY-3000(BX1)浙江新2.4.9\DYitj\src\Global.cs:行号 417
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 d:\数据上传\浙江接口\DY-3000(BX1)浙江新2.4.9\DYitj\src\WorkThread.cs:行号 550
+
+11:54:59
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 AIO.Global.HttpMath(String type, String url, String paramsValue) 位置 d:\数据上传\浙江接口\DY-3000(BX1)浙江新2.4.9\DYitj\src\Global.cs:行号 417
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 d:\数据上传\浙江接口\DY-3000(BX1)浙江新2.4.9\DYitj\src\WorkThread.cs:行号 550
+
+13:28:33
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 AIO.Global.HttpMath(String type, String url, String paramsValue) 位置 d:\数据上传\浙江接口\DY-3000(BX1)浙江新2.4.9\DYitj\src\Global.cs:行号 432
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 d:\数据上传\浙江接口\DY-3000(BX1)浙江新2.4.9\DYitj\src\WorkThread.cs:行号 561
+

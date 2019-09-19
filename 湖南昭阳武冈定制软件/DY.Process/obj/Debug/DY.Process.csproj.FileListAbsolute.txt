@@ -1,0 +1,58 @@
+E:\Project\Company_Source\new_client\workstation\DY.Process\bin\Debug\DY.Process.dll
+E:\Project\Company_Source\new_client\workstation\DY.Process\bin\Debug\DY.Process.pdb
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\DY.Process.dll
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\DY.Process.pdb
+E:\Project\Company_Source\workstation\DY.Process\bin\Debug\DY.Process.dll
+E:\Project\Company_Source\workstation\DY.Process\bin\Debug\DY.Process.pdb
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\DY.Process.dll
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\DY.Process.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\bin\Debug\DY.Process.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\bin\Debug\DY.Process.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\DY.Process.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\DY.Process.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\DY.Process\bin\Debug\DY.Process.dll
+E:\Workstation_4th Sent[2012-11-29云南]\DY.Process\bin\Debug\DY.Process.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-29云南]\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+E:\Workstation_4th Sent[2012-11-29云南]\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\DY.Process\obj\Debug\DY.Process.dll
+E:\Workstation_4th Sent[2012-11-29云南]\DY.Process\obj\Debug\DY.Process.pdb
+D:\SVN\stand-aloneWorkStation\DY.Process\bin\Debug\DY.Process.dll
+D:\SVN\stand-aloneWorkStation\DY.Process\bin\Debug\DY.Process.pdb
+D:\SVN\stand-aloneWorkStation\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN\stand-aloneWorkStation\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+D:\SVN\stand-aloneWorkStation\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\SVN\stand-aloneWorkStation\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\SVN\stand-aloneWorkStation\DY.Process\obj\Debug\DY.Process.dll
+D:\SVN\stand-aloneWorkStation\DY.Process\obj\Debug\DY.Process.pdb
+F:\stand-aloneWorkStation\DY.Process\bin\Debug\DY.Process.dll
+F:\stand-aloneWorkStation\DY.Process\bin\Debug\DY.Process.pdb
+F:\stand-aloneWorkStation\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+F:\stand-aloneWorkStation\DY.Process\obj\Debug\DY.Process.csproj.GenerateResource.Cache
+F:\stand-aloneWorkStation\DY.Process\obj\Debug\DY.Process.dll
+F:\stand-aloneWorkStation\DY.Process\obj\Debug\DY.Process.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\DY.Process\bin\Debug\DY.Process.dll
+F:\Projects\SVN\WorkStation\工作站单机版\DY.Process\bin\Debug\DY.Process.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+F:\Projects\SVN\WorkStation\工作站单机版\DY.Process\obj\Debug\DY.Process.csproj.GenerateResource.Cache
+F:\Projects\SVN\WorkStation\工作站单机版\DY.Process\obj\Debug\DY.Process.dll
+F:\Projects\SVN\WorkStation\工作站单机版\DY.Process\obj\Debug\DY.Process.pdb
+D:\数据上传\湖南昭阳武冈定制软件\DY.Process\bin\Debug\DY.Process.dll
+D:\数据上传\湖南昭阳武冈定制软件\DY.Process\bin\Debug\DY.Process.pdb
+D:\数据上传\湖南昭阳武冈定制软件\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+D:\数据上传\湖南昭阳武冈定制软件\DY.Process\obj\Debug\DY.Process.csproj.GenerateResource.Cache
+D:\数据上传\湖南昭阳武冈定制软件\DY.Process\obj\Debug\DY.Process.dll
+D:\数据上传\湖南昭阳武冈定制软件\DY.Process\obj\Debug\DY.Process.pdb

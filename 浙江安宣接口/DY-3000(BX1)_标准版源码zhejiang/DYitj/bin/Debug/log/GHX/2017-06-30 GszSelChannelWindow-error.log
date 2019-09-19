@@ -1,0 +1,10 @@
+11:18:42
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.GszSelChannelWindow.GenerateChlBriefLayout(Int32 channel, String name) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Ganshizhi\GszSelChannelWindow.xaml.cs:行号 406
+   在 AIO.GszSelChannelWindow.ShowAllChannel() 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Ganshizhi\GszSelChannelWindow.xaml.cs:行号 139
+
+11:18:49
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.GszSelChannelWindow.GenerateChlBriefLayout(Int32 channel, String name) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Ganshizhi\GszSelChannelWindow.xaml.cs:行号 406
+   在 AIO.GszSelChannelWindow.ShowAllChannel() 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Ganshizhi\GszSelChannelWindow.xaml.cs:行号 139
+

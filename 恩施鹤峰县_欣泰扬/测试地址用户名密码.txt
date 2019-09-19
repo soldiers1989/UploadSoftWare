@@ -1,0 +1,9 @@
+http://foodsafe.tainot.com/agriapp/Services/wireDataService.asmx
+用户名：hf_test001
+密码：hf_test001
+
+朔源不用做
+
+
+http://www.anxuan360.com/open/api/farm/logindp
+http://www.ansuw.com/open/api/farm/logindp

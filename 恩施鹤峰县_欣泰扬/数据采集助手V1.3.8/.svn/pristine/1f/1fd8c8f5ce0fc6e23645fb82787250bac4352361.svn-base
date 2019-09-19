@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D185234B-786C-4C40-BAFA-8D7AEA2F89B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorkstationModel</RootNamespace>
+    <AssemblyName>WorkstationModel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WorkstationUI\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\WorkstationUI\bin\Debug\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\WorkstationUI\bin\Debug\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\WorkstationUI\bin\Debug\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\WorkstationUI\bin\Debug\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="system.web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATP\clsATP.cs" />
+    <Compile Include="ATP\clsATPCommunication.cs" />
+    <Compile Include="beihai\clsCommunication.cs" />
+    <Compile Include="beihai\clsHpptPost.cs" />
+    <Compile Include="function\FilesRW.cs" />
+    <Compile Include="HID\hidSearch.cs" />
+    <Compile Include="Instrument\clsDY2620.cs" />
+    <Compile Include="Instrument\clsDY3000DY.cs" />
+    <Compile Include="Instrument\clsDY5000.cs" />
+    <Compile Include="Instrument\clsDY5000LD.cs" />
+    <Compile Include="Instrument\clsDY5800.cs" />
+    <Compile Include="Instrument\clsDY6200.cs" />
+    <Compile Include="Instrument\clsDY6400.cs" />
+    <Compile Include="Instrument\clsDY723PC.cs" />
+    <Compile Include="Instrument\clsDY8120.cs" />
+    <Compile Include="Instrument\clsDYRS2.cs" />
+    <Compile Include="Instrument\clsLZ4000T.cs" />
+    <Compile Include="Instrument\clsTL300.cs" />
+    <Compile Include="Instrument\clsTY16.cs" />
+    <Compile Include="Instrument\clsTYTTNJZ24.cs" />
+    <Compile Include="Instrument\Commbase.cs" />
+    <Compile Include="Instrument\DY6600.cs" />
+    <Compile Include="Instrument\DY7200.cs" />
+    <Compile Include="Instrument\TL310New.cs" />
+    <Compile Include="Model\clsCheckComTypeOpr.cs" />
+    <Compile Include="Model\clsdiary.cs" />
+    <Compile Include="Model\clsDistrictOpr.cs" />
+    <Compile Include="Model\clsMessageNotify.cs" />
+    <Compile Include="Model\clsRepairData.cs" />
+    <Compile Include="Model\clsResult.cs" />
+    <Compile Include="Model\clsResultOpr.cs" />
+    <Compile Include="Model\clsResultSZ.cs" />
+    <Compile Include="Model\clsStringUtil.cs" />
+    <Compile Include="Model\clsSysOptOpr.cs" />
+    <Compile Include="Model\clsUserInfoOpr.cs" />
+    <Compile Include="Model\clsUserUnitOpr.cs" />
+    <Compile Include="Model\CommonOperation.cs" />
+    <Compile Include="Model\CRC.cs" />
+    <Compile Include="Model\ExcelHelper.cs" />
+    <Compile Include="Model\MessageNotification.cs" />
+    <Compile Include="Model\Reference.cs" />
+    <Compile Include="Model\ShareOption.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="report\clsReport.cs" />
+    <Compile Include="shandong\SDUpdata.cs" />
+    <Compile Include="Thread\GloadThread.cs" />
+    <Compile Include="Thread\ThreadHandle.cs" />
+    <Compile Include="UpData\clsDownExamedUnit.cs" />
+    <Compile Include="UpData\clsUpLoadCheckData.cs" />
+    <Compile Include="UpData\clsUpLoadData.cs" />
+    <Compile Include="shandong\DynamicWeb.cs" />
+    <Compile Include="UpData\InterfaceHelper.cs" />
+    <Compile Include="UpData\JsonHelper.cs" />
+    <Compile Include="UpData\KeRunUpData.cs" />
+    <Compile Include="UpData\QuickInspectServing.cs" />
+    <Compile Include="UpData\ResultMsg.cs" />
+    <Compile Include="UpData\TYUpData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WorkstationBLL\WorkstationBLL.csproj">
+      <Project>{b17a72cb-3b9e-42ea-bad8-5a1c6303a29d}</Project>
+      <Name>WorkstationBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkstationDAL\WorkstationDAL.csproj">
+      <Project>{b8f89c30-4cc3-4cf9-9441-be212b0baae5}</Project>
+      <Name>WorkstationDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

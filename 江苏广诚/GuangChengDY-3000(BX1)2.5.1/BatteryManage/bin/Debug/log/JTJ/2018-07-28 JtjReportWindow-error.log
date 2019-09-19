@@ -1,0 +1,49 @@
+15:18:29
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 D:\测试\DY-3000(BX1)xinmokuai\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 995
+
+15:50:09
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 D:\测试\DY-3000(BX1)xinmokuai\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 995
+
+15:56:15
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 D:\测试\DY-3000(BX1)xinmokuai\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 995
+
+15:59:00
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 D:\测试\DY-3000(BX1)xinmokuai\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 995
+
+16:32:13
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 D:\测试\DY-3000(BX1)xinmokuai\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 717
+
+16:42:08
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 D:\测试\DY-3000(BX1)xinmokuai\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 995
+
+16:46:18
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.JtjReportWindow.CalcResult() 位置 D:\测试\DY-3000(BX1)xinmokuai\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 995
+

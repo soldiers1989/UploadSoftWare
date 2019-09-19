@@ -1,0 +1,12 @@
+发送09:23:28
+http://fc.chinafst.cn:9002/fc/interfaces/dataChecking/uploadData.do?userToken=187180658204266210642330151826366&result={"id":"E45273BB3E1644F091C45783D1B30A30","taskId":null,"taskName":null,"samplingId":null,"samplingDetailId":null,"itemId":"4028936e64a6ddbe0164ab8060020006","departId":"258","departName":"测试增城项目","pointId":"277","pointName":"检测DY","regUserId":"6480","regUserName":"绿色蔬菜1","regId":"1635","regName":"金山市场","statusFalg":"0","remark":"","foodId":"768","foodName":"食用油","foodTypeId":"768","foodTypeName":"食用油","checkCode":"","itemName":"极性组分","checkResult":"17.1","limitValue":"<27","checkAccord":"GB 5009.202","checkUnit":"%","conclusion":"合格","auditorName":"投标","checkUserid":"4028936e64a6ddbe0164ad0f6f43000a","checkUsername":"投标","checkAccordId":"E45273BB3E1644F091C45783D1B30A30","checkDate":"2018-07-16 16:56:00","uploadName":"投标","auditorId":"4028936e64a6ddbe0164ad0f6f43000a","uploadId":"4028936e64a6ddbe0164ad0f6f43000a","uploadDate":"2018-07-19 09:23:22","deviceCompany":"广东达元绿洲食品安全科技股份有限公司","deviceId":"DY-2620_20180718190545","deviceName":"DY-2620食用油品质分析仪","deviceModel":"荧光光","dataSource":"1","deviceMethod":"标准曲线法","param1":"","dataType":"0"}
+
+接收09:23:28
+{"success":true,"msg":"操作成功","obj":"","attributes":"","resultCode":"0X00000"}
+
+发送09:23:38
+http://fc.chinafst.cn:9002/fc/interfaces/dataChecking/uploadData.do?userToken=187180658204266210642330151826366&result={"id":"8038A26B83F0438BB0F61C465CD85519","taskId":null,"taskName":null,"samplingId":null,"samplingDetailId":null,"itemId":"4028936e64a6ddbe0164ab8060020006","departId":"258","departName":"测试增城项目","pointId":"277","pointName":"检测DY","regUserId":"6480","regUserName":"绿色蔬菜1","regId":"1635","regName":"金山市场","statusFalg":"0","remark":"","foodId":"768","foodName":"食用油","foodTypeId":"768","foodTypeName":"食用油","checkCode":"","itemName":"极性组分","checkResult":"17.1","limitValue":"<27","checkAccord":"GB 5009.202","checkUnit":"%","conclusion":"合格","auditorName":"投标","checkUserid":"4028936e64a6ddbe0164ad0f6f43000a","checkUsername":"投标","checkAccordId":"8038A26B83F0438BB0F61C465CD85519","checkDate":"2018-07-16 16:56:00","uploadName":"投标","auditorId":"4028936e64a6ddbe0164ad0f6f43000a","uploadId":"4028936e64a6ddbe0164ad0f6f43000a","uploadDate":"2018-07-19 09:23:38","deviceCompany":"广东达元绿洲食品安全科技股份有限公司","deviceId":"DY-2620_20180718190545","deviceName":"DY-2620食用油品质分析仪","deviceModel":"荧光光","dataSource":"1","deviceMethod":"标准曲线法","param1":"","dataType":"0"}
+
+接收09:23:38
+{"success":true,"msg":"操作成功","obj":"","attributes":"","resultCode":"0X00000"}
+

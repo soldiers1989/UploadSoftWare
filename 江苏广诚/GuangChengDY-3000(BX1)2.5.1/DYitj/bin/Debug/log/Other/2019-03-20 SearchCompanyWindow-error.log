@@ -1,0 +1,8 @@
+10:36:50
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.xaml.Dialog.SearchCompanyWindow.DataGridRecord_MouseDoubleClick(Object sender, MouseButtonEventArgs e) 位置 d:\DY-Software\数据上传\江苏广诚\DY-3000(BX1)2.5.1\DYitj\xaml\Dialog\SearchCompanyWindow.xaml.cs:行号 100
+
+10:36:52
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.xaml.Dialog.SearchCompanyWindow.DataGridRecord_MouseDoubleClick(Object sender, MouseButtonEventArgs e) 位置 d:\DY-Software\数据上传\江苏广诚\DY-3000(BX1)2.5.1\DYitj\xaml\Dialog\SearchCompanyWindow.xaml.cs:行号 100
+

@@ -1,0 +1,145 @@
+﻿<Window x:Class="AIO.ItemResultEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="ItemResultEdit" 
+        Width="1024" Height="1000"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGridCenter}"
+        FontFamily="SimHei"         
+        Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="编  辑" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,20,20"  Content="返  回" FontSize="24" Click="ButtonPrev_Click"/>
+            <Button Name="BtnSave" Width="100" Height="61" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,126,19"  Content="保  存" FontSize="24" Click="BtnSave_Click" />
+        </Grid>
+
+        <!-- 中 -->
+        <StackPanel Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}" HorizontalAlignment="Center" VerticalAlignment="Center"  Orientation="Horizontal" >
+            <ScrollViewer Width="800" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Height="400">
+                <StackPanel Orientation="Vertical" Width="800">
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Width="110" Height="34" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="检测编号:" FontSize="16" FlowDirection="LeftToRight" HorizontalContentAlignment="Right" />
+                        <TextBox Height="34" Name="tb_CheckNo" Width="280" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" />
+                        <Label Width="110" Height="34" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="任务编号:" FontSize="16" HorizontalContentAlignment="Right" />
+                        <TextBox Height="34" Name="tb_TaskNumber" Width="280" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Width="110" Height="34" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="检测项目:" FontSize="16" HorizontalContentAlignment="Right" />
+                        <TextBox Height="34" Name="tb_CheckTotalItem" Width="280" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" />
+                        <Label Width="110" Height="34" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="检测依据:" FontSize="16" HorizontalContentAlignment="Right" />
+                        <TextBox Height="34" Name="tb_Standard" Width="200" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" />
+                        <Button Content="查看法律法规" Height="30" Name="btn_View" Width="80" ToolTip="点击查看相关法律法规" Click="btn_View_Click" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="检测单位:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_CheckUnitName" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                        <Label Content="检测单位类别:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_APRACategory" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="被检单位:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_CheckedCompany" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                        <Label Content="被检单位编号:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_CheckedCompanyCode" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="检测类型:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <ComboBox Background="White" FontSize="20" Height="34" ItemsSource="{Binding}" Name="cb_CheckType" Width="280">
+                            <ComboBoxItem Content="抽检" FontSize="20" />
+                            <ComboBoxItem Content="送检" FontSize="20" />
+                        </ComboBox>
+                        <Label Content="检测时间:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_CheckStartDate" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="抽样人:" Visibility="Collapsed" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Visibility="Collapsed" Height="34" IsEnabled="False" Name="tb_Organizer" VerticalContentAlignment="Center" Width="280" />
+                        <Label Content="抽样地点:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tb_SamplingPlace" VerticalContentAlignment="Center" Width="280" />
+                        <Label Content="抽样日期:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tb_TakeDate" VerticalContentAlignment="Center" Width="250" />
+                        <DatePicker FontSize="16" Height="35" Name="datePicker4" VerticalContentAlignment="Center" Width="30" SelectedDateChanged="datePicker4_SelectedDateChanged" Margin="0,1,0,0" VerticalAlignment="Top" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <!--<Label Content="抽样地点:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />-->
+                        <!--<TextBox FontSize="20" Height="34" Name="tb_SamplingPlace" VerticalContentAlignment="Center" Width="280" />-->
+                        <Label Content="摊位编号:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tb_ProduceCompany" VerticalContentAlignment="Center" Width="280" />
+                        <Label Content="生产日期:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tb_DateManufacture" VerticalContentAlignment="Center" Width="250" />
+                        <DatePicker FontSize="16" Height="35" Name="datePicker3" VerticalContentAlignment="Center" Width="30" SelectedDateChanged="datePicker3_SelectedDateChanged" />
+                    </StackPanel>
+
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="样品名称:" FontSize="16" Height="34" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_FoodName" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                        <Label Content="样品编号:" FontSize="16" Height="34" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_SampleCode" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="检测值:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_CheckValueInfo" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                        <Label Content="标准值:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_StandValue" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37"  Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="检测值单位:" FontSize="16" Height="34" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20 " Height="34" Name="tb_ResultInfo" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                        <Label Content="结论:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_Result" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Collapsed">
+                        <Label Content="行政机构:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tCheckPlace" VerticalContentAlignment="Center" Width="280" />
+                        <Label Content="行政机构编号:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tCheckPlaceCode" VerticalContentAlignment="Center" Width="280" />
+                    </StackPanel>
+                    <StackPanel  Width="800" Height="37"  Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Collapsed">
+                        <Label Content="检测设备:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tCheckMachine" VerticalContentAlignment="Center" Width="280" />
+                        <Label Content="检测设备型号:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tCheckMachineModel" VerticalContentAlignment="Center" Width="280" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37"  Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <!--<RichTextBox Height="58" Name="tProceResults" Width="785" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center"/>-->
+                        <Label Content="基层上传人:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tb_UpLoader" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                        <Label Content="基层上传时间:" FontSize="16" Height="34" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tb_UploadDate" VerticalContentAlignment="Center" Width="280" IsEnabled="False" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37"  Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <!--<RichTextBox Height="58" Name="tProceResults" Width="785" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center"/>-->
+                        <Label Content="检测设备生产厂家:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="145" HorizontalContentAlignment="Right" Visibility="Collapsed" />
+                        <TextBox FontSize="20" Height="34" Name="tMachineCompany" VerticalContentAlignment="Center" Width="245" Visibility="Collapsed" />
+                        <Label Content="档口/门牌号:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tCheckedComDis" VerticalContentAlignment="Center" Width="280" />
+                        <Label Content="报告送达时间:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="tReportDeliTime" VerticalContentAlignment="Center" Width="250" />
+                        <DatePicker FontSize="16" Height="35" Name="datePicker1" VerticalContentAlignment="Center" Width="30" SelectedDateChanged="datePicker1_SelectedDateChanged" />
+                    </StackPanel>
+
+                    <StackPanel  Width="800" Height="37"  Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Width="120" Height="35" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="是否提出复议:" FontSize="16"/>
+                        <CheckBox Content="" Height="18" Name="tIsReconsider" Width="27" />
+                        <Label Width="353" Height="35" HorizontalAlignment="Right" HorizontalContentAlignment="Right"  VerticalAlignment="Center" VerticalContentAlignment="Center" Content="提出复议时间:" FontSize="16" Margin="0,1"/>
+                        <TextBox Height="34" Name="tReconsiderTime" Width="250" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+                        <DatePicker Height="35" Name="datePicker2" Width="31" FontSize="16"  HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" SelectedDateChanged="datePicker2_SelectedDateChanged" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="56" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="处理结果:" FontSize="16" Height="58" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="52" Name="tProceResults" VerticalContentAlignment="Center" Width="670" />
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<appSettings>
+  <add key="FoodClient.ForNet.DataDriver" value="http://localhost/DataDriver/DataDriver.asmx"/>
+  <add key="FoodClient.localhost.DataSyncService" value="http://localhost/DataDriver/DataDriver.asmx"/>
+  <add key="InterfaceNameSpace" value="FoodClient.ForNet.DataDriver" />
+  <add key="SupAdmin" value="73F504E1F2D86EA73483B932D5CF73DB" />
+  <add key="RockeyScanInterval" value="5" />
+  
+  <!--全波长723pc仪器参数配置 开始
+   wince通讯模式. 1表示串口通讯,2表示FTP方式，3表示共享模式，其他仪器无关-->
+  <add key="TransferMode" value="1" />
+  <!--通过FTP方式IP地址-->
+  <add key="WinceFtpIp" value="192.168.19.230" />
+  <!--内部储存路径,可以带文件夹路径, 厂家wince应用程序文件放在根目录 "\\test_info.xml" -->
+  <add key="WinceDataPath" value="\\stdcard\\foodcheck\\checkData.xml" />
+  <add key="WinceFtpUser" value="" />
+  <add key="WinceFtpPwd" value="" />
+  <!--全波长723pc仪器参数配置 结束-->
+  
+</appSettings>
+  
+</configuration>

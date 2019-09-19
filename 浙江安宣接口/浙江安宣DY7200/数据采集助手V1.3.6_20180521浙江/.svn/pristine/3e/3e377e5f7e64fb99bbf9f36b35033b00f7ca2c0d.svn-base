@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <!--配置信息-->
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="WorkstationUI.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <appSettings>
+    <add key="InterfaceManufacture" value="DYKJFW" />
+    <add key="InstrumentNameModel" value="DY-2620" />
+    <add key="IntrumentSeriersNum" value="DY-2620_20180718190545" />
+    <add key="ServerAddr" value="http://fc.chinafst.cn:9002/fc" />
+    <add key="ServerName" value="sa009" />
+    <add key="ServerPassword" value="123456" />
+    <add key="UpDetectUnit" value="检测DY" />
+    <add key="UpDetectUnitNo" value="277" />
+    <add key="UploadType" value="基地上传" />
+    <add key="IntrumentNum" value="LZ6000" />
+    <add key="Organize" value="测试增城项目" />
+    <add key="OrganizeNo" value="258" />
+    <add key="ChkUnitType" value="0" />
+    <add key="NickName" value="DY-2620" />
+    <add key="pointID" value="" />
+    <add key="UpUnit" value="shi" />
+    <add key="InstrumManufact" value="广东达元食品药品安全技术有限公司" />
+  </appSettings>
+  <applicationSettings>
+    <WorkstationUI.Properties.Settings>
+      <setting name="数据采集系统_WebReference_PutService" serializeAs="String">
+        <value>http://111.1.62.181/Put.jws</value>
+      </setting>
+    </WorkstationUI.Properties.Settings>
+  </applicationSettings>
+</configuration>

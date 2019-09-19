@@ -1,0 +1,21 @@
+10:29:47
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 d:\投标软件\安徽车投标\CustomSoftWare\安徽检测车DY-3000(BX1)xinsuanfa2.5.0s\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 107
+
+10:29:50
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.UpdateItem() 位置 d:\投标软件\安徽车投标\CustomSoftWare\安徽检测车DY-3000(BX1)xinsuanfa2.5.0s\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1985
+
+10:33:10
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.GenerateResultLayout(Int32 channel, String sampleNum, String sampleName) 位置 d:\投标软件\安徽车投标\CustomSoftWare\安徽检测车DY-3000(BX1)xinsuanfa2.5.0s\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1767
+   在 AIO.JtjReportWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 d:\投标软件\安徽车投标\CustomSoftWare\安徽检测车DY-3000(BX1)xinsuanfa2.5.0s\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 93
+
+10:36:20
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.UpdateItem() 位置 d:\投标软件\安徽车投标\CustomSoftWare\安徽检测车DY-3000(BX1)xinsuanfa2.5.0s\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1992
+
+10:36:59
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.UpdateItem() 位置 d:\投标软件\安徽车投标\CustomSoftWare\安徽检测车DY-3000(BX1)xinsuanfa2.5.0s\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1992
+

@@ -1,0 +1,8 @@
+11:33:08
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.MainWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Main\MainWindow.xaml.cs:行号 105
+
+12:54:25
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.MainWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Main\MainWindow.xaml.cs:行号 105
+

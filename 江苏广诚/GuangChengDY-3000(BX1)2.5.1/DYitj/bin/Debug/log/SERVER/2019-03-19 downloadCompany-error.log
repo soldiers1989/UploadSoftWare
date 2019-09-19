@@ -1,0 +1,8 @@
+13:41:15
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownloadCompanyProcess(Action`1 percent) 位置 d:\DY-Software\数据上传\江苏广诚\DY-3000(BX1)2.5.1\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1917
+
+13:41:17
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownloadCompanyProcess(Action`1 percent) 位置 d:\DY-Software\数据上传\江苏广诚\DY-3000(BX1)2.5.1\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1917
+

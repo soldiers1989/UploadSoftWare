@@ -1,0 +1,8 @@
+09:30:02
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AIO.WorkThread.DownLoadAllData(String url, String checkNumber, String checkName, String checkType, String checkOrg, String user, String pwd, String downType) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\DYitj\src\WorkThread.cs:行号 3705
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\DYitj\src\WorkThread.cs:行号 1424
+

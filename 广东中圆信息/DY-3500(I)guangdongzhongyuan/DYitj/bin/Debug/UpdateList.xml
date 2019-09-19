@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>DY-3000(BX1) autoUpdate</description>
+  <Updater>
+    <Url>http://rj.chinafst.cn:8099/DY-3000(BX1)/</Url>
+<LastUpdateTime>2017-12-21</LastUpdateTime>
+</Updater>
+<Application applicationId="DY-Detector">
+<EntryPoint>DY-Detector.exe</EntryPoint>
+<Location>.</Location>
+<Version>1.0.0.9</Version>
+</Application>
+<Files>
+    <File Ver="1.0.0.6" Name="AxInterop.APlayer3Lib.dll" />
+    <File Ver="1.0.0.6" Name="Interop.APlayer3Lib.dll" />
+    <File Ver="1.0.1.0" Name="ClassLibrary.dll" />
+    <File Ver="1.0.1.0" Name="DataSet.dll" />
+    <File Ver="1.0.0.6" Name="Direct2D.dll" />
+    <File Ver="1.0.1.0" Name="DY-Detector.exe" />
+    <File Ver="1.0.0.2" Name="BatteryManage.exe" />
+    <File Ver="1.0.0.7" Name="DY-Detector.exe.config" />
+    <File Ver="1.0.0.6" Name="DY.Process.dll" />
+    <File Ver="1.0.0.6" Name="DynamicDataDisplay.dll" />
+    <File Ver="1.0.0.6" Name="DyInterfaceHelper.dll" />
+    <File Ver="1.0.0.6" Name="Microsoft.WindowsAPICodePack.DirectX.dll" />
+    <File Ver="1.0.0.6" Name="Newtonsoft.Json.dll" />
+    <File Ver="1.0.0.6" Name="NPOI.dll" />
+    <File Ver="1.0.0.6" Name="NPOI.OOXML.dll" />
+    <File Ver="1.0.0.6" Name="NPOI.OpenXml4Net.dll" />
+    <File Ver="1.0.0.6" Name="NPOI.OpenXmlFormats.dll" />
+    <File Ver="1.0.0.6" Name="Righthand.RealtimeGraph.dll" />
+    <File Ver="1.0.0.6" Name="System.Windows.Controls.DataVisualization.Toolkit.dll" />
+    <File Ver="1.0.0.6" Name="Microsoft.QualityTools.Testing.Fakes.dll" />
+    <File Ver="1.0.0.9" Name="ThreadMessaging.dll" />
+    <File Ver="1.0.1.0" Name="UpdateList.xml" />
+    <File Ver="1.0.0.6" Name="WpfPerformance.exe" />
+    <File Ver="1.0.0.6" Name="WPFToolkit.dll" />
+    <File Ver="1.0.0.6" Name="WPFVisifire.Charts.dll" />
+    <File Ver="1.0.0.6" Name="Accounts\CheckItemStandard.dat" />
+    <File Ver="1.0.0.6" Name="Accounts\FoodClass.dat" />
+    <File Ver="1.0.0.6" Name="Accounts\userAccounts.dat" />
+    <File Ver="1.0.0.6" Name="Data\local.Mdb" />
+    <File Ver="1.0.0.8" Name="Items\fgdItems.dat" />
+    <File Ver="1.0.0.8" Name="Items\gszItems.dat" />
+    <File Ver="1.0.0.6" Name="Items\hmItems.dat" />
+    <File Ver="1.0.0.9" Name="Items\jtjItems.dat" />
+    <File Ver="1.0.0.6" Name="Others\CheckedReportModel.html" />
+    <File Ver="1.0.0.6" Name="Others\CheckedReportOfficialSeal.gif" />
+    <File Ver="1.0.0.6" Name="Others\CheckedReportOfficialSeal.png" />
+    <File Ver="1.0.0.6" Name="Others\CheckedReportTitle.txt" />
+    <File Ver="1.0.0.6" Name="Others\deviceHole.dat" />
+    <File Ver="1.0.0.0" Name="BatteryIcon\battery.ico" />
+    <File Ver="1.0.0.0" Name="BatteryIcon\battery0.ico" />
+    <File Ver="1.0.0.0" Name="BatteryIcon\battery1.ico" />
+    <File Ver="1.0.0.0" Name="BatteryIcon\battery2.ico" />
+    <File Ver="1.0.0.0" Name="BatteryIcon\battery3.ico" />
+    <File Ver="1.0.0.0" Name="BatteryIcon\battery4.ico" />
+    <File Ver="1.0.0.0" Name="BatteryIcon\battery5.ico" />
+    <File Ver="1.0.0.0" Name="BatteryIcon\batteryError.ico" />
+    <File Ver="1.0.0.0" Name="BatteryIcon\logo.ico" />
+  </Files>
+  <UpdateNotes>
+    <UpdateNote Note="DY-3000(BX1)食品综合分析仪_Ver2.5.0" />
+    <UpdateNote Note="【特别】从v2.4.3及之前版本升级会替换数据库," /> 
+    <UpdateNote Note="【注意】请确认已备份好检测记录后，再做升级！！" /> 
+    <UpdateNote Note="【升级前请先在任务管理器退出电池监控程序“BatteryManage.exe”】" /> 
+    <UpdateNote Note="   " />
+    <UpdateNote Note="版本更新说明：" />
+    <UpdateNote Note="  0.胶体金旧模块算法优化，调整胶体金项目旧模块参数；" />
+    <UpdateNote Note="  1.增加退出软件时提示取出比色皿弹框；" />
+    <UpdateNote Note="  2.增加检测项目检索、导入功能；" />
+    <UpdateNote Note="  3.增加有新版本时在启动软件提醒更新；" />
+    <UpdateNote Note="  4.修复其他bug。" />
+    <UpdateNote Note="  " />
+    <UpdateNote Note="新版本更新预告：" />
+    <UpdateNote Note="- 暂无" />
+    <UpdateNote Note="  " />
+  </UpdateNotes>
+</AutoUpdater>

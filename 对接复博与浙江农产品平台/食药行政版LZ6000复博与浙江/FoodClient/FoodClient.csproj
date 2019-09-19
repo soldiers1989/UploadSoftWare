@@ -1,0 +1,935 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{11D286CB-520E-49AD-9E49-008F39EC4E57}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>FoodClient</AssemblyName>
+    <AssemblyOriginatorKeyFile>fclix.pfx</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FoodClient</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/WindowsFormClient/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <COMReference Include="MMC20">
+      <Guid>{8E80422B-CAC4-472B-B272-9635F1DFEF3B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <ProjectReference Include="..\CommBase\CommBase.csproj">
+      <Project>{E65E4BF6-1EDC-450F-91DB-069168CE0456}</Project>
+      <Name>CommBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DY.FoodClientLib\DY.FoodClientLib.csproj">
+      <Project>{A740018B-A2CC-47B8-AB35-60E2759AA9AC}</Project>
+      <Name>DY.FoodClientLib</Name>
+    </ProjectReference>
+    <Reference Include="C1.Common">
+      <Name>C1.Common</Name>
+      <HintPath>bin\Debug\C1.Common.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\c1studio</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart">
+      <Name>C1.Win.C1Chart</Name>
+      <HintPath>bin\Debug\C1.Win.C1Chart.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\c1studio</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="C1.Win.C1Command">
+      <Name>C1.Win.C1Command</Name>
+      <HintPath>bin\Debug\C1.Win.C1Command.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\c1studio</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid">
+      <Name>C1.Win.C1FlexGrid</Name>
+      <HintPath>bin\Debug\C1.Win.C1FlexGrid.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\c1studio</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.Classic">
+      <Name>C1.Win.C1FlexGrid.Classic</Name>
+      <HintPath>bin\Debug\C1.Win.C1FlexGrid.Classic.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\c1studio</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="C1.Win.C1List">
+      <Name>C1.Win.C1List</Name>
+      <HintPath>bin\Debug\C1.Win.C1List.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\c1studio</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="C1.Win.C1Report, Version=2.5.20052.176, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\C1.Win.C1Report.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Sizer">
+      <HintPath>bin\Debug\C1.Win.C1Sizer.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.4.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e" />
+    <Reference Include="DesktopAppSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\DesktopAppSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetPrint, Version=5.7.5420.40743, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Print\DotNetPrint.dll</HintPath>
+    </Reference>
+    <Reference Include="DY.Process">
+      <HintPath>..\DY.Process\bin\Debug\DY.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="system.management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnHui\checked_unit.cs" />
+    <Compile Include="AnHui\clsInstrumentInfoHandle.cs" />
+    <Compile Include="AnHui\DataOperation.cs" />
+    <Compile Include="AnHui\data_dictionary.cs" />
+    <Compile Include="AnHui\Global.cs" />
+    <Compile Include="AnHui\standard_limit.cs" />
+    <Compile Include="AnHui\TestMoreMethodGetMac.cs" />
+    <Compile Include="App_Code\clsLZ4000T.cs" />
+    <Compile Include="App_Code\clsDY3000DY.cs" />
+    <Compile Include="App_Code\clsDY5000.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\clsDY5000LD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\clsDY6201.cs" />
+    <Compile Include="App_Code\clsDY6400.cs" />
+    <Compile Include="App_Code\clsDY723PC.cs" />
+    <Compile Include="App_Code\clsDYRSY2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\PrintOperation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\CommonOperation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\RegularCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\clsDY3000.cs" />
+    <Compile Include="App_Code\clsDY8120.cs" />
+    <Compile Include="App_Code\clsDY6200.cs" />
+    <Compile Include="ATP\clsATP.cs" />
+    <Compile Include="ATP\Debugging.cs" />
+    <Compile Include="ATP\DebuggingDeclarations.cs" />
+    <Compile Include="ATP\DeviceManagement.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ATP\DeviceManagementDeclarations.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ATP\DeviceManagementer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ATP\FileIODeclarations.cs" />
+    <Compile Include="ATP\Global.cs" />
+    <Compile Include="ATP\Hid.cs" />
+    <Compile Include="ATP\HidDeclarations.cs" />
+    <Compile Include="Basic\FrmBaseDataDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\FrmBaseDataDownload.Designer.cs">
+      <DependentUpon>FrmBaseDataDownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\FrmProprietorsDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\FrmProprietorsDetail.Designer.cs">
+      <DependentUpon>FrmProprietorsDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\FrmUnitSynchronize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\FrmUnitSynchronize.Designer.cs">
+      <DependentUpon>FrmUnitSynchronize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY5000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY5000.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY5000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6100.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY6100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6201.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6201.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY6201.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6300.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY6300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6600.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY6600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY723PC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY723PC.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY723PC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDYSeries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDYSeries.Designer.cs">
+      <DependentUpon>FrmAutoTakeDYSeries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeLZ4000T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeLZ4000T.Designer.cs">
+      <DependentUpon>FrmAutoTakeLZ4000T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeLD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeLD.Designer.cs">
+      <DependentUpon>FrmAutoTakeLD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeSFY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeSFY.Designer.cs">
+      <DependentUpon>FrmAutoTakeSFY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmHandTakeJD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6400.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY6400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY6200.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY6200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY8120.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\FrmAutoTakeDY8120.Designer.cs">
+      <DependentUpon>FrmAutoTakeDY8120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check\TitleBarBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check\TitleBarBase.designer.cs">
+      <DependentUpon>TitleBarBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DropDownWindow\frmCheckedCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSuperAdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSuperAdminLogin.Designer.cs">
+      <DependentUpon>FrmSuperAdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeFei\clsJson.cs" />
+    <Compile Include="HeFei\UploadDataInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Query\DLReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\DLReportForm.Designer.cs">
+      <DependentUpon>DLReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\ExprotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\ExprotForm.Designer.cs">
+      <DependentUpon>ExprotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\PrintReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\PrintReportForm.Designer.cs">
+      <DependentUpon>PrintReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\ShowReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\ShowReport.Designer.cs">
+      <DependentUpon>ShowReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\frmSaleRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales\frmSaleRecordEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales\frmStockRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales\frmStockRecordEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service References\ServiceReferenceSD\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="shandong\DynamicWeb.cs" />
+    <Compile Include="shandong\ShanDongUpData.cs" />
+    <Compile Include="SortableBindingList.cs" />
+    <Compile Include="System\FrmHolesSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\FrmHolesSet.Designer.cs">
+      <DependentUpon>FrmHolesSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmCheckComNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmCheckComType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmCheckComTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmCheckedCom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmCheckedComEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DropDownWindow\frmCheckedComSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DropDownWindow\frmCheckedDisplaySelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\FrmProcessBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\FrmProcessBar.Designer.cs">
+      <DependentUpon>FrmProcessBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\frmCollection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmCompanyKind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmCompanyKindEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DropDownWindow\frmDistrictSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DropDownWindow\frmFoodSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmFoodType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmFoodTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmItemEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmItemType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmItemTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FrmCollectionMng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\frmMachineEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmMakeArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmMakeAreaEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\FrmMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\FrmMsg.Designer.cs">
+      <DependentUpon>FrmMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\frmPesticideMeasure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\frmPesticideMeasureEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmProduceArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmProduceAreaEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DropDownWindow\frmProduceAreaSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\frmResultQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\frmStandardEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\frmSysOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\frmTimers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsersInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsersInfoEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\BaseInfosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\BaseInfosForm.Designer.cs">
+      <DependentUpon>BaseInfosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\ShowBaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\ShowBaseInfo.Designer.cs">
+      <DependentUpon>ShowBaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\ShowTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\ShowTask.Designer.cs">
+      <DependentUpon>ShowTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TaskSZForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\TaskSZForm.Designer.cs">
+      <DependentUpon>TaskSZForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ForNet\Reference.cs" />
+    <Compile Include="Web References\localhost\Reference.cs" />
+    <Compile Include="Web References\ZJWebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Basic\FrmBaseDataDownload.resx">
+      <DependentUpon>FrmBaseDataDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\FrmProprietorsDetail.resx">
+      <DependentUpon>FrmProprietorsDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\FrmUnitSynchronize.resx">
+      <DependentUpon>FrmUnitSynchronize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check\FrmAutoTakeDY.resx">
+      <DependentUpon>FrmAutoTakeDY.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check\FrmAutoTakeDY6100.resx">
+      <DependentUpon>FrmAutoTakeDY6100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check\FrmAutoTakeDY723PC.resx">
+      <DependentUpon>FrmAutoTakeDY723PC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check\FrmAutoTakeLD.resx">
+      <DependentUpon>FrmAutoTakeLD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check\FrmAutoTakeSFY.resx">
+      <DependentUpon>FrmAutoTakeSFY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check\FrmHandTakeJD.resx">
+      <DependentUpon>FrmHandTakeJD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check\TitleBarBase.resx">
+      <DependentUpon>TitleBarBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DropDownWindow\frmCheckedCompany.resx">
+      <DependentUpon>frmCheckedCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReSend.resx">
+      <DependentUpon>frmReSend.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSuperAdminLogin.resx">
+      <DependentUpon>FrmSuperAdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Query\DLReportForm.resx">
+      <DependentUpon>DLReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\ExprotForm.resx">
+      <DependentUpon>ExprotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\PrintReportForm.resx">
+      <DependentUpon>PrintReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\ShowReport.resx">
+      <DependentUpon>ShowReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\frmSaleRecord.resx">
+      <DependentUpon>frmSaleRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\frmSaleRecordEdit.resx">
+      <DependentUpon>frmSaleRecordEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\frmStockRecord.resx">
+      <DependentUpon>frmStockRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\frmStockRecordEdit.resx">
+      <DependentUpon>frmStockRecordEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\FrmHolesSet.resx">
+      <DependentUpon>FrmHolesSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmCheckComNew.resx">
+      <DependentUpon>frmCheckComNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmCheckComType.resx">
+      <DependentUpon>frmCheckComType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmCheckComTypeEdit.resx">
+      <DependentUpon>frmCheckComTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmCheckedCom.resx">
+      <DependentUpon>frmCheckedCom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmCheckedComEdit.resx">
+      <DependentUpon>frmCheckedComEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DropDownWindow\frmCheckedComSelect.resx">
+      <DependentUpon>frmCheckedComSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DropDownWindow\frmCheckedDisplaySelect.resx">
+      <DependentUpon>frmCheckedDisplaySelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\FrmProcessBar.resx">
+      <DependentUpon>FrmProcessBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\frmCollection.resx">
+      <DependentUpon>frmCollection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmCompanyKind.resx">
+      <DependentUpon>frmCompanyKind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmCompanyKindEdit.resx">
+      <DependentUpon>frmCompanyKindEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DropDownWindow\frmDistrictSelect.resx">
+      <DependentUpon>frmDistrictSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DropDownWindow\frmFoodSelect.resx">
+      <DependentUpon>frmFoodSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmFoodType.resx">
+      <DependentUpon>frmFoodType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmFoodTypeEdit.resx">
+      <DependentUpon>frmFoodTypeEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmItem.resx">
+      <DependentUpon>frmItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmItemEdit.resx">
+      <DependentUpon>frmItemEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmItemType.resx">
+      <DependentUpon>frmItemType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmItemTypeEdit.resx">
+      <DependentUpon>frmItemTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FrmCollectionMng.resx">
+      <DependentUpon>FrmCollectionMng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\frmMachineEdit.resx">
+      <DependentUpon>frmMachineEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmMakeArea.resx">
+      <DependentUpon>frmMakeArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmMakeAreaEdit.resx">
+      <DependentUpon>frmMakeAreaEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\FrmMsg.resx">
+      <DependentUpon>FrmMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\frmPesticideMeasure.resx">
+      <DependentUpon>frmPesticideMeasure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\frmPesticideMeasureEdit.resx">
+      <DependentUpon>frmPesticideMeasureEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmProduceArea.resx">
+      <DependentUpon>frmProduceArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmProduceAreaEdit.resx">
+      <DependentUpon>frmProduceAreaEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DropDownWindow\frmProduceAreaSelect.resx">
+      <DependentUpon>frmProduceAreaSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\frmResultQuery.resx">
+      <DependentUpon>frmResultQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultSend.resx">
+      <DependentUpon>frmResultSend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\frmStandardEdit.resx">
+      <DependentUpon>frmStandardEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\frmSysOption.resx">
+      <DependentUpon>frmSysOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\frmTimers.resx">
+      <DependentUpon>frmTimers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsersInfo.resx">
+      <DependentUpon>frmUsersInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsersInfoEdit.resx">
+      <DependentUpon>frmUsersInfoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\BaseInfosForm.resx">
+      <DependentUpon>BaseInfosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ShowBaseInfo.resx">
+      <DependentUpon>ShowBaseInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ShowTask.resx">
+      <DependentUpon>ShowTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TaskSZForm.resx">
+      <DependentUpon>TaskSZForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="fclix.pfx" />
+    <None Include="Properties\DataSources\System.Xml.Linq.XElement.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlElement.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceReferenceSD\MService.wsdl" />
+    <None Include="Web References\ForNet\DataDriver.wsdl" />
+    <None Include="Web References\ForNet\Reference.map">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\localhost\DataSyncService.wsdl" />
+    <None Include="Web References\localhost\Reference.map" />
+    <None Include="Web References\ZJWebReference\Put.wsdl" />
+    <None Include="Web References\ZJWebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gs-LOG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nj-LOG.jpg" />
+    <None Include="Resources\cy-LOG.jpg" />
+    <None Include="Resources\Standalone.jpg" />
+    <None Include="Resources\TitleBar.gif" />
+    <None Include="Resources\Image1.gif" />
+    <None Include="Resources\MinimizeBox.gif" />
+    <None Include="Resources\Close.gif" />
+    <None Include="Resources\MaximizeBox.gif" />
+    <None Include="Resources\TitleBar_1.gif" />
+    <None Include="Resources\MainBackground.jpg" />
+    <None Include="Resources\Login Logo.png" />
+    <None Include="Resources\%24this.BackgroundImage.jpg" />
+    <None Include="Resources\未命名112.JPG" />
+    <None Include="Resources\下拉.jpg" />
+    <None Include="Resources\下拉2.jpg" />
+    <None Include="Resources\下拉21.jpg" />
+    <None Include="Resources\QQ图片20140812091249333.jpg" />
+    <None Include="Resources\report.jpg" />
+    <None Include="Resources\a_notAudit.ico" />
+    <Content Include="Resources\refresh.jpg" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Service References\ServiceReferenceSD\MService.disco" />
+    <None Include="Service References\ServiceReferenceSD\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReferenceSD\configuration.svcinfo" />
+    <None Include="Service References\ServiceReferenceSD\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="TestData.xml" />
+    <Content Include="Web References\ForNet\DataDriver.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReferenceSD\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://111.1.62.181/Put.jws%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ZJWebReference\</RelPath>
+      <UpdateFromURL>http://111.1.62.181/Put.jws%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>FoodClient_ZJWebReference_PutService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

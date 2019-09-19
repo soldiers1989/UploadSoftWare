@@ -1,0 +1,36 @@
+10:57:42
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcCurve() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1604
+
+11:02:15
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcCurve() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1604
+
+11:02:28
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcCurve() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1604
+
+11:03:01
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcCurve() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1604
+
+11:52:27
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcCurve() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1604
+
+11:53:20
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcCurve() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1604
+
+12:01:04
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcCurve() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1604
+
+12:01:14
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcCurve() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1604
+
+12:01:29
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.CalcCurve() 位置 C:\Users\Administrator.3RGEAAKIJ8HMU5D\Desktop\DY-3000(BX1)2.5.1（参考原来）\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 1604
+

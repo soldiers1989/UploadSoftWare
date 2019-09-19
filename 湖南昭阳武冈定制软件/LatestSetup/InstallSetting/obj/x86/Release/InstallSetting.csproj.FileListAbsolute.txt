@@ -1,0 +1,10 @@
+E:\Project\Company_Source\new_client\workstation\InstallSetting\bin\Debug\InstallSetting.exe
+E:\Project\Company_Source\new_client\workstation\InstallSetting\bin\Debug\InstallSetting.pdb
+E:\Project\Company_Source\new_client\workstation\InstallSetting\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\InstallSetting\obj\x86\Release\InstallSetting.exe
+E:\Project\Company_Source\new_client\workstation\InstallSetting\obj\x86\Release\InstallSetting.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\InstallSetting\bin\Debug\InstallSetting.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\InstallSetting\bin\Debug\InstallSetting.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\InstallSetting\obj\x86\Release\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\InstallSetting\obj\x86\Release\InstallSetting.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\InstallSetting\obj\x86\Release\InstallSetting.pdb

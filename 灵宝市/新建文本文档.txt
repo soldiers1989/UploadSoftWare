@@ -1,0 +1,4 @@
+http://app2.sinoverse.cn:9090/demo/api/ncp/fastcheck2？did=001&jcdw=达元&bjdw=农贸市场&jcxm=吊白块&jcdt=2019-03-01 08:32:22&jcz=0.01&jgpd=合格&ybmc=青菜&xlbz=GB/T 5009.199-2003&sbbh=LZ4000-1001&xlz=50
+
+
+http://app2.sinoverse.cn:9090/demo/api/ncp/fastcheck2?did=001&show=table

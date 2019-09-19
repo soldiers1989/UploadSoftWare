@@ -1,0 +1,40 @@
+﻿<Window x:Class="AIO.xaml.Dialog.ImportItems"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="导入检测项目V1.0.1" Height="400" Width="500"
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize"
+        WindowStyle="None" 
+        Icon="/DY-Detector;component/assets/logo_v.png"
+        >
+    <Grid>
+        <Grid Height="35" VerticalAlignment="Top" >
+            <Image Width="40" Height="24" HorizontalAlignment="Left"  Source="/DY-Detector;component/assets/logo_v.png"></Image>
+            <Label Width="150" Height="24" Content="导入检测项目" FontSize="12" HorizontalAlignment="Left"  Margin="40,0,0,0" ></Label>
+            <Label Name="labelclose" Width="50" Content="Ⅹ" FontSize="14" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Foreground="Red"   Margin="0,0,0,0" MouseLeftButtonDown="labelclose_MouseLeftButtonDown" MouseEnter="labelclose_MouseEnter" MouseLeave="labelclose_MouseLeave"></Label>
+        </Grid>
+        <WrapPanel Height="40" VerticalAlignment="Top" Margin="0,50,0,0">
+            <Label Content="请选择excel项目文件：" FontSize="16" Height="35" Width="170" VerticalContentAlignment="Center" ></Label>
+            <TextBox x:Name="txtExcelPath" Width="200" Height="30" FontSize="16" IsReadOnly="True" VerticalContentAlignment="Center"  />
+            <Button Name="btnSelectFlie" Content="选择" FontSize="16" Width="80" Height="30" Click="btnSelectFlie_Click"></Button>
+        </WrapPanel>
+       
+        <WrapPanel Height="40"  Margin="0,0,0,150">
+            <Button Name="btnFenGuang" Content="更新分光度检测项目" FontSize="18" Width="180" Height="40" Margin="60,0,0,0" Click="btnFenGuang_Click"></Button>
+            <Button Name="btnAllUpdate" Content="更新胶体金检测项目" FontSize="18" Width="180" Height="40" Margin="30,0,0,0" Click="btnAllUpdate_Click"></Button>
+           
+            <Button Name="btnCancel" Content="取消" FontSize="18" Width="80" Height="30" Margin="10,0,0,0" Visibility="Collapsed" ></Button>
+        </WrapPanel>
+         
+        <WrapPanel Height="40" Margin="0,00,0,0">
+            <Button Name="btnGanHuaXue" Content="更新干化学检测项目" FontSize="18" Width="180" Height="40" Margin="60,0,0,0" Click="btnGanHuaXue_Click"></Button>
+            <Button Name="btnAll" Content="更新全部检测项目" FontSize="18" Width="180" Height="40" Margin="30,0,0,0" Click="btnAll_Click" ></Button>
+        </WrapPanel>
+        <WrapPanel Height=" 50" Margin="0,300,0,0">
+            <Button Name="btnbackup" Content="备份检测项目" FontSize="18" Width="180" Height="40" Margin="60,0,0,0" Click="btnbackup_Click"></Button>
+            <Button Name="btnReCover" Content="还原检测项目" FontSize="16" Width="180" Height="40" Margin="40,0,0,0" Click="btnReCover_Click"  ></Button>
+        </WrapPanel>
+         <Button Visibility="Collapsed"  Content="湿化学" HorizontalAlignment="Left" Margin="80,126,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Visibility="Collapsed"  Content="干化学" HorizontalAlignment="Left" Margin="80,162,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+    </Grid>
+</Window>

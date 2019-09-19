@@ -1,0 +1,10 @@
+13:52:04
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\ClassLibrary\com.lvrenyang\ComPort.cs:行号 240
+
+13:53:29
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\ClassLibrary\com.lvrenyang\ComPort.cs:行号 240
+

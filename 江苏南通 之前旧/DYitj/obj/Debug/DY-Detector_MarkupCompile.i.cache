@@ -1,0 +1,20 @@
+﻿DY-Detector
+
+
+winexe
+C#
+.cs
+D:\DY-Software\数据上传\江苏南通 之前旧\DYitj\obj\Debug\
+AIO
+none
+false
+DEBUG;TRACE
+D:\DY-Software\数据上传\江苏南通 之前旧\DYitj\xaml\App.xaml
+60430719459
+1580661481
+105319545973
+40-1075253808
+xaml\Account\LoginDisplay.xaml;xaml\Account\LoginNameEdit.xaml;xaml\ATP\AtpWindow.xaml;xaml\Dialog\AddOrUpdateCompany.xaml;xaml\Dialog\AddOrUpdateSample.xaml;xaml\Dialog\AddSampleidWindow.xaml;xaml\Dialog\DataAnalysis.xaml;xaml\Dialog\FalvFaguiWindow.xaml;xaml\Dialog\ManagementCompany.xaml;xaml\Dialog\ManagementSample.xaml;xaml\Dialog\PromptWindow.xaml;xaml\Dialog\SearchCompanyWindow.xaml;xaml\Dialog\SearchSample.xaml;xaml\Dialog\SearchSampleidWindow.xaml;xaml\Dialog\SearchTaskWindow.xaml;xaml\Dialog\ShowError.xaml;xaml\Dialog\ItemResultEdit.xaml;xaml\Dialog\TaskDetailedWindow.xaml;xaml\Dialog\TaskDisplay.xaml;xaml\Dialog\TechnologeDocument.xaml;xaml\Dialog\VideoPlayback.xaml;xaml\Dialog\WaitingWindow.xaml;xaml\Dialog\WarnTaskShow.xaml;xaml\Dialog\WpfTaskFinishShow.xaml;xaml\Fenguangdu\FgdEditItemWindow.xaml;xaml\Fenguangdu\FgdMeasureWindow.xaml;xaml\Fenguangdu\FgdTest.xaml;xaml\HeavyMetal\CurveWindow.xaml;xaml\HeavyMetal\HmEditItemWindow.xaml;xaml\HeavyMetal\HmMeasureWindow.xaml;xaml\HeavyMetal\HmReportWindow.xaml;xaml\HeavyMetal\HmSelChannelWindow.xaml;xaml\HeavyMetal\HmWindow.xaml;xaml\Main\DataManagementWindow.xaml;xaml\Print\PrintModel\OrderDocument.xaml;xaml\Print\PrintModel\GSDocument.xaml;xaml\Print\PrintModel\GSHZDocument.xaml;xaml\Print\PrintPreviewWindow.xaml;xaml\Print\ReportWindow.xaml;xaml\Print\UpdateReportGSWindow.xaml;xaml\Print\UpdateReportWindow.xaml;xaml\Record\RecordWindow.xaml;xaml\Fenguangdu\FgdReportWindow.xaml;xaml\Fenguangdu\FgdShowADWindow.xaml;xaml\Fenguangdu\FgdWindow.xaml;xaml\Fenguangdu\FgdSelChannelWindow.xaml;xaml\Ganshizhi\GszEditItemWindow.xaml;xaml\Ganshizhi\GszMeasureWindow.xaml;xaml\Ganshizhi\GszReportWindow.xaml;xaml\Ganshizhi\GszSelChannelWindow.xaml;xaml\Ganshizhi\GszWindow.xaml;xaml\Dialog\InputDialog.xaml;xaml\Jiaotijin\JtjEditItemWindow.xaml;xaml\Jiaotijin\JtjMeasureWindow.xaml;xaml\Jiaotijin\JtjReportWindow.xaml;xaml\Jiaotijin\JtjSelChannelWindow.xaml;xaml\Jiaotijin\JtjWindow.xaml;xaml\Main\LoginWindow.xaml;xaml\Main\MainWindow.xaml;xaml\Main\SettingsWindow.xaml;
+
+True
+

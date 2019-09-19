@@ -1,0 +1,7 @@
+19:01:03
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 AIO.SettingsWindow.btn_autoUpdater_Click(Object sender, RoutedEventArgs e) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1816
+

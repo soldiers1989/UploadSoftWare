@@ -1,0 +1,104 @@
+E:\Project\Company_Source\new_client\workstation\DY.Process\bin\Debug\DY.Process.dll
+E:\Project\Company_Source\new_client\workstation\DY.Process\bin\Debug\DY.Process.pdb
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\DY.Process.dll
+E:\Project\Company_Source\new_client\workstation\DY.Process\obj\Debug\DY.Process.pdb
+E:\Project\Company_Source\workstation\DY.Process\bin\Debug\DY.Process.dll
+E:\Project\Company_Source\workstation\DY.Process\bin\Debug\DY.Process.pdb
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\DY.Process.dll
+E:\Project\Company_Source\workstation\DY.Process\obj\Debug\DY.Process.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\bin\Debug\DY.Process.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\bin\Debug\DY.Process.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\DY.Process.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\DY.Process\obj\Debug\DY.Process.pdb
+E:\Workstation_4th Sent[2012-12-17山西投标]\DY.Process\bin\Debug\DY.Process.dll
+E:\Workstation_4th Sent[2012-12-17山西投标]\DY.Process\bin\Debug\DY.Process.pdb
+E:\Workstation_4th Sent[2012-12-17山西投标]\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-12-17山西投标]\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+E:\Workstation_4th Sent[2012-12-17山西投标]\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-12-17山西投标]\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-12-17山西投标]\DY.Process\obj\Debug\DY.Process.dll
+E:\Workstation_4th Sent[2012-12-17山西投标]\DY.Process\obj\Debug\DY.Process.pdb
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\DY.Process\bin\Debug\DY.Process.dll
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\DY.Process\bin\Debug\DY.Process.pdb
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\DY.Process\obj\Debug\DY.Process.dll
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\DY.Process\obj\Debug\DY.Process.pdb
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClient\bin\Debug\DY.Process.dll
+E:\Workstation_4th Sent[2013-01-04山西投标(界面优化)]\FoodClient\bin\Debug\DY.Process.pdb
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.dll
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.pdb
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.dll
+D:\Code\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.pdb
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.dll
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.pdb
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.dll
+F:\WORKCODE\达元食品药品安全监管信息系统\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.pdb
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.dll
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.pdb
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.dll
+F:\WORKCODE\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.pdb
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.dll
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.pdb
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.dll
+F:\研发源代码-NowingCode\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.pdb
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.dll
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.pdb
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.csproj.GenerateResource.Cache
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.dll
+E:\丢失的文件\新建文件夹\（2）快检通\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\DY.Process\bin\Debug\DY.Process.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.csproj.GenerateResource.Cache
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\（2）快检通(Numer)\达元食品药品安全监管信息系统\DY.Process\obj\Debug\DY.Process.pdb
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\bin\Debug\DY.Process.dll
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\bin\Debug\DY.Process.pdb
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.csproj.GenerateResource.Cache
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.dll
+D:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.pdb
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.dll
+C:\Users\Administrator\Desktop\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.pdb
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\ResolveAssemblyReference.cache
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.ProcessForm.resources
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.dll
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\obj\Debug\DY.Process.pdb
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\bin\Debug\DY.Process.dll
+E:\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\达元食品药品安全检测工作站系统--快检通(行政版)松山湖\DY.Process\bin\Debug\DY.Process.pdb

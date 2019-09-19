@@ -1,0 +1,14 @@
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\bin\Release\WorkstationDAL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\bin\Release\WorkstationDAL.pdb
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\obj\Release\WorkstationDAL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\obj\Release\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\bin\Release\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\bin\Release\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\obj\Release\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationDAL\obj\Release\WorkstationDAL.pdb
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\bin\Release\WorkstationDAL.dll
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\bin\Release\WorkstationDAL.pdb
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\bin\Release\Newtonsoft.Json.dll
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\obj\Release\WorkstationDAL.csprojResolveAssemblyReference.cache
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\obj\Release\WorkstationDAL.dll
+D:\DY-Software\数据上传\灵宝市\数据采集助手V1.3.6_灵宝\WorkstationDAL\obj\Release\WorkstationDAL.pdb

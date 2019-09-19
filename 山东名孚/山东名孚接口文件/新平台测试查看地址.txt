@@ -1,0 +1,15 @@
+
+查看地址、用户名、密码：
+地址： http://ncadmin.ifesports.cn
+用户名：test 
+密码：  888888
+
+
+
+上传地址、用户名、密码：
+
+地址：http://ncadmin.ifesports.cn/
+
+用户名：123456
+
+密码：service

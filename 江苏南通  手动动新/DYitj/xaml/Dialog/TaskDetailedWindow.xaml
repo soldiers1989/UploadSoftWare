@@ -1,0 +1,76 @@
+﻿<Window x:Class="AIO.xaml.Dialog.TaskDetailedWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="任务详情"
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGridCenter}"
+        FontFamily="SimHei" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="任务详情" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="20,0,20,0"  Content="返  回" FontSize="24" Click="ButtonPrev_Click" />
+        </Grid>
+
+        <!-- 中 -->
+        <StackPanel Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}" HorizontalAlignment="Center" VerticalAlignment="Center"  Orientation="Horizontal" >
+            <ScrollViewer Width="800" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Height="350">
+                <StackPanel Orientation="Vertical" Width="800">
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Width="110" Height="34" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="任务主题:" FontSize="16" FlowDirection="LeftToRight" HorizontalContentAlignment="Right" />
+                        <TextBox Height="34" Name="tCPTITLE" IsReadOnly="True" Width="280" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center"  />
+                        <Label Width="110" Height="34" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="任务编号:" FontSize="16" HorizontalContentAlignment="Right" />
+                        <TextBox Height="34" Name="tCPCODE" IsReadOnly="True" Width="280" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Width="110" Height="34" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="起始日期:" FontSize="16" HorizontalContentAlignment="Right" />
+                        <TextBox Height="34" Name="tCPSDATE" IsReadOnly="True" Width="280" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+                        <Label Width="110" Height="34" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="结束时间:" FontSize="16" HorizontalContentAlignment="Right" />
+                        <TextBox Height="34" Name="tCPEDATE" IsReadOnly="True" Width="280" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="任务性质:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tCPTPROPERTY" IsReadOnly="True" VerticalContentAlignment="Center" Width="280" />
+                        <Label Content="任务来源:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tCPFROM" IsReadOnly="True" VerticalContentAlignment="Center" Width="280" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="机构名称:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tCPPORG" IsReadOnly="True" VerticalContentAlignment="Center" Width="280" />
+                        <Label Content="机构编码:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tCPPORGID" IsReadOnly="True" VerticalContentAlignment="Center" Width="280" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="编制人:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tCPEDITOR" IsReadOnly="True" VerticalContentAlignment="Center" Width="280" ></TextBox>
+                        <Label Content="编制时间:" FontSize="16" Height="35" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tCPEDDATE" IsReadOnly="True" VerticalContentAlignment="Center" Width="280" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Width="110" Height="58" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="任务详细内容:" FontSize="16" HorizontalContentAlignment="Right" />
+                        <TextBox Width="670" Height="58" Name="tPLANDETAIL" IsReadOnly="True" VerticalContentAlignment="Center"></TextBox>
+                    </StackPanel>
+                    <StackPanel Width="800" Height="60" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="备注:" FontSize="16" Height="58" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="58" Name="tCPMEMO" IsReadOnly="True" VerticalContentAlignment="Center" Width="670" />
+                    </StackPanel>
+
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="计划抽检数量:" FontSize="16" Height="34" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tPLANDCOUNT" IsReadOnly="True" VerticalContentAlignment="Center" Width="280" />
+                        <Label Content="报警时间:" FontSize="16" Height="34" VerticalContentAlignment="Center" Width="110" HorizontalContentAlignment="Right" />
+                        <TextBox FontSize="20" Height="34" Name="tBAOJINGTIME" IsReadOnly="True" VerticalContentAlignment="Center" Width="280" />
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+
+    </Grid>
+</Window>

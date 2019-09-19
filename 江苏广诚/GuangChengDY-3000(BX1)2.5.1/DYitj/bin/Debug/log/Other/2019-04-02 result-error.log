@@ -1,0 +1,40 @@
+14:23:40
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s, NumberStyles style)
+   在 AIO.RecordWindow.ChangeDataToD(String strData) 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 891
+   在 AIO.RecordWindow.ImportToExcel() 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 928
+
+14:24:04
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s, NumberStyles style)
+   在 AIO.RecordWindow.ChangeDataToD(String strData) 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 891
+   在 AIO.RecordWindow.ImportToExcel() 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 928
+
+14:24:16
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s, NumberStyles style)
+   在 AIO.RecordWindow.ChangeDataToD(String strData) 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 891
+   在 AIO.RecordWindow.ImportToExcel() 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 928
+
+14:24:33
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s, NumberStyles style)
+   在 AIO.RecordWindow.ChangeDataToD(String strData) 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 891
+   在 AIO.RecordWindow.ImportToExcel() 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 928
+
+14:25:42
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s, NumberStyles style)
+   在 AIO.RecordWindow.ChangeDataToD(String strData) 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 891
+   在 AIO.RecordWindow.ImportToExcel() 位置 d:\DY-Software\数据上传\江苏广诚\GuangChengDY-3000(BX1)2.5.1\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 928
+

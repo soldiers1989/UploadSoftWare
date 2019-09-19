@@ -1,0 +1,4 @@
+13:36:36
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjEditItemWindow.ButtonNext_Click(Object sender, RoutedEventArgs e) 位置 d:\DY-Software\一体机\摄像头BX1\DY-3000(BX1)2.5.1\DYitj\xaml\Jiaotijin\JtjEditItemWindow.xaml.cs:行号 566
+

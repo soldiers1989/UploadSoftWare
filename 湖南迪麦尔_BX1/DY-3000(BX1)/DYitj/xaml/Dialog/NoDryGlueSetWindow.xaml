@@ -1,0 +1,63 @@
+﻿<Window x:Class="AIO.xaml.Dialog.NoDryGlueSetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="打印合格证设置" Height="450" Width="390"
+        WindowStartupLocation="CenterScreen" 
+        WindowState="Normal" 
+        ResizeMode="NoResize" 
+        WindowStyle="SingleBorderWindow" 
+        Icon="/DY-Detector;component/app_icon.ico" 
+        
+        >
+    <Grid>
+        <WrapPanel Height="32" VerticalAlignment="Top" >
+            <Label Content="标题：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="50" Margin="15,0,0,0"></Label>
+            <TextBox Name="txtTile" Width="285" Height="30" VerticalContentAlignment="Center" Text="食用农产品合格证" ></TextBox>
+        </WrapPanel>
+        <WrapPanel Height="32" VerticalAlignment="Top" Margin="0,35,0,0">
+            <Label Content="名称：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="50" Margin="15,0,0,0"></Label>
+            <TextBox Name="txtName" Width="285" Height="30" VerticalContentAlignment="Center" ></TextBox>
+           
+        </WrapPanel>
+        <WrapPanel Height="32" VerticalAlignment="Top" Margin="0,70,0,0">
+            <Label Content="日期：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="50" Margin="15,0,0,0"></Label>
+            <TextBox Name="txtTime" Width="100" Height="30" VerticalContentAlignment="Center" ></TextBox>
+            <Label Content="检测结果：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="80"></Label>
+            <TextBox Name="txtResult" Width="105" Height="30" VerticalContentAlignment="Center" ></TextBox>
+        </WrapPanel>
+        <WrapPanel Height="32" VerticalAlignment="Top" Margin="0,105,0,0">
+            <Label Content="重量：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="50" Margin="15,0,0,0"></Label>
+            <TextBox Name="txtWeight" Width="100" Height="30" VerticalContentAlignment="Center" ></TextBox>
+
+            <Label Content="电话：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="50" Margin="30,0,0,0"></Label>
+            <TextBox Name="txtPhone" Width="105" Height="30" VerticalContentAlignment="Center" ></TextBox>
+        </WrapPanel>
+        <WrapPanel Height="32" VerticalAlignment="Top" Margin="0,140,0,0">
+            <Label Content="经营者：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="65"></Label>
+            <TextBox Name="txtOpetor" Width="100" Height="30" VerticalContentAlignment="Center" ></TextBox>
+            <Label Content="检测人：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="65" Margin="15,0,0,0"></Label>
+            <TextBox Name="txtUser" Width="105" Height="30" VerticalContentAlignment="Center" ></TextBox>
+        </WrapPanel>
+        <WrapPanel Height="32" VerticalAlignment="Top" Margin="0,175,0,0">
+            <Label Content="产地：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="50" Margin="15,0,0,0"></Label>
+            <TextBox Name="txtAddr" Width="285" Height="30" VerticalContentAlignment="Center" ></TextBox>
+        </WrapPanel>
+        <WrapPanel Height="32" VerticalAlignment="Top" Margin="0,205,0,0">
+            <CheckBox Name="chkQRCode" Height="30" Width="100" Content="打印二维码" FontSize="15" VerticalContentAlignment="Center" IsChecked="True" Margin="20,0,0,0" ></CheckBox>
+        </WrapPanel>
+        <WrapPanel Height="32" VerticalAlignment="Top" Margin="0,230,0,0">
+            <Label Content="方式：" FontSize="16" Height="30" VerticalContentAlignment="Center" Width="50" Margin="15,0,0,0"></Label>
+          
+        </WrapPanel>
+        <StackPanel Height="100" VerticalAlignment="Top" Margin="0,260,0,0" >
+            <CheckBox Name="checkSelf" Height="25" FontSize="15" Content="自检合格" Margin="25,0,0,0"></CheckBox>
+            <CheckBox Name="checkCommissioTesti" Height="25" FontSize="15" Content="委托检测合格" Margin="25,0,0,0"></CheckBox>
+            <CheckBox Name="checkSelfCommitment" Height="25" FontSize="15" Content="自我承诺合格" Margin="25,0,0,0"></CheckBox>
+            <CheckBox Name="checkInternalQuality" Height="25" FontSize="15" Content="内部质量控制合格" Margin="25,0,0,0"></CheckBox>
+        </StackPanel>
+        <WrapPanel Height="35" VerticalAlignment="Top" Margin="0,365,0,0" >
+            <Button Name="btnPrint" Content="打印" FontSize="16" Width="80" Height="30" Margin="130,0,0,0" Click="btnPrint_Click"></Button>
+        </WrapPanel>
+
+    </Grid>
+</Window>

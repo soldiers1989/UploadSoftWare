@@ -1,0 +1,1007 @@
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\FoodClient.exe.config
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\FoodClient.exe
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\FoodClient.pdb
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmAbout.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.FrmAutoTakeDYSeries.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmAutoTakeDY5000.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmAutoTakeSFY.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCheckComNew.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCheckComType.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCheckedCom.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.FrmProgressBar.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCollection.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCompanyKind.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmFoodSelect.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmFoodType.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmHandTakeJD.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmItem.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmItemEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmItemType.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmLogin.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmMachineEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmMain.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmMakeArea.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.FrmMsg.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmProduceArea.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmRecordQuery.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmRecordQueryOpt.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmRecordSend.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmReSend.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmResultQuery.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmResultSend.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmSaleRecord.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmSplash.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmStandardEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmStockRecord.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmSysOption.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmTimers.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmUsersInfo.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.Properties.Resources.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.exe.licenses
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.exe
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.pdb
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\bin\Debug\CommBase.pdb
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.FrmAutoTake.resources
+E:\Project\Company_Source\new_client\Client_Update\WindowsFormClient\obj\Debug\FoodClient.FrmHolesSet.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDYSeries.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmAutoTakeDY5000.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmAutoTakeSFY.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmHandTakeJD.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmItem.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmMain.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.exe.licenses
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\bin\Debug\FoodClient.exe.config
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\bin\Debug\FoodClient.exe
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\bin\Debug\FoodClient.pdb
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\bin\Debug\c1.win.c1sizer.dll
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\bin\Debug\CommBase.dll
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\bin\Debug\CommBase.pdb
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.exe
+E:\Project\Company_Source\new_client\Client_Update\FoodClient\obj\Debug\FoodClient.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\FoodClient.exe.config
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\FoodClient.exe
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\FoodClient.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\DY.Process.dll
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\DY.Process.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmItem.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmMain.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.exe.licenses
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.exe
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\DY.Security.dll
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\DY.Security.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\C1.Win.C1Report.dll
+E:\Project\Company_Source\new_client\workstation\FoodClient\bin\Debug\C1.Win.C1Sizer.dll
+E:\Project\Company_Source\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmItem.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.exe
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.pdb
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\FoodClient.exe.config
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\FoodClient.exe
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\FoodClient.pdb
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\DY.FoodClientLib.dll
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\DY.Process.dll
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\DY.Security.dll
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\DY.Security.pdb
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\DY.Process.pdb
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.read.4.tlog
+H:\达元公司\prj\new_client\workstation\FoodClient\obj\Debug\FoodClient.exe.licenses
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\C1.Win.C1Report.dll
+H:\达元公司\prj\new_client\workstation\FoodClient\bin\Debug\C1.Win.C1Sizer.dll
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\FoodClient.exe.config
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\FoodClient.exe
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\FoodClient.pdb
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\C1.Win.C1Report.dll
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\C1.Win.C1Sizer.dll
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\DY.Process.dll
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\DY.Security.dll
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\DY.Security.pdb
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\workstation\FoodClient\bin\Debug\DY.Process.pdb
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmItem.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.exe.licenses
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.exe
+E:\Project\Company_Source\workstation\FoodClient\obj\Debug\FoodClient.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\FoodClient.exe.config
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmItem.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\GenerateResource-ResGen.write.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\FoodClient.exe.licenses
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\FoodClient.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\FoodClient.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\DY.FoodClientLib.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\DY.Process.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\DY.Process.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\bin\Debug\CommBase.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\GenerateResource-ResGen.read.7.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClient\obj\Debug\GenerateResource-ResGen.write.7.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\bin\Debug\FoodClient.exe.config
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\bin\Debug\FoodClient.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\bin\Debug\FoodClient.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\bin\Debug\DY.FoodClientLib.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\bin\Debug\DY.Process.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\bin\Debug\CommBase.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\bin\Debug\DY.Process.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmItem.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\GenerateResource-ResGen.read.7.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\GenerateResource-ResGen.write.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\GenerateResource-ResGen.write.7.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClient\obj\Debug\FoodClient.exe.licenses
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\bin\Debug\FoodClient.exe.config
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\bin\Debug\FoodClient.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\bin\Debug\FoodClient.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\bin\Debug\DY.FoodClientLib.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\bin\Debug\DY.Process.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\bin\Debug\CommBase.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\bin\Debug\DY.Process.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmItem.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\GenerateResource-ResGen.read.7.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\GenerateResource-ResGen.write.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\GenerateResource-ResGen.write.7.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-07东莞动防]\FoodClient\obj\Debug\FoodClient.exe.licenses
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\bin\Debug\FoodClient.exe.config
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.exe
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\bin\Debug\FoodClient.exe
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\bin\Debug\FoodClient.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\bin\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\bin\Debug\DY.Process.dll
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\bin\Debug\CommBase.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\bin\Debug\DY.Process.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmItem.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\GenerateResource-ResGen.read.7.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\GenerateResource-ResGen.write.5.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\GenerateResource-ResGen.write.7.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClient\obj\Debug\FoodClient.exe.licenses
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\FoodClient.exe.config
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.exe
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\FoodClient.exe
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\FoodClient.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\DY.Process.dll
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\CommBase.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\bin\Debug\DY.Process.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmItem.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\GenerateResource-ResGen.read.7.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\GenerateResource-ResGen.write.5.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\GenerateResource-ResGen.write.7.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClient\obj\Debug\FoodClient.exe.licenses
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\FoodClient.exe.config
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\FoodClient.exe
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\FoodClient.pdb
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\DY.FoodClientLib.dll
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\DY.Process.dll
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\CommBase.pdb
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+D:\SVN\stand-aloneWorkStation\FoodClient\bin\Debug\DY.Process.pdb
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmItem.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\GenerateResource-ResGen.read.4.tlog
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\GenerateResource-ResGen.read.5.tlog
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\GenerateResource-ResGen.read.7.tlog
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\GenerateResource-ResGen.write.4.tlog
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\GenerateResource-ResGen.write.5.tlog
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\GenerateResource-ResGen.write.7.tlog
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.exe.licenses
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.exe
+D:\SVN\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.pdb
+F:\stand-aloneWorkStation\FoodClient\bin\Debug\FoodClient.exe.config
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.exe
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.pdb
+F:\stand-aloneWorkStation\FoodClient\bin\Debug\FoodClient.exe
+F:\stand-aloneWorkStation\FoodClient\bin\Debug\FoodClient.pdb
+F:\stand-aloneWorkStation\FoodClient\bin\Debug\DY.FoodClientLib.dll
+F:\stand-aloneWorkStation\FoodClient\bin\Debug\DY.Process.dll
+F:\stand-aloneWorkStation\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+F:\stand-aloneWorkStation\FoodClient\bin\Debug\DY.Process.pdb
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.csprojResolveAssemblyReference.cache
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmItem.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.csproj.GenerateResource.Cache
+F:\stand-aloneWorkStation\FoodClient\obj\Debug\FoodClient.exe.licenses
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Debug\FoodClient.exe.config
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Debug\FoodClient.exe
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Debug\FoodClient.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Debug\DY.FoodClientLib.dll
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Debug\DY.Process.dll
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\bin\Debug\DY.Process.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmItem.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.csproj.GenerateResource.Cache
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.exe.licenses
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.exe
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClient\obj\Debug\FoodClient.pdb
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\bin\Debug\FoodClient.exe.config
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\bin\Debug\FoodClient.exe
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\bin\Debug\FoodClient.pdb
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\bin\Debug\DY.FoodClientLib.dll
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\bin\Debug\DY.Process.dll
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\bin\Debug\DY.FoodClientLib.pdb
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\bin\Debug\DY.Process.pdb
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.csprojResolveAssemblyReference.cache
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.csproj.ResolveComReference.cache
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmBaseDataDownload.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY6100.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmAutoTakeDY723PC.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmAutoTakeLD.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmAutoTakeSFY.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmHandTakeJD.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmReSend.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmSuperAdminLogin.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmSaleRecord.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmSaleRecordEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmStockRecord.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmStockRecordEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmHolesSet.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmAbout.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCheckComNew.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCheckComType.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCheckComTypeEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCheckedCom.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCheckedComEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCheckedComSelect.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCheckedDisplaySelect.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmProgressBar.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCollection.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCompanyKind.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmCompanyKindEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmDistrictSelect.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmFoodSelect.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmFoodType.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmFoodTypeEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmItem.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmItemEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmItemType.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmItemTypeEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmLogin.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmCollectionMng.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmMachineEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmMain.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmMakeArea.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmMakeAreaEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.FrmMsg.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmPesticideMeasure.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmPesticideMeasureEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmProduceArea.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmProduceAreaEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmProduceAreaSelect.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmResultQuery.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmResultSend.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmSplash.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmStandardEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmSysOption.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmTimers.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmUsersInfo.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmUsersInfoEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.csproj.GenerateResource.Cache
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.exe.licenses
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.exe
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.pdb
+D:\数据上传\湖南昭阳武冈定制软件\FoodClient\obj\Debug\FoodClient.frmReport.resources

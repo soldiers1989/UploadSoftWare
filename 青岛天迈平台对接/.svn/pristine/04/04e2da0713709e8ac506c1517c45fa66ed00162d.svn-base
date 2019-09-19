@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wsdl:definitions targetNamespace="http://face.webservice.fsweb.excellence.com" xmlns:tns="http://face.webservice.fsweb.excellence.com" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://face.webservice.fsweb.excellence.com">
+      <xsd:element name="GetPartDataDriver">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in2" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetPartDataDriverResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetDataDriver">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in4" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetDataDriverResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="CheckConnection">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in1" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="CheckConnectionResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+       <xsd:element name="GetDataDriverBySign">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in4" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in5" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetDataDriverBySignResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+       <xsd:element name="SetDataDriver">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element maxOccurs="1" minOccurs="1" name="in4" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SetDataDriverResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="CheckConnectionResponse">
+    <wsdl:part name="parameters" element="tns:CheckConnectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPartDataDriverResponse">
+    <wsdl:part name="parameters" element="tns:GetPartDataDriverResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetDataDriverResponse">
+    <wsdl:part name="parameters" element="tns:SetDataDriverResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDriverResponse">
+    <wsdl:part name="parameters" element="tns:GetDataDriverResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetDataDriverRequest">
+    <wsdl:part name="parameters" element="tns:SetDataDriver" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDriverBySignRequest">
+    <wsdl:part name="parameters" element="tns:GetDataDriverBySign" />
+  </wsdl:message>
+  <wsdl:message name="CheckConnectionRequest">
+    <wsdl:part name="parameters" element="tns:CheckConnection" />
+  </wsdl:message>
+  <wsdl:message name="GetPartDataDriverRequest">
+    <wsdl:part name="parameters" element="tns:GetPartDataDriver" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDriverRequest">
+    <wsdl:part name="parameters" element="tns:GetDataDriver" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDriverBySignResponse">
+    <wsdl:part name="parameters" element="tns:GetDataDriverBySignResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DataSyncServicePortType">
+    <wsdl:operation name="GetPartDataDriver">
+      <wsdl:input name="GetPartDataDriverRequest" message="tns:GetPartDataDriverRequest" />
+      <wsdl:output name="GetPartDataDriverResponse" message="tns:GetPartDataDriverResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDriver">
+      <wsdl:input name="GetDataDriverRequest" message="tns:GetDataDriverRequest" />
+      <wsdl:output name="GetDataDriverResponse" message="tns:GetDataDriverResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckConnection">
+      <wsdl:input name="CheckConnectionRequest" message="tns:CheckConnectionRequest" />
+      <wsdl:output name="CheckConnectionResponse" message="tns:CheckConnectionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDriverBySign">
+      <wsdl:input name="GetDataDriverBySignRequest" message="tns:GetDataDriverBySignRequest" />
+      <wsdl:output name="GetDataDriverBySignResponse" message="tns:GetDataDriverBySignResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetDataDriver">
+      <wsdl:input name="SetDataDriverRequest" message="tns:SetDataDriverRequest" />
+      <wsdl:output name="SetDataDriverResponse" message="tns:SetDataDriverResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DataSyncServiceHttpBinding" type="tns:DataSyncServicePortType">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPartDataDriver">
+      <wsdlsoap:operation soapAction=string.Empty />
+      <wsdl:input name="GetPartDataDriverRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetPartDataDriverResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDriver">
+      <wsdlsoap:operation soapAction=string.Empty />
+      <wsdl:input name="GetDataDriverRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetDataDriverResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckConnection">
+      <wsdlsoap:operation soapAction=string.Empty />
+      <wsdl:input name="CheckConnectionRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CheckConnectionResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDriverBySign">
+      <wsdlsoap:operation soapAction=string.Empty />
+      <wsdl:input name="GetDataDriverBySignRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetDataDriverBySignResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetDataDriver">
+      <wsdlsoap:operation soapAction=string.Empty />
+      <wsdl:input name="SetDataDriverRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetDataDriverResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataSyncService">
+    <wsdl:port name="DataSyncServiceHttpPort" binding="tns:DataSyncServiceHttpBinding">
+      <wsdlsoap:address location="http://192.168.100.108:8080/cfsweb/services/DataSyncService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

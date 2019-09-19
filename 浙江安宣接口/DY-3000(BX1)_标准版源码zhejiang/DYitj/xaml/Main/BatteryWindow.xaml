@@ -1,0 +1,10 @@
+﻿<Window x:Class="AIO.xaml.Main.BatteryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BatteryWindow" Height="25" Width="300" AllowsTransparency="True" WindowStyle="None" Loaded="Window_Loaded"
+        ResizeMode="NoResize" SizeToContent="Manual" Background="#00FFFFFF">
+    <Grid>
+        <!--Background="{StaticResource  BackGroudColorGridTop}"-->
+        <Label Name="lb_battery" Content="电池信息" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="0,0,0,0" Width="300" VerticalAlignment="Top" />
+    </Grid>
+</Window>

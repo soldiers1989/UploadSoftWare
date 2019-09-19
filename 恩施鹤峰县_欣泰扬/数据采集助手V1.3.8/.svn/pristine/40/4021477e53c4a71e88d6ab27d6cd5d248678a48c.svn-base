@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://foodsafe.tainot.com/agriapp/Services/wireDataService.asmx?wsdl" docRef="http://foodsafe.tainot.com/agriapp/Services/wireDataService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://foodsafe.tainot.com/agriapp/Services/wireDataService.asmx" xmlns:q1="http://ws.foodsafe.tongtai.com" binding="q1:wireDataServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://foodsafe.tainot.com/agriapp/Services/wireDataService.asmx" xmlns:q2="http://ws.foodsafe.tongtai.com" binding="q2:wireDataServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

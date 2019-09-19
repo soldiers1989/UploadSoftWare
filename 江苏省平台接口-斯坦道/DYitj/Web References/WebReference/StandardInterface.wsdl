@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:ax21="http://params.webservice.lhfs.com/xsd" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns="http://webservice.lhfs.com" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://webservice.lhfs.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>StandardInterface</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema xmlns:ax22="http://params.webservice.lhfs.com/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://webservice.lhfs.com">
+      <xs:import namespace="http://params.webservice.lhfs.com/xsd" />
+      <xs:element name="uploadPlatformStallData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateIpInfo" nillable="true" type="ax22:ValidateIpInfo" />
+            <xs:element minOccurs="0" name="stallDataRequest" nillable="true" type="ax22:OtherPlatformRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="uploadPlatformStallDataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="uploadPlatformEnterpriseData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateIpInfo" nillable="true" type="ax22:ValidateIpInfo" />
+            <xs:element minOccurs="0" name="enterpriseDataRequest" nillable="true" type="ax22:OtherPlatformRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="uploadPlatformEnterpriseDataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="uploadPlatformDetectionData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateIpInfo" nillable="true" type="ax22:ValidateIpInfo" />
+            <xs:element minOccurs="0" name="detectionDataRequest" nillable="true" type="ax22:OtherPlatformRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="uploadPlatformDetectionDataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="uploadGps">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateInfo" nillable="true" type="ax22:ValidateInfo" />
+            <xs:element minOccurs="0" name="gpsRequest" nillable="true" type="ax22:GPSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="uploadGpsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="uploadDetectionData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateInfo" nillable="true" type="ax22:ValidateInfo" />
+            <xs:element minOccurs="0" name="detectionDataRequest" nillable="true" type="ax22:DetectionDataRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="uploadDetectionDataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTestItems">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateInfo" nillable="true" type="ax22:ValidateInfo" />
+            <xs:element minOccurs="0" name="testItemRequest" nillable="true" type="ax22:TestItemRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTestItemsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getStalls">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateInfo" nillable="true" type="ax22:ValidateInfo" />
+            <xs:element minOccurs="0" name="stallRequest" nillable="true" type="ax22:StallRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getStallsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getProducts">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateInfo" nillable="true" type="ax22:ValidateInfo" />
+            <xs:element minOccurs="0" name="productRequest" nillable="true" type="ax22:ProductRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getProductsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFoodTypes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateInfo" nillable="true" type="ax22:ValidateInfo" />
+            <xs:element minOccurs="0" name="foodTypeRequest" nillable="true" type="ax22:FoodTypeRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFoodTypesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getEnterprises">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateInfo" nillable="true" type="ax22:ValidateInfo" />
+            <xs:element minOccurs="0" name="enterpriseRequest" nillable="true" type="ax22:EnterpriseRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getEnterprisesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="equipmentRegister">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validateInfo" nillable="true" type="ax22:ValidateInfo" />
+            <xs:element minOccurs="0" name="equipmentRequest" nillable="true" type="ax22:EquipmentRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="equipmentRegisterResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://params.webservice.lhfs.com/xsd">
+      <xs:complexType name="ValidateIpInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ip" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OtherPlatformRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="jsonData" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ValidateInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GPSRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="eqModel" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="eqNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lat" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lng" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="DetectionDataRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="createDate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="enterpriseId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="eqModel" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="eqNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="foodTypeId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="result" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sampleName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sampleNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="stallNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="standard" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="standardData" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="testData" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="testItemId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="testUnit" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TestItemRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="curPage" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="ifOrder" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="isAll" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="isDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="testItem" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="StallRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="curPage" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="enterpriseId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ifOrder" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="isDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="stallNumber" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ProductRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="curPage" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="endTime" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="enterpriseId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ifOrder" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="isDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sampleNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="stallNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="startTime" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FoodTypeRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="curPage" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="foodType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ifOrder" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="isAll" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="isDesc" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="EnterpriseRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="curPage" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="enterpriseName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ifOrder" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="isDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="types" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="EquipmentRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="eqManufacturer" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="eqModel" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="eqName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="eqNum" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getFoodTypesRequest">
+    <wsdl:part name="parameters" element="ns:getFoodTypes" />
+  </wsdl:message>
+  <wsdl:message name="getFoodTypesResponse">
+    <wsdl:part name="parameters" element="ns:getFoodTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="uploadPlatformStallDataRequest">
+    <wsdl:part name="parameters" element="ns:uploadPlatformStallData" />
+  </wsdl:message>
+  <wsdl:message name="uploadPlatformStallDataResponse">
+    <wsdl:part name="parameters" element="ns:uploadPlatformStallDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="uploadPlatformDetectionDataRequest">
+    <wsdl:part name="parameters" element="ns:uploadPlatformDetectionData" />
+  </wsdl:message>
+  <wsdl:message name="uploadPlatformDetectionDataResponse">
+    <wsdl:part name="parameters" element="ns:uploadPlatformDetectionDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="uploadGpsRequest">
+    <wsdl:part name="parameters" element="ns:uploadGps" />
+  </wsdl:message>
+  <wsdl:message name="uploadGpsResponse">
+    <wsdl:part name="parameters" element="ns:uploadGpsResponse" />
+  </wsdl:message>
+  <wsdl:message name="uploadPlatformEnterpriseDataRequest">
+    <wsdl:part name="parameters" element="ns:uploadPlatformEnterpriseData" />
+  </wsdl:message>
+  <wsdl:message name="uploadPlatformEnterpriseDataResponse">
+    <wsdl:part name="parameters" element="ns:uploadPlatformEnterpriseDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTestItemsRequest">
+    <wsdl:part name="parameters" element="ns:getTestItems" />
+  </wsdl:message>
+  <wsdl:message name="getTestItemsResponse">
+    <wsdl:part name="parameters" element="ns:getTestItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getEnterprisesRequest">
+    <wsdl:part name="parameters" element="ns:getEnterprises" />
+  </wsdl:message>
+  <wsdl:message name="getEnterprisesResponse">
+    <wsdl:part name="parameters" element="ns:getEnterprisesResponse" />
+  </wsdl:message>
+  <wsdl:message name="uploadDetectionDataRequest">
+    <wsdl:part name="parameters" element="ns:uploadDetectionData" />
+  </wsdl:message>
+  <wsdl:message name="uploadDetectionDataResponse">
+    <wsdl:part name="parameters" element="ns:uploadDetectionDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProductsRequest">
+    <wsdl:part name="parameters" element="ns:getProducts" />
+  </wsdl:message>
+  <wsdl:message name="getProductsResponse">
+    <wsdl:part name="parameters" element="ns:getProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getStallsRequest">
+    <wsdl:part name="parameters" element="ns:getStalls" />
+  </wsdl:message>
+  <wsdl:message name="getStallsResponse">
+    <wsdl:part name="parameters" element="ns:getStallsResponse" />
+  </wsdl:message>
+  <wsdl:message name="equipmentRegisterRequest">
+    <wsdl:part name="parameters" element="ns:equipmentRegister" />
+  </wsdl:message>
+  <wsdl:message name="equipmentRegisterResponse">
+    <wsdl:part name="parameters" element="ns:equipmentRegisterResponse" />
+  </wsdl:message>
+  <wsdl:portType name="StandardInterfacePortType">
+    <wsdl:operation name="getFoodTypes">
+      <wsdl:input wsaw:Action="urn:getFoodTypes" message="ns:getFoodTypesRequest" />
+      <wsdl:output wsaw:Action="urn:getFoodTypesResponse" message="ns:getFoodTypesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformStallData">
+      <wsdl:input wsaw:Action="urn:uploadPlatformStallData" message="ns:uploadPlatformStallDataRequest" />
+      <wsdl:output wsaw:Action="urn:uploadPlatformStallDataResponse" message="ns:uploadPlatformStallDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformDetectionData">
+      <wsdl:input wsaw:Action="urn:uploadPlatformDetectionData" message="ns:uploadPlatformDetectionDataRequest" />
+      <wsdl:output wsaw:Action="urn:uploadPlatformDetectionDataResponse" message="ns:uploadPlatformDetectionDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="uploadGps">
+      <wsdl:input wsaw:Action="urn:uploadGps" message="ns:uploadGpsRequest" />
+      <wsdl:output wsaw:Action="urn:uploadGpsResponse" message="ns:uploadGpsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformEnterpriseData">
+      <wsdl:input wsaw:Action="urn:uploadPlatformEnterpriseData" message="ns:uploadPlatformEnterpriseDataRequest" />
+      <wsdl:output wsaw:Action="urn:uploadPlatformEnterpriseDataResponse" message="ns:uploadPlatformEnterpriseDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTestItems">
+      <wsdl:input wsaw:Action="urn:getTestItems" message="ns:getTestItemsRequest" />
+      <wsdl:output wsaw:Action="urn:getTestItemsResponse" message="ns:getTestItemsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getEnterprises">
+      <wsdl:input wsaw:Action="urn:getEnterprises" message="ns:getEnterprisesRequest" />
+      <wsdl:output wsaw:Action="urn:getEnterprisesResponse" message="ns:getEnterprisesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="uploadDetectionData">
+      <wsdl:input wsaw:Action="urn:uploadDetectionData" message="ns:uploadDetectionDataRequest" />
+      <wsdl:output wsaw:Action="urn:uploadDetectionDataResponse" message="ns:uploadDetectionDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getProducts">
+      <wsdl:input wsaw:Action="urn:getProducts" message="ns:getProductsRequest" />
+      <wsdl:output wsaw:Action="urn:getProductsResponse" message="ns:getProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getStalls">
+      <wsdl:input wsaw:Action="urn:getStalls" message="ns:getStallsRequest" />
+      <wsdl:output wsaw:Action="urn:getStallsResponse" message="ns:getStallsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="equipmentRegister">
+      <wsdl:input wsaw:Action="urn:equipmentRegister" message="ns:equipmentRegisterRequest" />
+      <wsdl:output wsaw:Action="urn:equipmentRegisterResponse" message="ns:equipmentRegisterResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="StandardInterfaceSoap11Binding" type="ns:StandardInterfacePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getFoodTypes">
+      <soap:operation soapAction="urn:getFoodTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformStallData">
+      <soap:operation soapAction="urn:uploadPlatformStallData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformDetectionData">
+      <soap:operation soapAction="urn:uploadPlatformDetectionData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadGps">
+      <soap:operation soapAction="urn:uploadGps" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformEnterpriseData">
+      <soap:operation soapAction="urn:uploadPlatformEnterpriseData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTestItems">
+      <soap:operation soapAction="urn:getTestItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEnterprises">
+      <soap:operation soapAction="urn:getEnterprises" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadDetectionData">
+      <soap:operation soapAction="urn:uploadDetectionData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProducts">
+      <soap:operation soapAction="urn:getProducts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStalls">
+      <soap:operation soapAction="urn:getStalls" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="equipmentRegister">
+      <soap:operation soapAction="urn:equipmentRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="StandardInterfaceSoap12Binding" type="ns:StandardInterfacePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getFoodTypes">
+      <soap12:operation soapAction="urn:getFoodTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformStallData">
+      <soap12:operation soapAction="urn:uploadPlatformStallData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformDetectionData">
+      <soap12:operation soapAction="urn:uploadPlatformDetectionData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadGps">
+      <soap12:operation soapAction="urn:uploadGps" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformEnterpriseData">
+      <soap12:operation soapAction="urn:uploadPlatformEnterpriseData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTestItems">
+      <soap12:operation soapAction="urn:getTestItems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEnterprises">
+      <soap12:operation soapAction="urn:getEnterprises" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadDetectionData">
+      <soap12:operation soapAction="urn:uploadDetectionData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProducts">
+      <soap12:operation soapAction="urn:getProducts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStalls">
+      <soap12:operation soapAction="urn:getStalls" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="equipmentRegister">
+      <soap12:operation soapAction="urn:equipmentRegister" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="StandardInterfaceHttpBinding" type="ns:StandardInterfacePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getFoodTypes">
+      <http:operation location="getFoodTypes" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformStallData">
+      <http:operation location="uploadPlatformStallData" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformDetectionData">
+      <http:operation location="uploadPlatformDetectionData" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadGps">
+      <http:operation location="uploadGps" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadPlatformEnterpriseData">
+      <http:operation location="uploadPlatformEnterpriseData" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTestItems">
+      <http:operation location="getTestItems" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEnterprises">
+      <http:operation location="getEnterprises" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="uploadDetectionData">
+      <http:operation location="uploadDetectionData" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProducts">
+      <http:operation location="getProducts" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStalls">
+      <http:operation location="getStalls" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="equipmentRegister">
+      <http:operation location="equipmentRegister" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="StandardInterface">
+    <wsdl:port name="StandardInterfaceHttpSoap11Endpoint" binding="ns:StandardInterfaceSoap11Binding">
+      <soap:address location="http://120.27.161.226:9075/services/StandardInterface.StandardInterfaceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="StandardInterfaceHttpSoap12Endpoint" binding="ns:StandardInterfaceSoap12Binding">
+      <soap12:address location="http://120.27.161.226:9075/services/StandardInterface.StandardInterfaceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="StandardInterfaceHttpEndpoint" binding="ns:StandardInterfaceHttpBinding">
+      <http:address location="http://120.27.161.226:9075/services/StandardInterface.StandardInterfaceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,185 @@
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\FoodClientTools.exe
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\FoodClientTools.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\DY.WebService.dll
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\bin\Debug\DY.WebService.pdb
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+E:\Project\Company_Source\new_client\workstation\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-11-02贵州食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\bin\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\bin\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2012-11-13西藏食药]\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\bin\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\bin\Debug\FoodClientTools.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+E:\Workstation_4th Sent[2012-11-29云南]\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+D:\SVN\stand-aloneWorkStation\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\SVN\stand-aloneWorkStation\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\SVN\stand-aloneWorkStation\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\SVN\stand-aloneWorkStation\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.5.tlog
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.read.7.tlog
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.4.tlog
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.5.tlog
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\GenerateResource-ResGen.write.7.tlog
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\SVN\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+F:\stand-aloneWorkStation\FoodClientTools\bin\Debug\FoodClientTools.exe
+F:\stand-aloneWorkStation\FoodClientTools\bin\Debug\FoodClientTools.pdb
+F:\stand-aloneWorkStation\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+F:\stand-aloneWorkStation\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.csprojResolveAssemblyReference.cache
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.csproj.GenerateResource.Cache
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+F:\stand-aloneWorkStation\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\bin\Debug\FoodClientTools.exe
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\bin\Debug\FoodClientTools.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.csproj.GenerateResource.Cache
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+F:\Projects\SVN\WorkStation\工作站单机版\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\bin\Debug\FoodClientTools.exe
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\bin\Debug\FoodClientTools.pdb
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\bin\Debug\DY.FoodClientLib.dll
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\bin\Debug\DY.FoodClientLib.pdb
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.csprojResolveAssemblyReference.cache
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmCheckComTypeEdit.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmConectSet.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmDataMng.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmVersionCopyright.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmEnvirnomentSet.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineMng.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMachineList.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmMain.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.FrmSystemSet.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.Properties.Resources.resources
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.csproj.GenerateResource.Cache
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.exe
+D:\数据上传\湖南昭阳武冈定制软件\FoodClientTools\obj\x86\Debug\FoodClientTools.pdb

@@ -1,0 +1,32 @@
+13:42:35
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownStandardProcess(Action`1 percent) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1346
+
+13:43:40
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownStandardProcess(Action`1 percent) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1346
+
+13:44:08
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownStandardProcess(Action`1 percent) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1346
+
+13:45:03
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownStandardProcess(Action`1 percent) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1346
+
+13:47:23
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownStandardProcess(Action`1 percent) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1346
+
+13:47:38
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownStandardProcess(Action`1 percent) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1346
+
+13:50:16
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownStandardProcess(Action`1 percent) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1348
+
+13:51:59
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.SettingsWindow.DownStandardProcess(Action`1 percent) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\xaml\Main\SettingsWindow.xaml.cs:行号 1348
+

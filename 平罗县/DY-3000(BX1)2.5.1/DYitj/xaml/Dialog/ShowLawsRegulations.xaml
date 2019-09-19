@@ -1,0 +1,10 @@
+﻿<Window x:Class="AIO.xaml.Dialog.ShowLawsRegulations"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="法律法规" Height="350" Width="550">
+    <Grid>
+        <Label Content="检测依据" Height="28" HorizontalAlignment="Left" Margin="0,12,0,0" Name="label1" VerticalAlignment="Top" Width="528" HorizontalContentAlignment="Center" />
+        <Label Content="标准名称" Height="28" HorizontalAlignment="Left" Margin="0,46,0,0" Name="label2" VerticalAlignment="Top" Width="264" />
+        <Label Content="标准类型" Height="28" HorizontalAlignment="Left" Margin="264,46,0,0" Name="label3" VerticalAlignment="Top" Width="264" />
+    </Grid>
+</Window>

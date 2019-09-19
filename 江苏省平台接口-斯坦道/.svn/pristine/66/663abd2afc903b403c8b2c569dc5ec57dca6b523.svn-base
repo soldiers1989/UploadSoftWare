@@ -1,0 +1,15 @@
+﻿<Window x:Class="AIO.xaml.Dialog.SettingUsrAndPwd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="设置账号和密码信息" 
+        Height="200" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded" >
+    <Grid>
+        <TextBox  FontSize="20" Height="40"  x:Name="tb_usr" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="67,28,125,104" TabIndex="1" />
+        <Button Click="tb_save_Click" Content="保    存" FontSize="20" Height="40" x:Name="tb_save" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="289,28,5,104" TabIndex="3" />
+        <Label Content="账号:" FontSize="20" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="57" Margin="5,28,0,104" />
+        <Label Content="密码:" FontSize="20" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="57" Margin="5,99,0,33" />
+        <TextBox  FontSize="20" Height="40"  x:Name="tb_pwd" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="67,99,125,33" TabIndex="2" />
+        <Button Click="tb_close_Click" Content="取    消" FontSize="20" Height="40" x:Name="tb_close" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="289,99,5,33" TabIndex="4" />
+
+    </Grid>
+</Window>

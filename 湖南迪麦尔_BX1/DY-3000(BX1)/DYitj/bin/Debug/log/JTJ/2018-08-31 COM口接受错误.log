@@ -1,0 +1,5 @@
+09:48:35
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e)
+

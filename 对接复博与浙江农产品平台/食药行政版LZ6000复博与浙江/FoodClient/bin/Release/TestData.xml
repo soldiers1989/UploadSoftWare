@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testdata>
+  
+  <data>
+  <id>1</id>
+  <item>瘦肉精</item>
+  <checkValue>0.645</checkValue>
+  <unit>ug/kg</unit>
+  <checkTime>2012-3-13 15:58:06</checkTime>
+  </data>
+  
+  <data>
+    <id>2</id>
+    <item>甲醛</item>
+    <checkValue>3.145</checkValue>
+    <unit>mg/kg</unit>
+    <checkTime>2012-3-13 16:02:22</checkTime>
+  </data>
+
+  <data>
+    <id>3</id>
+    <item>二氧化硫</item>
+    <checkValue>2.608</checkValue>
+    <unit>mg/kg</unit>
+    <checkTime>2012-3-13 16:05:20</checkTime>
+  </data>
+
+  <data>
+    <id>4</id>
+    <item>重金属铅</item>
+    <checkValue>8.860</checkValue>
+    <unit>mg/kg</unit>
+    <checkTime>2012-3-13 16:06:49</checkTime>
+  </data>
+
+  <data>
+    <id>5</id>
+    <item>亚销酸盐</item>
+    <checkValue>1.173</checkValue>
+    <unit>mg/kg</unit>
+    <checkTime>2012-3-13 16:09:23</checkTime>
+  </data>
+  <data>
+    <id>6</id>
+    <item>亮蓝</item>
+    <checkValue>5.343</checkValue>
+    <unit>mg/kg</unit>
+    <checkTime>2012-3-13 16:11:03</checkTime>
+  </data>
+  <data>
+    <id>7</id>
+    <item>黄曲霉毒素</item>
+    <checkValue>0.574</checkValue>
+    <unit>ug/kg</unit>
+    <checkTime>2012-3-13 16:13:07</checkTime>
+  </data>
+  <data>
+    <id>8</id>
+    <item>镉</item>
+    <checkValue>5.333</checkValue>
+    <unit>mg/kg</unit>
+    <checkTime>2012-3-13 16:15:34</checkTime>
+  </data>
+  <data>
+    <id>9</id>
+    <item>余氯</item>
+    <checkValue>3.113</checkValue>
+    <unit>mg/L</unit>
+    <checkTime>2012-3-13 16:17:09</checkTime>
+  </data>
+  <data>
+    <id>10</id>
+    <item>甲醇</item>
+    <checkValue>1.068</checkValue>
+    <unit>mg/L</unit>
+    <checkTime>2012-3-13 16:18:00</checkTime>
+  </data>
+  
+</testdata>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A740018B-A2CC-47B8-AB35-60E2759AA9AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DY.FoodClientLib</RootNamespace>
+    <AssemblyName>DY.FoodClientLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>fliblix.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBase.cs" />
+    <Compile Include="DataLayer\clsCheckComTypeOpr.cs" />
+    <Compile Include="DataLayer\clsCheckItemOpr.cs" />
+    <Compile Include="DataLayer\clsCheckLevelOpr.cs" />
+    <Compile Include="DataLayer\clsCheckTypeOpr.cs" />
+    <Compile Include="DataLayer\clsCompanyKindOpr.cs" />
+    <Compile Include="DataLayer\clsCompanyOpr.cs" />
+    <Compile Include="DataLayer\clsCompanyPropertyOpr.cs" />
+    <Compile Include="DataLayer\clsCreditLevelOpr.cs" />
+    <Compile Include="DataLayer\clsDistrictOpr.cs" />
+    <Compile Include="DataLayer\clsFoodClassOpr.cs" />
+    <Compile Include="DataLayer\clsMachineOpr.cs" />
+    <Compile Include="DataLayer\clsProduceAreaOpr.cs" />
+    <Compile Include="DataLayer\clsProprietorsOpr.cs" />
+    <Compile Include="DataLayer\clsResultOpr.cs" />
+    <Compile Include="DataLayer\clsSaleRecordOpr.cs" />
+    <Compile Include="DataLayer\clsStandardOpr.cs" />
+    <Compile Include="DataLayer\clsStandardTypeOpr.cs" />
+    <Compile Include="DataLayer\clsStockRecordOpr.cs" />
+    <Compile Include="DataLayer\clsSysOptOpr.cs" />
+    <Compile Include="DataLayer\clsUserInfoOpr.cs" />
+    <Compile Include="DataLayer\clsUserUnitOpr.cs" />
+    <Compile Include="DataLayer\HolesSetingOpr.cs" />
+    <Compile Include="FileUtils.cs" />
+    <Compile Include="MessageNotification.cs" />
+    <Compile Include="MessageNotify.cs" />
+    <Compile Include="Model\clsBaseInfos.cs" />
+    <Compile Include="Model\clsCheckComType.cs" />
+    <Compile Include="Model\clsCheckItem.cs" />
+    <Compile Include="Model\clsCheckLevel.cs" />
+    <Compile Include="Model\clsCheckType.cs" />
+    <Compile Include="Model\clsCompany.cs" />
+    <Compile Include="Model\clsCompanyKind.cs" />
+    <Compile Include="Model\clsCompanyProperty.cs" />
+    <Compile Include="Model\clsCom_District.cs" />
+    <Compile Include="Model\clsCom_ProduceArea.cs" />
+    <Compile Include="Model\clsCom_UserUnit.cs" />
+    <Compile Include="Model\clsCreditLevel.cs" />
+    <Compile Include="Model\clsDistrict.cs" />
+    <Compile Include="Model\clsFoodClass.cs" />
+    <Compile Include="Model\clsMachine.cs" />
+    <Compile Include="Model\clsProduceArea.cs" />
+    <Compile Include="Model\clsProprietors.cs" />
+    <Compile Include="Model\clsReport.cs" />
+    <Compile Include="Model\clsReportDetailSZ.cs" />
+    <Compile Include="Model\clsReportSZ.cs" />
+    <Compile Include="Model\clsResult.cs" />
+    <Compile Include="Model\clsResultDL.cs" />
+    <Compile Include="Model\clsResultSZ.cs" />
+    <Compile Include="Model\clsSaleRecord.cs" />
+    <Compile Include="Model\clsSend_Result.cs" />
+    <Compile Include="Model\clsStandard.cs" />
+    <Compile Include="Model\clsStandardType.cs" />
+    <Compile Include="Model\clsStockRecord.cs" />
+    <Compile Include="Model\clsSysOpt.cs" />
+    <Compile Include="Model\clsTask.cs" />
+    <Compile Include="Model\clsUserInfo.cs" />
+    <Compile Include="Model\clsUserUnit.cs" />
+    <Compile Include="Model\CurrentUser.cs" />
+    <Compile Include="Model\HolesSetting.cs" />
+    <Compile Include="Model\clsReportDetail.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShareOption.cs" />
+    <Compile Include="StringUtil.cs" />
+    <Compile Include="WavFilePlayer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fliblix.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

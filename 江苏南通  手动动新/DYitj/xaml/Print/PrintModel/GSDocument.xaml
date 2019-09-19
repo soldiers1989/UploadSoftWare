@@ -1,0 +1,411 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="600" FontSize="16" FontFamily="黑体"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" TextOptions.TextFormattingMode="Display">
+    <FlowDocument.Resources>
+        <Style TargetType="Table" x:Key="BorderedTable">
+            <Setter Property="CellSpacing" Value="0"></Setter>
+            <Setter Property="BorderThickness" Value="0.5"></Setter>
+            <Setter Property="BorderBrush" Value="#000"></Setter>
+        </Style>
+        <Style TargetType="TableCell" x:Key="BorderedCell">
+            <Setter Property="BorderThickness" Value="0.5"></Setter>
+            <Setter Property="BorderBrush" Value="#000"></Setter>
+            <Setter Property="Padding" Value="3"></Setter>
+            <Setter Property="Paragraph.TextAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="TableCell" x:Key="BorderedCell1">
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="BorderBrush" Value="#000"></Setter>
+            <Setter Property="Padding" Value="3"></Setter>
+            <Setter Property="Paragraph.TextAlignment" Value="Center"></Setter>
+        </Style>
+    </FlowDocument.Resources>
+    <!--标题-->
+    <Table>
+        <Table.Columns>
+            <TableColumn Width="700"></TableColumn>
+        </Table.Columns>
+        <TableRowGroup>
+            <TableRow >
+                <TableCell ColumnSpan="2">
+                    <Paragraph FontSize="30" FontWeight="Bold" TextAlignment="Center">
+                        <Run Text="{Binding Title}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+    </Table>
+    
+    <Table>
+        <Table.Columns>
+            <TableColumn Width="500"></TableColumn>
+            <TableColumn Width="200"></TableColumn>
+        </Table.Columns>
+        <TableRowGroup>
+            <TableRow >
+                <TableCell></TableCell>
+                <TableCell>
+                    <Paragraph TextAlignment="Left">
+                        编号:
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+    </Table>
+    
+        <Table Style="{StaticResource BorderedTable}">
+        <Table.Columns>
+            <TableColumn Width="130"></TableColumn>
+            <TableColumn Width="60"></TableColumn>
+            <TableColumn Width="60"></TableColumn>
+            <TableColumn Width="60"></TableColumn>
+            <TableColumn Width="60"></TableColumn>
+            <TableColumn Width="120"></TableColumn>
+            <TableColumn Width="100"></TableColumn>
+            <TableColumn Width="110"></TableColumn>
+        </Table.Columns>
+        <TableRowGroup Name="rowsDetails">
+            <TableRow FontWeight="Bold" >
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center">
+                    <Paragraph>食品名称</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="7">
+                    <Paragraph>
+                        <Run Text="{Binding FoodName}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow>
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center" RowSpan="3" FontWeight="Bold">
+                    <Paragraph></Paragraph>
+                    <Paragraph>食品类别</Paragraph>
+                    <Paragraph></Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell1}" TextAlignment="Left" ColumnSpan="4">
+                    <Paragraph>
+                        □食用农产品
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell1}" TextAlignment="Left" ColumnSpan="3">
+                    <Paragraph>
+                        □散装农产品
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow >
+                <TableCell Style="{StaticResource BorderedCell1}" TextAlignment="Left" ColumnSpan="4">
+                    <Paragraph>
+                        □小作坊加工食品
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell1}" TextAlignment="Left" ColumnSpan="3">
+                    <Paragraph>
+                        □食品摊贩加工食品
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow >
+                <TableCell Style="{StaticResource BorderedCell1}" TextAlignment="Left" ColumnSpan="4">
+                    <Paragraph>
+                        □餐饮加工食品
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell1}" TextAlignment="Left" ColumnSpan="3">
+                    <Paragraph>
+                        □其他类食品
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow FontWeight="Bold" >
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="3" TextAlignment="Center">
+                    <Paragraph>□生产/□加工/□购进日期</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="5">
+                    <Paragraph>
+                        <Run Text="{Binding ProductionDate}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow FontWeight="Bold">
+                <TableCell Style="{StaticResource BorderedCell}" RowSpan="2" TextAlignment="Center" >
+                    <Paragraph>
+                        受检单位
+                    </Paragraph>
+                    <Paragraph>
+                        (个人)
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center" ColumnSpan="2">
+                    <Paragraph>名称</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="5">
+                    <Paragraph>
+                        <Run Text="{Binding CheckedCompanyName}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow FontWeight="Bold">
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center" ColumnSpan="2">
+                    <Paragraph>地址</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="3">
+                    <Paragraph>
+                        <Run Text="{Binding CheckedCompanyAddress}"></Run>
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center">
+                    <Paragraph>电话</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}">
+                    <Paragraph>
+                        <Run Text="{Binding CheckedCompanyPhone}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow FontWeight="Bold">
+                <TableCell Style="{StaticResource BorderedCell}" RowSpan="2" TextAlignment="Center">
+                    <Paragraph>
+                        产地、标称生产企业或供货单位
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center" ColumnSpan="2">
+                    <Paragraph>名称</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="5">
+                    <Paragraph>
+                        <Run Text="{Binding LabelProducerName}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow FontWeight="Bold">
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="2" TextAlignment="Center">
+                    <Paragraph>地址</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="3">
+                    <Paragraph>
+                        <Run Text="{Binding LabelProducerAddress}"></Run>
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center">
+                    <Paragraph>电话</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}">
+                    <Paragraph>
+                        <Run Text="{Binding LabelProducerPhone}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow FontWeight="Bold" >
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center">
+                    <Paragraph>抽样日期</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="4">
+                    <Paragraph>
+                        <Run Text="{Binding SamplingData}"></Run>
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center">
+                    <Paragraph>抽样人员</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="2">
+                    <Paragraph>
+                        <Run Text="{Binding SamplingPerson}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow FontWeight="Bold" >
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center">
+                    <Paragraph>样品数量</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}">
+                    <Paragraph>
+                        <Run Text="{Binding SampleNum}"></Run>
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="2" TextAlignment="Center">
+                    <Paragraph>抽样基数</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" >
+                    <Paragraph>
+                        <Run Text="{Binding SamplingBase}"></Run>
+                    </Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center">
+                    <Paragraph>抽样单编号</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="2" >
+                    <Paragraph>
+                        <Run Text="{Binding SamplingOrderCode}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow FontWeight="Bold" >
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="2">
+                    <Paragraph>检测项目</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="2">
+                    <Paragraph>单位</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="2">
+                    <Paragraph>标准值</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}">
+                    <Paragraph>实测值</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}">
+                    <Paragraph>检测结果</Paragraph>
+                </TableCell>
+            </TableRow>
+            
+        </TableRowGroup>
+        <TableRowGroup Name="rowsDetails1">
+            <TableRow FontWeight="Bold" >
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Center">
+                    <Paragraph>检测依据</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="7">
+                    <Paragraph>
+                        <Run Text="{Binding Standard}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+
+            <TableRow FontWeight="Bold">
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Right" RowSpan="5">
+                    <Table>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell TextAlignment="Center">
+                                    <Paragraph>检测结论</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="7" RowSpan="5">
+                    <Table>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell ColumnSpan="4"  TextAlignment="Left">
+                                    <Paragraph>
+                                        <Run Text="{Binding InspectionConclusion}"></Run>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell TextAlignment="Left" ColumnSpan="3" >
+                                    <Paragraph>
+                                        检测单位签章：
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell ColumnSpan="7">
+                                    <Paragraph>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell TextAlignment="Right" ColumnSpan="7">
+                                    <Paragraph>
+                                        签发日期：
+                                        <Run Text="  "/> 年
+                                        <Run Text=" "/> 月
+                                        <Run Text=" "/> 日
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </TableCell>
+            </TableRow>
+
+        </TableRowGroup>
+        <TableRowGroup Name="rowsDetails2">
+            <TableRow FontWeight="Bold">
+                <TableCell Style="{StaticResource BorderedCell}" TextAlignment="Left" ColumnSpan="8">
+                    <Paragraph>
+                        注：市场商场进行快速检测，检测结论为不合格时，应及时报告所属食品药品监管部门。
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+        
+    </Table>
+    
+    <Table>
+        <Table.Columns>
+            <TableColumn Width="250"></TableColumn>
+            <TableColumn Width="250"></TableColumn>
+            <TableColumn Width="200"></TableColumn>
+        </Table.Columns>
+        <TableRowGroup>
+            <TableRow>
+                <TableCell>
+                    <Paragraph>
+                        验核人：
+                    </Paragraph>
+                </TableCell>
+                <TableCell>
+                    <Paragraph>
+                        审核：
+                    </Paragraph>
+                </TableCell>
+                <TableCell>
+                    <Paragraph>
+                        批准：
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+    </Table>
+</FlowDocument>

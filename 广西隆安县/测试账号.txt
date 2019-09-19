@@ -1,0 +1,11 @@
+地址：http://app.gxfda.gov.cn/ncptest/sLogin.shtm
+账号：sckbf00888  
+密码：sckbf00888  
+器编号：dy3500-123456 
+其他快检设备 
+广州达元食品安全技术有限公司 
+
+
+
+
+http://app.gxfda.gov.cn/ncptest/tool/checkUser.do?userName=sckbf00888&passWord=88B4479132A8F2661997A9559B60A869&serialNumber=dy3500-123456&deviceType=3

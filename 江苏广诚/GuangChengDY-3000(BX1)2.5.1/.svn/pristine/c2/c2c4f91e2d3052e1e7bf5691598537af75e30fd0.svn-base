@@ -1,0 +1,4 @@
+15:12:39
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjSelChannelWindow.ButtonNext_Click(Object sender, RoutedEventArgs e) 位置 d:\DY-Software\数据上传\江苏广诚\DY-3000(BX1)2.5.1\DYitj\xaml\Jiaotijin\JtjSelChannelWindow.xaml.cs:行号 168
+

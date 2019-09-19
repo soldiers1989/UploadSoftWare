@@ -1,0 +1,8 @@
+15:56:08
+System.OverflowException: 算术运算导致溢出。
+   在 AIO.JtjReportWindow.FormattingDatas() 位置 D:\测试\DY-3000(BX1)xinmokuai\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 358
+
+16:32:06
+System.OverflowException: 算术运算导致溢出。
+   在 AIO.JtjReportWindow.FormattingDatas() 位置 D:\测试\DY-3000(BX1)xinmokuai\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 358
+

@@ -1,0 +1,1081 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FxCopProject Version="1.23" Name="My FxCop Project">
+ <ProjectOptions>
+  <SharedProject>False</SharedProject>
+  <Stylesheet Apply="False">o:\program files\microsoft fxcop 1.23\Xml\FxCopReport.xsl</Stylesheet>
+  <SaveMessages>
+   <Project Status="Active, Excluded" NewOnly="False" />
+   <Report Status="Active" NewOnly="False" />
+  </SaveMessages>
+  <CompressProjectFile DefaultTargetCheck="True" DefaultRuleCheck="True">True</CompressProjectFile>
+  <PermitAnalysis>True</PermitAnalysis>
+  <SourceLookup>True</SourceLookup>
+ </ProjectOptions>
+ <Targets>
+  <Target Name="G:\CVSLOCAL\ThreadMessaging\bin\Release\ThreadMessaging.dll" Analyze="True" AnalyzeAllChildren="True" />
+ </Targets>
+ <RuleFiles>
+  <RuleFile Name="$(FxCopDir)\Rules\ComRules.dll" Enabled="True" AllRulesEnabled="True" />
+  <RuleFile Name="$(FxCopDir)\Rules\DesignRules.dll" Enabled="True" AllRulesEnabled="True" />
+  <RuleFile Name="$(FxCopDir)\Rules\GlobalizationRules.dll" Enabled="True" AllRulesEnabled="True" />
+  <RuleFile Name="$(FxCopDir)\Rules\NamingRules.dll" Enabled="True" AllRulesEnabled="True" />
+  <RuleFile Name="$(FxCopDir)\Rules\PerformanceRules.dll" Enabled="True" AllRulesEnabled="True" />
+  <RuleFile Name="$(FxCopDir)\Rules\SecurityRules.dll" Enabled="True" AllRulesEnabled="True" />
+  <RuleFile Name="$(FxCopDir)\Rules\UsageRules.dll" Enabled="True" AllRulesEnabled="True" />
+ </RuleFiles>
+ <FxCopReport Version="1.23" LastAnalysis="2004-07-25 18:37:15Z">
+  <Targets>
+   <Target Name="G:\CVSLOCAL\ThreadMessaging\bin\Release\ThreadMessaging.dll">
+    <Messages>
+     <Message Level="CriticalError" Certainty="99" Status="Active" Created="2004-07-23 20:05:02Z">
+      <Rule TypeName="AssembliesHavePermissionRequests" />
+      <Resolution>
+       <Data>
+        <Items>
+         <Item>ThreadMessaging</Item>
+        </Items>
+       </Data>
+      </Resolution>
+     </Message>
+     <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-23 20:05:02Z">
+      <Rule TypeName="AssembliesHaveStrongNames" />
+      <Resolution>
+       <Data>
+        <Items>
+         <Item>ThreadMessaging</Item>
+        </Items>
+       </Data>
+      </Resolution>
+     </Message>
+    </Messages>
+    <Modules>
+     <Module Name="threadmessaging.dll">
+      <Namespaces>
+       <Namespace Name="ThreadMessaging">
+        <Classes>
+         <Class Name="ChannelDemultiplexer">
+          <Messages>
+           <Message Level="CriticalWarning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="TypeNamesShouldBeSpelledCorrectly" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>ChannelDemultiplexer</Item>
+               <Item>Demultiplexer</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+         </Class>
+         <Class Name="MemoryMappedArray">
+          <Methods>
+           <Method Name="ReadBytes(System.Byte[],System.Int32):System.Void">
+            <Messages>
+             <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="IFormatProviderShouldBePassed" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>MemoryMappedArray.ReadBytes(System.Byte[],System.Int32)</Item>
+                 <Item>
+
+Int32.ToString()</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+           <Method Name="WriteBytes(System.Byte[],System.Int32):System.Void">
+            <Messages>
+             <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="IFormatProviderShouldBePassed" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>MemoryMappedArray.WriteBytes(System.Byte[],System.Int32)</Item>
+                 <Item>
+
+Int32.ToString()</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+          </Methods>
+          <Properties>
+           <Property Name="Item[System.Int32,System.Int32]">
+            <Messages>
+             <Message Level="Warning" Certainty="50" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="ConsiderHavingOnlyOneDimensionForIndexer" />
+              <Resolution>
+               <Data />
+              </Resolution>
+             </Message>
+            </Messages>
+            <Methods>
+             <Method Name="get_Item(System.Int32,System.Int32):System.Byte">
+              <Messages>
+               <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-25 18:37:15Z">
+                <Rule TypeName="IFormatProviderShouldBePassed" />
+                <Resolution>
+                 <Data>
+                  <Items>
+                   <Item>MemoryMappedArray.get_Item(System.Int32,System.Int32)</Item>
+                   <Item>
+
+Int32.ToString()</Item>
+                  </Items>
+                 </Data>
+                </Resolution>
+               </Message>
+              </Messages>
+             </Method>
+             <Method Name="set_Item(System.Int32,System.Int32,System.Byte):System.Void">
+              <Messages>
+               <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-25 18:37:15Z">
+                <Rule TypeName="IFormatProviderShouldBePassed" />
+                <Resolution>
+                 <Data>
+                  <Items>
+                   <Item>MemoryMappedArray.set_Item(System.Int32,System.Int32,System.Byte)</Item>
+                   <Item>
+
+Int32.ToString()</Item>
+                  </Items>
+                 </Data>
+                </Resolution>
+               </Message>
+              </Messages>
+             </Method>
+            </Methods>
+           </Property>
+          </Properties>
+         </Class>
+         <Class Name="MemoryMappedArrayFailedException">
+          <Messages>
+           <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-25 18:37:15Z">
+            <Rule TypeName="ExceptionsRequireMultipleConstructors" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>
+   public MemoryMappedArrayFailedException(String)
+   public MemoryMappedArrayFailedException(String, Exception)
+   protected MemoryMappedArrayFailedException(SerializationInfo, StreamingContext)</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+         </Class>
+         <Class Name="MemoryMappedFile">
+          <Enums>
+           <Enum Name="FileAccess">
+            <Messages>
+             <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="EnumerationsShouldBeFlagsAttributed" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>FileAccess</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Enum>
+          </Enums>
+          <Methods>
+           <Method Name="Dispose():System.Void">
+            <Messages>
+             <Message Level="Error" Certainty="50" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="DisposeMethodsRequireFinalizeMethod" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>ThreadMessaging.MemoryMappedFile</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+          </Methods>
+         </Class>
+         <Class Name="MemoryMappedFileView">
+          <Enums>
+           <Enum Name="ViewAccess">
+            <Messages>
+             <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="EnumerationsShouldBeFlagsAttributed" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>ViewAccess</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Enum>
+          </Enums>
+          <Methods>
+           <Method Name="Dispose():System.Void">
+            <Messages>
+             <Message Level="Error" Certainty="50" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="DisposeMethodsRequireFinalizeMethod" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>ThreadMessaging.MemoryMappedFileView</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+           <Method Name="SizeOf(System.Object):System.Int32">
+            <Parameters>
+             <Parameter Name="0">
+              <Messages>
+               <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-25 18:37:15Z">
+                <Rule TypeName="ParameterNamesDoNotMatchKeywords" />
+                <Resolution>
+                 <Data>
+                  <Items>
+                   <Item>structure</Item>
+                   <Item>Structure</Item>
+                  </Items>
+                 </Data>
+                </Resolution>
+               </Message>
+              </Messages>
+             </Parameter>
+            </Parameters>
+           </Method>
+          </Methods>
+         </Class>
+         <Class Name="MemoryMappingFailedException">
+          <Messages>
+           <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="ExceptionsRequireMultipleConstructors" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>
+   public MemoryMappingFailedException(String)
+   public MemoryMappingFailedException(String, Exception)
+   protected MemoryMappingFailedException(SerializationInfo, StreamingContext)</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+         </Class>
+         <Class Name="MsmqChannel">
+          <Messages>
+           <Message Level="CriticalWarning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="TypeNamesShouldBeSpelledCorrectly" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>MsmqChannel</Item>
+               <Item>Msmq</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Methods>
+           <Method Name="Send(System.Object,System.TimeSpan):System.Void">
+            <Messages>
+             <Message Level="Warning" Certainty="50" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="AvoidMarkingMembersObsolete" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>Send</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+          </Methods>
+         </Class>
+         <Class Name="MultiRunnable">
+          <Messages>
+           <Message Level="CriticalWarning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="TypeNamesShouldBeSpelledCorrectly" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>MultiRunnable</Item>
+               <Item>Runnable</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Fields>
+           <Field Name="running">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>running</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+          </Fields>
+          <Methods>
+           <Method Name="SetRunnables(ThreadMessaging.IRunnable[]):System.Void">
+            <Messages>
+             <Message Level="CriticalWarning" Certainty="50" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="MemberNamesShouldBeSpelledCorrectly" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>SetRunnables</Item>
+                 <Item>Runnables</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+            <Parameters>
+             <Parameter Name="0">
+              <Messages>
+               <Message Level="CriticalWarning" Certainty="25" Status="Active" Created="2004-07-23 20:05:02Z">
+                <Rule TypeName="ParameterNamesShouldBeSpelledCorrectly" />
+                <Resolution>
+                 <Data>
+                  <Items>
+                   <Item>runnables</Item>
+                   <Item>MultiRunnable.SetRunnables</Item>
+                   <Item>runnables</Item>
+                  </Items>
+                 </Data>
+                </Resolution>
+               </Message>
+              </Messages>
+             </Parameter>
+            </Parameters>
+           </Method>
+          </Methods>
+         </Class>
+         <Class Name="NTAdvanced">
+          <Messages>
+           <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="AvoidBuildingUninstantiatedInternalClasses" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>ThreadMessaging.NTAdvanced</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Methods>
+           <Method Name="InitializeSecurityDescriptor(System.Object&amp;,System.UInt32):System.Boolean">
+            <Messages>
+             <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="AvoidBuildingNonCallableCode" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>ThreadMessaging.NTAdvanced.InitializeSecurityDescriptor(Object&amp;,UInt32)</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+           <Method Name="SetSecurityDescriptorDacl(System.Object&amp;,System.Boolean,System.Object,System.Boolean):System.Boolean">
+            <Messages>
+             <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="AvoidBuildingNonCallableCode" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>ThreadMessaging.NTAdvanced.SetSecurityDescriptorDacl(Object&amp;,Boolean,Object,Boolean)</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+          </Methods>
+         </Class>
+         <Class Name="NTKernel">
+          <Messages>
+           <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="AvoidBuildingUninstantiatedInternalClasses" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>ThreadMessaging.NTKernel</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Methods>
+           <Method Name="GetLastError():System.UInt32">
+            <Messages>
+             <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="AvoidBuildingNonCallableCode" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>ThreadMessaging.NTKernel.GetLastError()</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+           <Method Name="OpenFileMapping(System.UInt32,System.Boolean,System.String):System.IntPtr">
+            <Messages>
+             <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="AvoidBuildingNonCallableCode" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>ThreadMessaging.NTKernel.OpenFileMapping(UInt32,Boolean,String)</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+          </Methods>
+         </Class>
+         <Class Name="ProcessRendezVous">
+          <Messages>
+           <Message Level="CriticalWarning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="TypeNamesShouldBeSpelledCorrectly" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>ProcessRendezVous</Item>
+               <Item>Rendez, Vous</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Methods>
+           <Method Name="RendezVous():System.Void">
+            <Messages>
+             <Message Level="CriticalWarning" Certainty="50" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="MemberNamesShouldBeSpelledCorrectly" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>RendezVous</Item>
+                 <Item>Rendez, Vous</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+          </Methods>
+         </Class>
+         <Class Name="SemaphoreFailedException">
+          <Messages>
+           <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="ExceptionsRequireMultipleConstructors" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>
+   public SemaphoreFailedException(String)
+   public SemaphoreFailedException(String, Exception)
+   protected SemaphoreFailedException(SerializationInfo, StreamingContext)</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+         </Class>
+         <Class Name="SemaphoreLimitReachedException">
+          <Messages>
+           <Message Level="Error" Certainty="95" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="ExceptionsRequireMultipleConstructors" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>
+   public SemaphoreLimitReachedException(String)
+   public SemaphoreLimitReachedException(String, Exception)
+   protected SemaphoreLimitReachedException(SerializationInfo, StreamingContext)</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+         </Class>
+         <Class Name="SingleRunnable">
+          <Messages>
+           <Message Level="CriticalWarning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="TypeNamesShouldBeSpelledCorrectly" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>SingleRunnable</Item>
+               <Item>Runnable</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Fields>
+           <Field Name="running">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>running</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+          </Fields>
+         </Class>
+         <Class Name="ThreadRendezVous">
+          <Messages>
+           <Message Level="CriticalWarning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="TypeNamesShouldBeSpelledCorrectly" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>ThreadRendezVous</Item>
+               <Item>Rendez, Vous</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Methods>
+           <Method Name="RendezVous():System.Void">
+            <Messages>
+             <Message Level="CriticalWarning" Certainty="50" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="MemberNamesShouldBeSpelledCorrectly" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>RendezVous</Item>
+                 <Item>Rendez, Vous</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+          </Methods>
+         </Class>
+        </Classes>
+        <Interfaces>
+         <Interface Name="IRendezVous">
+          <Messages>
+           <Message Level="CriticalWarning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="TypeNamesShouldBeSpelledCorrectly" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>IRendezVous</Item>
+               <Item>Rendez, Vous</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Methods>
+           <Method Name="RendezVous():System.Void">
+            <Messages>
+             <Message Level="CriticalWarning" Certainty="50" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="MemberNamesShouldBeSpelledCorrectly" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>RendezVous</Item>
+                 <Item>Rendez, Vous</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Method>
+          </Methods>
+         </Interface>
+         <Interface Name="IRunnable">
+          <Messages>
+           <Message Level="CriticalWarning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="TypeNamesShouldBeSpelledCorrectly" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>IRunnable</Item>
+               <Item>Runnable</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+         </Interface>
+        </Interfaces>
+        <ValueTypes>
+         <ValueType Name="MessageEnvelope">
+          <Messages>
+           <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="ConsiderOverridingEqualsAndOperatorEqualsOnValueTypes" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>MessageEnvelope</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Fields>
+           <Field Name="ID">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>ID</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+           <Field Name="Message">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>Message</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+          </Fields>
+         </ValueType>
+        </ValueTypes>
+       </Namespace>
+       <Namespace Name="ThreadMessaging.Server">
+        <Classes>
+         <Class Name="Daemon">
+          <Messages>
+           <Message Level="CriticalWarning" Certainty="99" Status="Active" Created="2004-07-23 20:05:02Z">
+            <Rule TypeName="AbstractTypesShouldNotHaveConstructors" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>Daemon</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Fields>
+           <Field Name="requests">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>requests</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+           <Field Name="responses">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-23 20:05:02Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>responses</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+          </Fields>
+         </Class>
+        </Classes>
+        <ValueTypes>
+         <ValueType Name="Request">
+          <Messages>
+           <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-25 18:37:15Z">
+            <Rule TypeName="ConsiderOverridingEqualsAndOperatorEqualsOnValueTypes" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>Request</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Fields>
+           <Field Name="Body">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>Body</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+           <Field Name="Client">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>Client</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+           <Field Name="Session">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>Session</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+          </Fields>
+         </ValueType>
+         <ValueType Name="Response">
+          <Messages>
+           <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-25 18:37:15Z">
+            <Rule TypeName="ConsiderOverridingEqualsAndOperatorEqualsOnValueTypes" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>Response</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Fields>
+           <Field Name="Body">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>Body</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+           <Field Name="Client">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>Client</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+           <Field Name="Session">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>Session</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+          </Fields>
+         </ValueType>
+         <ValueType Name="Session">
+          <Messages>
+           <Message Level="Warning" Certainty="75" Status="Active" Created="2004-07-25 18:37:15Z">
+            <Rule TypeName="ConsiderOverridingEqualsAndOperatorEqualsOnValueTypes" />
+            <Resolution>
+             <Data>
+              <Items>
+               <Item>Session</Item>
+              </Items>
+             </Data>
+            </Resolution>
+           </Message>
+          </Messages>
+          <Fields>
+           <Field Name="ID">
+            <Messages>
+             <Message Level="Error" Certainty="90" Status="Active" Created="2004-07-25 18:37:15Z">
+              <Rule TypeName="TypesDoNotHavePublicInstanceFields" />
+              <Resolution>
+               <Data>
+                <Items>
+                 <Item>ID</Item>
+                </Items>
+               </Data>
+              </Resolution>
+             </Message>
+            </Messages>
+           </Field>
+          </Fields>
+         </ValueType>
+        </ValueTypes>
+       </Namespace>
+      </Namespaces>
+     </Module>
+    </Modules>
+   </Target>
+  </Targets>
+  <Rules>
+   <Rule TypeName="AbstractTypesShouldNotHaveConstructors">
+    <Name>Abstract types should not have public constructors</Name>
+    <Description>Public constructors for abstract types do not make sense because you cannot create instances of abstract types.</Description>
+    <LongDescription />
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/DesignRules/AbstractTypes.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="99">CriticalWarning</MessageLevel>
+    <File Name="DesignRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="AssembliesHavePermissionRequests">
+    <Name>Assemblies specify permission requests</Name>
+    <Description>Permission requests prevent security exceptions from being thrown after code in an assembly has already begun executing. With permission requests, the assembly does not load if it has insufficient permissions. This rule will generate a message if you have specified a permission request incorrectly, or incompletely. If you have specified requests but FxCop reports a message from this rule, use the PermView.exe tool to view the security permissions in the assembly. An unenforceable permission appears as an empty permission set.</Description>
+    <LongDescription>You should add attributes specifying what permissions your assembly will demand, might demand, and what permissions it does not want granted.  For example, the following attribute indicates that an assembly will, at minimum, require read access to the USERNAME environment variable: [assembly:EnvironmentPermissionAttribute(SecurityAction.RequestMinimum,
+Read="USERNAME")]. To specify permissions that the assembly might demand, use SecurityAction.RequestOptional. To specify permissions that the assembly must not be granted, use SecurityAction.RequestRefuse.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/UsageRules/AssembliesPermissionRequests.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="99">CriticalError</MessageLevel>
+    <File Name="UsageRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="AssembliesHaveStrongNames">
+    <Name>Assemblies have strong names</Name>
+    <Description>Assemblies with strong names can be placed in the global assembly cache and can be checked for tampering at run time.</Description>
+    <LongDescription>The common language runtime compares the key in the assembly's manifest to the key used to generate the strong name, to ensure that the assembly's bits have not been tampered with.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/DesignRules/AssembliesHaveStrongNames.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Error</MessageLevel>
+    <File Name="DesignRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="AvoidBuildingNonCallableCode">
+    <Name>Avoid building non-callable code into assemblies</Name>
+    <Description>There is code that appears to not be callable from a public or protected code path.</Description>
+    <LongDescription>If this rule generates a message in error, please send a problem report to the FxCop team.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/Performance/UncallableCode.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="75">Warning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="AvoidBuildingUninstantiatedInternalClasses">
+    <Name>Avoid building uninstantiated internal classes into assemblies</Name>
+    <Description>An internal class was detected that is apparently never instantiated.</Description>
+    <LongDescription>This rule does not attempt to detect late-bound creation and will generate false positives if instances of a type are only created in this way (for example, by means of Activator.CreateInstance or by passing the type as an argument to a TypeConverter constructor).</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/Performance/UninstantiatedInternals.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="75">Warning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="AvoidMarkingMembersObsolete">
+    <Name>Avoid marking members Obsolete</Name>
+    <Description>Do not mark type members Obsolete unless absolutely necessary.</Description>
+    <LongDescription />
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/DesignRules/AvoidObsoleteMember.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="50">Warning</MessageLevel>
+    <File Name="DesignRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="ConsiderHavingOnlyOneDimensionForIndexer">
+    <Name>Consider having only one dimensional indexers</Name>
+    <Description>Indexers (indexed properties) should use a single value (either an integer or string types) for indexing values. Multi-dimensional indexers can significantly reduce the usability of the library.</Description>
+    <LongDescription>For example, public object this [int index1, int index2] is a non-intuitive indexer.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/DesignRules/ConsiderOneDimensionIndexer.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="50">Warning</MessageLevel>
+    <File Name="DesignRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="ConsiderOverridingEqualsAndOperatorEqualsOnValueTypes">
+    <Name>Consider overriding Equals and the equality operator on value types</Name>
+    <Description>The default System.ValueType implementation might not perform as well as a custom implementation.</Description>
+    <LongDescription />
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/Performance/EqualsAndOperatorEqualsOnValueTypes.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="75">Warning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="DisposeMethodsRequireFinalizeMethod">
+    <Name>Types that implement IDisposable.Dispose also provide a Finalize method or destructor</Name>
+    <Description>If a type implements a Dispose method and has unmanaged resources, it should provide a Finalize method in case Dispose is not explicitly called.</Description>
+    <LongDescription>The common language runtime calls the Finalize method or destructor of an object prior to reclaiming its managed resources in a process known as garbage collection. The Finalize method should free any unmanaged resources before they become inaccessible.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/UsageRules/DisposeMethodsRequireFinalizeMethods.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="50">Error</MessageLevel>
+    <File Name="UsageRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="EnumerationsShouldBeFlagsAttributed">
+    <Name>Enumeration should have the FlagsAttribute attribute</Name>
+    <Description>The enumeration appears to be made up of combinable flags. If this true, apply the Flags attribute to the enumeration.</Description>
+    <LongDescription />
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/DesignRules/EnumShouldHaveFlags.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="75">Warning</MessageLevel>
+    <File Name="DesignRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="ExceptionsRequireMultipleConstructors">
+    <Name>Exceptions require multiple constructors</Name>
+    <Description>Multiple constructors are required to correctly implement a custom exception.</Description>
+    <LongDescription>Missing constructors can make your exception unusable in certain scenarios. For example, the serialization constructor is required for handling exceptions in XML Web services.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/DesignRules/ExceptionCtors.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Error</MessageLevel>
+    <File Name="DesignRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="IFormatProviderShouldBePassed">
+    <Name>IFormatProvider should be passed</Name>
+    <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not.</Description>
+    <LongDescription>Some methods in the common language runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/Globalization/IFormatProviderPassed.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Error</MessageLevel>
+    <File Name="GlobalizationRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="MemberNamesShouldBeSpelledCorrectly">
+    <Name>Member names should consist of correctly spelled words</Name>
+    <Description>The individual words that make up a member name should not be abbreviated and should be spelled correctly.</Description>
+    <LongDescription>If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/UsageRules/MemberSpelling.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="50">CriticalWarning</MessageLevel>
+    <File Name="UsageRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="ParameterNamesDoNotMatchKeywords">
+    <Name>Parameter names do not match reserved keywords</Name>
+    <Description>Identifiers which match reserved keywords should be avoided. Matching is performed case-insensitively.</Description>
+    <LongDescription>Names that describe the purpose or contents of a parameter are preferable to names that describe the data type or format. If a parameter has no descriptive information other than its type, use a generic name such as 'value'.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/NamingRules/ParameterNamesDoNotMatchKeywords.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Error</MessageLevel>
+    <File Name="NamingRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="ParameterNamesShouldBeSpelledCorrectly">
+    <Name>Parameter names should consist of correctly spelled words</Name>
+    <Description>The individual words that make up a parameter name should not be abbreviated and should be spelled correctly.</Description>
+    <LongDescription>If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/UsageRules/ParameterSpelling.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="25">CriticalWarning</MessageLevel>
+    <File Name="UsageRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="TypeNamesShouldBeSpelledCorrectly">
+    <Name>Type names should consist of correctly spelled words</Name>
+    <Description>The individual words that make up a type name should not be abbreviated and should be spelled correctly.</Description>
+    <LongDescription>If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/UsageRules/TypeSpelling.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+    <File Name="UsageRules.dll" Version="1.23.0.0" />
+   </Rule>
+   <Rule TypeName="TypesDoNotHavePublicInstanceFields">
+    <Name>Types do not have externally visible instance fields</Name>
+    <Description>Public or protected instance fields limit your ability to change the implementation details for those data items.</Description>
+    <LongDescription>Use properties instead. They do not compromise usability or performance and they do provide flexibility in that they conceal the  implementation details of the underlying data.</LongDescription>
+    <GroupOwner>MS FxCopDev</GroupOwner>
+    <DevOwner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules/DesignRules/TypesDoNotHavePublicInstanceFields.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="90">Error</MessageLevel>
+    <File Name="DesignRules.dll" Version="1.23.0.0" />
+   </Rule>
+  </Rules>
+ </FxCopReport>
+</FxCopProject>

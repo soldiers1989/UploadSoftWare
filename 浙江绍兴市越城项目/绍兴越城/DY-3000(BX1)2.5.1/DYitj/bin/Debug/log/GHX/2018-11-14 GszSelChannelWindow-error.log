@@ -1,0 +1,7 @@
+14:44:39
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.GszSelChannelWindow.ButtonNext_Click(Object sender, RoutedEventArgs e) 位置 d:\DY-Software\数据上传\浙江绍兴市越城项目\绍兴越城\DY-3000(BX1)2.5.1\DYitj\xaml\Ganshizhi\GszSelChannelWindow.xaml.cs:行号 94
+

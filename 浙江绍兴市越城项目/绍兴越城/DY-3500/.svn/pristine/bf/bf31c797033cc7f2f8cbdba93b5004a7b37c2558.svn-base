@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>DY-3000(BX1) autoUpdate</description>
+  <Updater>
+    <Url>http://rj.chinafst.cn:8090/</Url>
+    <LastUpdateTime>2016-12-26</LastUpdateTime>
+  </Updater>
+  <Application applicationId="DY-Detector">
+    <EntryPoint>DY-Detector.exe</EntryPoint>
+    <Location>.</Location>
+    <Version>1.0.0.2</Version>
+  </Application>
+  <Files>
+    <File Ver="1.0.0.1" Name="Accounts\CheckItemStandard.dat" />
+    <File Ver="1.0.0.1" Name="Accounts\FoodClass.dat" />
+    <File Ver="1.0.0.1" Name="Accounts\userAccounts.dat" />
+    <File Ver="1.0.0.0" Name="Data\local.Mdb"/>
+    <File Ver="1.0.0.1" Name="Items\fgdItems.dat"/>
+    <File Ver="1.0.0.1" Name="Items\fgdItems.xml"/>
+    <File Ver="1.0.0.1" Name="Items\gszItems.dat"/>
+    <File Ver="1.0.0.1" Name="Items\hmItems.dat"/>
+    <File Ver="1.0.0.1" Name="Items\jtjItems.dat"/>
+    <File Ver="1.0.0.1" Name="Others\deviceHole.dat"/>
+    <File Ver="1.0.0.1" Name="ClassLibrary.dll"/>
+    <File Ver="1.0.0.1" Name="DataSet.dll"/>
+    <File Ver="1.0.0.1" Name="DY.Process.dll"/>
+    <File Ver="1.0.0.2" Name="DY-Detector.exe"/>
+    <File Ver="1.0.0.1" Name="DY-Detector.exe.config"/>
+    <File Ver="1.0.0.1" Name="DynamicDataDisplay.dll"/>
+    <File Ver="1.0.0.1" Name="Newtonsoft.Json.dll"/>
+    <File Ver="1.0.0.1" Name="NPOI.dll"/>
+    <File Ver="1.0.0.1" Name="NPOI.OOXML.dll"/>
+    <File Ver="1.0.0.1" Name="NPOI.OpenXml4Net.dll"/>
+    <File Ver="1.0.0.1" Name="NPOI.OpenXmlFormats.dll"/>
+    <File Ver="1.0.0.1" Name="ThreadMessaging.dll"/>
+    <File Ver="1.0.0.2" Name="UpdateList.xml"/>
+    <File Ver="1.0.0.1" Name="WpfPerformance.exe"/>
+    <File Ver="1.0.0.1" Name="WPFVisifire.Charts.dll"/>
+  </Files>
+  <UpdateNotes>
+	<UpdateNote Note="DY-3000(BX1)食品综合分析仪_Ver 2.4.0 版本更新说明："/>
+	<UpdateNote Note="- 1、优化胶体金阴阳性判断算法，大大提升了胶体金定性检测的准确性。"/>
+	<UpdateNote Note="- 2、新增自动升级功能。"/>
+  </UpdateNotes>
+</AutoUpdater>

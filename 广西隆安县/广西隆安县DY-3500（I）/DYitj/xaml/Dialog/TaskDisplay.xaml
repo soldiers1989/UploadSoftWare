@@ -1,0 +1,61 @@
+﻿<Window x:Class="AIO.TaskDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TaskDisplay" 
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="任务接收查看管理" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+            <Label Content="信息:" FontSize="20" Foreground="{StaticResource ForeGroudColorText}" HorizontalAlignment="Right" Name="LabelInfo" VerticalAlignment="Bottom" Width="177" Margin="0,0,6,0" />
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="20,0,20,0"  Content="返  回" FontSize="24" Click="ButtonPrev_Click"/>
+            <Button Content="任务更新" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="20,20,0,20" Name="btnTaskUpdate" VerticalAlignment="Center" Width="100" Click="btnTaskUpdate_Click" />
+            <Button Content="查看详细" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="126,20,0,20" Name="btnViewDetailed" VerticalAlignment="Center" Width="100" Click="btnViewDetailed_Click" Visibility="Collapsed" />
+            <Button Content="删除任务" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="132,20,0,20" Name="btnDeleted" VerticalAlignment="Center" Width="100" Click="btnDeleted_Click" />
+        </Grid>
+
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <WrapPanel Height="40" VerticalAlignment="Top" >
+                <Label Content="下载任务起始时间：" Width="160" Height="40" FontSize="17" VerticalContentAlignment="Center" ></Label>
+                <DatePicker Name="DatePickerDateFrom" Width="120" Height="30" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" />
+                <Label Content="结束时间：" Width="90" Height="30" VerticalContentAlignment="Center" FontSize="17"></Label>
+                <DatePicker Name="DatePickerDateTo" Width="120" Height="30" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" />
+           
+                <Label Content="样品编号：" Width="90" FontSize="16" VerticalContentAlignment="Center" Height="40"></Label>
+                <TextBox Name="txtSampleNo" Width="200" FontSize="16" VerticalContentAlignment="Center" Height="30"></TextBox>
+            </WrapPanel>
+            <DataGrid AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}" Name="DataGridRecord" LoadingRow="DataGridRecord_LoadingRow" MouseDoubleClick="DataGridRecord_MouseDoubleClick" FontSize="16" Height="480" VerticalAlignment="Bottom">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path=isTest}" Header="已检测" />
+                    <DataGridTextColumn Binding="{Binding Path=checkItem}" Header="检测项目" />
+                    <DataGridTextColumn Binding="{Binding Path=foodName}" Header="样品名称" />
+                    <DataGridTextColumn Binding="{Binding Path=foodType}" Header="样品种类" />
+                    <DataGridTextColumn Binding="{Binding Path=sampleNO}" Header="样品编号"/>
+                    <DataGridTextColumn Binding="{Binding Path=cdName}" Header="被检单位" />
+                    <DataGridTextColumn Binding="{Binding Path=regName}" Header="市场名称" />
+                    <DataGridTextColumn Binding="{Binding Path=cdIdNum}" Header="档口" />
+                    <DataGridTextColumn Binding="{Binding Path=regContactPerson}" Header="法定代表人"  />
+                    <DataGridTextColumn Binding="{Binding Path=regBusLicence}" Header="营业执照"/>
+                    <DataGridTextColumn Binding="{Binding Path=checkAccord}" Header="检测标准" />
+                    <DataGridTextColumn Binding="{Binding Path=productionPlace}" Header="产地或来源" />
+                    <DataGridTextColumn Binding="{Binding Path=nominalSourcePlace}" Header="产地或来源地址" />
+                    <DataGridTextColumn Binding="{Binding Path=takeInNumber}" Header="采购数量（公斤）" />
+                    <DataGridTextColumn Binding="{Binding Path=takeInDate}" Header="进货日期" />
+                    <DataGridTextColumn Binding="{Binding Path=supplier}" Header="供应商" />
+                    <DataGridTextColumn Binding="{Binding Path=supplierContact}" Header="供应商联系人" />
+                    <DataGridTextColumn Binding="{Binding Path=supplierPhone}" Header="供应商联系电话"  />
+                    
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>

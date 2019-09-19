@@ -1,0 +1,7 @@
+09:25:04
+System.OverflowException: 值对于无符号的字节太大或太小。
+   在 System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Byte.Parse(String s)
+   在 AIO.xaml.Dialog.CruveDataWindow.SettingCruve(tlsTtResultSecond model, String cruveDatas) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Dialog\CruveDataWindow.xaml.cs:行号 70
+   在 AIO.RecordWindow.miShowCruve_Click(Object sender, RoutedEventArgs e) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 1486
+

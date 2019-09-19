@@ -1,0 +1,5 @@
+20:57:43
+System.Web.Services.Protocols.SoapHeaderException: Invalid operation: {http://face.webservice.fsweb.excellence.com}CheckChePoint
+   在 AIO.WorkThread.DownLoadTask(CheckPointInfo server) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2802
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 f:\Projects\SVN\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 635
+

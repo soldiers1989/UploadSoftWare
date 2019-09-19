@@ -1,0 +1,84 @@
+E:\Project\Company_Source\new_client\workstation\LicensesTool\bin\Debug\LicensesTool.exe.config
+E:\Project\Company_Source\new_client\workstation\LicensesTool\bin\Debug\LicensesTool.exe
+E:\Project\Company_Source\new_client\workstation\LicensesTool\bin\Debug\LicensesTool.pdb
+E:\Project\Company_Source\new_client\workstation\LicensesTool\bin\Debug\DY.Security.dll
+E:\Project\Company_Source\new_client\workstation\LicensesTool\bin\Debug\DY.Security.pdb
+E:\Project\Company_Source\new_client\workstation\LicensesTool\bin\Debug\Interop.ET199ComLib.dll
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\Interop.ET199ComLib.dll
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\LicensesTool.csproj.ResolveComReference.cache
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\LicensesTool.FrmMain.resources
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\LicensesTool.Properties.Resources.resources
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\LicensesTool.exe
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\LicensesTool.pdb
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\LicensesTool.FrmPwd.resources
+E:\Project\Company_Source\new_client\workstation\LicensesTool\obj\x86\Debug\LicensesTool.FrmSetParam.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\obj\x86\Debug\LicensesTool.FrmMain.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\obj\x86\Debug\LicensesTool.FrmPwd.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\obj\x86\Debug\LicensesTool.FrmSetParam.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\obj\x86\Debug\LicensesTool.Properties.Resources.resources
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\obj\x86\Debug\LicensesTool.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\obj\x86\Debug\LicensesTool.pdb
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\bin\Debug\LicensesTool.exe.config
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\bin\Debug\LicensesTool.exe
+D:\DaYuan Systems\Workstation_4th Sent[2012-08-04]\LicensesTool\bin\Debug\LicensesTool.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\bin\Debug\LicensesTool.exe.config
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\bin\Debug\LicensesTool.exe
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\bin\Debug\LicensesTool.pdb
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\obj\x86\Debug\LicensesTool.FrmMain.resources
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\obj\x86\Debug\LicensesTool.FrmPwd.resources
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\obj\x86\Debug\LicensesTool.FrmSetParam.resources
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\obj\x86\Debug\LicensesTool.Properties.Resources.resources
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\obj\x86\Debug\LicensesTool.exe
+E:\Workstation_4th Sent[2012-11-29云南]\LicensesTool\obj\x86\Debug\LicensesTool.pdb
+D:\SVN\stand-aloneWorkStation\LicensesTool\bin\Debug\LicensesTool.exe.config
+D:\SVN\stand-aloneWorkStation\LicensesTool\bin\Debug\LicensesTool.exe
+D:\SVN\stand-aloneWorkStation\LicensesTool\bin\Debug\LicensesTool.pdb
+D:\SVN\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\SVN\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.FrmMain.resources
+D:\SVN\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.FrmPwd.resources
+D:\SVN\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.FrmSetParam.resources
+D:\SVN\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.Properties.Resources.resources
+D:\SVN\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\SVN\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\SVN\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.exe
+D:\SVN\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.pdb
+F:\stand-aloneWorkStation\LicensesTool\bin\Debug\LicensesTool.exe.config
+F:\stand-aloneWorkStation\LicensesTool\bin\Debug\LicensesTool.exe
+F:\stand-aloneWorkStation\LicensesTool\bin\Debug\LicensesTool.pdb
+F:\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.FrmMain.resources
+F:\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.FrmPwd.resources
+F:\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.FrmSetParam.resources
+F:\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.Properties.Resources.resources
+F:\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.csproj.GenerateResource.Cache
+F:\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.exe
+F:\stand-aloneWorkStation\LicensesTool\obj\x86\Debug\LicensesTool.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\bin\Debug\LicensesTool.exe.config
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\bin\Debug\LicensesTool.exe
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\bin\Debug\LicensesTool.pdb
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\obj\x86\Debug\LicensesTool.FrmMain.resources
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\obj\x86\Debug\LicensesTool.FrmPwd.resources
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\obj\x86\Debug\LicensesTool.FrmSetParam.resources
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\obj\x86\Debug\LicensesTool.Properties.Resources.resources
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\obj\x86\Debug\LicensesTool.csproj.GenerateResource.Cache
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\obj\x86\Debug\LicensesTool.exe
+F:\Projects\SVN\WorkStation\工作站单机版\LicensesTool\obj\x86\Debug\LicensesTool.pdb
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\bin\Debug\LicensesTool.exe.config
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\bin\Debug\LicensesTool.exe
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\bin\Debug\LicensesTool.pdb
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\obj\x86\Debug\LicensesTool.FrmMain.resources
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\obj\x86\Debug\LicensesTool.FrmPwd.resources
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\obj\x86\Debug\LicensesTool.FrmSetParam.resources
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\obj\x86\Debug\LicensesTool.Properties.Resources.resources
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\obj\x86\Debug\LicensesTool.csproj.GenerateResource.Cache
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\obj\x86\Debug\LicensesTool.exe
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\obj\x86\Debug\LicensesTool.pdb
+D:\数据上传\湖南昭阳武冈定制软件\LicensesTool\obj\x86\Debug\LicensesTool.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Release\WorkstationBLL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Release\WorkstationBLL.pdb
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Release\WorkstationDAL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Release\WorkstationDAL.pdb
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Release\WorkstationBLL.csprojResolveAssemblyReference.cache
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Release\WorkstationBLL.dll
+C:\Users\lja\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Release\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Release\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Release\WorkstationBLL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Release\WorkstationDAL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\bin\Release\WorkstationDAL.pdb
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Release\WorkstationBLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Release\WorkstationBLL.dll
+C:\Users\Administrator\Desktop\数据采集系统改\数据采集系统\WorkstationBLL\obj\Release\WorkstationBLL.pdb

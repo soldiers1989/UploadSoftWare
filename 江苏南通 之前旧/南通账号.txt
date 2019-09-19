@@ -1,0 +1,17 @@
+测试地址：http://61.155.85.74:2205/spkj/employee_toIndex.do
+用户名：13814601756
+密码：nts111
+
+
+信息录入地址：http://61.155.85.74:2205/spkj/testplan_getSampleInputListNew.do
+
+
+
+
+
+
+
+http://61.155.85.74:2205/spkj/services/Testplaninfo?wsdl
+
+
+南通正式账号：http://58.221.113.71:3219/spkj/services/Testplaninfo?wsdl?

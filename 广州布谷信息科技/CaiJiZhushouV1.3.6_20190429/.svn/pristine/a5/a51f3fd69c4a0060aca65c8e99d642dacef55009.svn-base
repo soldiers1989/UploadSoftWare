@@ -1,0 +1,12 @@
+发送13:39:36
+{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL310001","SampleCode":"000010031000200010177","SampleName":"山药","BoothCode":"1232","DetectionValue":"97.3","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广州","LabCode":"TL12343","Result":"不合格","Unit":"%","Range":"50","DetectionDate":"2019-04-29 10:27:33","BoothName":"达元","Manger":"达元","Phone":"13243","Stations":"广州","holeNumber":"2"}]}}
+
+接收13:39:36
+{"resultCode":"1","resultMsg":"提交成功","resultContent":{"FarmsDS":{"UserName":"gzbugu","UserPassWord":"gzbugu","Farms":[{"shebei_code":"TL310001","holeNumber":"2","SampleCode":"000010031000200010177","SampleName":"山药","BoothCode":"1232","DetectionValue":"97.3","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"广州","LabCode":"TL12343","Result":"不合格","Unit":"%","Range":"50","DetectionDate":"2019-04-29 10:27:33","BoothName":"达元","Manger":"达元","Phone":"13243","Stations":"广州"}]}}}
+
+发送14:45:32
+{"FarmsDS":{"UserName":"sa009","UserPassWord":"123456","Farms":[{"shebei_code":"","SampleCode":"000010031000200010215","SampleName":"西兰花","BoothCode":"1232","DetectionValue":"1.2","DetectionName":"农药残留","BoothNum":"B10","Grade":"","Status":"","Area":"","LabCode":"","Result":"合格","Unit":"%","Range":"50","DetectionDate":"2019-04-29 10:27:33","BoothName":"达元","Manger":"","Phone":"","Stations":"","holeNumber":"3"}]}}
+
+接收14:45:33
+远程服务器返回错误: (404) 未找到。
+

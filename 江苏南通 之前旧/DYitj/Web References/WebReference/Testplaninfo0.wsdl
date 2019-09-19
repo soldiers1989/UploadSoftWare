@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://service.spkj.trueway.com.cn/" name="Testplaninfo" targetNamespace="http://service.spkj.trueway.com.cn/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://service.spkj.trueway.com.cn/" elementFormDefault="unqualified" targetNamespace="http://service.spkj.trueway.com.cn/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="TestPlanInfoDataPublication" type="tns:TestPlanInfoDataPublication" />
+      <xs:element name="TestPlanInfoDataPublicationResponse" type="tns:TestPlanInfoDataPublicationResponse" />
+      <xs:element name="getDataTrend" type="tns:getDataTrend" />
+      <xs:element name="getDataTrendResponse" type="tns:getDataTrendResponse" />
+      <xs:element name="getExceptionResult" type="tns:getExceptionResult" />
+      <xs:element name="getExceptionResultResponse" type="tns:getExceptionResultResponse" />
+      <xs:element name="getOpenStateJssb" type="tns:getOpenStateJssb" />
+      <xs:element name="getOpenStateJssbResponse" type="tns:getOpenStateJssbResponse" />
+      <xs:element name="getStallInfo" type="tns:getStallInfo" />
+      <xs:element name="getStallInfoResponse" type="tns:getStallInfoResponse" />
+      <xs:element name="getTestPlanInfoByJcry" type="tns:getTestPlanInfoByJcry" />
+      <xs:element name="getTestPlanInfoByJcryResponse" type="tns:getTestPlanInfoByJcryResponse" />
+      <xs:element name="getTestPlanInfoByJcsb" type="tns:getTestPlanInfoByJcsb" />
+      <xs:element name="getTestPlanInfoByJcsbResponse" type="tns:getTestPlanInfoByJcsbResponse" />
+      <xs:element name="submitTestResult" type="tns:submitTestResult" />
+      <xs:element name="submitTestResultNew" type="tns:submitTestResultNew" />
+      <xs:element name="submitTestResultNewResponse" type="tns:submitTestResultNewResponse" />
+      <xs:element name="submitTestResultResponse" type="tns:submitTestResultResponse" />
+      <xs:complexType name="getOpenStateJssb">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="jccsXml" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getOpenStateJssbResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDataTrend">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="parametersXml" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDataTrendResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TestPlanInfoDataPublication">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="parametersXml" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TestPlanInfoDataPublicationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="submitTestResultNew">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="resultXml" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="submitTestResultNewResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getExceptionResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="parametersXml" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getExceptionResultResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="submitTestResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="resultXml" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="submitTestResultResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getStallInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="parametersXml" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getStallInfoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTestPlanInfoByJcsb">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="jcsbXml" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTestPlanInfoByJcsbResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTestPlanInfoByJcry">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="jcryXml" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTestPlanInfoByJcryResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getDataTrend">
+    <wsdl:part name="parameters" element="ns1:getDataTrend" />
+  </wsdl:message>
+  <wsdl:message name="getStallInfo">
+    <wsdl:part name="parameters" element="ns1:getStallInfo" />
+  </wsdl:message>
+  <wsdl:message name="submitTestResult">
+    <wsdl:part name="parameters" element="ns1:submitTestResult" />
+  </wsdl:message>
+  <wsdl:message name="submitTestResultNewResponse">
+    <wsdl:part name="parameters" element="ns1:submitTestResultNewResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTestPlanInfoByJcsbResponse">
+    <wsdl:part name="parameters" element="ns1:getTestPlanInfoByJcsbResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestPlanInfoDataPublicationResponse">
+    <wsdl:part name="parameters" element="ns1:TestPlanInfoDataPublicationResponse" />
+  </wsdl:message>
+  <wsdl:message name="getExceptionResult">
+    <wsdl:part name="parameters" element="ns1:getExceptionResult" />
+  </wsdl:message>
+  <wsdl:message name="getOpenStateJssb">
+    <wsdl:part name="parameters" element="ns1:getOpenStateJssb" />
+  </wsdl:message>
+  <wsdl:message name="TestPlanInfoDataPublication">
+    <wsdl:part name="parameters" element="ns1:TestPlanInfoDataPublication" />
+  </wsdl:message>
+  <wsdl:message name="submitTestResultNew">
+    <wsdl:part name="parameters" element="ns1:submitTestResultNew" />
+  </wsdl:message>
+  <wsdl:message name="getExceptionResultResponse">
+    <wsdl:part name="parameters" element="ns1:getExceptionResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="submitTestResultResponse">
+    <wsdl:part name="parameters" element="ns1:submitTestResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTestPlanInfoByJcry">
+    <wsdl:part name="parameters" element="ns1:getTestPlanInfoByJcry" />
+  </wsdl:message>
+  <wsdl:message name="getDataTrendResponse">
+    <wsdl:part name="parameters" element="ns1:getDataTrendResponse" />
+  </wsdl:message>
+  <wsdl:message name="getStallInfoResponse">
+    <wsdl:part name="parameters" element="ns1:getStallInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTestPlanInfoByJcsb">
+    <wsdl:part name="parameters" element="ns1:getTestPlanInfoByJcsb" />
+  </wsdl:message>
+  <wsdl:message name="getTestPlanInfoByJcryResponse">
+    <wsdl:part name="parameters" element="ns1:getTestPlanInfoByJcryResponse" />
+  </wsdl:message>
+  <wsdl:message name="getOpenStateJssbResponse">
+    <wsdl:part name="parameters" element="ns1:getOpenStateJssbResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Testplaninfo">
+    <wsdl:operation name="getOpenStateJssb">
+      <wsdl:input name="getOpenStateJssb" message="ns1:getOpenStateJssb" />
+      <wsdl:output name="getOpenStateJssbResponse" message="ns1:getOpenStateJssbResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getDataTrend">
+      <wsdl:input name="getDataTrend" message="ns1:getDataTrend" />
+      <wsdl:output name="getDataTrendResponse" message="ns1:getDataTrendResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="TestPlanInfoDataPublication">
+      <wsdl:input name="TestPlanInfoDataPublication" message="ns1:TestPlanInfoDataPublication" />
+      <wsdl:output name="TestPlanInfoDataPublicationResponse" message="ns1:TestPlanInfoDataPublicationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="submitTestResultNew">
+      <wsdl:input name="submitTestResultNew" message="ns1:submitTestResultNew" />
+      <wsdl:output name="submitTestResultNewResponse" message="ns1:submitTestResultNewResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getExceptionResult">
+      <wsdl:input name="getExceptionResult" message="ns1:getExceptionResult" />
+      <wsdl:output name="getExceptionResultResponse" message="ns1:getExceptionResultResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="submitTestResult">
+      <wsdl:input name="submitTestResult" message="ns1:submitTestResult" />
+      <wsdl:output name="submitTestResultResponse" message="ns1:submitTestResultResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getStallInfo">
+      <wsdl:input name="getStallInfo" message="ns1:getStallInfo" />
+      <wsdl:output name="getStallInfoResponse" message="ns1:getStallInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTestPlanInfoByJcsb">
+      <wsdl:input name="getTestPlanInfoByJcsb" message="ns1:getTestPlanInfoByJcsb" />
+      <wsdl:output name="getTestPlanInfoByJcsbResponse" message="ns1:getTestPlanInfoByJcsbResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTestPlanInfoByJcry">
+      <wsdl:input name="getTestPlanInfoByJcry" message="ns1:getTestPlanInfoByJcry" />
+      <wsdl:output name="getTestPlanInfoByJcryResponse" message="ns1:getTestPlanInfoByJcryResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

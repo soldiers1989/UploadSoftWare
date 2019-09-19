@@ -1,0 +1,414 @@
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdEditItemWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdMeasureWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdSelChannelWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdEditItemWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdMeasureWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdSelChannelWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\App.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\DYitj.csproj.GenerateResource.Cache
+C:\Github\vs-project\AIO\DYitj\bin\Release\ClassLibrary.dll
+C:\Github\vs-project\AIO\DYitj\bin\Release\ThreadMessaging.dll
+C:\Github\vs-project\AIO\DYitj\bin\Release\ClassLibrary.pdb
+C:\Github\vs-project\AIO\DYitj\obj\Release\DYitj.csprojResolveAssemblyReference.cache
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Record\RecordWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdReportWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdShowADWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszEditItemWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszMeasureWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszReportWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszSelChannelWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Dialog\InputDialog.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjEditItemWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjMeasureWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjReportWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjSelChannelWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Main\MainWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Main\SettingsWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Account\UserAccountWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\App.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Record\RecordWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdReportWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Fenguangdu\FgdShowADWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszEditItemWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszMeasureWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszReportWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszSelChannelWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Ganshizhi\GszWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Dialog\InputDialog.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjEditItemWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjMeasureWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjReportWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Jiaotijin\JtjSelChannelWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Main\LoginWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Main\MainWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Main\SettingsWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Account\UserAccountWindow.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\xaml\Main\LoginWindow.baml
+C:\Github\vs-project\AIO\DYitj\obj\Release\AIO.Properties.Resources.resources
+C:\Github\vs-project\AIO\DYitj\bin\Release\DY-3000多功能食品综合分析仪.exe.config
+C:\Github\vs-project\AIO\DYitj\bin\Release\DY-3000多功能食品综合分析仪.exe.manifest
+C:\Github\vs-project\AIO\DYitj\bin\Release\DY-3000多功能食品综合分析仪.application
+C:\Github\vs-project\AIO\DYitj\bin\Release\DY-3000多功能食品综合分析仪.exe
+C:\Github\vs-project\AIO\DYitj\bin\Release\DY-3000多功能食品综合分析仪.pdb
+C:\Github\vs-project\AIO\DYitj\bin\Release\DY-3000多功能食品综合分析仪.exe.CodeAnalysisLog.xml
+C:\Github\vs-project\AIO\DYitj\bin\Release\DY-3000多功能食品综合分析仪.exe.lastcodeanalysissucceeded
+C:\Github\vs-project\AIO\DYitj\obj\Release\DY-3000多功能食品综合分析仪_Content.g.cs
+C:\Github\vs-project\AIO\DYitj\obj\Release\DY-3000多功能食品综合分析仪_MarkupCompile.cache
+C:\Github\vs-project\AIO\DYitj\obj\Release\DY-3000多功能食品综合分析仪_MarkupCompile.lref
+C:\Github\vs-project\AIO\DYitj\obj\Release\DY-3000多功能食品综合分析仪.g.resources
+C:\Github\vs-project\AIO\DYitj\obj\Release\DY-3000多功能食品综合分析仪.exe.manifest
+C:\Github\vs-project\AIO\DYitj\obj\Release\DY-3000多功能食品综合分析仪.application
+C:\Github\vs-project\AIO\DYitj\obj\Release\DY-3000多功能食品综合分析仪.exe
+C:\Github\vs-project\AIO\DYitj\obj\Release\DY-3000多功能食品综合分析仪.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\DY-3000食用农产品检测仪.exe.config
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DYitj.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdEditItemWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdMeasureWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\HeavyMetal\HmEditItemWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\HeavyMetal\HmMeasureWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\HeavyMetal\HmSelChannelWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\HeavyMetal\HmWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Record\RecordWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdReportWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdShowADWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdSelChannelWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszEditItemWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszMeasureWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszReportWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszSelChannelWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Dialog\InputDialog.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjEditItemWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjMeasureWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjReportWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjSelChannelWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Main\MainWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Main\SettingsWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Account\UserAccountWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\App.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdEditItemWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdMeasureWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\HeavyMetal\HmEditItemWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\HeavyMetal\HmMeasureWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\HeavyMetal\HmSelChannelWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\HeavyMetal\HmWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Record\RecordWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdReportWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdShowADWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Fenguangdu\FgdSelChannelWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszEditItemWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszMeasureWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszReportWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszSelChannelWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Ganshizhi\GszWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Dialog\InputDialog.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjEditItemWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjMeasureWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjReportWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjSelChannelWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Jiaotijin\JtjWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Main\LoginWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Main\MainWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Main\SettingsWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Account\UserAccountWindow.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\App.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DY-3000食用农产品检测仪_Content.g.cs
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DY-3000食用农产品检测仪_MarkupCompile.cache
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DY-3000食用农产品检测仪_MarkupCompile.lref
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\DY-3000食用农产品检测仪.exe.manifest
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\DY-3000食用农产品检测仪.application
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\DY-3000食用农产品检测仪.exe
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\DY-3000食用农产品检测仪.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\DY-3000食用农产品检测仪.exe.CodeAnalysisLog.xml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\DY-3000食用农产品检测仪.exe.lastcodeanalysissucceeded
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\ClassLibrary.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\ThreadMessaging.dll
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\bin\Release\ClassLibrary.pdb
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\xaml\Main\LoginWindow.baml
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DY-3000食用农产品检测仪.g.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\AIO.Properties.Resources.resources
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DYitj.csproj.GenerateResource.Cache
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DY-3000食用农产品检测仪.exe.manifest
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DY-3000食用农产品检测仪.application
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DY-3000食用农产品检测仪.exe
+D:\新建文件夹 (3)\研发源代码-NowingCode\DY-3000食用农产品检测仪\DYitj\obj\Release\DY-3000食用农产品检测仪.pdb
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DY-Detector.exe.config
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DY-Detector.exe.manifest
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DY-Detector.application
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DY-Detector.exe
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DY-Detector.pdb
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DY-Detector.exe.CodeAnalysisLog.xml
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DY-Detector.exe.lastcodeanalysissucceeded
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\ClassLibrary.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DataSet.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DynamicDataDisplay.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\Newtonsoft.Json.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\NPOI.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\NPOI.OOXML.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\NPOI.OpenXml4Net.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\NPOI.OpenXmlFormats.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\ThreadMessaging.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\WPFVisifire.Charts.dll
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\ClassLibrary.pdb
+F:\Projects\SVN\New_DY3000\DYitj\bin\Release\DataSet.pdb
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DYitj.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Account\LoginDisplay.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Account\LoginNameEdit.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\AddOrUpdateCompany.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\AddOrUpdateSample.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\DataAnalysis.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\ManagementCompany.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\ManagementSample.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\PromptWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\SearchCompanyWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\SearchSample.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\SearchTaskWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\ShowError.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\ItemResultEdit.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\TaskDetailedWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\TaskDisplay.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\VideoPlayback.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\WarnTaskShow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\WpfTaskFinishShow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdEditItemWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdMeasureWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdTest.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\CurveWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmEditItemWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmMeasureWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmReportWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmSelChannelWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Main\DataManagementWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\PrintModel\OrderDocument.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\PrintModel\GSDocument.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\PrintPreviewWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\ReportWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\UpdateReportGSWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\UpdateReportWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Record\RecordWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdReportWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdShowADWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszEditItemWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszMeasureWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszReportWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszSelChannelWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\InputDialog.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjEditItemWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjMeasureWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjReportWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjSelChannelWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Main\MainWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Main\SettingsWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\App.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Account\LoginDisplay.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Account\LoginNameEdit.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\AddOrUpdateCompany.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\AddOrUpdateSample.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\DataAnalysis.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\ManagementCompany.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\ManagementSample.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\PromptWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\SearchCompanyWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\SearchSample.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\SearchTaskWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\ShowError.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\ItemResultEdit.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\TaskDetailedWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\TaskDisplay.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\VideoPlayback.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\WarnTaskShow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\WpfTaskFinishShow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdEditItemWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdMeasureWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdTest.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\CurveWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmEditItemWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmMeasureWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmReportWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmSelChannelWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\HeavyMetal\HmWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Main\DataManagementWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\PrintPreviewWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\ReportWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\UpdateReportGSWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Print\UpdateReportWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Record\RecordWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdReportWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdShowADWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdSelChannelWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszEditItemWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszMeasureWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszReportWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszSelChannelWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Ganshizhi\GszWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Dialog\InputDialog.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjEditItemWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjMeasureWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjReportWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjSelChannelWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Jiaotijin\JtjWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Main\LoginWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Main\MainWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Main\SettingsWindow.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\App.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DY-Detector_Content.g.cs
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DY-Detector_MarkupCompile.cache
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DY-Detector_MarkupCompile.lref
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Fenguangdu\FgdSelChannelWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\xaml\Main\LoginWindow.baml
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DY-Detector.g.resources
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\AIO.Properties.Resources.resources
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DYitj.csproj.GenerateResource.Cache
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DY-Detector.exe.manifest
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DY-Detector.application
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DY-Detector.exe
+F:\Projects\SVN\New_DY3000\DYitj\obj\Release\DY-Detector.pdb
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DY-Detector.exe.config
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DY-Detector.exe.manifest
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DY-Detector.application
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DY-Detector.exe
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DY-Detector.pdb
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DY-Detector.exe.CodeAnalysisLog.xml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DY-Detector.exe.lastcodeanalysissucceeded
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\ClassLibrary.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DataSet.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DynamicDataDisplay.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\Newtonsoft.Json.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\NPOI.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\NPOI.OOXML.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\NPOI.OpenXml4Net.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\NPOI.OpenXmlFormats.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\ThreadMessaging.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\WPFVisifire.Charts.dll
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\ClassLibrary.pdb
+F:\Projects\SVN\DY-3000(BX1)\DYitj\bin\Release\DataSet.pdb
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DYitj.csprojResolveAssemblyReference.cache
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Account\LoginDisplay.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Account\LoginNameEdit.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\AddOrUpdateCompany.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\AddOrUpdateSample.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\DataAnalysis.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\ManagementCompany.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\ManagementSample.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\PromptWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\SearchCompanyWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\SearchSample.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\SearchTaskWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\ShowError.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\ItemResultEdit.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\TaskDetailedWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\TaskDisplay.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\VideoPlayback.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\WarnTaskShow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\WpfTaskFinishShow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdEditItemWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdMeasureWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdTest.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\CurveWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmEditItemWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmMeasureWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmReportWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmSelChannelWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Main\DataManagementWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\PrintModel\OrderDocument.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\PrintModel\GSDocument.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\PrintPreviewWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\ReportWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\UpdateReportGSWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\UpdateReportWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Record\RecordWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdReportWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdShowADWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszEditItemWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszMeasureWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszReportWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszSelChannelWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\InputDialog.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjEditItemWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjMeasureWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjReportWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjSelChannelWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Main\MainWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Main\SettingsWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\App.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Account\LoginDisplay.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Account\LoginNameEdit.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\AddOrUpdateCompany.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\AddOrUpdateSample.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\DataAnalysis.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\ManagementCompany.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\ManagementSample.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\PromptWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\SearchCompanyWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\SearchSample.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\SearchTaskWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\ShowError.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\ItemResultEdit.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\TaskDetailedWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\TaskDisplay.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\VideoPlayback.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\WarnTaskShow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\WpfTaskFinishShow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdEditItemWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdMeasureWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdTest.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\CurveWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmEditItemWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmMeasureWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmReportWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmSelChannelWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\HeavyMetal\HmWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Main\DataManagementWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\PrintPreviewWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\ReportWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\UpdateReportGSWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Print\UpdateReportWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Record\RecordWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdReportWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdShowADWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdSelChannelWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszEditItemWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszMeasureWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszReportWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszSelChannelWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Ganshizhi\GszWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Dialog\InputDialog.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjEditItemWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjMeasureWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjReportWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjSelChannelWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Jiaotijin\JtjWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Main\LoginWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Main\MainWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Main\SettingsWindow.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\App.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DY-Detector_Content.g.cs
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DY-Detector_MarkupCompile.cache
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DY-Detector_MarkupCompile.lref
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Fenguangdu\FgdSelChannelWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\xaml\Main\LoginWindow.baml
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DY-Detector.g.resources
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\AIO.Properties.Resources.resources
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DYitj.csproj.GenerateResource.Cache
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DY-Detector.exe.manifest
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DY-Detector.application
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DY-Detector.exe
+F:\Projects\SVN\DY-3000(BX1)\DYitj\obj\Release\DY-Detector.pdb

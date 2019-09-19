@@ -1,0 +1,112 @@
+﻿<Window x:Class="AIO.xaml.Main.TrainingModuleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TrainingModuleWindow" 
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="培训模块管理" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,20,20" Content="返  回" FontSize="24" Click="ButtonPrev_Click"/>
+        </Grid>
+
+        <!-- 中 -->
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <StackPanel Width="1024" Height="130" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Vertical" Margin="-11,115,-11,0">
+                <WrapPanel Name="WraPanel" Height="130" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Label Content="" Name="fgdLabel1" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="Fgd" Opacity="1" Width="150">
+                        <Button Background="White" Focusable="False" IsDefault="False" IsEnabled="True" Name="BtnInstrumentOperation" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="BtnInstrumentOperation_Click">
+                            <StackPanel>
+                                <Label Content="仪器操作" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="培训模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Name="fgdLabel2" Width="5" Height="10"/>
+                    <Label Content="" Name="jtjLabel1" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" Name="Jtj"  BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Opacity="1" Width="150">
+                        <Button Background="White" Focusable="False" IsEnabled="True" Name="BtnReagentOperation" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="BtnReagentOperation_Click">
+                            <StackPanel>
+                                <Label Content="试剂操作" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="培训模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Name="jtjLabel2" Width="5" Height="10"/>
+
+                    <Label Content="" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" Name="cy"  BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Opacity="1" Width="150">
+                        <Button Background="White" Focusable="False" IsEnabled="True" Name="BtnSampling" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="BtnSampling_Click">
+                            <StackPanel>
+                                <Label Content="抽样操作" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="培训模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Width="5" Height="10"/>
+
+                    <Label Content="" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" Name="px"  BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Opacity="1" Width="150">
+                        <Button Background="White" Focusable="False" IsEnabled="True" Name="BtnFoodSecurityAct" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="BtnFoodSecurityAct_Click">
+                            <StackPanel>
+                                <Label Content=" 食安法" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="培训模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Width="5" Height="10"/>
+
+                    <Label Content="" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" Name="syaq"  BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Opacity="1" Width="150">
+                        <Button Background="White" Focusable="False" IsEnabled="True" Name="BtnSecurity" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="BtnSecurity_Click">
+                            <StackPanel>
+                                <Label Content="实验安全" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="培训模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Width="5" Height="10"/>
+
+                </WrapPanel>
+            </StackPanel>
+
+            <StackPanel Width="1024" Height="130" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Vertical" Margin="-11,270,-11,0">
+                <WrapPanel  Height="130" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Label Content="" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Opacity="1" Width="150">
+                        <Button Background="White" Focusable="False" IsDefault="False" IsEnabled="True" Name="BtnInstrumentOperation1" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="BtnInstrumentOperation1_Click">
+                            <StackPanel>
+                                <Label Content="基层执法" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="培训模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Width="5" Height="10"/>
+                    <Label Content="" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Opacity="1" Width="150">
+                        <Button Background="White" Focusable="False" IsEnabled="True" Name="BtnReagentOperation1" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="BtnReagentOperation1_Click">
+                            <StackPanel>
+                                <Label Content="政策解读" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="培训模块" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Width="5" Height="10"/>
+                </WrapPanel>
+            </StackPanel>
+        </Grid>
+
+
+    </Grid>
+</Window>

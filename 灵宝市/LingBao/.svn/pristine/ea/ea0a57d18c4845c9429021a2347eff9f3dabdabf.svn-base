@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<style>
+body{ margin:0; font-family:'微软雅黑';}
+#main{ width:840px; height:100%; margin:0 auto; overflow:auto;}
+span{ font-size:18px; float:left; margin-top:26px; margin-left:10px;}
+.title,.form,.form2,.form_01,.form_box,.form_02,.form_box_01,.conclusion,.FM,.NT{float:left;}
+.title{ letter-spacing:2px; font-size:30px; margin-left:290px; margin-top:50px;}
+.number{ float:right; margin-right:38px; margin-top:120px; font-size:16px;}
+.form{ width:758px; height:868px; margin-left:20px; margin-top:16px; border:1px #000000 solid;}
+.form_01{ height:76px; width:798px; border-bottom:1px #000000 solid;}
+.form_box{ width:189px; height:76px; border-right:1px #000000 solid;}
+.form_02{ width:758px; height:54px; border-bottom:1px #000000 solid;}
+.form_box_01{ width:150px; height:54px; border-right:1px #000000 solid;}
+.FM{ font-size:18px; margin-top:15px; margin-left:44px;}
+.form2{width:758px; height:340px; border-bottom:1px #000000 solid;}
+.conclusion{ margin-left:20px; font-size:18px; margin-top:20px;}
+.unit{ float:left; font-size:18px; margin-top:260px; margin-left:442px;}
+.note{ width:758px; height:54px;}
+.NT{ font-size:16px; margin-top:16px;}
+.personnel{ float:left; margin-top:30px; font-size:18px; margin-left:100px;}
+.img{ float:right; margin-top:64px; margin-right:-10px;}
+
+.as{border:1px #000000 solid; border-right:hidden;}
+.bs,.ds{border:1px #000000 solid; border-right:hidden; border-top:hidden;}
+.box{ border-right:1px #000000 solid;}
+.forming{width:758px; height:340px; border:1px #000000 solid; border-top:hidden; float:left;}
+#unique{border:1px #000000 solid;border-top:hidden;}
+</style>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+
+<body>
+	<div id="main">
+    
+    	<div class="title">食品安全快检报告</div><div class="number">编号：/</div><div style="float:left; margin-left:40px; margin-top:20px;"><table width="760" border="0" cellpadding="0" cellspacing="0"><tbody><tr><th width="190" height="76" class="as">样品名称</th><td width="190" height="76" align="center" class="as">长白菜</td><th width="190" height="76" class="as">样品编号</th><td width="190" height="76" align="center" class="as box">/</td></tr><tr><th width="190" height="76" class="bs">采样（抽样）时间</th><td width="190" height="76" align="center" class="bs">2019-03-04 14:35:57</td><th width="190" height="76" class="bs">采样（抽样）地点</th><td width="190" height="76" align="center" class="bs box">产地</td></tr><tr><th width="190" height="76" class="bs">被检单位</th><td width="190" height="76" align="center" class="bs">默认被检单位名称</td><th width="190" height="76" class="bs">被检单位地址</th><td width="190" height="76" align="center" class="bs box">/</td></tr><tr><th width="190" height="76" class="bs">检测时间</th><td width="190" height="76" align="center" class="bs">2019-02-18 15:45:49</td><th width="190" height="76" class="bs">检测依据</th><td width="190" height="76" align="center" class="bs box">GB/T 5009.199-2003</td></tr></tbody></table><table width="760" border="0" cellpadding="0" cellspacing="0"><tbody><tr><th height="54" width="152" class="ds">检测项目</th><th height="54" width="152" class="ds">检测仪器</th><th height="54" width="152" class="ds">检测结果</th><th height="54" width="152" class="ds">标准值</th><th height="54" width="152" class="ds" id="unique">检测结论</th></tr><tr><td height="54" align="center" class="ds">农药残留</td><td height="54" align="center" class="ds">LZ-4000农药残留快速测试仪</td><td height="54" align="center" class="ds">1.89</td><td height="54" align="center" class="ds">50</td><td height="54" align="center" class="ds" id="unique">合格</td></tr></tbody></table><div class="forming"><div class="conclusion">结论：合格</div><div class="img"><img src="CheckedReportOfficialSeal.png"></div><table width="760" border="0" cellpadding="0" cellspacing="0" style=" float:left; margin-top:-54px;font-size:16px;"><tbody><tr><td height="54" width="380"></td><td height="54" width="380" style="padding-left:40px;">检测单位：默认检测单位</td></tr></tbody></table><table width="760" border="0" cellpadding="0" cellspacing="0" style=" float:left; margin-top:-20px;font-size:16px;"><tbody><tr><td height="54" width="380"></td><td height="54" width="380" style="padding-left:40px;">报告时间：2019-03-04 15:11:03</td></tr></tbody></table></div><div class="forming" style="height:54px; margin-top:0; float:left;"><div class="note"><span class="NT">备注：检测结论为不合格时，应该及时上报。</span></div></div></div><div class="personnel">检测人员：admin</div><div class="personnel" style="margin-left:190px;">审核：</div><div class="personnel" style="margin-left:190px;">批准：</div><div style=" float:left; width:800px; height:60px;"></div></div></body></html>

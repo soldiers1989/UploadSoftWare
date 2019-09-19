@@ -1,0 +1,93 @@
+﻿<Window x:Class="AIO.xaml.Main.DataManagementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DataManagementWindow" 
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="0,20" />
+            <Label Content="数据管理" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,20,20" Content="返  回" FontSize="24" Click="ButtonPrev_Click"/>
+        </Grid>
+
+        <!-- 中 -->
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <StackPanel Width="1024" HorizontalAlignment="Center" Orientation="Vertical" Margin="0,123">
+                <WrapPanel Name="WraPanel" Height="270" VerticalAlignment="Center" Margin="272,0">
+                    <Label Content="" Name="fgdLabel1" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="Fgd" Opacity="1" Width="150">
+                        <Button Background="White" Focusable="False" IsDefault="False" IsEnabled="True" Name="ButtonManagementSample" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="ButtonManagementSample_Click">
+                            <StackPanel>
+                                <Label Content="国家检测" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="标准管理" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Name="fgdLabel2" Width="5" Height="10"/>
+                    <Label Content="" Name="jtjLabel1" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" Name="Jtj"  BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Opacity="1" Width="150">
+                        <Button Background="White" Focusable="False" IsEnabled="True" Name="ButtonManagementCompany" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="ButtonManagementCompany_Click">
+                            <StackPanel>
+                                <Label Content="被检单位" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="管理系统" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Name="jtjLabel2" Width="5" Height="10"/>
+                    <Label Content="" Name="ghxLabel1" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="Ghx" Opacity="1" Width="150">
+                        <Button Background="White" IsEnabled="True" Name="ButtonRecord" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="ButtonRecord_Click">
+                            <StackPanel>
+                                <Label Content="检测记录" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="管理系统" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Name="ghxLabel2" Width="5" Height="10"/>
+                    <Label Content="" Name="fgx" Width="480" Height="10"/>
+                    <Label Content="" Height="10" Name="labelflfg1" Width="5" />
+                    <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="borderFalvFagui" Opacity="1" Width="150" Visibility="Collapsed">
+                        <Button Background="White" IsEnabled="True" Name="btnFalvFagui" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="BtnFalvFagui_Click">
+                            <StackPanel>
+                                <Label Content="食品安全" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="法律法规" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Height="10" Name="labelflfg2" Width="5" />
+                    <Label Content="" Height="10" Name="label1" Width="5" />
+                    <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="border1" Opacity="1" Width="150">
+                        <Button Background="White" IsEnabled="True" Name="btnReportSearch" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="BtnReportSearch_Click">
+                            <StackPanel>
+                                <Label Content="报表查看" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="管理系统" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Height="10" Name="label2" Width="5" />
+                    <Label Content="" Name="zjsLabel1" Width="5" Height="10"/>
+                    <Border BorderBrush="#2C85C7" BorderThickness="5" CornerRadius="10" Cursor="Hand" Height="130" Name="Zjs" Opacity="1" Width="150" Visibility="Collapsed">
+                        <Button Background="White" IsEnabled="True" Name="ButtonTask" Style="{StaticResource ButtonStyleDefault}" Visibility="Visible" Click="ButtonTask_Click">
+                            <StackPanel>
+                                <Label Content="任务接收" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                                <Label Content="管理系统" FontFamily="SimSun" FontSize="25" FontWeight="Bold" Foreground="White" />
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                    <Label Content="" Name="zjsLabel2" Width="5" Height="10"/>
+
+                </WrapPanel>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

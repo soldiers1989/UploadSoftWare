@@ -1,0 +1,15 @@
+09:28:59
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 D:\测试\DY-3000(BX1)xinsuanfa2.5.0\ClassLibrary\com.lvrenyang\ComPort.cs:行号 242
+
+09:28:59
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 D:\测试\DY-3000(BX1)xinsuanfa2.5.0\ClassLibrary\com.lvrenyang\ComPort.cs:行号 242
+
+09:28:59
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 com.lvrenyang.ComPort.SerialPort_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 D:\测试\DY-3000(BX1)xinsuanfa2.5.0\ClassLibrary\com.lvrenyang\ComPort.cs:行号 242
+

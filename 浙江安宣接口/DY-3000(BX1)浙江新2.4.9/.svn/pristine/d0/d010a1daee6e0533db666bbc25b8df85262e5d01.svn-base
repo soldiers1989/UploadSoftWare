@@ -1,0 +1,19 @@
+﻿<Window x:Class="AIO.xaml.Dialog.ShowDownItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="选择项目指标" Height="338" Width="431" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DataGrid Name="dataGrid1" AutoGenerateColumns="False" HorizontalAlignment="Left" Width="409" ItemsSource="{Binding}" MouseDoubleClick="dataGrid1_MouseDoubleClick" LoadingRow="dataGrid1_LoadingRow" SelectedCellsChanged="dataGrid1_SelectedCellsChanged"  Margin="0,48,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=ID}" Header="ID" Visibility="Collapsed"/>
+                <DataGridTextColumn Binding="{Binding Path=itemName}" Header="名称" />
+                <DataGridTextColumn Binding="{Binding Path=itemCode}" Header="编号" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="项目指标名称：" Height="28" HorizontalAlignment="Left" Margin="8,14,0,0" Name="label1" VerticalAlignment="Top" Width="90" />
+        <TextBox Name="TxtItemName" Width="110" Height="28" VerticalAlignment="Top"  VerticalContentAlignment="Center" FontSize="16" Margin="0,10,90,0"></TextBox>
+        <Button Name="ButtonSelect" Content="查询" HorizontalAlignment="Left" Height="32" Margin="245,10,0,0" VerticalAlignment="Top" Width="60" Click="ButtonSelect_Click"></Button>
+        <Button Name="ButtonOK" Content="选择" HorizontalAlignment="Left" Height="32" Margin="335,10,0,0" VerticalAlignment="Top" Width="60" Click="ButtonOK_Click" ></Button>
+
+    </Grid>
+</Window>
