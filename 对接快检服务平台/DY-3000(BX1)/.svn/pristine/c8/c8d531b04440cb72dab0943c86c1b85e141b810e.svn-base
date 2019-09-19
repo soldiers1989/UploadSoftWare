@@ -1,0 +1,56 @@
+14:50:42
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:50:45
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:50:47
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:50:49
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:50:56
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:50:58
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:51:00
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:51:01
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:51:02
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:52:07
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:52:11
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:52:13
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:52:15
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+
+14:52:23
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdWindow.ShowBorder(Object sender, MouseButtonEventArgs e, String type) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 523
+

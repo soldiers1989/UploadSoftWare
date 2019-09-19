@@ -1,0 +1,246 @@
+09:09:26
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:09:29
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:09:32
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:09:34
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:09:37
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:09:42
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:09:46
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:09:49
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:47:25
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:52:10
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+09:59:56
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+16:02:45
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+16:02:46
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+16:02:48
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+16:02:49
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+16:02:57
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 System.Windows.Threading.Dispatcher.Invoke(Delegate method, Object[] args)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 959
+
+16:16:02
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 870
+
+16:17:01
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 870
+
+16:35:44
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 870
+
+16:35:46
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 870
+
+16:35:54
+System.Threading.ThreadInterruptedException: 线程已从等待状态中断。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(TimeSpan timeout, Boolean exitContext)
+   在 System.Windows.Threading.DispatcherOperation.DispatcherOperationEvent.WaitOne()
+   在 System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 AIO.JtjMeasureWindow.UpdateCAMThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjMeasureWindow.xaml.cs:行号 870
+

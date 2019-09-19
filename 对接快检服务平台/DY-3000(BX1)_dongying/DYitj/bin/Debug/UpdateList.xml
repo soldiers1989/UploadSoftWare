@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+    <description>DY-3000(BX1) autoUpdate</description>
+    <Updater>
+        <Url>http://rj.chinafst.cn:8099/DY-3000(BX1)/</Url>
+        <LastUpdateTime>2017-08-21</LastUpdateTime>
+    </Updater>
+    <Application applicationId="DY-Detector">
+        <EntryPoint>DY-Detector.exe</EntryPoint>
+        <Location>.</Location>
+        <Version>1.0.0.4</Version>
+    </Application>
+    <Files>
+        <File Ver="1.0.0.0" Name="AxInterop.APlayer3Lib.dll" />
+        <File Ver="1.0.0.0" Name="Interop.APlayer3Lib.dll" />
+        <File Ver="1.0.0.4" Name="ClassLibrary.dll" />
+        <File Ver="1.0.0.4" Name="DataSet.dll" />
+        <File Ver="1.0.0.3" Name="Direct2D.dll" />
+        <File Ver="1.0.0.4" Name="DY-Detector.exe" />
+        <File Ver="1.0.0.3" Name="DY-Detector.exe.config" />
+        <File Ver="1.0.0.3" Name="DY.Process.dll" />
+        <File Ver="1.0.0.3" Name="DynamicDataDisplay.dll" />
+        <File Ver="1.0.0.3" Name="Microsoft.WindowsAPICodePack.DirectX.dll" />
+        <File Ver="1.0.0.3" Name="Newtonsoft.Json.dll" />
+        <File Ver="1.0.0.3" Name="NPOI.dll" />
+        <File Ver="1.0.0.3" Name="NPOI.OOXML.dll" />
+        <File Ver="1.0.0.3" Name="NPOI.OpenXml4Net.dll" />
+        <File Ver="1.0.0.3" Name="NPOI.OpenXmlFormats.dll" />
+        <File Ver="1.0.0.3" Name="Righthand.RealtimeGraph.dll" />
+        <File Ver="1.0.0.3" Name="System.Windows.Controls.DataVisualization.Toolkit.dll" />
+        <File Ver="1.0.0.4" Name="ThreadMessaging.dll" />
+        <File Ver="1.0.0.5" Name="UpdateList.xml" />
+        <File Ver="1.0.0.3" Name="WpfPerformance.exe" />
+        <File Ver="1.0.0.3" Name="WPFToolkit.dll" />
+        <File Ver="1.0.0.3" Name="WPFVisifire.Charts.dll" />
+        <File Ver="1.0.0.0" Name="Accounts\CheckItemStandard.dat" />
+        <File Ver="1.0.0.0" Name="Accounts\FoodClass.dat" />
+        <File Ver="1.0.0.0" Name="Accounts\userAccounts.dat" />
+        <File Ver="1.0.0.4" Name="Data\local.Mdb" />
+        <File Ver="1.0.0.4" Name="Items\fgdItems.dat" />
+        <File Ver="1.0.0.4" Name="Items\fgdItems.xml" />
+        <File Ver="1.0.0.3" Name="Items\gszItems.dat" />
+        <File Ver="1.0.0.3" Name="Items\hmItems.dat" />
+        <File Ver="1.0.0.4" Name="Items\Items(备份).zip" />
+        <File Ver="1.0.0.3" Name="Items\jtjItems.dat" />
+        <File Ver="1.0.0.3" Name="Others\CheckedReportModel.html" />
+        <File Ver="1.0.0.3" Name="Others\CheckedReportOfficialSeal.gif" />
+        <File Ver="1.0.0.3" Name="Others\CheckedReportOfficialSeal.png" />
+        <File Ver="1.0.0.3" Name="Others\CheckedReportTitle.txt" />
+        <File Ver="1.0.0.3" Name="Others\deviceHole.dat" />
+    </Files>
+    <UpdateNotes>
+        <UpdateNote Note="DY-3000(BX1)食品综合分析仪_Ver2.4.3" />
+        <UpdateNote Note="   " />
+        <UpdateNote Note="【特别注意】" />
+        <UpdateNote Note="     升级会替换数据库,有需要必须先导出备份的检测记录！！" />
+        <UpdateNote Note="   " />
+        <UpdateNote Note="版本更新说明：" />
+        <UpdateNote Note="   " />
+        <UpdateNote Note="   1.纠正“农药残留（农标）”样品检测标准；" />
+        <UpdateNote Note="   2.修复检测记录打印bug；" />
+        <UpdateNote Note="   3.修复干化学模块检测报错；" />
+        <UpdateNote Note="   4.修复检测返回会清空输入样品名称的问题。" />
+        <UpdateNote Note="  " />
+        <UpdateNote Note="新版本更新预告：" />
+        <UpdateNote Note="- 暂无" />
+        <UpdateNote Note="  " />
+    </UpdateNotes>
+</AutoUpdater>

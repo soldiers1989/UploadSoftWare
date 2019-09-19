@@ -1,0 +1,23 @@
+10:52:39
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.FgdSelChannelWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 d:\DY-Software\对接快检服务平台\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdSelChannelWindow.xaml.cs:行号 89
+
+16:22:34
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.FgdSelChannelWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 C:\Users\Administrator\Desktop\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdSelChannelWindow.xaml.cs:行号 116
+
+16:23:00
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.FgdSelChannelWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 C:\Users\Administrator\Desktop\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdSelChannelWindow.xaml.cs:行号 116
+
+16:48:57
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.FgdSelChannelWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 C:\Users\Administrator\Desktop\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdSelChannelWindow.xaml.cs:行号 116
+
+17:12:08
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AIO.FgdSelChannelWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 C:\Users\Administrator\Desktop\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdSelChannelWindow.xaml.cs:行号 116
+

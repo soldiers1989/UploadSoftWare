@@ -1,0 +1,741 @@
+发送10:39:07
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=780481510071019433066015621721883&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收10:39:08
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送10:39:20
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=780481510071019433066015621721883&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+发送10:40:07
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=700152639880543974152198853398687&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收10:40:07
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送10:40:18
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=700152639880543974152198853398687&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收10:40:18
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送10:40:38
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=700152639880543974152198853398687&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收10:40:38
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送10:40:48
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=700152639880543974152198853398687&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2018-01-24 10:40:38&param1=&param2=&param3=
+
+接收10:40:48
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送10:40:58
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=700152639880543974152198853398687&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2018-01-24 10:40:38&param1=&param2=&param3=
+
+接收10:40:58
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送10:41:08
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=700152639880543974152198853398687&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2018-01-24 10:40:58&param1=&param2=&param3=
+
+接收10:41:08
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送10:57:20
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=087357692177672550773528174477906&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收10:57:20
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送10:57:30
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=087357692177672550773528174477906&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收10:57:30
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送10:58:22
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=120236477242566312614382894656689&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收10:58:23
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送13:12:40
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=757950543207381998107142469766711&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收13:12:40
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送13:20:07
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=085481278753529955627905989844982&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收13:20:07
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送13:21:16
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=085481278753529955627905989844982&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收13:21:16
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送13:45:16
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=053290169108339961793230590072137&serialNumber=&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收13:45:16
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送13:45:26
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=053290169108339961793230590072137&serialNumber=&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收13:45:26
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送14:06:51
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=936984235050251726474604578402630&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收14:06:51
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送14:08:27
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=798914786325585115261164073922522&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收14:08:27
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:06:49
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:06:49
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:06:59
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:07:00
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:07:10
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:07:10
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:07:20
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:07:20
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:07:30
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:07:30
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:07:40
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:07:40
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:07:50
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:07:50
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:08:00
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:08:00
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:08:10
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:08:10
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:08:20
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:08:20
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:08:30
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:08:30
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:08:40
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:08:40
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:08:50
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:08:50
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:09:00
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:09:00
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:09:10
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:09:10
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:09:20
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:09:20
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:09:30
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:09:30
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:09:40
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:09:40
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:09:50
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:09:50
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:10:00
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:10:00
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:10:10
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:10:10
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:10:20
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:10:20
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:10:30
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:10:30
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:10:40
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:10:40
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:10:50
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:10:50
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:11:00
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:11:19
+请求被中止: 操作超时。
+
+发送15:11:29
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=918349765265965421970041253095959&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:11:30
+未能解析此远程名称: 'fc.chinafst.cn'
+
+发送15:18:44
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=614850223987331800086287968076746&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:18:44
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:18:54
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=614850223987331800086287968076746&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:18:54
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:19:04
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=614850223987331800086287968076746&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:19:04
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:19:14
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=614850223987331800086287968076746&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:19:14
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:19:24
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=614850223987331800086287968076746&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:19:24
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:19:34
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=614850223987331800086287968076746&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:19:34
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:19:44
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=614850223987331800086287968076746&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:19:44
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:19:54
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=614850223987331800086287968076746&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:19:54
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:20:04
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=614850223987331800086287968076746&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:20:04
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:21:26
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=302384404885881598954034433905071&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:21:26
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:24:45
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=328344101390121306349182949369656&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:24:45
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:24:55
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=328344101390121306349182949369656&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:24:55
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:27:23
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=381156568845396187447294228632903&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:27:23
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:27:33
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=381156568845396187447294228632903&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:27:33
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:33:50
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:33:50
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:34:00
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:34:00
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:34:10
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:34:10
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:34:20
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:34:20
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:34:30
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:34:30
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:34:40
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:34:40
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:34:50
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:34:50
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:35:00
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:35:00
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:35:10
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:35:10
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:37:00
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:37:00
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:40:29
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:40:30
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:40:40
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:40:40
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:40:50
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=942296346382450821859490342464403&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:40:50
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:42:01
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=143128713192893745530336629090169&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:42:01
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:43:33
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=143128713192893745530336629090169&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:43:33
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:43:43
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=143128713192893745530336629090169&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:43:43
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:43:53
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=143128713192893745530336629090169&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:43:53
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送15:51:18
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=135178389709540342724619316543535&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收15:51:18
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:01:51
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=581856489057801673300109993184340&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:01:51
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:02:02
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=581856489057801673300109993184340&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:02:02
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:02:21
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=581856489057801673300109993184340&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:02:21
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:02:31
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=581856489057801673300109993184340&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:02:31
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:02:41
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=581856489057801673300109993184340&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:02:41
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:02:51
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=581856489057801673300109993184340&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:02:51
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:03:01
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=581856489057801673300109993184340&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:03:01
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:08:02
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=406813030623797570005180548136922&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:08:02
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:08:12
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=406813030623797570005180548136922&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:08:12
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:08:22
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=406813030623797570005180548136922&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:08:22
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:08:32
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=406813030623797570005180548136922&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:08:32
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:08:42
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=406813030623797570005180548136922&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:08:42
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:11:04
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=316516543387005633004781970206428&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:11:04
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:16:11
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:16:12
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:16:22
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:16:22
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:16:32
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:16:32
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:16:42
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:16:42
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:16:52
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:16:52
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:17:02
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:17:02
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:17:12
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:17:12
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:17:22
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:17:22
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:17:32
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:17:32
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:17:42
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:17:42
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:17:52
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:17:52
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:18:02
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:18:02
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:18:12
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:18:12
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:18:22
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:18:22
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:18:32
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=045350809804080963900660854694078&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:18:32
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:21:43
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=893130645958864679956590641567644&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:21:43
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:41:12
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=403134173147475801190187503332844&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:41:12
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:41:22
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=403134173147475801190187503332844&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:41:22
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:41:32
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=403134173147475801190187503332844&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:41:32
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:42:55
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=403134173147475801190187503332844&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:42:55
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:43:05
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=403134173147475801190187503332844&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:43:05
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:45:02
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=770302801612864721081365597245159&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:45:02
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:45:34
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=770302801612864721081365597245159&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:45:34
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:52:53
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=823752580253720610027552987699778&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:52:53
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:53:03
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=823752580253720610027552987699778&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:53:03
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:53:13
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=823752580253720610027552987699778&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:53:13
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:53:23
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=823752580253720610027552987699778&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:53:23
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送16:53:34
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=823752580253720610027552987699778&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收16:53:34
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送17:02:31
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=610228808582952031689525548295047&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收17:02:31
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送17:26:42
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=176764637837048155091119591820019&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收17:26:42
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送17:26:53
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=176764637837048155091119591820019&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收17:26:53
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送17:29:53
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=606560275647872955774639605591530&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收17:29:53
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送17:31:37
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=493516386982001156707380817039917&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收17:31:37
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+
+发送18:18:02
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=800448147933428572960615587155500&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收18:18:02
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"count":0}}
+

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00CE5A85-7A87-4E34-8B96-E63A29545196}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassModel</RootNamespace>
+    <AssemblyName>ClassModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\New_DY-3500(I)\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="comModel\BinarySerialize.cs" />
+    <Compile Include="comModel\CFGUtils.cs" />
+    <Compile Include="comModel\CmdUnity.cs" />
+    <Compile Include="comModel\ComPort.cs" />
+    <Compile Include="comModel\DataUtils.cs" />
+    <Compile Include="comModel\DateUtils.cs" />
+    <Compile Include="comModel\FileUtils.cs" />
+    <Compile Include="comModel\HttpUtils.cs" />
+    <Compile Include="comModel\IListDataSet.cs" />
+    <Compile Include="comModel\ImgProcess.cs" />
+    <Compile Include="comModel\JSON.cs" />
+    <Compile Include="comModel\RxBuffer.cs" />
+    <Compile Include="comModel\UIUtils.cs" />
+    <Compile Include="comModel\XmlSerialize.cs" />
+    <Compile Include="DataModel\clsATP.cs" />
+    <Compile Include="DataModel\clsCheckComType.cs" />
+    <Compile Include="DataModel\clsCheckItem.cs" />
+    <Compile Include="DataModel\clsCheckLevel.cs" />
+    <Compile Include="DataModel\clsCheckType.cs" />
+    <Compile Include="DataModel\clsCompany.cs" />
+    <Compile Include="DataModel\clsCompanyKind.cs" />
+    <Compile Include="DataModel\clsCompanyProperty.cs" />
+    <Compile Include="DataModel\clsCom_District.cs" />
+    <Compile Include="DataModel\clsCom_ProduceArea.cs" />
+    <Compile Include="DataModel\clsCom_UserUnit.cs" />
+    <Compile Include="DataModel\clsCreditLevel.cs" />
+    <Compile Include="DataModel\clsCurve.cs" />
+    <Compile Include="DataModel\clsDistrict.cs" />
+    <Compile Include="DataModel\clsFoodClass.cs" />
+    <Compile Include="DataModel\clsMachine.cs" />
+    <Compile Include="DataModel\clsProduceArea.cs" />
+    <Compile Include="DataModel\clsProprietors.cs" />
+    <Compile Include="DataModel\clsReport.cs" />
+    <Compile Include="DataModel\clsReportDetail.cs" />
+    <Compile Include="DataModel\clsReportGS.cs" />
+    <Compile Include="DataModel\clsReportGSDetail.cs" />
+    <Compile Include="DataModel\clsResult.cs" />
+    <Compile Include="DataModel\clsSaleRecord.cs" />
+    <Compile Include="DataModel\clsSend_Result.cs" />
+    <Compile Include="DataModel\clsStandard.cs" />
+    <Compile Include="DataModel\clsStandardType.cs" />
+    <Compile Include="DataModel\clsStockRecord.cs" />
+    <Compile Include="DataModel\clsSysOpt.cs" />
+    <Compile Include="DataModel\clsTask.cs" />
+    <Compile Include="DataModel\clsTB_SAMPLING.cs" />
+    <Compile Include="DataModel\clsttStandardDecide.cs" />
+    <Compile Include="DataModel\clsUpdate_Result.cs" />
+    <Compile Include="DataModel\clsUserInfo.cs" />
+    <Compile Include="DataModel\clsUserUnit.cs" />
+    <Compile Include="DataModel\CurrentUser.cs" />
+    <Compile Include="DataModel\HolesSetting.cs" />
+    <Compile Include="DataModel\QuickTestLogic.cs" />
+    <Compile Include="DataModel\ReportClass.cs" />
+    <Compile Include="DataModel\tlsTrTask.cs" />
+    <Compile Include="DataModel\tlsTtResultSecond.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="OtherModel\DeviceProp.cs" />
+    <Compile Include="OtherModel\DYItem.cs" />
+    <Compile Include="OtherModel\InterfaceHelper.cs" />
+    <Compile Include="OtherModel\JsonHelper.cs" />
+    <Compile Include="OtherModel\KJFWItem.cs" />
+    <Compile Include="OtherModel\QuickServerResult.cs" />
+    <Compile Include="OtherModel\SampleNameAdapter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

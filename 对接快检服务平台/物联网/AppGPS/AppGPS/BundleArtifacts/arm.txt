@@ -1,0 +1,2 @@
+MainPackage=D:\DY-Software\数据上传\对接快检服务平台\物联网\AppGPS\AppGPS\bin\ARM\Debug\AppGPS_1.0.1.0_ARM_Debug.appx
+SymbolPackage=D:\DY-Software\数据上传\对接快检服务平台\物联网\AppGPS\AppGPS\AppPackages\AppGPS_1.0.1.0_Debug_Test\AppGPS_1.0.1.0_ARM_Debug.appxsym

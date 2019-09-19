@@ -1,0 +1,1 @@
+D:\DY-Software\数据上传\对接快检服务平台\物联网\AppGPS\AppGPS\AppGPS.csproj;x86

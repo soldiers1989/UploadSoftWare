@@ -1,0 +1,22 @@
+﻿<Window x:Class="New_DY_3500_I_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="768" Width="1024"
+        WindowState="Maximized" WindowStyle="None" 
+        FontFamily="SimHei" Loaded="Window_Loaded"
+        Icon="/New_DY-3500(I);component/Image/app_icon.ico"
+        >
+    <Grid >
+        <Image Source="/Image/main.png" Stretch="Fill" ></Image>
+        <!-- 功能区-->
+        <Grid Height="450" VerticalAlignment="Bottom" >
+            <Image Name="ImageTest" Width="170" Height="290" HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Image/MTest.png" Stretch="Fill" MouseLeftButtonDown="ImageTest_MouseLeftButtonDown" Margin="0,0,350,40"></Image>
+            <Image Name="ImageExit" Width="120" Height="130" HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Image/MExit.png" Stretch="Fill" MouseLeftButtonDown="ImageExit_MouseLeftButtonDown" Margin="410,120,0,0"></Image>
+            <Image Name="ImageManage" Width="120" Height="130" HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Image/MManage.png" Stretch="Fill"  Margin="40,0,0,200" MouseLeftButtonDown="ImageManage_MouseLeftButtonDown"></Image>
+            <Image Name="ImageSearhData" Width="120" Height="130" HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Image/MSearchRecord.png" Stretch="Fill" Margin="400,0,0,200"></Image>
+            <Image Name="ImageSystemSet" Width="120" Height="130" HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Image/MSet.png" Stretch="Fill" Margin="40,120,0,0"></Image>
+            
+        </Grid>
+        
+    </Grid>
+</Window>

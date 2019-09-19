@@ -1,0 +1,5 @@
+10:30:54
+System.Net.WebException: 请求失败，响应为空。
+   在 AIO.WorkThread.DownLoadAllData(String url, String checkNumber, String checkName, String checkType, String checkOrg, String user, String pwd, String downType) 位置 e:\Projects\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 2686
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 900
+

@@ -1,0 +1,87 @@
+﻿<Window x:Class="AIO.xaml.Dialog.AddOrUpdateCompany"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="被检单位维护"  Height="179" Width="436" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        Loaded="Window_Loaded" Icon="/DY-Detector;component/assets/logo_v.png" Closing="Window_Closing">
+    <Grid>
+        <Label Content="系统编码" Height="28" HorizontalAlignment="Left" Margin="2,10,0,0" Name="label1" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="65,10,0,0" Name="textBoxSysCode" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="营业执照号" Height="28" HorizontalAlignment="Left" Margin="191,10,0,0" Name="label2" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="267,10,0,0" Name="textBoxStdCode" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="许可证号" Height="28" HorizontalAlignment="Left" Margin="389,10,0,0" Name="label3" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="477,10,0,0" Name="textBoxCAllow" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="发证机构" Height="28" HorizontalAlignment="Left" Margin="2,45,0,0" Name="label4" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="65,45,0,0" Name="textBoxISSUEAGENCY" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="发证日期" Height="28" HorizontalAlignment="Left" Margin="191,45,0,0" Name="label5" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="267,45,0,0" Name="textBoxISSUEDATE" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="有效起始日期" Height="28" HorizontalAlignment="Right" Margin="0,45,207,0" Name="label6" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="477,45,0,0" Name="textBoxPERIODSTART" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="有些截取日期" Height="28" HorizontalAlignment="Left" Margin="389,79,0,0" Name="label7" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="477,79,0,0" Name="textBoxPERIODEND" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="违规次数" Height="28" HorizontalAlignment="Left" Margin="2,79,0,0" Name="label8" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="65,81,0,0" Name="textBoxVIOLATENUM" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="经度" Height="28" HorizontalAlignment="Left" Margin="191,77,0,0" Name="label9" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="254,79,0,0" Name="textBoxLONGITUDE" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="纬度" Height="28" HorizontalAlignment="Left" Margin="2,113,0,0" Name="label10" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="65,115,0,0" Name="textBoxLATITUDE" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="规模" Height="28" HorizontalAlignment="Left" Margin="191,110,0,0" Name="label11" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="254,112,0,0" Name="textBoxSCOPE" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="违规处理情况" Height="28" HorizontalAlignment="Left" Margin="397,111,0,0" Name="label12" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="477,113,0,0" Name="textBoxPUNISH" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="公司代码" Height="28" HorizontalAlignment="Left" Margin="2,142,0,0" Name="label13" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,144,493,0" Name="textBoxCompanyID" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="其他代码" Height="28" HorizontalAlignment="Left" Margin="191,139,0,0" Name="label14" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="254,141,0,0" Name="textBoxOtherCodeInfo" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="被检单位" Height="31" FontSize="16" HorizontalAlignment="Left" Margin="3,14,0,0" Name="label15" VerticalAlignment="Top" />
+        <TextBox Height="31" FontSize="16" HorizontalAlignment="Left" Margin="82,14,0,0" Name="textBoxFullName" VerticalAlignment="Top" Width="120" TabIndex="1" TextChanged="textBoxFullName_TextChanged" />
+        <Label Content="简称" Height="28" HorizontalAlignment="Left" Margin="2,176,0,0" Name="label16" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="65,178,0,0" Name="textBoxShortName" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="显示的名称" Height="28" HorizontalAlignment="Left" Margin="203,173,0,0" Name="label17" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="266,175,0,0" Name="textBoxDisplayName" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="属性" Height="28" HorizontalAlignment="Left" Margin="397,173,0,0" Name="label18" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="460,175,0,0" Name="textBoxProperty" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="类别代码" Height="28" HorizontalAlignment="Left" Margin="12,207,0,0" Name="label19" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="75,209,0,0" Name="textBoxKindCode" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="注册资金" Height="28" HorizontalAlignment="Left" Margin="203,209,0,0" Name="label20" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="266,211,0,0" Name="textBoxRegCapital" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="单位" Height="28" HorizontalAlignment="Left" Margin="225,12,0,0" Name="label21" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="265,14,0,0" Name="textBoxUnit" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <TextBox Height="31" FontSize="16" HorizontalAlignment="Left" Margin="82,102,0,0" Name="textBoxIncorporator" VerticalAlignment="Top" Width="120" TabIndex="5" TextChanged="textBoxIncorporator_TextChanged" />
+        <Label Content="注册时间" Height="28" HorizontalAlignment="Left" Margin="203,236,0,0" Name="label23" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="266,238,0,0" Name="textBoxRegDate" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="区域编码" Height="28" HorizontalAlignment="Left" Margin="397,236,0,0" Name="label24" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="460,238,0,0" Name="textBoxDistrictCode" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="地址" Height="31" FontSize="16" HorizontalAlignment="Left" Margin="250,15,0,0" Name="label25" VerticalAlignment="Top" />
+        <TextBox Height="31" FontSize="16" HorizontalAlignment="Left" Margin="297,14,0,0" Name="textBoxAddress" VerticalAlignment="Top" Width="120" TabIndex="2" TextChanged="textBoxAddress_TextChanged" />
+        <Label Content="邮编" Height="28" HorizontalAlignment="Left" Margin="203,272,0,0" Name="label26" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="266,274,0,0" Name="textBoxPostCode" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="联系人" FontSize="16" Height="31" HorizontalAlignment="Left" Margin="19,58,0,0" Name="label27" VerticalAlignment="Top" />
+        <TextBox Height="31" FontSize="16" HorizontalAlignment="Left" Margin="82,58,0,0" Name="textBoxLinkMan" VerticalAlignment="Top" Width="120" TabIndex="3" TextChanged="textBoxLinkMan_TextChanged" />
+        <Label Content="联系信息" FontSize="16" Height="31" HorizontalAlignment="Left" Margin="218,58,0,0" Name="label28" VerticalAlignment="Top" />
+        <TextBox Height="31" FontSize="16" HorizontalAlignment="Left" Margin="297,58,0,0" Name="textBoxLinkInfo" VerticalAlignment="Top" Width="120" TabIndex="4" TextChanged="textBoxLinkInfo_TextChanged" />
+        <Label Content="信用水平" Height="28" HorizontalAlignment="Left" Margin="203,298,0,0" Name="label29" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="266,300,0,0" Name="textBoxCreditLevel" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="信用记录" Height="28" HorizontalAlignment="Left" Margin="397,298,0,0" Name="label30" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="460,300,0,0" Name="textBoxCreditRecord" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="产品信息" Height="28" HorizontalAlignment="Left" Margin="12,332,0,0" Name="label31" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="75,334,0,0" Name="textBoxProductInfo" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="其他信息" Height="28" HorizontalAlignment="Left" Margin="203,334,0,0" Name="label32" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="266,336,0,0" Name="textBoxOtherInfo" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="检测等级" Height="28" HorizontalAlignment="Left" Margin="397,329,0,0" Name="label33" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="460,331,0,0" Name="textBoxCheckLevel" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="安全记录" Height="28" HorizontalAlignment="Left" Margin="12,370,0,0" Name="label34" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="75,372,0,0" Name="textBoxFoodSafeRecord" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="是否只读" Height="28" HorizontalAlignment="Left" Margin="203,372,0,0" Name="label35" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="266,374,0,0" Name="textBoxIsReadOnly" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="是否锁定" Height="28" HorizontalAlignment="Left" Margin="397,367,0,0" Name="label36" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="460,369,0,0" Name="textBoxIsLock" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="备注说明" Height="28" HorizontalAlignment="Left" Margin="12,404,0,0" Name="label40" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="75,406,0,0" Name="textBoxRemark" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="公司性质" Height="28" HorizontalAlignment="Left" Margin="203,406,0,0" Name="label41" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="266,408,0,0" Name="textBoxComProperty" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Label Content="监管对象标识" Height="28" HorizontalAlignment="Left" Margin="397,401,0,0" Name="label42" VerticalAlignment="Top" Visibility="Collapsed" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="485,403,0,0" Name="textBoxTSign" VerticalAlignment="Top" Width="120" Visibility="Collapsed" />
+        <Button Content="保存" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="267,102,0,0" Name="btnSave" VerticalAlignment="Top" Width="150" Click="btnSave_Click" TabIndex="6" />
+        <Label Content="法人代表" Height="31" FontSize="16" HorizontalAlignment="Left" Margin="3,101,0,0" x:Name="label15_Copy" VerticalAlignment="Top" />
+    </Grid>
+</Window>

@@ -1,0 +1,58 @@
+﻿<Window x:Class="AIO.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Properties="clr-namespace:AIO.Properties"
+        Title="LoginWindow" 
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        FontFamily="SimHei" xmlns:my="clr-namespace:System;assembly=mscorlib" Loaded="Window_Loaded">
+    <Window.Resources>
+        <my:String x:Key="Content1">用户：</my:String>
+    </Window.Resources>
+    <!-- Topmost="True" WindowState="Maximized" -->
+    <Grid >
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/assets/background_mainwindow.png"/>
+        </Grid.Background>
+
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top"  >
+            <!--logo_kjfw
+            logo_v-->
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <!--<Label Name="labelName" Content="DY-Detector" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>-->
+            <Label Name="labelName" Content="DY-Detector" FontSize="30" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}" Margin="10,85,10,20" HorizontalContentAlignment="Center"/>
+            <Label Content="东营市食品药品监督管理局食品快检监管平台" Name="labelName_Copy" FontSize="36" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}" Margin="10,10,10,84" HorizontalContentAlignment="Center" Visibility="Collapsed" />
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" >
+            <Label Content="Ver 2.4.9.3 KJFW" HorizontalAlignment="Left" Margin="20,34,0,34" VerticalAlignment="Center" FontSize="20" Foreground="{StaticResource ForeGroudColorText}" Width="401" />
+            <Label HorizontalAlignment="Right" Margin="0,0,20,0" VerticalAlignment="Center" FontSize="20" Foreground="{StaticResource ForeGroudColorText}" Content="©广州达元食品安全技术有限公司 版权所有" />
+        </Grid>
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Width="500" Height="400">
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0" Orientation="Horizontal">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="25" Foreground="White" Content="{StaticResource Content1}" Target="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=Button, AncestorLevel=1}, Path=AreAnyTouchesCaptured, StringFormat=ddd}" />
+                <TextBox Name="TextBoxUserName" TextWrapping="Wrap" Width="200" FontSize="25" VerticalContentAlignment="Center" KeyDown="TextBoxUserName_KeyDown" Text="" TextChanged="TextBoxUserName_TextChanged" />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,200,0,0" Orientation="Horizontal">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="25" Foreground="White" Content="密码："/>
+                <PasswordBox Name="TextBoxUserPassword" Width="200" FontSize="25" VerticalContentAlignment="Center" KeyDown="TextBoxUserPassword_KeyDown" Password="" PasswordChanged="TextBoxUserPassword_PasswordChanged" />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,300,0,0" Height="50" Orientation="Horizontal" Width="250">
+                <Button Name="ButtonLogin" Width="100" Margin="0,0,0,0" FontSize="20" Foreground="White" FontWeight="Thin" Content="登  录" Background="{StaticResource BlueGradientBrush}"  Click="ButtonLogin_Click"/>
+                <Button Name="ButtonExit" Width="100" Margin="50,0,0,0" FontSize="20" Foreground="White" FontWeight="Thin" Content="退  出" Background="{StaticResource BlueGradientBrush}" Click="ButtonExit_Click"/>
+            </StackPanel>
+            <StackPanel Name="sp_ValidCode" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="83,244,108,0" Height="50" Orientation="Horizontal" Width="309">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="25" Foreground="White" Content="验证码：" Height="41" Margin="0,9,0,0"/>
+                <Image Name="image_ValidCode" Width="110" MouseDown="image_ValidCode_MouseDown" ToolTip="看不清？点击刷新验证码。"/>
+                <TextBox Name="txt_ValidCode" TextWrapping="Wrap" Width="90" FontSize="25" VerticalContentAlignment="Center" Margin="0,9" KeyDown="TextBoxUserPassword_KeyDown" />
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</Window>

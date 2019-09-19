@@ -1,0 +1,20 @@
+﻿<Window x:Class="AIO.xaml.KjService.ShowReceiveTasks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="查看详情" Height="600" Width="500"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        Icon="/DY-Detector;component/assets/logo_kjfw.png"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Label Name="lb_t_task_title" Content="任务标题" Margin="10,10,10,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="16" FontFamily="Arial Black"/>
+        <Label Name="lb_d_sample" Content="检测样品:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Name="lb_d_item" Content="检测项目:" HorizontalAlignment="Left" Margin="255,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_d_sample_Copy" Content="检测样品:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_d_item_Copy" Content="检测项目:" HorizontalAlignment="Left" Margin="255,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_d_sample_Copy1" Content="检测样品:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_d_item_Copy1" Content="检测项目:" HorizontalAlignment="Left" Margin="255,103,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_d_sample_Copy2" Content="检测样品:" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_d_item_Copy2" Content="检测项目:" HorizontalAlignment="Left" Margin="255,134,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

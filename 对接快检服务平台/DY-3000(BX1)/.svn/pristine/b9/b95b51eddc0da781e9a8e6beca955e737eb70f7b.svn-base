@@ -1,0 +1,18 @@
+发送10:40:38
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=700152639880543974152198853398687&type=recevieSampling&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2000-01-01 00:00:01&param1=&param2=&param3=
+
+接收10:40:38
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"result":[]}}
+
+发送10:40:59
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=700152639880543974152198853398687&type=recevieSampling&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2018-01-24 10:40:15&param1=&param2=&param3=
+
+接收10:40:59
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"result":[]}}
+
+发送10:58:31
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=120236477242566312614382894656689&type=recevieSampling&serialNumber=DY-3500(I)_20180124103845&lastUpdateTime=2018-01-24 10:40:15&param1=&param2=&param3=
+
+接收10:58:31
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"result":[]}}
+

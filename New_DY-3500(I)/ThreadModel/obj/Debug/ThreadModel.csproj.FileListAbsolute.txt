@@ -1,0 +1,5 @@
+D:\数据上传\New_DY-3500(I)\ThreadModel\bin\Debug\ThreadMessaging.dll
+D:\数据上传\New_DY-3500(I)\ThreadModel\bin\Debug\ThreadMessaging.pdb
+D:\数据上传\New_DY-3500(I)\ThreadModel\obj\Debug\ThreadModel.csprojResolveAssemblyReference.cache
+D:\数据上传\New_DY-3500(I)\ThreadModel\obj\Debug\ThreadMessaging.dll
+D:\数据上传\New_DY-3500(I)\ThreadModel\obj\Debug\ThreadMessaging.pdb

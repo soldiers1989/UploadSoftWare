@@ -1,0 +1,30 @@
+发送08:54:44
+http://fc.chinafst.cn:9005/dongying/interfaces/devices/registerDevice.do?userToken=587220744814155330708861395487363&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收08:54:44
+{"attributes":"","obj":"","msg":"该检测点下没有该系列仪器或均已被注册","success":false,"resultCode":"0X00007"}
+
+发送09:01:03
+http://fc.chinafst.cn:9005/dongying/interfaces/devices/registerDevice.do?userToken=612624083558677310065489721747821&series=DY-3500(P)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收09:01:03
+{"attributes":"","obj":{"id":"4028936e634483d6016349219ebb0577","device_code":"DY-3500P-001617","device_name":"胜利所3500P仪器","device_style":"仪器设备","device_type_id":"2","depart_id":"1525939686124wEx","point_id":"4028936e634483d60163491fa7620574","base_user_id":"","use_date":"2018-05-01 00:00:00","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(P)_20180515090032","delete_flag":0,"create_by":"4028936e634483d60163478dde2c0363","create_date":"2018-05-10 16:18:50","update_by":"1","update_date":"2018-05-15 08:59:17","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:18:06
+http://fc.chinafst.cn:9005/dongying/interfaces/devices/registerDevice.do?userToken=177042049257344496824020564799407&series=DY-3500(P)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收09:18:06
+{"attributes":"","obj":"","msg":"该检测点下没有该系列仪器或均已被注册","success":false,"resultCode":"0X00007"}
+
+发送10:16:13
+http://fc.chinafst.cn:9005/dongying/interfaces/devices/registerDevice.do?userToken=883353398166611059709290360081169&series=DY-3500(P)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:16:13
+{"attributes":"","obj":"","msg":"该检测点下没有该系列仪器或均已被注册","success":false,"resultCode":"0X00007"}
+
+发送10:19:38
+http://fc.chinafst.cn:9005/dongying/interfaces/devices/registerDevice.do?userToken=359407637910531431572719707896101&series=DY-3500(P)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:19:38
+{"attributes":"","obj":"","msg":"该检测点下没有该系列仪器或均已被注册","success":false,"resultCode":"0X00007"}
+

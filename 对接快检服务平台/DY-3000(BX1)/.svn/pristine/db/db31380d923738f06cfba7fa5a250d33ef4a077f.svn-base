@@ -1,0 +1,6 @@
+发送15:09:09
+http://fc.chinafst.cn:9002/fc/interfaces/dataChecking/uploadData.do?userToken=609939832002214628315943101790965&result={"id":"201801181636057400001","taskId":"","taskName":"","samplingId":"62d1a8d55902ec07851c583ab9003651","samplingDetailId":"4028936e610853f00161086777eb000a","itemId":"de1bb86576dc4723bac57984c2d1463b","departId":"4","departName":"广州市食药监项目","pointId":"29","pointName":"广州2号检测室","regUserId":"4028936260fca55e0160fcef47bd002f","regUserName":"农家蔬菜","regId":"4028936260fca55e0160fcd7e4f8001b","regName":"珠村农贸市场","statusFalg":"0","remark":"","foodId":"39","foodName":"鱼丸","foodTypeId":"","foodTypeName":"其他肉及肉制品","checkCode":"4028936e610853f00161086777eb000a","itemName":"黄曲霉毒素B1","checkResult":"阴性","limitValue":"10","checkAccord":"GB 2761-2017","checkUnit":"ppb","conclusion":"合格","auditorName":"检测用户2","checkUserid":"7","checkUsername":"检测用户2","checkAccordId":"201801181636057400001","checkDate":"2018-01-25 15:09:07","uploadName":"检测用户2","auditorId":"7","uploadId":"7","uploadDate":"2018-01-25 15:09:09","deviceCompany":"广东达元绿洲食品安全科技股份有限公司","deviceId":"DY-3500(I)_20180125134953","deviceName":"DY-3500(I)食品综合分析仪","deviceModel":"胶体金","dataSource":"1","deviceMethod":"定性消线","param1":""}
+
+发送15:09:09
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":1}
+

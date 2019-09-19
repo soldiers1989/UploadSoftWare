@@ -1,0 +1,7 @@
+19:41:05
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AIO.FgdWindow.Window_Loaded(Object sender, RoutedEventArgs e) 位置 d:\DY-Software\对接快检服务平台\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdWindow.xaml.cs:行号 66
+

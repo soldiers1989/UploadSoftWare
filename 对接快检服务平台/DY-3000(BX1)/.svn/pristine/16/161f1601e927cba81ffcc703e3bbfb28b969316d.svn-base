@@ -1,0 +1,6 @@
+发送17:10:52
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=286979621890197999016744222166072&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收17:10:52
+{"attributes":"","obj":{"id":"4028936e616922a90161698caa030004","device_code":"DY-3500(I)_GZ001","device_name":"DY-3500(I)_GZ001","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"41","base_user_id":"","use_date":"2018-02-06 00:00:00","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180228171045","delete_flag":0,"create_by":"1","create_date":"2018-02-06 13:18:02","update_by":"1","update_date":"2018-02-28 17:10:32","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+

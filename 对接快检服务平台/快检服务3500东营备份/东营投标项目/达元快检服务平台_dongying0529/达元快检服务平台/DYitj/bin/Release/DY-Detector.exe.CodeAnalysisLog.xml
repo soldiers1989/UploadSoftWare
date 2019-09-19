@@ -1,0 +1,842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="F:\Projects\SVN\DY-3500\DYitj\bin\Release\DY-Detector.exe">
+   <Modules>
+    <Module Name="dy-detector.exe">
+     <Namespaces>
+      <Namespace Name="AIO">
+       <Types>
+        <Type Name="App" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'App' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Application', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdEditItemWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdEditItemWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdMeasureWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdMeasureWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdSelChannelWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdSelChannelWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'FgdSelChannelWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'DataTable'。如果以前提供过 'FgdSelChannelWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdShowADWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdShowADWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ShowBorder(System.Object,System.Windows.Input.MouseButtonEventArgs,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Fenguangdu" File="FgdWindow.xaml.cs" Line="451">在方法 'FgdWindow.ShowBorder(object, MouseButtonEventArgs, string)' 中，请在对 'timer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Global" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DeSerializeFromFile(System.Collections.Generic.List`1&lt;AIO.CheckPointInfo&gt;&amp;,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="Global.cs" Line="491">在方法 'Global.DeSerializeFromFile(out List&lt;CheckPointInfo&gt;, string)' 中，请在对 'DsTempViews' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GszEditItemWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszEditItemWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GszMeasureWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszMeasureWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GszReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GszSelChannelWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszSelChannelWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GszWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'GszWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'DataTable'。如果以前提供过 'GszWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ShowBorder(System.Object,System.Windows.Input.MouseButtonEventArgs,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Ganshizhi" File="GszWindow.xaml.cs" Line="308">在方法 'GszWindow.ShowBorder(object, MouseButtonEventArgs, string)' 中，'timer' 对象未按所有异常路径释放。请在对 'timer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="HmEditItemWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'HmEditItemWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="HmMeasureWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'HmMeasureWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="HmSelChannelWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'HmSelChannelWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="HmWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'HmWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'HmWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'DataTable'。如果以前提供过 'HmWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ShowBorder(System.Object,System.Windows.Input.MouseButtonEventArgs,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\HeavyMetal" File="HmWindow.xaml.cs" Line="308">在方法 'HmWindow.ShowBorder(object, MouseButtonEventArgs, string)' 中，'timer' 对象未按所有异常路径释放。请在对 'timer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="InputDialog" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'InputDialog' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ItemResultEdit" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ItemResultEdit' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjEditItemWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjEditItemWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjMeasureWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjMeasureWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjSelChannelWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjSelChannelWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'JtjWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'DataTable'。如果以前提供过 'JtjWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ShowBorder(System.Object,System.Windows.Input.MouseButtonEventArgs,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Jiaotijin" File="JtjWindow.xaml.cs" Line="308">在方法 'JtjWindow.ShowBorder(object, MouseButtonEventArgs, string)' 中，'timer' 对象未按所有异常路径释放。请在对 'timer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LoginDisplay" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'LoginDisplay' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="LoginNameEdit" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'LoginNameEdit' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="LoginWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'LoginWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="MainWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'MainWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#GetAddressFromIP(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="MainWindow.xaml.cs" Line="363">可以在方法 'MainWindow.GetAddressFromIP(string)' 中多次释放对象 'responseStream'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 363, 364</Issue>
+             <Issue Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="MainWindow.xaml.cs" Line="363">可以在方法 'MainWindow.GetAddressFromIP(string)' 中多次释放对象 'sr'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 363</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetResponseAsString(System.Net.HttpWebResponse,System.Text.Encoding)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="MainWindow.xaml.cs" Line="561">可以在方法 'MainWindow.GetResponseAsString(HttpWebResponse, Encoding)' 中多次释放对象 'stream'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 561</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RecordWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'RecordWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ExportToTxt()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="952">在方法 'RecordWindow.ExportToTxt()' 中，请在对 'sf' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Import()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="1167">在方法 'RecordWindow.Import()' 中，请在对 'sv' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadExcel(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="1103">在方法 'RecordWindow.ReadExcel(string)' 中，'cmd' 对象未按所有异常路径释放。请在对 'cmd' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="1102">在方法 'RecordWindow.ReadExcel(string)' 中，'conn' 对象未按所有异常路径释放。请在对 'conn' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="1109">在方法 'RecordWindow.ReadExcel(string)' 中，'da' 对象未按所有异常路径释放。请在对 'da' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="1110">在方法 'RecordWindow.ReadExcel(string)' 中，请在对 'ds' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="1108">传递给 'RecordWindow.ReadExcel(string)' 中的 'OdbcCommand.CommandText.set(string)' 的查询字符串可能包含以下变量 'this.GetExcelSheetName(pPath)', ''#''。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SaveAnother()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="276">在方法 'RecordWindow.SaveAnother()' 中，请在对 'sf' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ShowResult(System.String,System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="132">在方法 'RecordWindow.ShowResult(string, string, int)' 中，请在对 'dataTable' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SettingsWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SettingsWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#DownCheckItems(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="922">在方法 'SettingsWindow.DownCheckItems(string)' 中，请在对 'dataSet' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="923">在方法 'SettingsWindow.DownCheckItems(string)' 中，请在对 'dtbl' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownloadCompany(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="787">在方法 'SettingsWindow.DownloadCompany(string)' 中，请在对 'dataSet' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="788">在方法 'SettingsWindow.DownloadCompany(string)' 中，请在对 'dtbl' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownloadStandDecide(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="689">在方法 'SettingsWindow.DownloadStandDecide(string)' 中，请在对 'dataSet' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="690">在方法 'SettingsWindow.DownloadStandDecide(string)' 中，请在对 'dtbl' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownStandard(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="873">在方法 'SettingsWindow.DownStandard(string)' 中，请在对 'dataSet' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="874">在方法 'SettingsWindow.DownStandard(string)' 中，请在对 'dtbl' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FindWindow(System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'SettingsWindow.FindWindow(string, string)'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="75" Level="Error">为了降低安全风险，请将参数 'lpClassName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode 或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或与系统相关的编码，请设置 BestFitMapping=false；为了提高安全性，还可以设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+            <Message Id="1" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="75" Level="Error">为了降低安全风险，请将参数 'lpWindowName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode 或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或与系统相关的编码，请设置 BestFitMapping=false；为了提高安全性，还可以设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PostMessage(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'SettingsWindow.PostMessage(IntPtr, int, IntPtr, IntPtr)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'SettingsWindow.PostMessage(IntPtr, int, IntPtr, IntPtr)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#StartKiller()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="507">在方法 'SettingsWindow.StartKiller()' 中，请在对 'timer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UpdateStatus(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="1004">在方法 'SettingsWindow.UpdateStatus(string)' 中，请在对 'dataSet' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ShowError" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ShowError' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TaskDisplay" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TaskDisplay' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#DownloadTask(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Dialog" File="TaskDisplay.xaml.cs" Line="124">在方法 'TaskDisplay.DownloadTask(string)' 中，请在对 'dataSet' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Dialog" File="TaskDisplay.xaml.cs" Line="125">在方法 'TaskDisplay.DownloadTask(string)' 中，请在对 'dtbl' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TestResultConserve" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TestResultConserve' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#DownloadTask(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="TestResultConserve.cs" Line="416">在方法 'TestResultConserve.DownloadTask(string)' 中，请在对 'dataSet' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="TestResultConserve.cs" Line="417">在方法 'TestResultConserve.DownloadTask(string)' 中，请在对 'dtbl' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UnqualifiedOrQualified(System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="TestResultConserve.cs" Line="279">在方法 'TestResultConserve.UnqualifiedOrQualified(string, string, string)' 中，请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserAccountWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'UserAccountWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'UserAccountWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'DataTable'。如果以前提供过 'UserAccountWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Window_Loaded(System.Object,System.Windows.RoutedEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Account" File="UserAccountWindow.xaml.cs" Line="126">在方法 'UserAccountWindow.Window_Loaded(object, RoutedEventArgs)' 中，'dt' 对象未按所有异常路径释放。请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WarnTaskShow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'WarnTaskShow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'WarnTaskShow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'DataTable'。如果以前提供过 'WarnTaskShow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="WorkThread" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CheckConnection(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="777">在方法 'WorkThread.CheckConnection(string, string, string)' 中，请在对 'ws' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#checkUserConnection(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="753">在方法 'WorkThread.checkUserConnection(string, string, string)' 中，请在对 'localhost' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownCheckItem(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="934">在方法 'WorkThread.DownCheckItem(string, string, string, string, string, string, string)' 中，请在对 'ws' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownCopany(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="1007">在方法 'WorkThread.DownCopany(string, string, string, string, string, string, string)' 中，请在对 'ws' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownItems(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="973">在方法 'WorkThread.DownItems(string, string, string, string, string, string, string)' 中，请在对 'ws' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownLoadAllData(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="866">在方法 'WorkThread.DownLoadAllData(string, string, string, string, string, string, string)' 中，请在对 'dataSet' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="805">在方法 'WorkThread.DownLoadAllData(string, string, string, string, string, string, string)' 中，请在对 'ws' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownLoadTask(AIO.CheckPointInfo)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="1038">在方法 'WorkThread.DownLoadTask(CheckPointInfo)' 中，请在对 'ws' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownStandard(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="895">在方法 'WorkThread.DownStandard(string, string, string, string, string, string, string)' 中，请在对 'ws' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UpdateResult(AIO.CheckPointInfo,System.Data.DataTable)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="719">在方法 'WorkThread.UpdateResult(CheckPointInfo, DataTable)' 中，请在对 'dst' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\src" File="WorkThread.cs" Line="711">在方法 'WorkThread.UpdateResult(CheckPointInfo, DataTable)' 中，请在对 'ws' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WpfTaskFinishShow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'WpfTaskFinishShow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Window_Loaded(System.Object,System.Windows.RoutedEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Dialog" File="WpfTaskFinishShow.xaml.cs" Line="28">在方法 'WpfTaskFinishShow.Window_Loaded(object, RoutedEventArgs)' 中，请在对 'nev' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.Dialog">
+       <Types>
+        <Type Name="AddOrUpdateCompany" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'AddOrUpdateCompany' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="AddOrUpdateSample" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'AddOrUpdateSample' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataAnalysis" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'DataAnalysis' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ManagementCompany" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ManagementCompany' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ManagementSample" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ManagementSample' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchCompanyWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchCompanyWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchSample" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchSample' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchTaskWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchTaskWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TaskDetailedWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TaskDetailedWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VideoPlayback" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'VideoPlayback' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.Fenguangdu">
+       <Types>
+        <Type Name="FgdTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdTest' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.HeavyMetal">
+       <Types>
+        <Type Name="CurveWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CurveWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'CurveWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'PerformanceCounter'。如果以前提供过 'CurveWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.Main">
+       <Types>
+        <Type Name="DataManagementWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'DataManagementWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#DownloadTask(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="DataManagementWindow.xaml.cs" Line="111">在方法 'DataManagementWindow.DownloadTask(string)' 中，请在对 'dataSet' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Main" File="DataManagementWindow.xaml.cs" Line="112">在方法 'DataManagementWindow.DownloadTask(string)' 中，请在对 'dtbl' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.Print">
+       <Types>
+        <Type Name="PrintPreviewWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'PrintPreviewWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#LoadXps()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Print" File="PrintPreviewWindow.xaml.cs" Line="54">在方法 'PrintPreviewWindow.LoadXps()' 中，请在对 'ms' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\Projects\SVN\DY-3500\DYitj\xaml\Print" File="PrintPreviewWindow.xaml.cs" Line="62">在方法 'PrintPreviewWindow.LoadXps()' 中，请在对 'xpsDocument' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UpdateReportGSWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'UpdateReportGSWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UpdateReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-04-22 02:46:52Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'UpdateReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405">
+   <Name>COM 可见类型的基类型应对 COM 可见</Name>
+   <Description>COM 可见类型应具有 COM 一致可见的对象层次结构。</Description>
+   <Resolution Name="Default">{0} 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182202(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+   <Name>将 P/Invoke 移动到 NativeMethods 类</Name>
+   <Description>此类型包含具有 DllImport 特性的成员。具有 DllImport 特性的成员应包含在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中。</Description>
+   <Resolution Name="Default">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 {0}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182161(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401">
+   <Name>P/Invokes 应该是不可见的</Name>
+   <Description>互操作层不应该是公共的。DllImport 特性不应该应用于可公开访问的成员(公共成员或受保护的成员)。</Description>
+   <Resolution Name="Default">更改 P/Invoke {0} 的可访问性，使它在自己的程序集外部不再是可见的。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182209(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalError</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101">
+   <Name>指定对 P/Invoke 字符串参数进行封送处理</Name>
+   <Description>在将字符串封送为 ANSI (在 Win9x 上为 Auto)时，某些字符可能会改变。如果启用了最佳匹配映射，则采用 Unicode 编码时显示样式不同的字符串将封送到相同的 ANSI 字符串，这可能会导致错误的安全决策。禁用最佳匹配映射会降低此风险，因为所有没有等效项的字符都将映射到“?”。另外，请注意，CharSet.Ansi 是所有字符串的默认封送设置；Unicode 封送必须显式指定为 DllImport 或 StructLayout 的 CharSet 设置，或者指定为具有 Unicode (或与系统相关的) UnmanagedType 的 MarshalAs 特性。</Description>
+   <Resolution Name="Parameter">为了降低安全风险，请将参数 {0} 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode 或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或与系统相关的编码，请设置 BestFitMapping=false；为了提高安全性，还可以设置 ThrowOnUnmappableChar=true。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182319(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>具有可释放字段的类型应该是可释放的</Name>
+   <Description>声明可释放成员的类型也应实现 IDisposable。如果该类型没有任何非托管资源，请不要在其上实现终结器。</Description>
+   <Resolution Name="DependsOnFix">在 {0} 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: {1}。如果以前提供过 {0}，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>不要多次释放对象</Name>
+   <Description>可以多次调用正确实现的 Dispose 方法，而不会引发异常。但是，并不保证所有情况下都会如此。若要避免生成 System.ObjectDisposedException，您不应对一个对象多次调用 Dispose。</Description>
+   <Resolution Name="Default">可以在方法 {1} 中多次释放对象 {0}。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 561</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>丢失范围之前释放对象</Name>
+   <Description>如果在对某个可释放对象的所有引用超出范围之前未显式释放该对象，则当垃圾回收器运行该对象的终结器时，会在某个不确定时间释放该对象。由于可能会发生阻止该对象的终结器运行的意外事件，因此应改为显式释放该对象。</Description>
+   <Resolution Name="ExceptionEdge">在方法 {0} 中，{1} 对象未按所有异常路径释放。请在对 {1} 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Resolution>
+   <Resolution Name="NonExceptionEdge">在方法 {0} 中，请在对 {1} 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>检查 SQL 查询是否存在安全漏洞</Name>
+   <Description>通过用户输入生成的 SQL 命令字符串容易受到 SQL 注入式攻击。Microsoft SQL Server 和其他数据库服务器支持存储过程和参数化 SQL 查询，这将降低受到注入式攻击的风险。</Description>
+   <Resolution Name="WithNonLiterals">传递给 {1} 中的 {0} 的查询字符串可能包含以下变量 {2}。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,73 @@
+﻿<Window x:Class="AIO.xaml.Dialog.ShowTestItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ShowTestItem" Height="768" Width="1024"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Loaded="Window_Loaded"
+        >
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <!--<Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />-->
+            <Label Content="检测项目" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+        </Grid>
+
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}">
+            <Button Name="btnDownItem" Width="150" Height="60" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,20,0,20"  Content="更新检测项目" FontSize="24" Click="btnDownItem_Click" />
+            <Button Name="btnUpdate" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="126,20,0,20"  Content="修  改" FontSize="24" Visibility="Collapsed" />
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,20,20"  Content="返  回" FontSize="24" Click="ButtonPrev_Click"  />
+            <Button Name="ButtonRecord" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="338,20,0,20"  Content="查询记录" FontSize="24" Visibility="Collapsed" />
+            <Button Content="重置数据" FontSize="24" Height="60" HorizontalAlignment="Left"  Margin="220,20,670,20" Name="btnDelete" VerticalAlignment="Center" Width="100" Click="btnDelete_Click" />
+            <Button Content="清理重复样品" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="336,20,0,20" Name="btnCleanRepeatSample" VerticalAlignment="Center" Width="155" Visibility="Collapsed"/>
+            <Button Content="清空样品" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="497,20,0,20" Name="btnDeleted" VerticalAlignment="Center" Width="100" Visibility="Collapsed" />
+        </Grid>
+        <!-- 中 -->
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <StackPanel Width="1024" Height="485" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Margin="-11,-5,-11,0">
+                <StackPanel Width="790" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+                    <Grid Width="790" Height="36">
+                        <StackPanel Width="784" Height="30"  Margin="0,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                            <!--<StackPanel Height="30"  HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                                <Label Name="CheckBoxUser" Content="样品名称" Height="30" VerticalContentAlignment="Center" />
+                                <TextBox Name="textBoxSampleName" Width="120" Height="25" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0"  />
+                            </StackPanel>-->
+                            <StackPanel Height="30"  Margin="10,0,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                                <Label Name="CheckBoxItem" Content="项目名称" Height="30" VerticalContentAlignment="Center" />
+                                <TextBox Name="textBoxName" Width="120" Height="25" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" ToolTip="双击可查询项目名称"  />
+                            </StackPanel>
+                            <StackPanel Height="30"  Margin="10,0,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                                <Button Content="查询" Height="30" Name="btnSearch" Width="100" FontSize="16" Click="btnSearch_Click" />
+                            </StackPanel>
+                        </StackPanel>
+                        <Button Content="添加结果" Height="23" HorizontalAlignment="Left" Margin="578,97,0,0" Name="buttAdd" VerticalAlignment="Top" Width="75" Visibility="Hidden" />
+                    </Grid>
+                </StackPanel>
+                <DataGrid Name="DataGridRecord" Width="790"  ItemsSource="{Binding}" AutoGenerateColumns="false" IsReadOnly="True" Height="449" FontSize="16" LoadingRow="DataGridRecord_LoadingRow">
+                    <DataGrid.ContextMenu>
+                        <ContextMenu Name="DataGridMenu" StaysOpen="true">
+                            <MenuItem Name="miUpload" Header="修改" />
+                            <MenuItem Name="miDelete" Header="删除" />
+                            <!--<MenuItem Name="miSave"  Header="保存" Click="miSave_Click"/>-->
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Path=ID}" Header="ID" Visibility="Collapsed"/>
+                        <!--样品信息-->
+                        <DataGridTextColumn Binding="{Binding Path=detect_item_name}" Header="项目名称" Width="150"/>
+                        <DataGridTextColumn Binding="{Binding Path=SampleNum}" Header="样品编号" Width="150" Visibility="Collapsed"/>
+                        <DataGridTextColumn Binding="{Binding Path=t_item_name}" Header="所属类别" Width="150" />
+                        <DataGridTextColumn Binding="{Binding Path=standard}" Header="标准名称" Width="150"/>
+                        <DataGridTextColumn Binding="{Binding Path=detect_sign}" Header="判定符号" Width="105"/>
+                        <DataGridTextColumn Binding="{Binding Path=detect_value}" Header="标准值" Width="105"/>
+                        <DataGridTextColumn Binding="{Binding Path=detect_value_unit}" Header="单位" Width="125"/>
+                        <DataGridTextColumn Binding="{Binding Path=t_update_date}" Header="更新时间" Width="125"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+            
+        </Grid>
+    </Grid>
+</Window>

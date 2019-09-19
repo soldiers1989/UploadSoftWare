@@ -1,0 +1,6 @@
+10:44:44
+System.InvalidOperationException: 无法将 Owner 属性设置为之前未显示的 Window。
+   在 System.Windows.Window.set_Owner(Window value)
+   在 AIO.MainWindow..ctor() 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Main\MainWindow.xaml.cs:行号 67
+   在 AIO.LoginWindow.Login() 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Main\LoginWindow.xaml.cs:行号 183
+

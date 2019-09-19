@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadMessaging", "ThreadMessaging.csproj", "{002B0EF1-2373-46F9-BB22-64C772764C1F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{002B0EF1-2373-46F9-BB22-64C772764C1F}.Debug.ActiveCfg = Debug|.NET
+		{002B0EF1-2373-46F9-BB22-64C772764C1F}.Debug.Build.0 = Debug|.NET
+		{002B0EF1-2373-46F9-BB22-64C772764C1F}.Release.ActiveCfg = Release|.NET
+		{002B0EF1-2373-46F9-BB22-64C772764C1F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

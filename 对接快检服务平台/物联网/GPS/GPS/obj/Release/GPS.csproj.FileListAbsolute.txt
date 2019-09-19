@@ -1,0 +1,13 @@
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\bin\Release\GPS.exe
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\bin\Release\GPS.pdb
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\bin\Release\Newtonsoft.Json.dll
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\MainWindow.baml
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\App.baml
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\MainWindow.g.cs
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\App.g.cs
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\GPS_MarkupCompile.cache
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\GPS.g.resources
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\GPS.Properties.Resources.resources
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\GPS.csproj.GenerateResource.Cache
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\GPS.exe
+D:\DY-Software\数据上传\对接快检服务平台\物联网\GPS\GPS\obj\Release\GPS.pdb

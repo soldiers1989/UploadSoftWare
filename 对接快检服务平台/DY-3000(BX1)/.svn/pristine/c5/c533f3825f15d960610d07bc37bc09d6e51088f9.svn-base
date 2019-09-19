@@ -1,0 +1,12 @@
+发送15:27:30
+http://fc.chinafst.cn:9002/fc/iSampling/updateStatus.do?userToken=924045918842803492622216616024748&sdId=4028936e6300889401630a05c9f20a86&recevieSerialNumber=DY-3500(I)_20180428095513&recevieStatus=1&param1=&param2=&param3=
+
+接收15:27:31
+http://fc.chinafst.cn:9002/fc/iSampling/updateStatus.do?userToken=924045918842803492622216616024748&sdId=4028936e6300889401630a05c9f20a86&recevieSerialNumber=DY-3500(I)_20180428095513&recevieStatus=1&param1=&param2=&param3=
+
+发送15:27:31
+http://fc.chinafst.cn:9002/fc/iSampling/updateStatus.do?userToken=924045918842803492622216616024748&sdId=4028936e6300889401630a04732c0a82&recevieSerialNumber=DY-3500(I)_20180428095513&recevieStatus=1&param1=&param2=&param3=
+
+接收15:27:31
+http://fc.chinafst.cn:9002/fc/iSampling/updateStatus.do?userToken=924045918842803492622216616024748&sdId=4028936e6300889401630a04732c0a82&recevieSerialNumber=DY-3500(I)_20180428095513&recevieStatus=1&param1=&param2=&param3=
+

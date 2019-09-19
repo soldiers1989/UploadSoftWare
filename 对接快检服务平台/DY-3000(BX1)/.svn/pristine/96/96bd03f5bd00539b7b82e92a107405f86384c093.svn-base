@@ -1,0 +1,24 @@
+发送17:06:57
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=218574372490806323267058717416036&type=recevieSampling&serialNumber=DY-3500(I)_20180410170634&lastUpdateTime=2018-03-15 15:04:16&param1=&param2=&param3=
+
+接收17:06:57
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送17:10:10
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=121971480746397531018512449458718&type=recevieSampling&serialNumber=DY-3500(I)_20180410170634&lastUpdateTime=2018-04-10 17:06:56&param1=&param2=&param3=
+
+接收17:10:10
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送17:17:41
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=938920206330591810598629760939120&type=recevieSampling&serialNumber=DY-3500(I)_20180410170634&lastUpdateTime=2018-04-10 17:10:04&param1=&param2=&param3=
+
+接收17:17:41
+{"attributes":"","obj":{"result":[{"id":"4028936e62a8fb270162aecf8eee006f","sampling_id":"3df1b7bbbaf4987c4031a47137587ad0","sample_code":"A201804100019-01","food_id":"953","food_name":"青椒","sample_number":0.20,"purchase_amount":12.00,"sample_date":"","purchase_date":"2018-04-10 00:00:00","item_id":"cfbb4a8d0e584c9db28bd26ac500d876","item_name":"农药残留","origin":"","supplier":"","supplier_address":"","supplier_person":"","supplier_phone":"","batch_number":"","status":0,"recevie_device":"DY-3500(I)_20180410170634","ope_shop_name":"","update_date":"2018-04-10 17:16:52","remark":"","param1":"","param2":"4028936e62a8fb270162ae349bc50021","param3":"","s_id":"3df1b7bbbaf4987c4031a47137587ad0","s_sampling_no":"A201804100019","s_sampling_date":"2018-04-10 17:07:41","s_point_id":"41","s_reg_id":"4028936260fca55e0160fcd7e4f8001b","s_reg_name":"珠村农贸市场","s_reg_licence":"","s_reg_link_person":"","s_reg_link_phone":"020-32234711","s_ope_id":"4028936260fca55e0160fcef47bd002f","s_ope_shop_code":"GZ-002","s_ope_shop_name":"农家蔬菜","s_qrcode":"A201804100019.png","s_task_id":"4028936e62a8fb270162ae349b960020","s_status":0,"s_place_x":"113.502037","s_place_y":"23.157707","s_sampling_userid":"6","s_sampling_username":"1号检测员","s_ope_signature":"A201804100019.jpg","s_create_by":"","s_create_date":"2018-04-10 17:07:41","s_update_by":"","s_update_date":"2018-04-10 17:07:41","s_sheet_address":"","s_param1":"","s_param2":"","s_param3":"","t_id":"4028936e62a8fb270162ae349b960020","t_task_code":"","t_task_title":"0410","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":5,"t_sample_number":0,"t_task_sdate":"2018-04-10 00:00:00","t_task_edate":"2018-04-10 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":"1","t_task_announcer":"1","t_task_cdate":"2018-04-10 14:18:26","t_remark":"","t_view_flag":0,"t_file_path":"","t_delete_flag":0,"t_create_by":"1","t_create_date":"2018-04-10 14:18:26","t_update_by":"1","t_update_date":"2018-04-10 14:18:26","td_id":"4028936e62a8fb270162ae349bc50021","td_task_id":"4028936e62a8fb270162ae349b960020","td_detail_code":"","td_sample_id":"953","td_sample":"青椒","td_item_id":"cfbb4a8d0e584c9db28bd26ac500d876","td_item":"农药残留","td_task_fdate":"","td_receive_pointid":"","td_receive_point":"","td_receive_nodeid":"41","td_receive_node":"广州1号检测室","td_receive_userid":"","td_receive_username":"","td_receive_status":0,"td_task_total":5,"td_sample_number":0,"td_remark":""}]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送17:21:56
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=752100162202852636715272353606587&type=recevieSampling&serialNumber=DY-3500(I)_20180410170634&lastUpdateTime=2018-04-10 17:17:41&param1=&param2=&param3=
+
+接收17:21:56
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+

@@ -1,0 +1,1397 @@
+发送 14:52:56
+http://fc.chinafst.cn:9002/fc?userName=sa001&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3500食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 14:52:57
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/iconfont/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/icon.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/validform.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.css" />
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/select2/css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/base.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/index.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/misson.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.core.css">
+
+
+
+<!-- javascript -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/sortable.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/fileinput.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui-lang-zh_CN.js"></script>   
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/bootstrap/bootstrap-3.3.7.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/lang/zh-cn.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/dateUtil.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/index.js"></script>
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_Datatype.js"></script>
+
+<!-- yuling -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/echarts.min.js"></script> 
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/shine.js"></script>
+
+<!--上传 -->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/bootstrap-wysiwyg.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/theme.js"></script>
+
+
+<!--select2 搜索-->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/select2/js/select2.js"></script>
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.all.min.js"></script>
+
+<!-- 进度 -->
+
+
+
+<script type="text/javascript">
+/*********** 配置lhgdialog全局默认参数(可选) ***********/
+/* (function(config){
+	config['drag'] = true;
+    config['extendDrag'] = true; // 注意，此配置参数只能在这里使用全局配置，在调用窗口的传参数使用无效 
+    config['lock'] = true;
+    config['fixed'] = true; 
+    config['okVal'] = "确认"; 
+    config['cancelVal'] = "取消"; 
+    config['min'] = false; 
+    config['max'] = false; 
+    config['esc'] = false; 
+    config['resize'] = false; 
+    // [more..] 
+})($.dialog.setting); */
+
+/*********** 分页每页记录数量 ***********/
+var pageSize = window.localStorage.pageSize == null ? 10 : window.localStorage.pageSize;
+//操作按钮控制
+var edit = 0;		//是否显示编辑按钮
+var deletes = 0;  	//是否显示删除按钮
+var exports = 0;  	//是否显示导出按钮
+var deleteObj;  	//删除按钮对象，属性同TSOperation，有功能名称和图标
+var editObj;		//编辑按钮对象，属性同TSOperation
+var exportObj;		//导出按钮对象，属性同TSOperation
+var childBtnMenu = eval('');
+</script>
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8" />
+<title>登录页面</title>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="stylesheet" href="http://fc.chinafst.cn:9002/fc/css/login/css/style.css" />
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/jquery.particleground.min.js'></script>
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/demo.js'></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery.cookie.js"></script>
+<style type="text/css">
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin img {
+	float: right
+}
+
+form font {
+	height: 20px;
+	display: block
+}
+
+form font strong {
+	display: none;
+	height: 20px;
+	line-height: 20px;
+	color: red;
+	font-size: 10px;
+	font-family: initial;
+}
+</style>
+<script type="text/javascript">
+	$(function() {
+
+		/** 验证码手指状态以及点击刷新 **/
+		$("#vimg").mouseover(function() {
+			$(this).css("cursor", "pointer");
+		}).click(function() {
+			$("#vimg").attr("src", "verify?random=" + Math.random())
+		});
+
+		/** 隐藏所有的提示信息 */
+		$("strong[id$='_tip']").hide();
+
+		/** 为表单绑定提交事件onsubmit */
+		$("#loginBtn").click(function() {
+			/** 隐藏所有的提示信息 */
+			$("strong[id$='_tip']").hide();
+			/** 定义是否提交表单的标识符 */
+			var isSubmit = true;
+			/** 表单输入校验 */
+			var userName = $("#userName");
+			var pwd = $("#pwd");
+			var code = $("#code");
+			if ($.trim(userName.val()) == "") {
+				$("#userName_tip").html("* 用户名不能空！").show();
+				isSubmit = false;
+				userName.focus();// 调用文本框获取焦点方法
+			} else if (!/^\w{5,20}$/.test($.trim(userName.val()))) {
+				$("#userName_tip").html("* 请输入5-20位的账号！").show();
+				isSubmit = false;
+				userName.focus();
+			} else if ($.trim(pwd.val()) == "") {
+				$("#pwd_tip").html("* 密码不能为空！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if (!/^\w{6,18}$/.test($.trim(pwd.val()))) {
+				$("#pwd_tip").html("* 请输入6-18位密码！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if ($.trim(code.val()) == "") {
+				$("#code_tip").html("* 验证码不能为空！").show();
+				isSubmit = false;
+				code.focus();
+			} else if (!/^[a-zA-Z0-9]{4}$/.test($.trim(code.val()))) {
+				$("#code_tip").html("* 请输入4位验证码！").show();
+				isSubmit = false;
+				code.focus();
+			}
+			/** 判断表单是否通过校验 */
+			if (isSubmit) {
+				var params = $("form[class=form-signin]").serialize();
+				var url = "http://fc.chinafst.cn:9002/fc/loginAjax.do";
+				$.post(url, params, function(data) {
+					if (data.status == 0) {
+						rememberPassword();
+						window.location = "http://fc.chinafst.cn:9002/fc/system/goHome.do";
+					} else {
+						alert(data.tip);
+						//刷新验证码
+						$("#code").val("");
+						flushCode();
+					}
+				}, "json");
+			}
+		});
+
+		/** 回车键提交交表单 */
+		$(document).keydown(function(event) {
+			if (event.keyCode === 13) {
+				$("#loginBtn").trigger("click");
+			}
+		});
+
+		if (top.location != self.location) {
+			top.location = self.location;
+		}
+
+		if ($.cookie("userName") != undefined && $.cookie("userName") != 'null') {
+			$('#reme').prop("checked", true);
+			$("#userName").val($.cookie("userName"));
+			$("#pwd").val($.cookie("password"));
+		}
+
+	});
+
+	$(document).on("change", "#reme", function() {
+		rememberPassword();
+	});
+	//检测是否记住密码
+	function rememberPassword() {
+		if ($('#reme').is(':checked')) {
+			//记住账号密码
+			$.cookie("userName", $("#userName").val());
+			$.cookie("password", $("#pwd").val());
+		} else {
+			//清空cookie
+			$.cookie("userName", null);
+			$.cookie("password", null);
+		}
+	}
+
+	function flushCode() {
+		var _url = "http://fc.chinafst.cn:9002/fc/ImageServlet?time=" + new Date().getTime();
+		$(".vc-pic").attr('src', _url);
+	}
+</script>
+</head>
+
+<body>
+	<div class="login-content">
+		<div class="login-logo">
+			<img src="http://fc.chinafst.cn:9002/fc/img/logo.png" width="400px" alt="" />
+		</div>
+		<div class="login-box">
+			<div id="particles" class="login-body">
+				<div class="intro">
+					<div class="form">
+						<h2>用户登录</h2>
+						<div class="userform">
+							<form action="" class="form-signin">
+								<div class="username">
+									<input type="text" name="userName" id="userName" class="input-block-level" placeholder="请输入账号" /> <font>
+										<strong id="userName_tip" class="normal">* 用户名不能为空！</strong>
+									</font>
+								</div>
+								<div class="password">
+									<input type="password" name="password" id="pwd" class="input-block-level" placeholder="请输入密码" /> <font>
+										<strong id="pwd_tip" class="normal">* 密码不能为空！</strong>
+									</font>
+								</div>
+								<div class="idcode">
+									<input type="text" name="vcode" id="code" class="input-medium" placeholder="请输入验证码" maxlength="4"/> <span
+										onclick="flushCode()"> <img class="vc-pic fr-box" width="65" height="23"
+										src="http://fc.chinafst.cn:9002/fc/ImageServlet?time=new Date().getTime()" title="点击刷新验证码">
+									</span> <font> <strong id="code_tip" class="normal">* 验证码不能为空！</strong>
+									</font>
+								</div>
+								<div class="remenber">
+									<input id="reme" type="checkbox" class="cs-fl" /><label for="reme" class="pull-left"><span>记住密码</span></label>
+								</div>
+
+								<div>
+									<button class="login" type="button" id="loginBtn">登录</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ins">
+		<p>© 2017 广东中检达元检测技术有限公司 All Rights Reserved.</p>
+	</div>
+</body>
+</html>
+
+
+
+
+发送 14:53:15
+http://fc.chinafst.cn:9002/fc?userName=sa001&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3500食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 14:53:15
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/iconfont/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/icon.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/validform.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.css" />
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/select2/css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/base.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/index.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/misson.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.core.css">
+
+
+
+<!-- javascript -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/sortable.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/fileinput.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui-lang-zh_CN.js"></script>   
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/bootstrap/bootstrap-3.3.7.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/lang/zh-cn.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/dateUtil.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/index.js"></script>
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_Datatype.js"></script>
+
+<!-- yuling -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/echarts.min.js"></script> 
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/shine.js"></script>
+
+<!--上传 -->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/bootstrap-wysiwyg.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/theme.js"></script>
+
+
+<!--select2 搜索-->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/select2/js/select2.js"></script>
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.all.min.js"></script>
+
+<!-- 进度 -->
+
+
+
+<script type="text/javascript">
+/*********** 配置lhgdialog全局默认参数(可选) ***********/
+/* (function(config){
+	config['drag'] = true;
+    config['extendDrag'] = true; // 注意，此配置参数只能在这里使用全局配置，在调用窗口的传参数使用无效 
+    config['lock'] = true;
+    config['fixed'] = true; 
+    config['okVal'] = "确认"; 
+    config['cancelVal'] = "取消"; 
+    config['min'] = false; 
+    config['max'] = false; 
+    config['esc'] = false; 
+    config['resize'] = false; 
+    // [more..] 
+})($.dialog.setting); */
+
+/*********** 分页每页记录数量 ***********/
+var pageSize = window.localStorage.pageSize == null ? 10 : window.localStorage.pageSize;
+//操作按钮控制
+var edit = 0;		//是否显示编辑按钮
+var deletes = 0;  	//是否显示删除按钮
+var exports = 0;  	//是否显示导出按钮
+var deleteObj;  	//删除按钮对象，属性同TSOperation，有功能名称和图标
+var editObj;		//编辑按钮对象，属性同TSOperation
+var exportObj;		//导出按钮对象，属性同TSOperation
+var childBtnMenu = eval('');
+</script>
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8" />
+<title>登录页面</title>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="stylesheet" href="http://fc.chinafst.cn:9002/fc/css/login/css/style.css" />
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/jquery.particleground.min.js'></script>
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/demo.js'></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery.cookie.js"></script>
+<style type="text/css">
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin img {
+	float: right
+}
+
+form font {
+	height: 20px;
+	display: block
+}
+
+form font strong {
+	display: none;
+	height: 20px;
+	line-height: 20px;
+	color: red;
+	font-size: 10px;
+	font-family: initial;
+}
+</style>
+<script type="text/javascript">
+	$(function() {
+
+		/** 验证码手指状态以及点击刷新 **/
+		$("#vimg").mouseover(function() {
+			$(this).css("cursor", "pointer");
+		}).click(function() {
+			$("#vimg").attr("src", "verify?random=" + Math.random())
+		});
+
+		/** 隐藏所有的提示信息 */
+		$("strong[id$='_tip']").hide();
+
+		/** 为表单绑定提交事件onsubmit */
+		$("#loginBtn").click(function() {
+			/** 隐藏所有的提示信息 */
+			$("strong[id$='_tip']").hide();
+			/** 定义是否提交表单的标识符 */
+			var isSubmit = true;
+			/** 表单输入校验 */
+			var userName = $("#userName");
+			var pwd = $("#pwd");
+			var code = $("#code");
+			if ($.trim(userName.val()) == "") {
+				$("#userName_tip").html("* 用户名不能空！").show();
+				isSubmit = false;
+				userName.focus();// 调用文本框获取焦点方法
+			} else if (!/^\w{5,20}$/.test($.trim(userName.val()))) {
+				$("#userName_tip").html("* 请输入5-20位的账号！").show();
+				isSubmit = false;
+				userName.focus();
+			} else if ($.trim(pwd.val()) == "") {
+				$("#pwd_tip").html("* 密码不能为空！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if (!/^\w{6,18}$/.test($.trim(pwd.val()))) {
+				$("#pwd_tip").html("* 请输入6-18位密码！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if ($.trim(code.val()) == "") {
+				$("#code_tip").html("* 验证码不能为空！").show();
+				isSubmit = false;
+				code.focus();
+			} else if (!/^[a-zA-Z0-9]{4}$/.test($.trim(code.val()))) {
+				$("#code_tip").html("* 请输入4位验证码！").show();
+				isSubmit = false;
+				code.focus();
+			}
+			/** 判断表单是否通过校验 */
+			if (isSubmit) {
+				var params = $("form[class=form-signin]").serialize();
+				var url = "http://fc.chinafst.cn:9002/fc/loginAjax.do";
+				$.post(url, params, function(data) {
+					if (data.status == 0) {
+						rememberPassword();
+						window.location = "http://fc.chinafst.cn:9002/fc/system/goHome.do";
+					} else {
+						alert(data.tip);
+						//刷新验证码
+						$("#code").val("");
+						flushCode();
+					}
+				}, "json");
+			}
+		});
+
+		/** 回车键提交交表单 */
+		$(document).keydown(function(event) {
+			if (event.keyCode === 13) {
+				$("#loginBtn").trigger("click");
+			}
+		});
+
+		if (top.location != self.location) {
+			top.location = self.location;
+		}
+
+		if ($.cookie("userName") != undefined && $.cookie("userName") != 'null') {
+			$('#reme').prop("checked", true);
+			$("#userName").val($.cookie("userName"));
+			$("#pwd").val($.cookie("password"));
+		}
+
+	});
+
+	$(document).on("change", "#reme", function() {
+		rememberPassword();
+	});
+	//检测是否记住密码
+	function rememberPassword() {
+		if ($('#reme').is(':checked')) {
+			//记住账号密码
+			$.cookie("userName", $("#userName").val());
+			$.cookie("password", $("#pwd").val());
+		} else {
+			//清空cookie
+			$.cookie("userName", null);
+			$.cookie("password", null);
+		}
+	}
+
+	function flushCode() {
+		var _url = "http://fc.chinafst.cn:9002/fc/ImageServlet?time=" + new Date().getTime();
+		$(".vc-pic").attr('src', _url);
+	}
+</script>
+</head>
+
+<body>
+	<div class="login-content">
+		<div class="login-logo">
+			<img src="http://fc.chinafst.cn:9002/fc/img/logo.png" width="400px" alt="" />
+		</div>
+		<div class="login-box">
+			<div id="particles" class="login-body">
+				<div class="intro">
+					<div class="form">
+						<h2>用户登录</h2>
+						<div class="userform">
+							<form action="" class="form-signin">
+								<div class="username">
+									<input type="text" name="userName" id="userName" class="input-block-level" placeholder="请输入账号" /> <font>
+										<strong id="userName_tip" class="normal">* 用户名不能为空！</strong>
+									</font>
+								</div>
+								<div class="password">
+									<input type="password" name="password" id="pwd" class="input-block-level" placeholder="请输入密码" /> <font>
+										<strong id="pwd_tip" class="normal">* 密码不能为空！</strong>
+									</font>
+								</div>
+								<div class="idcode">
+									<input type="text" name="vcode" id="code" class="input-medium" placeholder="请输入验证码" maxlength="4"/> <span
+										onclick="flushCode()"> <img class="vc-pic fr-box" width="65" height="23"
+										src="http://fc.chinafst.cn:9002/fc/ImageServlet?time=new Date().getTime()" title="点击刷新验证码">
+									</span> <font> <strong id="code_tip" class="normal">* 验证码不能为空！</strong>
+									</font>
+								</div>
+								<div class="remenber">
+									<input id="reme" type="checkbox" class="cs-fl" /><label for="reme" class="pull-left"><span>记住密码</span></label>
+								</div>
+
+								<div>
+									<button class="login" type="button" id="loginBtn">登录</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ins">
+		<p>© 2017 广东中检达元检测技术有限公司 All Rights Reserved.</p>
+	</div>
+</body>
+</html>
+
+
+
+
+发送 14:53:32
+http://fc.chinafst.cn:9002/fc?userName=sa001&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3500食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 14:53:32
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/iconfont/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/icon.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/validform.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.css" />
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/select2/css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/base.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/index.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/misson.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.core.css">
+
+
+
+<!-- javascript -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/sortable.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/fileinput.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui-lang-zh_CN.js"></script>   
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/bootstrap/bootstrap-3.3.7.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/lang/zh-cn.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/dateUtil.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/index.js"></script>
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_Datatype.js"></script>
+
+<!-- yuling -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/echarts.min.js"></script> 
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/shine.js"></script>
+
+<!--上传 -->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/bootstrap-wysiwyg.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/theme.js"></script>
+
+
+<!--select2 搜索-->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/select2/js/select2.js"></script>
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.all.min.js"></script>
+
+<!-- 进度 -->
+
+
+
+<script type="text/javascript">
+/*********** 配置lhgdialog全局默认参数(可选) ***********/
+/* (function(config){
+	config['drag'] = true;
+    config['extendDrag'] = true; // 注意，此配置参数只能在这里使用全局配置，在调用窗口的传参数使用无效 
+    config['lock'] = true;
+    config['fixed'] = true; 
+    config['okVal'] = "确认"; 
+    config['cancelVal'] = "取消"; 
+    config['min'] = false; 
+    config['max'] = false; 
+    config['esc'] = false; 
+    config['resize'] = false; 
+    // [more..] 
+})($.dialog.setting); */
+
+/*********** 分页每页记录数量 ***********/
+var pageSize = window.localStorage.pageSize == null ? 10 : window.localStorage.pageSize;
+//操作按钮控制
+var edit = 0;		//是否显示编辑按钮
+var deletes = 0;  	//是否显示删除按钮
+var exports = 0;  	//是否显示导出按钮
+var deleteObj;  	//删除按钮对象，属性同TSOperation，有功能名称和图标
+var editObj;		//编辑按钮对象，属性同TSOperation
+var exportObj;		//导出按钮对象，属性同TSOperation
+var childBtnMenu = eval('');
+</script>
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8" />
+<title>登录页面</title>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="stylesheet" href="http://fc.chinafst.cn:9002/fc/css/login/css/style.css" />
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/jquery.particleground.min.js'></script>
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/demo.js'></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery.cookie.js"></script>
+<style type="text/css">
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin img {
+	float: right
+}
+
+form font {
+	height: 20px;
+	display: block
+}
+
+form font strong {
+	display: none;
+	height: 20px;
+	line-height: 20px;
+	color: red;
+	font-size: 10px;
+	font-family: initial;
+}
+</style>
+<script type="text/javascript">
+	$(function() {
+
+		/** 验证码手指状态以及点击刷新 **/
+		$("#vimg").mouseover(function() {
+			$(this).css("cursor", "pointer");
+		}).click(function() {
+			$("#vimg").attr("src", "verify?random=" + Math.random())
+		});
+
+		/** 隐藏所有的提示信息 */
+		$("strong[id$='_tip']").hide();
+
+		/** 为表单绑定提交事件onsubmit */
+		$("#loginBtn").click(function() {
+			/** 隐藏所有的提示信息 */
+			$("strong[id$='_tip']").hide();
+			/** 定义是否提交表单的标识符 */
+			var isSubmit = true;
+			/** 表单输入校验 */
+			var userName = $("#userName");
+			var pwd = $("#pwd");
+			var code = $("#code");
+			if ($.trim(userName.val()) == "") {
+				$("#userName_tip").html("* 用户名不能空！").show();
+				isSubmit = false;
+				userName.focus();// 调用文本框获取焦点方法
+			} else if (!/^\w{5,20}$/.test($.trim(userName.val()))) {
+				$("#userName_tip").html("* 请输入5-20位的账号！").show();
+				isSubmit = false;
+				userName.focus();
+			} else if ($.trim(pwd.val()) == "") {
+				$("#pwd_tip").html("* 密码不能为空！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if (!/^\w{6,18}$/.test($.trim(pwd.val()))) {
+				$("#pwd_tip").html("* 请输入6-18位密码！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if ($.trim(code.val()) == "") {
+				$("#code_tip").html("* 验证码不能为空！").show();
+				isSubmit = false;
+				code.focus();
+			} else if (!/^[a-zA-Z0-9]{4}$/.test($.trim(code.val()))) {
+				$("#code_tip").html("* 请输入4位验证码！").show();
+				isSubmit = false;
+				code.focus();
+			}
+			/** 判断表单是否通过校验 */
+			if (isSubmit) {
+				var params = $("form[class=form-signin]").serialize();
+				var url = "http://fc.chinafst.cn:9002/fc/loginAjax.do";
+				$.post(url, params, function(data) {
+					if (data.status == 0) {
+						rememberPassword();
+						window.location = "http://fc.chinafst.cn:9002/fc/system/goHome.do";
+					} else {
+						alert(data.tip);
+						//刷新验证码
+						$("#code").val("");
+						flushCode();
+					}
+				}, "json");
+			}
+		});
+
+		/** 回车键提交交表单 */
+		$(document).keydown(function(event) {
+			if (event.keyCode === 13) {
+				$("#loginBtn").trigger("click");
+			}
+		});
+
+		if (top.location != self.location) {
+			top.location = self.location;
+		}
+
+		if ($.cookie("userName") != undefined && $.cookie("userName") != 'null') {
+			$('#reme').prop("checked", true);
+			$("#userName").val($.cookie("userName"));
+			$("#pwd").val($.cookie("password"));
+		}
+
+	});
+
+	$(document).on("change", "#reme", function() {
+		rememberPassword();
+	});
+	//检测是否记住密码
+	function rememberPassword() {
+		if ($('#reme').is(':checked')) {
+			//记住账号密码
+			$.cookie("userName", $("#userName").val());
+			$.cookie("password", $("#pwd").val());
+		} else {
+			//清空cookie
+			$.cookie("userName", null);
+			$.cookie("password", null);
+		}
+	}
+
+	function flushCode() {
+		var _url = "http://fc.chinafst.cn:9002/fc/ImageServlet?time=" + new Date().getTime();
+		$(".vc-pic").attr('src', _url);
+	}
+</script>
+</head>
+
+<body>
+	<div class="login-content">
+		<div class="login-logo">
+			<img src="http://fc.chinafst.cn:9002/fc/img/logo.png" width="400px" alt="" />
+		</div>
+		<div class="login-box">
+			<div id="particles" class="login-body">
+				<div class="intro">
+					<div class="form">
+						<h2>用户登录</h2>
+						<div class="userform">
+							<form action="" class="form-signin">
+								<div class="username">
+									<input type="text" name="userName" id="userName" class="input-block-level" placeholder="请输入账号" /> <font>
+										<strong id="userName_tip" class="normal">* 用户名不能为空！</strong>
+									</font>
+								</div>
+								<div class="password">
+									<input type="password" name="password" id="pwd" class="input-block-level" placeholder="请输入密码" /> <font>
+										<strong id="pwd_tip" class="normal">* 密码不能为空！</strong>
+									</font>
+								</div>
+								<div class="idcode">
+									<input type="text" name="vcode" id="code" class="input-medium" placeholder="请输入验证码" maxlength="4"/> <span
+										onclick="flushCode()"> <img class="vc-pic fr-box" width="65" height="23"
+										src="http://fc.chinafst.cn:9002/fc/ImageServlet?time=new Date().getTime()" title="点击刷新验证码">
+									</span> <font> <strong id="code_tip" class="normal">* 验证码不能为空！</strong>
+									</font>
+								</div>
+								<div class="remenber">
+									<input id="reme" type="checkbox" class="cs-fl" /><label for="reme" class="pull-left"><span>记住密码</span></label>
+								</div>
+
+								<div>
+									<button class="login" type="button" id="loginBtn">登录</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ins">
+		<p>© 2017 广东中检达元检测技术有限公司 All Rights Reserved.</p>
+	</div>
+</body>
+</html>
+
+
+
+
+发送 14:54:37
+http://fc.chinafst.cn:9002/fc?userName=sa001&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3500食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 14:56:05
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/iconfont/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/icon.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/validform.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.css" />
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/select2/css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/base.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/index.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/misson.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.core.css">
+
+
+
+<!-- javascript -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/sortable.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/fileinput.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui-lang-zh_CN.js"></script>   
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/bootstrap/bootstrap-3.3.7.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/lang/zh-cn.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/dateUtil.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/index.js"></script>
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_Datatype.js"></script>
+
+<!-- yuling -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/echarts.min.js"></script> 
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/shine.js"></script>
+
+<!--上传 -->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/bootstrap-wysiwyg.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/theme.js"></script>
+
+
+<!--select2 搜索-->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/select2/js/select2.js"></script>
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.all.min.js"></script>
+
+<!-- 进度 -->
+
+
+
+<script type="text/javascript">
+/*********** 配置lhgdialog全局默认参数(可选) ***********/
+/* (function(config){
+	config['drag'] = true;
+    config['extendDrag'] = true; // 注意，此配置参数只能在这里使用全局配置，在调用窗口的传参数使用无效 
+    config['lock'] = true;
+    config['fixed'] = true; 
+    config['okVal'] = "确认"; 
+    config['cancelVal'] = "取消"; 
+    config['min'] = false; 
+    config['max'] = false; 
+    config['esc'] = false; 
+    config['resize'] = false; 
+    // [more..] 
+})($.dialog.setting); */
+
+/*********** 分页每页记录数量 ***********/
+var pageSize = window.localStorage.pageSize == null ? 10 : window.localStorage.pageSize;
+//操作按钮控制
+var edit = 0;		//是否显示编辑按钮
+var deletes = 0;  	//是否显示删除按钮
+var exports = 0;  	//是否显示导出按钮
+var deleteObj;  	//删除按钮对象，属性同TSOperation，有功能名称和图标
+var editObj;		//编辑按钮对象，属性同TSOperation
+var exportObj;		//导出按钮对象，属性同TSOperation
+var childBtnMenu = eval('');
+</script>
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8" />
+<title>登录页面</title>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="stylesheet" href="http://fc.chinafst.cn:9002/fc/css/login/css/style.css" />
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/jquery.particleground.min.js'></script>
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/demo.js'></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery.cookie.js"></script>
+<style type="text/css">
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin img {
+	float: right
+}
+
+form font {
+	height: 20px;
+	display: block
+}
+
+form font strong {
+	display: none;
+	height: 20px;
+	line-height: 20px;
+	color: red;
+	font-size: 10px;
+	font-family: initial;
+}
+</style>
+<script type="text/javascript">
+	$(function() {
+
+		/** 验证码手指状态以及点击刷新 **/
+		$("#vimg").mouseover(function() {
+			$(this).css("cursor", "pointer");
+		}).click(function() {
+			$("#vimg").attr("src", "verify?random=" + Math.random())
+		});
+
+		/** 隐藏所有的提示信息 */
+		$("strong[id$='_tip']").hide();
+
+		/** 为表单绑定提交事件onsubmit */
+		$("#loginBtn").click(function() {
+			/** 隐藏所有的提示信息 */
+			$("strong[id$='_tip']").hide();
+			/** 定义是否提交表单的标识符 */
+			var isSubmit = true;
+			/** 表单输入校验 */
+			var userName = $("#userName");
+			var pwd = $("#pwd");
+			var code = $("#code");
+			if ($.trim(userName.val()) == "") {
+				$("#userName_tip").html("* 用户名不能空！").show();
+				isSubmit = false;
+				userName.focus();// 调用文本框获取焦点方法
+			} else if (!/^\w{5,20}$/.test($.trim(userName.val()))) {
+				$("#userName_tip").html("* 请输入5-20位的账号！").show();
+				isSubmit = false;
+				userName.focus();
+			} else if ($.trim(pwd.val()) == "") {
+				$("#pwd_tip").html("* 密码不能为空！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if (!/^\w{6,18}$/.test($.trim(pwd.val()))) {
+				$("#pwd_tip").html("* 请输入6-18位密码！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if ($.trim(code.val()) == "") {
+				$("#code_tip").html("* 验证码不能为空！").show();
+				isSubmit = false;
+				code.focus();
+			} else if (!/^[a-zA-Z0-9]{4}$/.test($.trim(code.val()))) {
+				$("#code_tip").html("* 请输入4位验证码！").show();
+				isSubmit = false;
+				code.focus();
+			}
+			/** 判断表单是否通过校验 */
+			if (isSubmit) {
+				var params = $("form[class=form-signin]").serialize();
+				var url = "http://fc.chinafst.cn:9002/fc/loginAjax.do";
+				$.post(url, params, function(data) {
+					if (data.status == 0) {
+						rememberPassword();
+						window.location = "http://fc.chinafst.cn:9002/fc/system/goHome.do";
+					} else {
+						alert(data.tip);
+						//刷新验证码
+						$("#code").val("");
+						flushCode();
+					}
+				}, "json");
+			}
+		});
+
+		/** 回车键提交交表单 */
+		$(document).keydown(function(event) {
+			if (event.keyCode === 13) {
+				$("#loginBtn").trigger("click");
+			}
+		});
+
+		if (top.location != self.location) {
+			top.location = self.location;
+		}
+
+		if ($.cookie("userName") != undefined && $.cookie("userName") != 'null') {
+			$('#reme').prop("checked", true);
+			$("#userName").val($.cookie("userName"));
+			$("#pwd").val($.cookie("password"));
+		}
+
+	});
+
+	$(document).on("change", "#reme", function() {
+		rememberPassword();
+	});
+	//检测是否记住密码
+	function rememberPassword() {
+		if ($('#reme').is(':checked')) {
+			//记住账号密码
+			$.cookie("userName", $("#userName").val());
+			$.cookie("password", $("#pwd").val());
+		} else {
+			//清空cookie
+			$.cookie("userName", null);
+			$.cookie("password", null);
+		}
+	}
+
+	function flushCode() {
+		var _url = "http://fc.chinafst.cn:9002/fc/ImageServlet?time=" + new Date().getTime();
+		$(".vc-pic").attr('src', _url);
+	}
+</script>
+</head>
+
+<body>
+	<div class="login-content">
+		<div class="login-logo">
+			<img src="http://fc.chinafst.cn:9002/fc/img/logo.png" width="400px" alt="" />
+		</div>
+		<div class="login-box">
+			<div id="particles" class="login-body">
+				<div class="intro">
+					<div class="form">
+						<h2>用户登录</h2>
+						<div class="userform">
+							<form action="" class="form-signin">
+								<div class="username">
+									<input type="text" name="userName" id="userName" class="input-block-level" placeholder="请输入账号" /> <font>
+										<strong id="userName_tip" class="normal">* 用户名不能为空！</strong>
+									</font>
+								</div>
+								<div class="password">
+									<input type="password" name="password" id="pwd" class="input-block-level" placeholder="请输入密码" /> <font>
+										<strong id="pwd_tip" class="normal">* 密码不能为空！</strong>
+									</font>
+								</div>
+								<div class="idcode">
+									<input type="text" name="vcode" id="code" class="input-medium" placeholder="请输入验证码" maxlength="4"/> <span
+										onclick="flushCode()"> <img class="vc-pic fr-box" width="65" height="23"
+										src="http://fc.chinafst.cn:9002/fc/ImageServlet?time=new Date().getTime()" title="点击刷新验证码">
+									</span> <font> <strong id="code_tip" class="normal">* 验证码不能为空！</strong>
+									</font>
+								</div>
+								<div class="remenber">
+									<input id="reme" type="checkbox" class="cs-fl" /><label for="reme" class="pull-left"><span>记住密码</span></label>
+								</div>
+
+								<div>
+									<button class="login" type="button" id="loginBtn">登录</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ins">
+		<p>© 2017 广东中检达元检测技术有限公司 All Rights Reserved.</p>
+	</div>
+</body>
+</html>
+
+
+
+
+发送 15:06:22
+http://fc.chinafst.cn:9002/fc?userName=sa001&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+发送 15:12:30
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa001&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 15:12:35
+{"success":true,"msg":"操作成功","obj":{"rights":"800,801,802,600,900,902,903,1339,701,703,708,705,706,707,701-2,703-1,703-2,708-1,1300,1301,1303,1304,1305,1306,1328,1301-1,1301-2,1303-8,1303-9,1303-11,1303-12,1303-14,1303-15,1303-16,1303-17,1303-18,1303-19,1303-110,1303-111,1303-112,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1303-10,1303-13,1306-1,700,702,0,1315,400,410,1314,1315-1,1315-2,300,1315-3,1315-4,703-3,1328-1,1328-2,1363,1383,1384,1360,1361,703-4,1377,310,311,1312,311-6,311-1,311-2,311-3,311-4,311-5,1312-1,1312-2,1312-3,1312-4,320,321,390,391,1343,1344,1345,321-1,321-2,321-6,321-3,321-5,321-4,321-7,321-8,321-9,321-10,321-11,391-5,391-4,1344-3,1344-1,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,1337,200,201,204,204-1,204-02,1383-1,1383-2,1383-4,311-7,321-12,380,381,382,383,381-1,381-2,381-3,381-4,382-1,382-2,382-3,382-4,383-1","user":{"id":"4028936e6445722b016445722be30000","workers_id":"","user_name":"sa001","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"sa001","role_id":"2c922b9a61503c4201615040aa020003","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-06-28 16:11:08","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-06-28 16:11:08","delete_flag":0,"login_count":5,"login_time":"2018-07-09 13:03:17","depart_id":112,"point_id":1,"reg_id":"","d_id":112,"d_depart_name":"广东省食药监","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0107","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":99,"d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"1","d_create_date":"2018-02-01 15:19:42","d_update_by":"2c922b9a61503c420161503f95080001","d_update_date":"2018-07-09 09:54:04","p_id":1,"p_point_name":"江南市场检测点","p_point_code":"","p_point_type":"0","p_depart_id":112,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"广东省广州市越秀区东风中路305号大院-5号楼-6楼","p_place_x":"113.272518","p_place_y":"23.138232","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a61503c420161503f95080001","p_create_date":"2018-02-01 15:33:26","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 09:51:50","d_departs_id":"112,2,3,65,67,4,5,52,68,55,56,57,60,66,58,59,61,62"},"token":"742641273335140696615198653159239"},"attributes":"","resultCode":"0X00000"}
+
+发送 15:24:56
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa001&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 15:24:56
+{"success":true,"msg":"操作成功","obj":{"rights":"800,801,802,600,900,902,903,1339,701,703,708,705,706,707,701-2,703-1,703-2,708-1,1300,1301,1303,1304,1305,1306,1328,1301-1,1301-2,1303-8,1303-9,1303-11,1303-12,1303-14,1303-15,1303-16,1303-17,1303-18,1303-19,1303-110,1303-111,1303-112,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1303-10,1303-13,1306-1,700,702,0,1315,400,410,1314,1315-1,1315-2,300,1315-3,1315-4,703-3,1328-1,1328-2,1363,1383,1384,1360,1361,703-4,1377,310,311,1312,311-6,311-1,311-2,311-3,311-4,311-5,1312-1,1312-2,1312-3,1312-4,320,321,390,391,1343,1344,1345,321-1,321-2,321-6,321-3,321-5,321-4,321-7,321-8,321-9,321-10,321-11,391-5,391-4,1344-3,1344-1,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,1337,200,201,204,204-1,204-02,1383-1,1383-2,1383-4,311-7,321-12,380,381,382,383,381-1,381-2,381-3,381-4,382-1,382-2,382-3,382-4,383-1","user":{"id":"4028936e6445722b016445722be30000","workers_id":"","user_name":"sa001","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"sa001","role_id":"2c922b9a61503c4201615040aa020003","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-06-28 16:11:08","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-06-28 16:11:08","delete_flag":0,"login_count":5,"login_time":"2018-07-09 13:03:17","depart_id":112,"point_id":1,"reg_id":"","d_id":112,"d_depart_name":"广东省食药监","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0107","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":99,"d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"1","d_create_date":"2018-02-01 15:19:42","d_update_by":"2c922b9a61503c420161503f95080001","d_update_date":"2018-07-09 09:54:04","p_id":1,"p_point_name":"江南市场检测点","p_point_code":"","p_point_type":"0","p_depart_id":112,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"广东省广州市越秀区东风中路305号大院-5号楼-6楼","p_place_x":"113.272518","p_place_y":"23.138232","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a61503c420161503f95080001","p_create_date":"2018-02-01 15:33:26","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 09:51:50","d_departs_id":"112,2,3,65,67,4,5,52,68,55,56,57,60,66,58,59,61,62"},"token":"737199006757509919325263811285216"},"attributes":"","resultCode":"0X00000"}
+
+发送 15:34:36
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 15:34:36
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"691678685719321313951597773977587"},"attributes":"","resultCode":"0X00000"}
+
+发送 15:37:14
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 15:37:14
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"003854807507388579027904274634731"},"attributes":"","resultCode":"0X00000"}
+
+发送 15:38:35
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 15:38:35
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"496301240309524717933899799632795"},"attributes":"","resultCode":"0X00000"}
+
+发送 15:38:52
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 15:38:52
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"935239956289862712628450172725421"},"attributes":"","resultCode":"0X00000"}
+
+发送 15:48:54
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 15:48:54
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"683358072730596425769237542187132"},"attributes":"","resultCode":"0X00000"}
+
+发送 15:51:20
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 15:51:20
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"404951974155876705127034274823814"},"attributes":"","resultCode":"0X00000"}
+
+发送 16:00:27
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 16:00:27
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"510101868106985750070148424430856"},"attributes":"","resultCode":"0X00000"}
+
+发送 16:00:44
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 16:00:44
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"439140571256715680659649064784115"},"attributes":"","resultCode":"0X00000"}
+
+发送 16:01:26
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 16:01:32
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"981583997422472571408334070551480"},"attributes":"","resultCode":"0X00000"}
+
+发送 16:05:43
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 16:05:44
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,708-1,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"675373537911769405072845394681050"},"attributes":"","resultCode":"0X00000"}
+
+发送 17:19:52
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 17:19:53
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"275508809839123741711638406135793"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:12:12
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:12:12
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"156792646369481862384030985830713"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:14:42
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:14:42
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"453530763727621829852541466627924"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:21:43
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:21:43
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"219535594538208760620419424627512"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:23:49
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:23:50
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"392963510776237875032695764275247"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:30:27
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:30:27
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"651767341343099573727430651106669"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:32:14
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:32:14
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"691566224092400404174796089383628"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:39:03
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:39:03
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"701935412021035417511435517352664"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:44:50
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:44:51
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"604565491466324500879899953124624"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:49:43
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:49:43
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"956181834963160265392049161620867"},"attributes":"","resultCode":"0X00000"}
+
+发送 18:51:26
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 18:51:26
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"695081395673829333987857362843068"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:09:06
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:09:06
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"549334310974081703444915966848397"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:10:13
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:10:14
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"050208466293334456491800947782956"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:34:30
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:34:30
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"646503660193841939883142614519835"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:35:16
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:35:16
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"668953286057042062609203300581074"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:37:43
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:37:43
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"353683480985993230140543625233911"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:44:51
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:44:51
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"429135721685085318375308840591059"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:48:51
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:48:51
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"757458407230184376877112456189606"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:49:23
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:49:23
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"058216799349311137185605656029042"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:53:43
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:53:43
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"541407829825896253488198571733088"},"attributes":"","resultCode":"0X00000"}
+
+发送 19:54:15
+http://fc.chinafst.cn:9002/fc/interfaces/userLogin/login.do?userName=sa002&password=F59BD65F7EDAFB087A81D4DCA06C4910&deviceCode=&softWareVersion=DY-3000(BX1)便携式食品综合分析仪&place=&ip=&param1=&param2=
+
+接收 19:54:15
+{"success":true,"msg":"操作成功","obj":{"rights":"100,1320,1322,1329,1333,1334,1322-2,1322-3,1322-1,1334-1,1334-2,1334-3,1334-4,1339,703-1,703-2,1328,1301-2,1303-9,1303-12,1303-14,1303-10,1303-13,1328-1,1328-2,321-10,1343,1344,1345,321-7,321-8,321-9,1344-1,321-1,321-4,311-6,1353,1352,1354,1344-3,331-1,331-2,331-3,332-1,332-2,332-3,333-1,333-2,333-3,1353-1,1353-2,1353-3,1352-1,1352-2,1352-3,1354-1,1354-2,1354-3,413,413-6,321-5,1304,1369,1348,1355,1379,311-3,311-4,311-5,311-7,1344-4,1344-2,1344-5,1344-6,1344-7,1344-8,1344-9,1344-10,1344-11,331-9,331-10,1379-1,204-02,1372,1373,1373-8,1373-9,1373-1,1373-2,1373-3,1373-4,1373-5,204-1,381-1,382-1,383-1,381-2,200,201,204,204-1,300,310,311,380,381,382,383,320,321,330,331,332,333,400,410,411,311-1,321-2,321-3,390,391,700,701,702,703,704,705,706,707,708,709,710,800,900,701-2,382-2,null,391-4,391-1,391-2,331-7,711,901,1,5,4,3,1312,416-6,416-7,416-8,393-4,393-5,393-6,1312-1,1314,801,802,902,903,2,0,1300,1301,1303,1305,1301-1,1303-1,1303-2,1303-3,1303-4,1303-5,1303-6,1303-7,1315,1308,1309,1310,1311,321-6,null,null,1306,1319,1303-8,1306-1,1306-1,1315-1,1315-2,1307,391-5,391-6,1303-15,1337,1361,600,1383,1384,1383-2,1398,1383-1,1383-4,1396,1396-10,1396-9,1396-1,1396-2,1396-3,1396-4,1396-5,1396-6,1396-7,1396-8","user":{"id":"4028936e647da27901647df5e2b6000f","workers_id":"","user_name":"sa002","password":"F59BD65F7EDAFB087A81D4DCA06C4910","realname":"达元","role_id":"4","status":0,"sorting":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:33:44","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-09 15:33:44","delete_flag":0,"login_count":0,"login_time":"","depart_id":258,"point_id":274,"reg_id":"","d_id":258,"d_depart_name":"测试增城项目","d_description":"","d_depart_pid":1,"d_project_id":"","d_principal_id":"","d_region_id":"1,,,,","d_depart_code":"0108","d_depart_type":"","d_mobile_phone":"","d_fax":"","d_address":"","d_sorting":"","d_delete_flag":0,"d_is_outsourcing":"","d_create_by":"2c922b9a6208996e0162093432720002","d_create_date":"2018-06-08 08:57:15","d_update_by":"2c922b9a6208996e0162093432720002","d_update_date":"2018-06-08 08:57:15","p_id":274,"p_point_name":"快检3","p_point_code":"","p_point_type":"0","p_depart_id":258,"p_region_id":"","p_manager_id":"","p_license_plate":"","p_phone":"","p_address":"","p_place_x":"","p_place_y":"","p_remark":"","p_IMEI":"","p_sorting":"","p_delete_flag":0,"p_create_by":"2c922b9a6208996e0162093432720002","p_create_date":"2018-07-09 15:31:18","p_update_by":"2c922b9a6208996e0162093432720002","p_update_date":"2018-07-09 15:31:18","d_departs_id":"258,259,260,261,262,263,264,265,266,267,268,269"},"token":"859680737670270759985188680271494"},"attributes":"","resultCode":"0X00000"}
+

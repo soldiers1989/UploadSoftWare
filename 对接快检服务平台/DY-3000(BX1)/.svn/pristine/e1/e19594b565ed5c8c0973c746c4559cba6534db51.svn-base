@@ -1,0 +1,6 @@
+发送09:15:53
+http://fc.chinafst.cn:9002/fc/iSampling/updateStatus.do?userToken=416078130264795463742102738066268&sdId=137769&recevieSerialNumber=DY-3000(BX1)_20180712091527&recevieStatus=1&param1=&param2=&param3=
+
+接收09:15:53
+{"success":true,"msg":"操作成功","obj":"","attributes":"","resultCode":"0X00000"}
+

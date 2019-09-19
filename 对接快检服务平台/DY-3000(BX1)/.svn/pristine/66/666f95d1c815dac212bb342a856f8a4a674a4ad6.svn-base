@@ -1,0 +1,12 @@
+发送13:05:12
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=767956648251132359511640704794589&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收13:05:12
+{"attributes":"","obj":{"id":"2c922b9a620e78e701621d6c42b4185d","device_code":"DY3500I-17081313","device_name":"DY-3500","device_style":"仪器设备","device_type_id":"2","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180612130439","delete_flag":0,"create_by":"2c922b9a620e78e701621d60a30f1858","create_date":"2018-03-13 11:34:17","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-06-12 13:04:32","brand":"","depart_id":4,"point_id":3},"msg":"仪器已注册","success":true,"resultCode":"0X00000"}
+
+发送13:17:38
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=657043536937829886141741321485301&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收13:17:38
+{"attributes":"","obj":{"id":"2c922b9a620e78e701621d6c42b4185d","device_code":"DY3500I-17081313","device_name":"DY-3500","device_style":"仪器设备","device_type_id":"2","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180612130439","delete_flag":0,"create_by":"2c922b9a620e78e701621d60a30f1858","create_date":"2018-03-13 11:34:17","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-06-12 13:04:32","brand":"","depart_id":4,"point_id":3},"msg":"仪器已注册","success":true,"resultCode":"0X00000"}
+

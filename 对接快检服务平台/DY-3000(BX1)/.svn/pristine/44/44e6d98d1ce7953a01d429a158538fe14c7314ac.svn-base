@@ -1,0 +1,12 @@
+发送16:51:39
+http://fc.chinafst.cn:9006/new/interfaces/dataChecking/uploadData.do?userToken=431430828539291402562997902701445&result={"id":"201806061651386100002","taskId":"","taskName":"","samplingId":"16391","samplingDetailId":"65556","itemId":"cfbb4a8d0e584c9db28bd26ac500d876","departId":"165","departName":"增城项目","pointId":"42","pointName":"新塘检测点","regUserId":"1737","regUserName":"肉9档","regId":"578","regName":"新墩悦兴市场","statusFalg":"0","remark":"","foodId":"2857","foodName":"菊芋","foodTypeId":"","foodTypeName":"块茎类蔬菜","checkCode":"65556","itemName":"农药残留","checkResult":"0.000","limitValue":"50","checkAccord":"GBT 5009.199-2003","checkUnit":"%","conclusion":"合格","auditorName":"简永康","checkUserid":"2c922b9a634855a001634e5e60d13b41","checkUsername":"简永康","checkAccordId":"201806061651386100002","checkDate":"2018-06-06 16:51:36","uploadName":"简永康","auditorId":"2c922b9a634855a001634e5e60d13b41","uploadId":"2c922b9a634855a001634e5e60d13b41","uploadDate":"2018-06-06 16:51:39","deviceCompany":"广东达元绿洲食品安全科技股份有限公司","deviceId":"DY-3500(I)_20180606155715","deviceName":"DY-3500(I)食品综合分析仪","deviceModel":"分光光度","dataSource":"1","deviceMethod":"抑制率法","param1":""}
+
+接收16:51:39
+{"attributes":"","obj":"","success":true,"msg":"操作成功","resultCode":"0X00000"}
+
+发送17:37:21
+http://fc.chinafst.cn:9006/new/interfaces/dataChecking/uploadData.do?userToken=151382798003374295449076358441926&result={"id":"201806061651386100002","taskId":"","taskName":"","samplingId":"16391","samplingDetailId":"65556","itemId":"cfbb4a8d0e584c9db28bd26ac500d876","departId":"165","departName":"增城项目","pointId":"42","pointName":"新塘检测点","regUserId":"1737","regUserName":"肉9档","regId":"578","regName":"新墩悦兴市场","statusFalg":"0","remark":"","foodId":"2857","foodName":"菊芋","foodTypeId":"","foodTypeName":"块茎类蔬菜","checkCode":"65556","itemName":"农药残留","checkResult":"44.506","limitValue":"50","checkAccord":"GBT 5009.199-2003","checkUnit":"%","conclusion":"合格","auditorName":"简永康","checkUserid":"2c922b9a634855a001634e5e60d13b41","checkUsername":"简永康","checkAccordId":"201806061651386100002","checkDate":"2018-06-06 17:37:11","uploadName":"简永康","auditorId":"2c922b9a634855a001634e5e60d13b41","uploadId":"2c922b9a634855a001634e5e60d13b41","uploadDate":"2018-06-06 17:37:13","deviceCompany":"广东达元绿洲食品安全科技股份有限公司","deviceId":"DY-3500(I)_20180606155715","deviceName":"DY-3500(I)食品综合分析仪","deviceModel":"分光光度","dataSource":"1","deviceMethod":"抑制率法","param1":"","data_type":"0"}
+
+接收17:37:22
+{"attributes":"","obj":"","success":true,"msg":"操作成功","resultCode":"0X00000"}
+

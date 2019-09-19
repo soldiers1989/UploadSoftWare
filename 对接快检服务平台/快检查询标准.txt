@@ -1,0 +1,1 @@
+select std.food_id,std.item_id,std.detect_sign,std.detect_value,std.detect_value_unit,std.update_date,f.food_name as foodname,d.detect_item_name as itemname from SampleStandard std ,foodlist f,DetectItem d where f.fid=std.food_id and d.cid=std.item_id and std.checked='1' and std.delete_flag='0' and f.checked='1' and f.delete_flag='0' and d.checked='1' and d.delete_flag='0' 

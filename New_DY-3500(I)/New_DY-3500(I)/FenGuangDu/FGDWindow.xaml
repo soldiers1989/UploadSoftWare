@@ -1,0 +1,212 @@
+﻿<Window x:Class="New_DY_3500_I_.FenGuangDu.FGDWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FGDWindow" Height="768" Width="1024"
+        WindowState="Maximized"
+        WindowStyle="None" 
+        FontFamily="SimHei"
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize" 
+        Loaded="Window_Loaded"
+        >
+    <Grid>
+       
+        <!--标题-->
+        <Grid Height="55" VerticalAlignment="Top" Background="{StaticResource BackGroudColorGridTitle}" >
+            <Image Width="100" HorizontalAlignment="Left" Source="/Image/logo.png"></Image>
+            <Label Foreground="White" FontSize="20" Content="DY-3500(I)食品综合分析仪" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="110,0,0,0"></Label>
+            <Grid Width="150" HorizontalAlignment="Right" Background="{StaticResource BackGroudColorGridRight}">
+                <Image Name="ImageRightMenu" Width="50" HorizontalAlignment="Right" Source="/Image/Rightmenu.png" Margin="0,0,100,0"></Image>
+                <Label Content="admin" Width="50" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="16" Foreground="LightGray"    Margin="0,0,50,0"></Label>
+                <!--<Image Name="ImageDownMenu" Width="25" HorizontalAlignment="Right" Margin="0,0,20,0" Source="/Image/Triangle.png"></Image>-->
+                <Button Name="ButtonMenu" Width="25" HorizontalAlignment="Right" Margin="0,0,20,0" Style="{StaticResource buttonMenuRight}" Initialized="ButtonMenu_Initialized" Click="ButtonMenu_Click">
+                    <Button.ContextMenu >
+                        <ContextMenu Name="contextMenu" >
+                            <MenuItem Height="35" Header="修改密码" Name="RepairPasswoed" Foreground="LightGray" Click="RepairPasswoed_Click" Background="#515b62" MouseEnter="RepairPasswoed_MouseEnter"  MouseLeave="RepairPasswoed_MouseLeave">
+                                <MenuItem.Icon >
+                                    <Image Source="/Image/RepairPassword1.png"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                            <!--<MenuItem Height="35" Header="帮助" Name="HelpSystem" Foreground="LightGray" Click="HelpSystem_Click" Background="#515b62" >
+                                <MenuItem.Icon>
+                                    <Image Source="/Image/Help.png"/>
+                                </MenuItem.Icon>
+                            </MenuItem>-->
+                            <MenuItem Height="35" Header="退出系统" Name="ExitSystem" Foreground="LightGray" Click="ExitSystem_Click" MouseEnter="ExitSystem_MouseEnter" MouseLeave="ExitSystem_MouseLeave" Background="#515b62" >
+                                <MenuItem.Icon>
+                                    <Image Source="/Image/SystemExit1.png"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                        </ContextMenu>
+
+                    </Button.ContextMenu>
+                </Button>
+
+            </Grid>
+        </Grid>
+     
+        <!--左菜单-->
+        <Grid Width="100" HorizontalAlignment="Left" Margin="0,55,0,0" Background="{StaticResource BackGroudColorGridLeft}">
+            <StackPanel Orientation="Vertical" >
+                <Label Name="LabelRapidTest" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseEnter="LabelRapidTest_MouseEnter" MouseLeave="LabelRapidTest_MouseLeave" MouseLeftButtonDown="LabelRapidTest_MouseLeftButtonDown">
+                    <Label.Background>
+                        <ImageBrush ImageSource="/Image/fgd/RapidTest.png"></ImageBrush>
+                    </Label.Background>
+                </Label>
+                <Label x:Name="LabelDataManage" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseEnter="LabelDataManage_MouseEnter" MouseLeave="LabelDataManage_MouseLeave" MouseLeftButtonDown="LabelDataManage_MouseLeftButtonDown">
+                    <Label.Background>
+                        <ImageBrush ImageSource="/Image/fgd/DataManage.png"/>
+                    </Label.Background>
+                </Label>
+                <Label Name="LabelEnquiryRecord" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseLeave="LabelEnquiryRecord_MouseLeave" MouseEnter="LabelEnquiryRecord_MouseEnter" MouseLeftButtonDown="LabelEnquiryRecord_MouseLeftButtonDown">
+                    <Label.Background>
+                        <ImageBrush ImageSource="/Image/fgd/EnquaryRecord.png"></ImageBrush>
+                    </Label.Background>
+                </Label>
+                <Label x:Name="LabelSystmDesign" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseEnter="LabelSystmDesign_MouseEnter"  MouseLeave="LabelSystmDesign_MouseLeave" MouseLeftButtonDown="LabelSystmDesign_MouseLeftButtonDown">
+                    <Label.Background>
+                        <ImageBrush ImageSource="/Image/fgd/SystemDesign.png"/>
+                    </Label.Background>
+                </Label>
+                <Label Name="LabelExit" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseLeave="LabelExit_MouseLeave" MouseEnter="LabelExit_MouseEnter"  MouseLeftButtonDown="LabelExit_MouseLeftButtonDown">
+                    <Label.Background>
+                        <ImageBrush ImageSource="/Image/fgd/Exit.png"></ImageBrush>
+                    </Label.Background>
+                </Label>
+               
+            </StackPanel>
+        </Grid>
+        
+        <Grid Name="GridTest" Height="630" VerticalAlignment="Top" Margin="100,55,0,0">
+                <!-- 上-->
+                <Grid VerticalAlignment="Top" Height="50" Margin="20,10,0,0">
+                    <StackPanel VerticalAlignment="Top" Height="50" Orientation="Horizontal" >
+                        <Label Name="LabelTestFGD" Width="120"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Margin="20,0,0,0" MouseLeave="LabelTestFGD_MouseLeave" MouseEnter="LabelTestFGD_MouseEnter" MouseLeftButtonDown="LabelTestFGD_MouseLeftButtonDown">
+                            <Label.Background>
+                                <ImageBrush ImageSource="/Image/fgd/fenguang.png"></ImageBrush>
+                            </Label.Background>
+                        </Label>
+                        <Label Name="LabelTestJTJ" Width="120"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="20,0,0,0" MouseEnter="LabelTestJTJ_MouseEnter" MouseLeave="LabelTestJTJ_MouseLeave" MouseLeftButtonDown="LabelTestJTJ_MouseLeftButtonDown">
+                            <Label.Background>
+                                <ImageBrush ImageSource="/Image/JTJ/jiaotijin.png"></ImageBrush>
+                            </Label.Background>
+                        </Label>
+                            <Label Name="LabelTestGHX" Width="120"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Margin="20,0,0,0" MouseLeave="LabelTestGHX_MouseLeave" MouseEnter="LabelTestGHX_MouseEnter" MouseLeftButtonDown="LabelTestGHX_MouseLeftButtonDown">
+                                <Label.Background>
+                                    <ImageBrush ImageSource="/Image/ghx/ghx.png"></ImageBrush>
+                                </Label.Background>
+                            </Label>
+                        </StackPanel>
+                </Grid>
+                <StackPanel Name="StackPanel" Height="550" VerticalAlignment="Top" Margin="20,70,0,0">
+                    <Grid Name="GridSelect" Height="550" VerticalAlignment="Top" >
+                         <!--中-->
+                        <Grid  VerticalAlignment="Top" Margin="0,0,0,0" Height="130">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="13*"/>
+                                <ColumnDefinition Width="891*"/>
+                            </Grid.ColumnDefinitions>
+                            <Border Name="Border" BorderBrush="#2C85C7" BorderThickness="1" CornerRadius="10" Cursor="Hand"  Opacity="1" Grid.ColumnSpan="2">
+                                <Grid >
+                                    <Image Name="ImageItem" Width="30" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" Source="/Image/Test.png"  Margin="0,20,760,0"></Image>
+                                    <Label Content="1" FontSize="17" Width="30" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,20,760,0" ></Label>
+                                    <Label Content="检测项目" Height="25" Width="80" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,0,760,0" ></Label>
+                                    <Button Name="ButtonItem" Content="点击选择" FontSize="16" Height="35" Width="110" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,80,760,0" Background="White" Click="ButtonItem_Click"></Button>
+                                    <Image Name="ImageItemSample" Width="90" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Source="/Image/fgd/ThreePoint.png" Margin="0,25,520,0"></Image>
+                                    <Image Name="ImageSample" Width="30" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" Source="/Image/Test.png"  Margin="0,20,290,0"></Image>
+                                    <Label Content="2" FontSize="17" Width="30" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,20,290,0" ></Label>
+                                    <Label Content="检测样品" Height="25" Width="80" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,0,290,0" ></Label>
+                                    <Button Name="ButtonSample" Content="点击选择" FontSize="16" Height="35" Width="110" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,80,290,0" Background="White" ></Button>
+                                    <Image Name="ImageSampleTask" Width="90" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Source="/Image/fgd/ThreePoint.png" Margin="0,25,70,0"></Image>
+                                    <Image Name="ImageTask" Width="30" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" Source="/Image/Test.png"  Margin="150,20,0,0"></Image>
+                                    <Label Content="3" FontSize="17" Width="30" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="150,20,0,0" ></Label>
+                                    <Label Content="检测任务" Height="25" Width="80" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="150,0,0,0" ></Label>
+                                    <Button Name="ButtonTask" Content="点击选择" FontSize="16" Height="35" Width="110" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="150,80,0,0" Background="White" ></Button>
+                                    <Image Name="ImageTaskCheck" Width="90" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Source="/Image/fgd/ThreePoint.png" Margin="380,25,0,0"></Image>
+                                    <Image Name="ImageCheckUnit" Width="30" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center"   Margin="620,20,0,0"></Image>
+                                    <Label Content="4" FontSize="17" Width="30" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="620,20,0,0" ></Label>
+                                    <Label Content="被检单位" Height="25" Width="80" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="620,0,0,0" ></Label>
+                                    <Button Name="ButtonCheckUnit" Content="点击选择" FontSize="16" Height="35" Width="110" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="620,80,0,0" Background="White" ></Button>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                         <!--检测区域-->
+                        <Grid  Height="380" VerticalAlignment="Bottom" Margin="0,0,0,0">
+                            <Border Name="BorderTest"  BorderBrush="#2C85C7" BorderThickness="1" CornerRadius="10" Cursor="Hand"  Opacity="1">
+                                <StackPanel >
+                                     <!--分光光度-->
+                                    <Grid Name="GridTestFGD">
+                                        <Label Content="通道" Width="60" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Margin="0,20,780,0"></Label>
+                                        <Label Content="样品编号" Width="90" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Margin="0,20,500,0"></Label>
+                                        <Label Content="样品名称" Width="90" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Margin="0,20,240,0"></Label>
+                                        <Label Content="吸光度" Width="70" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Margin="0,20,0,0"></Label>
+                                        <Label Content="透光率" Width="70" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Margin="280,20,0,0"></Label>
+                                        <Label Content="检测时间" Width="90" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Margin="580,20,0,0"></Label>
+                                    </Grid>
+                                     <!--胶体金-->
+                                    <Grid Name="GidTestJTJ">
+                                        <WrapPanel Name="WrapPanelChannel" Width="1000" HorizontalAlignment="Center" ></WrapPanel>
+                                    </Grid>
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+                </Grid>
+                <!--检测项目、样品、任务选择-->
+                <Grid Name="GridSelectData" Height="550">
+                    <!-- 查询-->
+                    <StackPanel Name="StackPanelSampleOrItem" Width="450" Height="50" Margin="0,0,350,0" Orientation="Horizontal"  VerticalAlignment="Top" >
+                        <Image Height="30" Width="30" Source="/Image/shuru.png" Margin="0,0,0,0"></Image>
+                        <Label Name="LabelTitle" Content="检测项目" Height="30" Width="60" Margin="10,0,0,0" ></Label>
+                        <TextBox Name="TextBoxSearchData" Height="30" Width="100" Margin="10,0,0,0"></TextBox>
+                        <Image Name="ImageSearch" Height="30" Width="30" Source="/Image/JTJ/Sousuo.png" Stretch="Fill"></Image>
+                        <Image Name="ImageAdd" Height="20" Width="20" Source="/Image/JTJ/Add.png" Margin="120,0,0,0"></Image>
+                        <Image Name="ImageEdit" Height="20" Width="20" Source="/Image/JTJ/Edit.png" Margin="10,0,0,0"></Image>
+                        <Image Name="ImageDelete" Height="20" Width="20" Source="/Image/JTJ/Delete.png" Margin="10,0,0,0"></Image>
+                    </StackPanel>
+                    <!-- 中 检测项目-->
+                    <WrapPanel Name="WrapPanelList" Height="320" Width="480"  VerticalAlignment="Top" Margin="0,60,330,0">
+                        <Button Content="农药残留" Height="50" Width="100" FontSize="16"></Button>
+                        <Button Content="盐酸克伦特罗" Height="50" Width="100" FontSize="16"></Button>
+                        <Button Content="余氯" Height="50" Width="100" FontSize="16"></Button>
+                        <Button Content="二氧化硫" Height="50" Width="100" FontSize="16"></Button>
+                        <Button Content="吊白块" Height="50" Width="100" FontSize="16"></Button>
+                    </WrapPanel>
+                    <!-- 详情-->
+                    <Grid  Height="380" Width="300" VerticalAlignment="Top" Margin="540,0,0,0">
+                        <Image Height="25" Width="20" VerticalAlignment="Top" HorizontalAlignment="Left"  Source="/Image/shuru.png" Margin="20,10,0,0"></Image>
+                        <Label Content="项目详情" Height="25" Width="140" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="50,10,0,0"></Label>
+
+                        <Image Height="25" Width="20" VerticalAlignment="Bottom" HorizontalAlignment="Left"  Source="/Image/shuru.png" Margin="20,0,0,120"></Image>
+                        <Label Content="操作说明" Height="25" Width="140" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="50,0,0,120"></Label>
+                    </Grid>
+
+                    <!-- 下 通道-->
+                    <Grid Name="Grid" Width="830" Height="160" VerticalAlignment="Bottom" Margin="0,0,0,0" >
+                        <Image Height="30" Width="30" VerticalAlignment="Top" HorizontalAlignment="Center" Source="/Image/shuru.png" Margin="50,0,0,0"></Image>
+                        <Label Content="选择通道" Height="30" Width="80" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Margin="90,0,0,0"></Label>
+                        <CheckBox Name="CheckBoxAll" Content="全选" Height="20" Width="50" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"  Margin="0,0,50,0"></CheckBox>
+                        <StackPanel Name="StackPanelHole" Height="110" VerticalAlignment="Bottom" Orientation="Horizontal" Width="700"  HorizontalAlignment="Left" Margin="50,0,0,0">
+                            <Button Name="btnhole1" Content="1" Width="50" Height="40" FontSize="16"></Button>
+                            <Button Name="btnhole2" Content="2" Width="50" Height="40"  FontSize="16" Margin="10,0,0,0"></Button>
+                            <Button Name="btnhole3" Content="3" Width="50" Height="40"  FontSize="16" Margin="10,0,0,0"></Button>
+                            <Button Name="btnhole4" Content="4" Width="50" Height="40"  FontSize="16" Margin="10,0,0,0"></Button>
+                            <Button Name="btnhole5" Content="5" Width="50" Height="40"  FontSize="16" Margin="10,0,0,0"></Button>
+                            <Button Name="btnCancel" Content="取消" Width="50" Height="40"  FontSize="16" Margin="10,0,0,0" Click="btnCancel_Click"></Button>
+                        </StackPanel>
+                        <Image Name="ImageDetermin" Height="35" Width="90" HorizontalAlignment="Right"  Source="/Image/JTJ/Determin.png" Stretch="Fill" MouseLeftButtonDown="ImageDetermin_MouseLeftButtonDown" Margin="0,0,40,20" ></Image>
+                        <Image Name="ImageCancel" Height="35" Width="90" HorizontalAlignment="Right"  Source="/Image/JTJ/Cancel.png"  Stretch="Fill" MouseLeftButtonDown="ImageCancel_MouseLeftButtonDown" Margin="0,90,40,0" ></Image>
+                    </Grid>
+                </Grid>
+            </StackPanel>
+        </Grid>
+    
+        <Grid Height="80" VerticalAlignment="Bottom" Margin="120,0,0,0">
+                <Button Name="ButtonClear" Content="清零" FontSize="18" Height="35" Width="80" VerticalAlignment="Center" HorizontalAlignment="Center" Background="White"  Margin="0,0,600,0" ></Button>
+                <Button Name="ButtonComparison" Content="对照" FontSize="18" Height="35" Width="80" VerticalAlignment="Center" HorizontalAlignment="Center" Background="White"  Margin="0,0,330,0" ></Button>
+                <Button Name="ButtonTestSample" Content="样品" FontSize="18" Height="35" Width="80" VerticalAlignment="Center" HorizontalAlignment="Center" Background="White"  Margin="0,0,50,0" ></Button>
+                <Button Name="ButtonPrint" Content="打印" FontSize="18" Height="35" Width="80" VerticalAlignment="Center" HorizontalAlignment="Center" Background="White"  Margin="220,0,0,0" ></Button>
+                <Button Name="ButtonUploadData" Content="上传" FontSize="18" Height="35" Width="80" VerticalAlignment="Center" HorizontalAlignment="Center" Background="White"  Margin="520,0,0,0" ></Button>
+        </Grid>
+       
+    </Grid>
+</Window>

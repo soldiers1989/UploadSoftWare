@@ -1,0 +1,24 @@
+15:49:49
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.FormattingDatas() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 165
+
+15:50:08
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.FormattingDatas() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 165
+
+16:50:02
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.FormattingDatas() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 169
+
+16:51:21
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.FormattingDatas() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 169
+
+16:54:47
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.FormattingDatas() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 169
+
+16:55:22
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.JtjReportWindow.FormattingDatas() 位置 E:\Projects\DY-3000(BX1)\DYitj\xaml\Jiaotijin\JtjReportWindow.xaml.cs:行号 169
+

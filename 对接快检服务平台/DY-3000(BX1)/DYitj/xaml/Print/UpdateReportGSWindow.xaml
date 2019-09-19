@@ -1,0 +1,106 @@
+﻿<Window x:Class="AIO.xaml.Print.UpdateReportGSWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UpdateReportGSWindow"
+        Width="1024" Height="1000"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGridCenter}"
+        FontFamily="SimHei"         
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="编辑报表" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,20,20"  Content="返  回" FontSize="24" Click="ButtonPrev_Click" />
+            <Button Content="保  存" FontSize="24" Height="60" HorizontalAlignment="Right" Margin="0,20,126,20" Name="btnSave" VerticalAlignment="Center" Width="100" Click="btnSave_Click" />
+        </Grid>
+
+        <!-- 中 -->
+        <StackPanel Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}" HorizontalAlignment="Center" VerticalAlignment="Center"  Orientation="Horizontal" >
+            <ScrollViewer Width="815" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Height="538">
+                <StackPanel Orientation="Vertical" Width="800">
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Width="100" Height="0" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="16" FlowDirection="LeftToRight" HorizontalContentAlignment="Right" />
+                        <TextBox Width="600" Height="34" Text="食品快速检测报告"  Name="textBoxTitle" ToolTip="在此输入报表标题名称" TextAlignment="Center" FontSize="24" TextChanged="textBoxTitle_TextChanged"></TextBox>
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Width="125" Height="34" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="食品名称:" FontSize="16" FlowDirection="LeftToRight" HorizontalContentAlignment="Right" />
+                        <TextBox Height="34" Name="textBoxFoodName" Width="280" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" TextChanged="textBoxFoodName_TextChanged" />
+                        <Label Content="食品类别:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxFoodType" VerticalContentAlignment="Center" Width="280" TextChanged="textBoxFoodType_TextChanged" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="受检单位名称:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="125" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxCheckedCompanyName" VerticalContentAlignment="Center" Width="280" IsEnabled="False" TextChanged="textBoxCheckedCompanyName_TextChanged" />
+                        <Label Content="生产加工进购日期:" FontSize="12" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxProductionDate" VerticalContentAlignment="Center" Width="250" TextChanged="textBoxProductionDate_TextChanged" />
+                        <DatePicker FontSize="16" Height="35" Name="datePickerProductionDate" VerticalContentAlignment="Center" Width="30" SelectedDateChanged="datePickerProductionDate_SelectedDateChanged" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="受检单位地址:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="125" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxCheckedCompanyAddress" VerticalContentAlignment="Center" Width="280" TextChanged="textBoxCheckedCompanyAddress_TextChanged" />
+                        <Label Content="受检单位电话:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxCheckedCompanyPhone" VerticalContentAlignment="Center" Width="280" TextChanged="textBoxCheckedCompanyPhone_TextChanged" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="产地、标称生产企业或供货单位名称:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="285" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxLabelProducerName" VerticalContentAlignment="Center" Width="510" TextChanged="textBoxLabelProducerName_TextChanged" />
+                    </StackPanel>
+
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="产地、标称生产企业或供货单位地址:" FontSize="16" Height="34" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="285" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxLabelProducerAddress" VerticalContentAlignment="Center" Width="510" TextChanged="textBoxLabelProducerAddress_TextChanged" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="产地、标称生产企业或供货单位电话:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="285" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxLabelProducerPhone" VerticalContentAlignment="Center" Width="510" TextChanged="textBoxLabelProducerPhone_TextChanged" />
+                    </StackPanel>
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="抽样日期:" FontSize="16" Height="34" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="125" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxSamplingData" VerticalContentAlignment="Center" Width="250" TextChanged="textBoxSamplingData_TextChanged" />
+                        <DatePicker FontSize="16" Height="35" Name="dtpDateTime" VerticalContentAlignment="Center" Width="30" SelectedDateChanged="dtpDateTime_SelectedDateChanged" />
+                        <Label Content="抽样人员:" FontSize="16" Height="34" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxSamplingPerson" VerticalContentAlignment="Center" Width="280" TextChanged="textBoxSamplingPerson_TextChanged" />
+                    </StackPanel>
+                    
+                    
+
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="样品数量:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="125" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxSampleNum" VerticalContentAlignment="Center" Width="280" TextChanged="textBoxSampleNum_TextChanged" />
+                        <Label Content="抽样单编号:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" Name="textBoxSamplingOrderCode" VerticalContentAlignment="Center" Width="280" TextChanged="textBoxSamplingOrderCode_TextChanged" />
+                    </StackPanel>
+
+                    <StackPanel Width="800" Height="37" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Label Content="检测依据:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="125" />
+                        <TextBox FontSize="20" Height="34" IsEnabled="False" Name="textBoxStandard" VerticalContentAlignment="Center" Width="280" TextChanged="textBoxStandard_TextChanged" />
+                        <Label Content="检测结论:" FontSize="16" Height="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="110" />
+                        <TextBox FontSize="20" Height="34" IsEnabled="False" Name="textBoxTInspectionConclusion" VerticalContentAlignment="Center" Width="280" TextChanged="textBoxTInspectionConclusion_TextChanged" />
+                    </StackPanel>
+                    <DataGrid AutoGenerateColumns="false" Height="220" IsReadOnly="True" ItemsSource="{Binding}" LoadingRow="DataGridRecord_LoadingRow" Name="DataGridRecord" Width="790" SelectionMode="Single">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Path=ID}" Header="ID" Width="200" Visibility="Collapsed" />
+                            <DataGridTextColumn Binding="{Binding Path=ReportGSID}" Header="ReportGSID" Width="200" Visibility="Collapsed" />
+                            <DataGridTextColumn Binding="{Binding Path=ProjectName}" Header="检测项目" Width="170" />
+                            <DataGridTextColumn Binding="{Binding Path=Unit}" Header="单位" Width="150" />
+                            <DataGridTextColumn Binding="{Binding Path=InspectionStandard}" Header="标准值" Width="150" />
+                            <DataGridTextColumn Binding="{Binding Path=IndividualResults}" Header="实测值" Width="150" />
+                            <DataGridTextColumn Binding="{Binding Path=IndividualDecision}" Header="检测结果" Width="170" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+
+    </Grid>
+</Window>

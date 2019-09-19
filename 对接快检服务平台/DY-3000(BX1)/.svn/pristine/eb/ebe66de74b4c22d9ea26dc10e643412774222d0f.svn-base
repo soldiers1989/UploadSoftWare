@@ -1,0 +1,6 @@
+发送13:36:06
+http://fc.chinafst.cn:9005/dongying/interfaces/taskMessage/taskMsgNumber.do?userToken=857768959415518806260279442378592&lastUpdateTime=2017-11-24 09:49:17
+
+接收13:36:06
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"total":7,"unread":0}}
+

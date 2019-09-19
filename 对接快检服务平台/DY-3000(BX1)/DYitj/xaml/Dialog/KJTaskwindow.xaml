@@ -1,0 +1,77 @@
+﻿<Window x:Class="AIO.xaml.Dialog.KJTaskwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KJTaskwindow" Height="768" Width="1024"
+        WindowState="Maximized" 
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Loaded="Window_Loaded"
+        >
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="检测任务列表" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+            <Label Content="信息:" FontSize="20" Foreground="{StaticResource ForeGroudColorText}" HorizontalAlignment="Right" Name="LabelInfo" VerticalAlignment="Bottom" Width="277" Margin="0,0,6,0" />
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="20,0,20,0"  Content="返  回" FontSize="24" Click="ButtonPrev_Click"/>
+            <Button Content="任务更新" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="20,20,0,20" Name="btnTaskUpdate" VerticalAlignment="Center" Width="100" Click="btnTaskUpdate_Click" />
+            <Button Content="检测" FontSize="24" Height="60" HorizontalAlignment="Right" Margin="0,20,150,20" Name="btnTest" VerticalAlignment="Center" Width="100"  Click="btnTest_Click"/>
+            <Button Content="拒收任务" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="150,20,0,20" Name="btnRejectTask" VerticalAlignment="Center" Width="100" Click="btnRejectTask_Click"/>
+
+            <!--<Button Name=""-->
+            <!--<Button Content="查看详细" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="126,20,0,20" Name="btnViewDetailed" VerticalAlignment="Center" Width="100" Click="btnViewDetailed_Click" />-->
+            <!--<Button Content="清空任务" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="232,20,0,20" Name="btnDeleted" VerticalAlignment="Center" Width="100" Click="btnDeleted_Click" />-->
+            <Label Content="请扫入下载任务编码：" Width="130" Height="30" HorizontalAlignment="Right" Margin="0,0,410,0" Foreground="White" Visibility="Collapsed"></Label>
+            <TextBox Name="txtTaskID" Focusable="True"  FontSize="16" HorizontalAlignment="Right" Width="150" Height="60" TextWrapping="Wrap" Margin="0,0,250,0" Visibility="Collapsed"></TextBox>
+            <Button Name="btndown" Content="下载抽样单" HorizontalAlignment="Right"  Width="110" Height="60" Margin="0,0,130,0" FontSize="20" Click="btndown_Click" Visibility="Collapsed"></Button>
+        </Grid>
+
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <DataGrid AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}" Name="DataGridRecord" LoadingRow="DataGridRecord_LoadingRow" MouseDoubleClick="DataGridRecord_MouseDoubleClick" FontSize="16">
+                <DataGrid.ContextMenu>
+                    <ContextMenu Name="DataGridRepair" StaysOpen="True" >
+                        <MenuItem Name="Repair" Click="Repair_Click" Header="修改模块"></MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+                <DataGrid.Columns>
+                    
+                    <DataGridTextColumn Binding="{Binding Path=sample_code}" Header="抽样单编号" />
+                    <DataGridTextColumn Binding="{Binding Path=mokuai}" Header="模块名称"/>
+                    <DataGridTextColumn Binding="{Binding Path=item_name}" Header="检测项目"/>
+                    <DataGridTextColumn Binding="{Binding Path=food_name}" Header="样品名称" />
+                    <DataGridTextColumn Binding="{Binding Path=s_reg_name}" Header="被检单位" />
+                    <DataGridTextColumn Binding="{Binding Path=s_ope_shop_code}" Header="档口号" />
+                    <DataGridTextColumn Binding="{Binding Path=s_ope_shop_name}" Header="档口名称" />
+                    <DataGridTextColumn Binding="{Binding Path=getsampledate}" Header="抽样时间" />
+                    <DataGridTextColumn Binding="{Binding Path=t_task_title}" Header="任务名称" />
+                    <DataGridTextColumn Binding="{Binding Path=Checktype}" Header="状态" />
+                    <DataGridTextColumn Binding="{Binding Path=IsReceive}" Header="已接收" Visibility="Collapsed" />
+                    <DataGridTextColumn Binding="{Binding Path=tid}" Header="ID" Visibility="Collapsed" />
+                    
+                    <!--<DataGridTextColumn Binding="{Binding Path=CPCODE}" Header="任务编号" Visibility="Collapsed"/>
+                    <DataGridTextColumn Binding="{Binding Path=CPTITLE}" Header="任务主题" />
+                    <DataGridTextColumn Binding="{Binding Path=CPSDATE}" Header="起始日期" />
+                    <DataGridTextColumn Binding="{Binding Path=CPEDATE}" Header="结束日期" />
+                    <DataGridTextColumn Binding="{Binding Path=CPTPROPERTY}" Header="任务性质" Visibility="Collapsed" />
+                    <DataGridTextColumn Binding="{Binding Path=CPFROM}" Header="任务来源" Visibility="Collapsed" />
+                    <DataGridTextColumn Binding="{Binding Path=CPEDITOR}" Header="编制人" />
+                    <DataGridTextColumn Binding="{Binding Path=CPPORGID}" Header="机构编码" Visibility="Collapsed" />
+                    <DataGridTextColumn Binding="{Binding Path=CPPORG}" Header="机构名称" Visibility="Collapsed" />
+                    <DataGridTextColumn Binding="{Binding Path=CPEDDATE}" Header="编制日期" Visibility="Hidden" />
+                    <DataGridTextColumn Binding="{Binding Path=CPMEMO}" Header="备注" Visibility="Hidden" />
+                    <DataGridTextColumn Binding="{Binding Path=PLANDETAIL}" Header="任务详细内容" Width="200"/>
+                    <DataGridTextColumn Binding="{Binding Path=PLANDCOUNT}" Header="计划抽检数量" />
+                    <DataGridTextColumn Binding="{Binding Path=CompleteNum}" Header="完成批次" />
+                    <DataGridTextColumn Binding="{Binding Path=CompleteProgress}" Header="完成进度" />
+                    <DataGridTextColumn Binding="{Binding Path=CompleteState}" Header="完成状态" Visibility="Collapsed"/>
+                    <DataGridTextColumn Binding="{Binding Path=BAOJINGTIME}" Header="报警时间" />-->
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>

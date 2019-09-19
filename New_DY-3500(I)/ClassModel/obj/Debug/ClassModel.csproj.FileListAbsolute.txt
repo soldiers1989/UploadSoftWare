@@ -1,0 +1,6 @@
+D:\数据上传\New_DY-3500(I)\ClassModel\bin\Debug\ClassModel.dll
+D:\数据上传\New_DY-3500(I)\ClassModel\bin\Debug\ClassModel.pdb
+D:\数据上传\New_DY-3500(I)\ClassModel\bin\Debug\Newtonsoft.Json.dll
+D:\数据上传\New_DY-3500(I)\ClassModel\obj\Debug\ClassModel.dll
+D:\数据上传\New_DY-3500(I)\ClassModel\obj\Debug\ClassModel.pdb
+D:\数据上传\New_DY-3500(I)\ClassModel\obj\Debug\ClassModel.csprojResolveAssemblyReference.cache

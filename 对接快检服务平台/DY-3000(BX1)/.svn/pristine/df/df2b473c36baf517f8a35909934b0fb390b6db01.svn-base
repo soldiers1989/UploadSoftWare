@@ -1,0 +1,6 @@
+发送09:59:39
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=130716993904731168537592398938440&serialNumber=&lastUpdateTime=2018-08-15 09:59:35&param1=&param2=&param3=
+
+接收09:59:39
+{"success":true,"msg":"操作成功","obj":{"count":0},"attributes":"","resultCode":"0X00000"}
+

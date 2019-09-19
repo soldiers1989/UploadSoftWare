@@ -1,0 +1,604 @@
+发送15:24:24
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收15:24:24
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/iconfont/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/icon.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/validform.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.css" />
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/select2/css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/base.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/index.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/misson.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.core.css">
+
+
+
+<!-- javascript -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/sortable.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/fileinput.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui-lang-zh_CN.js"></script>   
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/bootstrap/bootstrap-3.3.7.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/lang/zh-cn.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/dateUtil.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/index.js"></script>
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_Datatype.js"></script>
+
+<!-- yuling -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/echarts.min.js"></script> 
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/shine.js"></script>
+
+<!--上传 -->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/bootstrap-wysiwyg.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/theme.js"></script>
+
+
+<!--select2 搜索-->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/select2/js/select2.js"></script>
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.all.min.js"></script>
+
+<!-- 进度 -->
+
+
+
+<script type="text/javascript">
+/*********** 配置lhgdialog全局默认参数(可选) ***********/
+/* (function(config){
+	config['drag'] = true;
+    config['extendDrag'] = true; // 注意，此配置参数只能在这里使用全局配置，在调用窗口的传参数使用无效 
+    config['lock'] = true;
+    config['fixed'] = true; 
+    config['okVal'] = "确认"; 
+    config['cancelVal'] = "取消"; 
+    config['min'] = false; 
+    config['max'] = false; 
+    config['esc'] = false; 
+    config['resize'] = false; 
+    // [more..] 
+})($.dialog.setting); */
+
+/*********** 分页每页记录数量 ***********/
+var pageSize = window.localStorage.pageSize == null ? 10 : window.localStorage.pageSize;
+//操作按钮控制
+var edit = 0;		//是否显示编辑按钮
+var deletes = 0;  	//是否显示删除按钮
+var exports = 0;  	//是否显示导出按钮
+var deleteObj;  	//删除按钮对象，属性同TSOperation，有功能名称和图标
+var editObj;		//编辑按钮对象，属性同TSOperation
+var exportObj;		//导出按钮对象，属性同TSOperation
+var childBtnMenu = eval('');
+</script>
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8" />
+<title>登录页面</title>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="stylesheet" href="http://fc.chinafst.cn:9002/fc/css/login/css/style.css" />
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/jquery.particleground.min.js'></script>
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/demo.js'></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery.cookie.js"></script>
+<style type="text/css">
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin img {
+	float: right
+}
+
+form font {
+	height: 20px;
+	display: block
+}
+
+form font strong {
+	display: none;
+	height: 20px;
+	line-height: 20px;
+	color: red;
+	font-size: 10px;
+	font-family: initial;
+}
+</style>
+<script type="text/javascript">
+	$(function() {
+
+		/** 验证码手指状态以及点击刷新 **/
+		$("#vimg").mouseover(function() {
+			$(this).css("cursor", "pointer");
+		}).click(function() {
+			$("#vimg").attr("src", "verify?random=" + Math.random())
+		});
+
+		/** 隐藏所有的提示信息 */
+		$("strong[id$='_tip']").hide();
+
+		/** 为表单绑定提交事件onsubmit */
+		$("#loginBtn").click(function() {
+			/** 隐藏所有的提示信息 */
+			$("strong[id$='_tip']").hide();
+			/** 定义是否提交表单的标识符 */
+			var isSubmit = true;
+			/** 表单输入校验 */
+			var userName = $("#userName");
+			var pwd = $("#pwd");
+			var code = $("#code");
+			if ($.trim(userName.val()) == "") {
+				$("#userName_tip").html("* 用户名不能空！").show();
+				isSubmit = false;
+				userName.focus();// 调用文本框获取焦点方法
+			} else if (!/^\w{5,20}$/.test($.trim(userName.val()))) {
+				$("#userName_tip").html("* 请输入5-20位的账号！").show();
+				isSubmit = false;
+				userName.focus();
+			} else if ($.trim(pwd.val()) == "") {
+				$("#pwd_tip").html("* 密码不能为空！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if (!/^\w{6,18}$/.test($.trim(pwd.val()))) {
+				$("#pwd_tip").html("* 请输入6-18位密码！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if ($.trim(code.val()) == "") {
+				$("#code_tip").html("* 验证码不能为空！").show();
+				isSubmit = false;
+				code.focus();
+			} else if (!/^[a-zA-Z0-9]{4}$/.test($.trim(code.val()))) {
+				$("#code_tip").html("* 请输入4位验证码！").show();
+				isSubmit = false;
+				code.focus();
+			}
+			/** 判断表单是否通过校验 */
+			if (isSubmit) {
+				var params = $("form[class=form-signin]").serialize();
+				var url = "http://fc.chinafst.cn:9002/fc/loginAjax.do";
+				$.post(url, params, function(data) {
+					if (data.status == 0) {
+						rememberPassword();
+						window.location = "http://fc.chinafst.cn:9002/fc/system/goHome.do";
+					} else {
+						alert(data.tip);
+						//刷新验证码
+						$("#code").val("");
+						flushCode();
+					}
+				}, "json");
+			}
+		});
+
+		/** 回车键提交交表单 */
+		$(document).keydown(function(event) {
+			if (event.keyCode === 13) {
+				$("#loginBtn").trigger("click");
+			}
+		});
+
+		if (top.location != self.location) {
+			top.location = self.location;
+		}
+
+		if ($.cookie("userName") != undefined && $.cookie("userName") != 'null') {
+			$('#reme').prop("checked", true);
+			$("#userName").val($.cookie("userName"));
+			$("#pwd").val($.cookie("password"));
+		}
+
+	});
+
+	$(document).on("change", "#reme", function() {
+		rememberPassword();
+	});
+	//检测是否记住密码
+	function rememberPassword() {
+		if ($('#reme').is(':checked')) {
+			//记住账号密码
+			$.cookie("userName", $("#userName").val());
+			$.cookie("password", $("#pwd").val());
+		} else {
+			//清空cookie
+			$.cookie("userName", null);
+			$.cookie("password", null);
+		}
+	}
+
+	function flushCode() {
+		var _url = "http://fc.chinafst.cn:9002/fc/ImageServlet?time=" + new Date().getTime();
+		$(".vc-pic").attr('src', _url);
+	}
+</script>
+</head>
+
+<body>
+	<div class="login-content">
+		<div class="login-logo">
+			<img src="http://fc.chinafst.cn:9002/fc/img/logo.png" width="400px" alt="" />
+		</div>
+		<div class="login-box">
+			<div id="particles" class="login-body">
+				<div class="intro">
+					<div class="form">
+						<h2>用户登录</h2>
+						<div class="userform">
+							<form action="" class="form-signin">
+								<div class="username">
+									<input type="text" name="userName" id="userName" class="input-block-level" placeholder="请输入账号" /> <font>
+										<strong id="userName_tip" class="normal">* 用户名不能为空！</strong>
+									</font>
+								</div>
+								<div class="password">
+									<input type="password" name="password" id="pwd" class="input-block-level" placeholder="请输入密码" /> <font>
+										<strong id="pwd_tip" class="normal">* 密码不能为空！</strong>
+									</font>
+								</div>
+								<div class="idcode">
+									<input type="text" name="vcode" id="code" class="input-medium" placeholder="请输入验证码" maxlength="4"/> <span
+										onclick="flushCode()"> <img class="vc-pic fr-box" width="65" height="23"
+										src="http://fc.chinafst.cn:9002/fc/ImageServlet?time=new Date().getTime()" title="点击刷新验证码">
+									</span> <font> <strong id="code_tip" class="normal">* 验证码不能为空！</strong>
+									</font>
+								</div>
+								<div class="remenber">
+									<input id="reme" type="checkbox" class="cs-fl" /><label for="reme" class="pull-left"><span>记住密码</span></label>
+								</div>
+
+								<div>
+									<button class="login" type="button" id="loginBtn">登录</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ins">
+		<p>© 2017 广东中检达元检测技术有限公司 All Rights Reserved.</p>
+	</div>
+</body>
+</html>
+
+
+
+
+发送15:25:09
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收15:25:09
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/iconfont/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/icon.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/validform.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.css" />
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/select2/css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/base.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/index.css" />
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/css/misson.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.core.css">
+
+
+
+<!-- javascript -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/sortable.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/fileinput.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/easyui-1.5.2/easyui-lang-zh_CN.js"></script>   
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/bootstrap/bootstrap-3.3.7.min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/My97DatePicker/lang/zh-cn.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/dateUtil.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/index.js"></script>
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/Validform_v5.3.2/Validform_Datatype.js"></script>
+
+<!-- yuling -->
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/list.js"></script>
+
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/echarts.min.js"></script> 
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/echarts/shine.js"></script>
+
+<!--上传 -->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/external/google-code-prettify/prettify.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/bootstrap-wysiwyg.js"></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/theme.js"></script>
+
+
+<!--select2 搜索-->
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/select2/js/select2.js"></script>
+
+
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/plug-in/footable/footable.all.min.js"></script>
+
+<!-- 进度 -->
+
+
+
+<script type="text/javascript">
+/*********** 配置lhgdialog全局默认参数(可选) ***********/
+/* (function(config){
+	config['drag'] = true;
+    config['extendDrag'] = true; // 注意，此配置参数只能在这里使用全局配置，在调用窗口的传参数使用无效 
+    config['lock'] = true;
+    config['fixed'] = true; 
+    config['okVal'] = "确认"; 
+    config['cancelVal'] = "取消"; 
+    config['min'] = false; 
+    config['max'] = false; 
+    config['esc'] = false; 
+    config['resize'] = false; 
+    // [more..] 
+})($.dialog.setting); */
+
+/*********** 分页每页记录数量 ***********/
+var pageSize = window.localStorage.pageSize == null ? 10 : window.localStorage.pageSize;
+//操作按钮控制
+var edit = 0;		//是否显示编辑按钮
+var deletes = 0;  	//是否显示删除按钮
+var exports = 0;  	//是否显示导出按钮
+var deleteObj;  	//删除按钮对象，属性同TSOperation，有功能名称和图标
+var editObj;		//编辑按钮对象，属性同TSOperation
+var exportObj;		//导出按钮对象，属性同TSOperation
+var childBtnMenu = eval('');
+</script>
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8" />
+<title>登录页面</title>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="stylesheet" href="http://fc.chinafst.cn:9002/fc/css/login/css/style.css" />
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/jquery.particleground.min.js'></script>
+<script type='text/javascript' src='http://fc.chinafst.cn:9002/fc/css/login/js/demo.js'></script>
+<script type="text/javascript" src="http://fc.chinafst.cn:9002/fc/js/jquery.cookie.js"></script>
+<style type="text/css">
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin img {
+	float: right
+}
+
+form font {
+	height: 20px;
+	display: block
+}
+
+form font strong {
+	display: none;
+	height: 20px;
+	line-height: 20px;
+	color: red;
+	font-size: 10px;
+	font-family: initial;
+}
+</style>
+<script type="text/javascript">
+	$(function() {
+
+		/** 验证码手指状态以及点击刷新 **/
+		$("#vimg").mouseover(function() {
+			$(this).css("cursor", "pointer");
+		}).click(function() {
+			$("#vimg").attr("src", "verify?random=" + Math.random())
+		});
+
+		/** 隐藏所有的提示信息 */
+		$("strong[id$='_tip']").hide();
+
+		/** 为表单绑定提交事件onsubmit */
+		$("#loginBtn").click(function() {
+			/** 隐藏所有的提示信息 */
+			$("strong[id$='_tip']").hide();
+			/** 定义是否提交表单的标识符 */
+			var isSubmit = true;
+			/** 表单输入校验 */
+			var userName = $("#userName");
+			var pwd = $("#pwd");
+			var code = $("#code");
+			if ($.trim(userName.val()) == "") {
+				$("#userName_tip").html("* 用户名不能空！").show();
+				isSubmit = false;
+				userName.focus();// 调用文本框获取焦点方法
+			} else if (!/^\w{5,20}$/.test($.trim(userName.val()))) {
+				$("#userName_tip").html("* 请输入5-20位的账号！").show();
+				isSubmit = false;
+				userName.focus();
+			} else if ($.trim(pwd.val()) == "") {
+				$("#pwd_tip").html("* 密码不能为空！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if (!/^\w{6,18}$/.test($.trim(pwd.val()))) {
+				$("#pwd_tip").html("* 请输入6-18位密码！").show();
+				isSubmit = false;
+				pwd.focus();
+			} else if ($.trim(code.val()) == "") {
+				$("#code_tip").html("* 验证码不能为空！").show();
+				isSubmit = false;
+				code.focus();
+			} else if (!/^[a-zA-Z0-9]{4}$/.test($.trim(code.val()))) {
+				$("#code_tip").html("* 请输入4位验证码！").show();
+				isSubmit = false;
+				code.focus();
+			}
+			/** 判断表单是否通过校验 */
+			if (isSubmit) {
+				var params = $("form[class=form-signin]").serialize();
+				var url = "http://fc.chinafst.cn:9002/fc/loginAjax.do";
+				$.post(url, params, function(data) {
+					if (data.status == 0) {
+						rememberPassword();
+						window.location = "http://fc.chinafst.cn:9002/fc/system/goHome.do";
+					} else {
+						alert(data.tip);
+						//刷新验证码
+						$("#code").val("");
+						flushCode();
+					}
+				}, "json");
+			}
+		});
+
+		/** 回车键提交交表单 */
+		$(document).keydown(function(event) {
+			if (event.keyCode === 13) {
+				$("#loginBtn").trigger("click");
+			}
+		});
+
+		if (top.location != self.location) {
+			top.location = self.location;
+		}
+
+		if ($.cookie("userName") != undefined && $.cookie("userName") != 'null') {
+			$('#reme').prop("checked", true);
+			$("#userName").val($.cookie("userName"));
+			$("#pwd").val($.cookie("password"));
+		}
+
+	});
+
+	$(document).on("change", "#reme", function() {
+		rememberPassword();
+	});
+	//检测是否记住密码
+	function rememberPassword() {
+		if ($('#reme').is(':checked')) {
+			//记住账号密码
+			$.cookie("userName", $("#userName").val());
+			$.cookie("password", $("#pwd").val());
+		} else {
+			//清空cookie
+			$.cookie("userName", null);
+			$.cookie("password", null);
+		}
+	}
+
+	function flushCode() {
+		var _url = "http://fc.chinafst.cn:9002/fc/ImageServlet?time=" + new Date().getTime();
+		$(".vc-pic").attr('src', _url);
+	}
+</script>
+</head>
+
+<body>
+	<div class="login-content">
+		<div class="login-logo">
+			<img src="http://fc.chinafst.cn:9002/fc/img/logo.png" width="400px" alt="" />
+		</div>
+		<div class="login-box">
+			<div id="particles" class="login-body">
+				<div class="intro">
+					<div class="form">
+						<h2>用户登录</h2>
+						<div class="userform">
+							<form action="" class="form-signin">
+								<div class="username">
+									<input type="text" name="userName" id="userName" class="input-block-level" placeholder="请输入账号" /> <font>
+										<strong id="userName_tip" class="normal">* 用户名不能为空！</strong>
+									</font>
+								</div>
+								<div class="password">
+									<input type="password" name="password" id="pwd" class="input-block-level" placeholder="请输入密码" /> <font>
+										<strong id="pwd_tip" class="normal">* 密码不能为空！</strong>
+									</font>
+								</div>
+								<div class="idcode">
+									<input type="text" name="vcode" id="code" class="input-medium" placeholder="请输入验证码" maxlength="4"/> <span
+										onclick="flushCode()"> <img class="vc-pic fr-box" width="65" height="23"
+										src="http://fc.chinafst.cn:9002/fc/ImageServlet?time=new Date().getTime()" title="点击刷新验证码">
+									</span> <font> <strong id="code_tip" class="normal">* 验证码不能为空！</strong>
+									</font>
+								</div>
+								<div class="remenber">
+									<input id="reme" type="checkbox" class="cs-fl" /><label for="reme" class="pull-left"><span>记住密码</span></label>
+								</div>
+
+								<div>
+									<button class="login" type="button" id="loginBtn">登录</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ins">
+		<p>© 2017 广东中检达元检测技术有限公司 All Rights Reserved.</p>
+	</div>
+</body>
+</html>
+
+
+
+
+发送15:25:51
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+发送15:27:14
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+

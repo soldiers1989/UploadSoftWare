@@ -1,0 +1,210 @@
+发送08:47:26
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=539401040484926007786236825006105&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收08:47:26
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28","serial_number":"DY-3000(BX1)_20180710184100","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-10 18:40:53","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送08:57:15
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=063061205229736258536357529136124&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收08:57:15
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87","serial_number":"DY-3000(BX1)_20180711085924","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 08:58:55","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送09:04:00
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=307348972404481326039144557256962&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收09:04:00
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87","serial_number":"DY-3000(BX1)_20180711085924","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 08:58:55","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送09:11:34
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=156245135136135249250578491149572&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收09:11:35
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87","serial_number":"DY-3000(BX1)_20180711085924","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 08:58:55","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送09:23:23
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=073741822870509993502995909767678&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收09:23:23
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87","serial_number":"DY-3000(BX1)_20180711085924","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 08:58:55","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送09:24:34
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=635894495546244590887565892356438&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收09:24:35
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87","serial_number":"DY-3000(BX1)_20180711085924","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 08:58:55","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送10:25:26
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=839561544283011386220148488610781&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:25:26
+{"success":false,"msg":"该检测点下没有该系列仪器或均已被注册","obj":"","attributes":"","resultCode":"0X00007"}
+
+发送10:28:16
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=237414428977310559684545322440584&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:28:17
+{"success":true,"msg":"操作成功","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3000(BX1)_20180711102813","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 10:28:04","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送10:37:44
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=831680683549041572901121775454310&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:37:44
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3000(BX1)_20180711102813","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 10:28:04","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送10:41:11
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=500902565422152103890012586326795&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:41:11
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3000(BX1)_20180711102813","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 10:28:04","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送10:44:47
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=307510406513179294381815928596789&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:44:47
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3000(BX1)_20180711102813","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 10:28:04","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送10:46:14
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=289189515619859002877453851510619&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:46:14
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3000(BX1)_20180711102813","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 10:28:04","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送10:50:46
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=407418994258349123985921614679239&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:50:46
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3000(BX1)_20180711102813","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 10:28:04","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送11:11:59
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=849857401561781819847188804515482&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收11:12:00
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3000(BX1)_20180711102813","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 10:28:04","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送11:18:51
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=002240017088259722864741153264063&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收11:18:51
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3000(BX1)_20180711102813","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 10:28:04","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送11:21:38
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=474236192000777539596092463837214&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收11:21:38
+{"success":true,"msg":"操作成功","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711112347","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 11:21:17","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送11:27:23
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=634103828689619350539251713140984&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收11:27:23
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711112347","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 11:21:17","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送11:50:33
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=621272161781385860603930760675526&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收11:50:34
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711112347","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 11:21:17","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送11:59:44
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=403570739152440318328470195828620&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收11:59:44
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711112347","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 11:21:17","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送13:07:37
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=314828247180204455100207091371796&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收13:07:37
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711112347","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 11:21:17","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送13:15:39
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=839283481660955109020671507259774&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收13:15:39
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711112347","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 11:21:17","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送14:02:31
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=327114809044878956919778178803546&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收14:02:31
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711112347","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 11:21:17","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送14:15:10
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=640375692601098773827402238488500&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收14:15:10
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711112347","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 11:21:17","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送14:21:19
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=515676914662812439419977653451742&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收14:21:19
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711112347","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 11:21:17","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送16:34:01
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=635976220167419393213751742412495&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收16:34:01
+{"success":true,"msg":"操作成功","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711163432","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 14:34:00","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送16:39:27
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=917198343175313795459885967066601&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收16:39:27
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711163432","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 14:34:00","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送17:26:32
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=475054195798946443704128681731759&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收17:26:33
+{"success":false,"msg":"该检测点下没有该系列仪器或均已被注册","obj":"","attributes":"","resultCode":"0X00007"}
+
+发送17:29:54
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=401296375389706210714801039179590&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收17:29:54
+{"success":true,"msg":"操作成功","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711173025","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 17:28:08","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送17:38:49
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=916688315017102239335204829228695&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收17:38:49
+{"success":true,"msg":"操作成功","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711173919","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 17:39:00","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送17:47:08
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=511391713627520993283788415500093&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收17:47:08
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711173919","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 17:39:00","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送18:34:49
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=209747733186756225260211704912262&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收18:34:49
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711173919","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 17:39:00","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送18:42:54
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=037106579737600776094353373939858&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收18:42:54
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711173919","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 17:39:00","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送18:54:43
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=890132528225964854058246687193032&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收18:54:43
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711173919","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 17:39:00","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送19:01:01
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=152909641909723546389701866519642&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收19:01:01
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711173919","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 17:39:00","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+
+发送19:03:17
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=438431026000921175521397685678174&series=DY-3000(BX1)&mac=34:23:87:98:4F:87 &param1=&param2=&param3=
+
+接收19:03:17
+{"success":true,"msg":"仪器已注册","obj":{"id":"4028936e647da27901647df4c4c30003","device_code":"20180709_001","device_name":"DY3000(BX1)便携式食品综合分析仪","device_style":"仪器设备","device_type_id":"6","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"34:23:87:98:4F:87 ","serial_number":"DY-3000(BX1)_20180711173919","delete_flag":0,"create_by":"2c922b9a6208996e0162093432720002","create_date":"2018-07-09 15:32:31","update_by":"2c922b9a6208996e0162093432720002","update_date":"2018-07-11 17:39:00","brand":"","depart_id":258,"point_id":274},"attributes":"","resultCode":"0X00000"}
+

@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\达元快检服务平台\更新软件\update\update\bin\Debug\update.exe.config
+C:\Users\Administrator\Desktop\达元快检服务平台\更新软件\update\update\bin\Debug\update.exe
+C:\Users\Administrator\Desktop\达元快检服务平台\更新软件\update\update\bin\Debug\update.pdb
+C:\Users\Administrator\Desktop\达元快检服务平台\更新软件\update\update\obj\Debug\update.Form1.resources
+C:\Users\Administrator\Desktop\达元快检服务平台\更新软件\update\update\obj\Debug\update.Properties.Resources.resources
+C:\Users\Administrator\Desktop\达元快检服务平台\更新软件\update\update\obj\Debug\update.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\达元快检服务平台\更新软件\update\update\obj\Debug\update.exe
+C:\Users\Administrator\Desktop\达元快检服务平台\更新软件\update\update\obj\Debug\update.pdb

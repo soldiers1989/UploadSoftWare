@@ -1,0 +1,4 @@
+16:21:54
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.FgdSelChannelWindow.ButtonNext_Click(Object sender, RoutedEventArgs e) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Fenguangdu\FgdSelChannelWindow.xaml.cs:行号 137
+

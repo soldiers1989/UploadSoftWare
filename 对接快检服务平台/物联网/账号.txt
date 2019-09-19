@@ -1,0 +1,24 @@
+心跳包数据上传到上面这个地址
+
+http://dyxx.chinafst.cn:8898/UpdateTool/ 
+ 账号：xiaoyl 
+密码：123456
+
+
+
+
+
+这个是配置仪器和查看定位的地址
+账号：lijinan
+ 密码：123456
+
+http://dyxx.chinafst.cn:8888/dycloud/toLogin.do
+
+
+
+仪器定位的系统地址换了，数据上传用这个
+地址:http://dyc.chinafst.cn:9003/UpdateTool
+
+仪器配置和定位查看是这个
+地址http://dyc.chinafst.cn:9003/dycloud，
+账号: lijinan 123456

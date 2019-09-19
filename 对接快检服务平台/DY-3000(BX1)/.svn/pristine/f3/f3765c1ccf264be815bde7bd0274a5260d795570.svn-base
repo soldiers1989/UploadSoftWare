@@ -1,0 +1,6 @@
+发送09:59:35
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=130716993904731168537592398938440&type=recevieSampling&serialNumber=&lastUpdateTime=2018-07-12 09:15:53&param1=&param2=&param3=
+
+接收09:59:35
+{"success":false,"msg":"参数serialNumber不能为空","obj":"","attributes":"","resultCode":"0X00001"}
+

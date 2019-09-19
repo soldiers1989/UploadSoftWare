@@ -1,0 +1,13 @@
+﻿<Window x:Class="AIO.xaml.Dialog.RepairHole"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="修改通道号" Height="200" Width="400"
+        WindowStyle="None" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" 
+        >
+    <Grid>
+        <Label Content="请选择所需的通道：" Width="180" Height="50" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  VerticalAlignment="Center" FontSize="18"  Margin="0,0,0,40" ></Label>
+        <ComboBox Name="cmbHoleSelect" Width="120" Height="50" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20"  VerticalAlignment="Center" Margin="160,0,70,40"></ComboBox>
+        <Button Name="btnOK" Width="80" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="确 定" Margin="-120,10,10,10" FontSize="20" Click="btnOK_Click"></Button>
+        <Button Name="btnCancel" Width="80" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="取 消" Margin="150,10,10,10" FontSize="20" Click="btnCancel_Click"></Button>
+    </Grid>
+</Window>

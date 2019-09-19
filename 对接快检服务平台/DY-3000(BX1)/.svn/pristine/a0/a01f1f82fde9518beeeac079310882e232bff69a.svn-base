@@ -1,0 +1,30 @@
+发送13:12:16
+http://fc.chinafst.cn:9002/fc/interfaces/task/tasksNumber.do?userToken=324317250035874824179666467515899&lastUpdateTime=2017-11-24 09:49:17
+
+接收13:12:16
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"tasks":[{"tasksNumber":6}]}}
+
+发送13:12:26
+http://fc.chinafst.cn:9002/fc/interfaces/task/tasksNumber.do?userToken=324317250035874824179666467515899&lastUpdateTime=2017-11-24 09:49:17
+
+接收13:12:26
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"tasks":[{"tasksNumber":6}]}}
+
+发送13:12:36
+http://fc.chinafst.cn:9002/fc/interfaces/task/tasksNumber.do?userToken=324317250035874824179666467515899&lastUpdateTime=2017-11-24 09:49:17
+
+接收13:12:36
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"tasks":[{"tasksNumber":6}]}}
+
+发送13:12:46
+http://fc.chinafst.cn:9002/fc/interfaces/task/tasksNumber.do?userToken=324317250035874824179666467515899&lastUpdateTime=2017-11-24 09:49:17
+
+接收13:12:46
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"tasks":[{"tasksNumber":6}]}}
+
+发送13:12:56
+http://fc.chinafst.cn:9002/fc/interfaces/task/tasksNumber.do?userToken=324317250035874824179666467515899&lastUpdateTime=2017-11-24 09:49:17
+
+接收13:12:56
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"tasks":[{"tasksNumber":6}]}}
+

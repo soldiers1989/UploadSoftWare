@@ -1,0 +1,6 @@
+发送10:08:26
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=595482174288110327727316525751670&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:08:26
+{"success":false,"msg":"该检测点下没有该系列仪器或均已被注册","obj":"","attributes":"","resultCode":"0X00007"}
+

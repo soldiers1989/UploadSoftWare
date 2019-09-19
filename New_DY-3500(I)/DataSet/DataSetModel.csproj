@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23BDB3F1-1F5E-4A5B-A2AC-1C3AFD2FE220}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataSetModel</RootNamespace>
+    <AssemblyName>DataSetModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBase.cs" />
+    <Compile Include="DataSentence\clsAtpOpr.cs" />
+    <Compile Include="DataSentence\clsCheckComTypeOpr.cs" />
+    <Compile Include="DataSentence\clsCheckItemOpr.cs" />
+    <Compile Include="DataSentence\clsCheckLevelOpr.cs" />
+    <Compile Include="DataSentence\clsCheckTypeOpr.cs" />
+    <Compile Include="DataSentence\clsCompanyKindOpr.cs" />
+    <Compile Include="DataSentence\clsCompanyOpr.cs" />
+    <Compile Include="DataSentence\clsCompanyPropertyOpr.cs" />
+    <Compile Include="DataSentence\clsCom_DistrictOpr.cs" />
+    <Compile Include="DataSentence\clsCom_ProduceAreaOpr.cs" />
+    <Compile Include="DataSentence\clsCom_UserUnitOpr.cs" />
+    <Compile Include="DataSentence\clsCreditLevelOpr.cs" />
+    <Compile Include="DataSentence\clsDistrictOpr.cs" />
+    <Compile Include="DataSentence\clsFoodClassOpr.cs" />
+    <Compile Include="DataSentence\clsMachineOpr.cs" />
+    <Compile Include="DataSentence\clsProduceAreaOpr.cs" />
+    <Compile Include="DataSentence\clsProprietorsOpr.cs" />
+    <Compile Include="DataSentence\clsResultOpr.cs" />
+    <Compile Include="DataSentence\clsSaleRecordOpr.cs" />
+    <Compile Include="DataSentence\clsSend_ResultOpr.cs" />
+    <Compile Include="DataSentence\clsStandardOpr.cs" />
+    <Compile Include="DataSentence\clsStandardTypeOpr.cs" />
+    <Compile Include="DataSentence\clsStockRecordOpr.cs" />
+    <Compile Include="DataSentence\clsSysOptOpr.cs" />
+    <Compile Include="DataSentence\clsTaskOpr.cs" />
+    <Compile Include="DataSentence\clsttStandardDecideOpr.cs" />
+    <Compile Include="DataSentence\clsUpdate_ResultOpr.cs" />
+    <Compile Include="DataSentence\clsUserInfoOpr.cs" />
+    <Compile Include="DataSentence\clsUserUnitOpr.cs" />
+    <Compile Include="DataSentence\FTPDownFile.cs" />
+    <Compile Include="DataSentence\HolesSetingOpr.cs" />
+    <Compile Include="DataSentence\KJFWBaseData.cs" />
+    <Compile Include="DataSentence\tlsttResultSecondOpr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassModel\ClassModel.csproj">
+      <Project>{00ce5a85-7a87-4e34-8b96-e63a29545196}</Project>
+      <Name>ClassModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

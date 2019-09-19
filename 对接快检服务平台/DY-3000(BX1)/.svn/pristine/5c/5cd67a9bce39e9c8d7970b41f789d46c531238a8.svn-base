@@ -1,0 +1,126 @@
+发送09:48:47
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=697919051094692814016863938425152&type=recevieSampling&serialNumber=DY-3000(BX1)_20180709155121&lastUpdateTime=2018-07-09 18:52:17&param1=&param2=&param3=
+
+接收09:48:47
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送09:50:37
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=697919051094692814016863938425152&type=recevieSampling&serialNumber=DY-3000(BX1)_20180709155121&lastUpdateTime=2018-07-10 09:48:47&param1=&param2=&param3=
+
+接收09:50:38
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送09:54:56
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=441300363265548801403791014100561&type=recevieSampling&serialNumber=DY-3000(BX1)_20180709155121&lastUpdateTime=2018-07-10 09:50:37&param1=&param2=&param3=
+
+接收09:54:56
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送10:13:36
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=978318610673429592013350624597287&type=recevieSampling&serialNumber=DY-3000(BX1)_20180709155121&lastUpdateTime=2018-07-10 09:54:56&param1=&param2=&param3=
+
+接收10:13:36
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送10:43:33
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=182042288634697252556497105926114&type=recevieSampling&serialNumber=DY-3000(BX1)_20180709155121&lastUpdateTime=2018-07-10 10:13:36&param1=&param2=&param3=
+
+接收10:43:33
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送10:46:05
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=182042288634697252556497105926114&type=recevieSampling&serialNumber=DY-3000(BX1)_20180709155121&lastUpdateTime=2018-07-10 10:43:33&param1=&param2=&param3=
+
+接收10:46:05
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送10:48:32
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=135713906050349477480995490837543&type=recevieSampling&serialNumber=DY-3000(BX1)_20180709155121&lastUpdateTime=2018-07-10 10:46:05&param1=&param2=&param3=
+
+接收10:48:32
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送10:56:17
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=233753390086020500473017153064102&type=recevieSampling&serialNumber=DY-3000(BX1)_20180709155121&lastUpdateTime=2018-07-10 10:48:32&param1=&param2=&param3=
+
+接收10:56:17
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送10:59:11
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=487316770055548975444059834060345&type=recevieSampling&serialNumber=DY-3000(BX1)_20180709155121&lastUpdateTime=2018-07-10 10:56:16&param1=&param2=&param3=
+
+接收10:59:11
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送16:18:20
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=441318208980143686647326011211540&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 10:59:11&param1=&param2=&param3=
+
+接收16:18:21
+{"success":true,"msg":"操作成功","obj":{"result":[{"sample_code":"A201807100009-1","food_id":"3763","food_name":"玉米","sample_number":0.20,"purchase_amount":2.00,"sample_date":"","purchase_date":"2018-07-10 00:00:00","item_id":"cfbb4a8d0e584c9db28bd26ac500d876","item_name":"农药残留","origin":".广州","supplier":"发我看","supplier_address":"","supplier_person":"火锅","supplier_phone":"134354","batch_number":"p123","status":0,"recevie_device":"DY-3000(BX1)_20180710161304","ope_shop_name":"","update_date":"","remark":"","param1":"","param2":96,"param3":"","id":137739,"sampling_id":17723,"s_id":17723,"s_sampling_no":"A201807100009","s_sampling_date":"2018-07-10 16:20:17","s_point_id":274,"s_reg_id":4096,"s_reg_name":"大龙虾","s_reg_licence":"","s_reg_link_person":"","s_reg_link_phone":"","s_ope_id":65537,"s_ope_shop_code":"c_001","s_ope_shop_name":"蔬菜档2","s_qrcode":"A201807100009.png","s_task_id":58,"s_status":0,"s_place_x":"113.502409","s_place_y":"23.155867","s_sampling_userid":"4028936e647da27901647df5e2b6000f","s_sampling_username":"达元","s_ope_signature":"A201807100009.jpg","s_create_by":"4028936e647da27901647df5e2b6000f","s_create_date":"2018-07-10 16:20:17","s_update_by":"4028936e647da27901647df5e2b6000f","s_update_date":"2018-07-10 16:20:17","s_sheet_address":"","s_param1":"","s_param2":"","s_param3":"","s_personal":0,"t_id":58,"t_task_code":"","t_task_title":"0709","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":20,"t_sample_number":0,"t_task_sdate":"2018-07-09 00:00:00","t_task_edate":"2018-07-11 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":1,"t_task_announcer":"2c922b9a6208996e0162093432720002","t_task_cdate":"2018-07-09 17:30:01","t_remark":"","t_view_flag":0,"t_file_path":"","t_delete_flag":0,"t_create_by":"2c922b9a6208996e0162093432720002","t_create_date":"2018-07-09 17:30:01","t_update_by":"2c922b9a6208996e0162093432720002","t_update_date":"2018-07-09 17:30:01","td_id":96,"td_task_id":58,"td_detail_code":"","td_sample_id":"3763","td_sample":"玉米","td_item_id":"cfbb4a8d0e584c9db28bd26ac500d876","td_item":"农药残留","td_task_fdate":"","td_receive_pointid":"","td_receive_point":"","td_receive_nodeid":274,"td_receive_node":"快检3","td_receive_userid":"","td_receive_username":"","td_receive_status":0,"td_task_total":20,"td_sample_number":0,"td_remark":"","qrcode":"http://fc.chinafst.cn:9002/fc/resources/qrcode/null","ope_signature":"http://fc.chinafst.cn:9002/fc/resources/opeSignaturePath/null"}]},"attributes":"","resultCode":"0X00000"}
+
+发送16:24:18
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=497820340093838761330535210734108&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 16:18:20&param1=&param2=&param3=
+
+接收16:24:19
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送16:32:41
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=426250668363995224584731030633684&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 16:24:18&param1=&param2=&param3=
+
+接收16:32:41
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送16:40:27
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=962105470727322334589566664968195&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 16:32:41&param1=&param2=&param3=
+
+接收16:40:27
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送16:49:52
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=471659060524994873356084142131181&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 16:40:27&param1=&param2=&param3=
+
+接收16:49:52
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送16:55:17
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=006155428330158242784695907836600&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 16:49:52&param1=&param2=&param3=
+
+接收16:55:17
+{"success":true,"msg":"操作成功","obj":{"result":[{"sample_code":"A201807100010-1","food_id":"2927","food_name":"牛肉","sample_number":0.20,"purchase_amount":2.00,"sample_date":"","purchase_date":"2018-07-10 00:00:00","item_id":"a702c986bb1e4ce5ae0201d3cff990f8","item_name":"盐酸克伦特罗","origin":"广西","supplier":"达元","supplier_address":"","supplier_person":"欢","supplier_phone":"2436451","batch_number":"p123","status":0,"recevie_device":"DY-3000(BX1)_20180710161304","ope_shop_name":"","update_date":"2018-07-10 16:57:18","remark":"","param1":"","param2":"","param3":"","id":137740,"sampling_id":17724,"s_id":17724,"s_sampling_no":"A201807100010","s_sampling_date":"2018-07-10 16:55:40","s_point_id":274,"s_reg_id":4097,"s_reg_name":"小龙虾","s_reg_licence":"","s_reg_link_person":"","s_reg_link_phone":"","s_ope_id":65539,"s_ope_shop_code":"B_002","s_ope_shop_name":"水产档2","s_qrcode":"A201807100010.png","s_task_id":58,"s_status":0,"s_place_x":"113.502409","s_place_y":"23.155867","s_sampling_userid":"4028936e647da27901647df5e2b6000f","s_sampling_username":"达元","s_ope_signature":"A201807100010.jpg","s_create_by":"4028936e647da27901647df5e2b6000f","s_create_date":"2018-07-10 16:55:40","s_update_by":"4028936e647da27901647df5e2b6000f","s_update_date":"2018-07-10 16:55:40","s_sheet_address":"","s_param1":"","s_param2":"","s_param3":"","s_personal":0,"t_id":58,"t_task_code":"","t_task_title":"0709","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":20,"t_sample_number":1,"t_task_sdate":"2018-07-09 00:00:00","t_task_edate":"2018-07-11 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":1,"t_task_announcer":"2c922b9a6208996e0162093432720002","t_task_cdate":"2018-07-09 17:30:01","t_remark":"","t_view_flag":0,"t_file_path":"","t_delete_flag":0,"t_create_by":"2c922b9a6208996e0162093432720002","t_create_date":"2018-07-09 17:30:01","t_update_by":"4028936e647da27901647df5e2b6000f","t_update_date":"2018-07-10 16:44:33","td_id":"","td_task_id":"","td_detail_code":"","td_sample_id":"","td_sample":"","td_item_id":"","td_item":"","td_task_fdate":"","td_receive_pointid":"","td_receive_point":"","td_receive_nodeid":"","td_receive_node":"","td_receive_userid":"","td_receive_username":"","td_receive_status":"","td_task_total":"","td_sample_number":"","td_remark":"","qrcode":"http://fc.chinafst.cn:9002/fc/resources/qrcode/null","ope_signature":"http://fc.chinafst.cn:9002/fc/resources/opeSignaturePath/null"}]},"attributes":"","resultCode":"0X00000"}
+
+发送16:58:26
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=478914091136701523937337568508251&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 16:55:17&param1=&param2=&param3=
+
+接收16:58:27
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送17:09:59
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=940273519103528938479181481924548&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 16:58:26&param1=&param2=&param3=
+
+接收17:09:59
+{"success":true,"msg":"操作成功","obj":{"result":[{"sample_code":"A201807100011-1","food_id":"2844","food_name":"西葫芦","sample_number":0.20,"purchase_amount":2.00,"sample_date":"","purchase_date":"2018-07-10 00:00:00","item_id":"cfbb4a8d0e584c9db28bd26ac500d876","item_name":"农药残留","origin":"广州","supplier":"达元","supplier_address":"","supplier_person":"欢","supplier_phone":"4543343","batch_number":"p1243","status":0,"recevie_device":"DY-3000(BX1)_20180710161304","ope_shop_name":"","update_date":"","remark":"","param1":"","param2":"","param3":"","id":137741,"sampling_id":17725,"s_id":17725,"s_sampling_no":"A201807100011","s_sampling_date":"2018-07-10 17:10:18","s_point_id":274,"s_reg_id":4096,"s_reg_name":"大龙虾","s_reg_licence":"","s_reg_link_person":"","s_reg_link_phone":"","s_ope_id":65537,"s_ope_shop_code":"c_001","s_ope_shop_name":"蔬菜档2","s_qrcode":"A201807100011.png","s_task_id":58,"s_status":0,"s_place_x":"113.502409","s_place_y":"23.155867","s_sampling_userid":"4028936e647da27901647df5e2b6000f","s_sampling_username":"达元","s_ope_signature":"A201807100011.jpg","s_create_by":"4028936e647da27901647df5e2b6000f","s_create_date":"2018-07-10 17:10:18","s_update_by":"4028936e647da27901647df5e2b6000f","s_update_date":"2018-07-10 17:10:18","s_sheet_address":"","s_param1":"","s_param2":"","s_param3":"","s_personal":0,"t_id":58,"t_task_code":"","t_task_title":"0709","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":20,"t_sample_number":1,"t_task_sdate":"2018-07-09 00:00:00","t_task_edate":"2018-07-11 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":1,"t_task_announcer":"2c922b9a6208996e0162093432720002","t_task_cdate":"2018-07-09 17:30:01","t_remark":"","t_view_flag":0,"t_file_path":"","t_delete_flag":0,"t_create_by":"2c922b9a6208996e0162093432720002","t_create_date":"2018-07-09 17:30:01","t_update_by":"4028936e647da27901647df5e2b6000f","t_update_date":"2018-07-10 16:44:33","td_id":"","td_task_id":"","td_detail_code":"","td_sample_id":"","td_sample":"","td_item_id":"","td_item":"","td_task_fdate":"","td_receive_pointid":"","td_receive_point":"","td_receive_nodeid":"","td_receive_node":"","td_receive_userid":"","td_receive_username":"","td_receive_status":"","td_task_total":"","td_sample_number":"","td_remark":"","qrcode":"http://fc.chinafst.cn:9002/fc/resources/qrcode/null","ope_signature":"http://fc.chinafst.cn:9002/fc/resources/opeSignaturePath/null"},{"sample_code":"A201807100012-1","food_id":"2847","food_name":"云南小瓜","sample_number":0.20,"purchase_amount":21.00,"sample_date":"","purchase_date":"2018-07-10 00:00:00","item_id":"cfbb4a8d0e584c9db28bd26ac500d876","item_name":"农药残留","origin":"广州","supplier":"达元","supplier_address":"","supplier_person":"欢","supplier_phone":"2346481","batch_number":"p42466","status":0,"recevie_device":"DY-3000(BX1)_20180710161304","ope_shop_name":"","update_date":"","remark":"","param1":"","param2":"","param3":"","id":137742,"sampling_id":17726,"s_id":17726,"s_sampling_no":"A201807100012","s_sampling_date":"2018-07-10 17:11:57","s_point_id":274,"s_reg_id":4100,"s_reg_name":"龙虾市场","s_reg_licence":"","s_reg_link_person":"","s_reg_link_phone":"","s_ope_id":65545,"s_ope_shop_code":"B_003","s_ope_shop_name":"水产档3","s_qrcode":"A201807100012.png","s_task_id":58,"s_status":0,"s_place_x":"113.502409","s_place_y":"23.155867","s_sampling_userid":"4028936e647da27901647df5e2b6000f","s_sampling_username":"达元","s_ope_signature":"A201807100012.jpg","s_create_by":"4028936e647da27901647df5e2b6000f","s_create_date":"2018-07-10 17:11:57","s_update_by":"4028936e647da27901647df5e2b6000f","s_update_date":"2018-07-10 17:11:57","s_sheet_address":"","s_param1":"","s_param2":"","s_param3":"","s_personal":0,"t_id":58,"t_task_code":"","t_task_title":"0709","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":20,"t_sample_number":1,"t_task_sdate":"2018-07-09 00:00:00","t_task_edate":"2018-07-11 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":1,"t_task_announcer":"2c922b9a6208996e0162093432720002","t_task_cdate":"2018-07-09 17:30:01","t_remark":"","t_view_flag":0,"t_file_path":"","t_delete_flag":0,"t_create_by":"2c922b9a6208996e0162093432720002","t_create_date":"2018-07-09 17:30:01","t_update_by":"4028936e647da27901647df5e2b6000f","t_update_date":"2018-07-10 16:44:33","td_id":"","td_task_id":"","td_detail_code":"","td_sample_id":"","td_sample":"","td_item_id":"","td_item":"","td_task_fdate":"","td_receive_pointid":"","td_receive_point":"","td_receive_nodeid":"","td_receive_node":"","td_receive_userid":"","td_receive_username":"","td_receive_status":"","td_task_total":"","td_sample_number":"","td_remark":"","qrcode":"http://fc.chinafst.cn:9002/fc/resources/qrcode/null","ope_signature":"http://fc.chinafst.cn:9002/fc/resources/opeSignaturePath/null"}]},"attributes":"","resultCode":"0X00000"}
+
+发送17:14:23
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=135693148647512230829094383316697&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 17:09:59&param1=&param2=&param3=
+
+接收17:14:24
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送17:18:58
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=135693148647512230829094383316697&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 17:14:23&param1=&param2=&param3=
+
+接收17:18:58
+{"success":true,"msg":"操作成功","obj":{"result":[{"sample_code":"A201807100013-1","food_id":"3763","food_name":"玉米","sample_number":0.20,"purchase_amount":2.00,"sample_date":"","purchase_date":"2018-07-10 00:00:00","item_id":"cfbb4a8d0e584c9db28bd26ac500d876","item_name":"农药残留","origin":"广西","supplier":"达元","supplier_address":"","supplier_person":"欢","supplier_phone":"1233","batch_number":"p1233","status":0,"recevie_device":"DY-3000(BX1)_20180710161304","ope_shop_name":"","update_date":"","remark":"","param1":"","param2":96,"param3":"","id":137743,"sampling_id":17727,"s_id":17727,"s_sampling_no":"A201807100013","s_sampling_date":"2018-07-10 17:20:59","s_point_id":274,"s_reg_id":4096,"s_reg_name":"大龙虾","s_reg_licence":"","s_reg_link_person":"","s_reg_link_phone":"","s_ope_id":65536,"s_ope_shop_code":"A_001","s_ope_shop_name":"蔬菜档1","s_qrcode":"A201807100013.png","s_task_id":58,"s_status":0,"s_place_x":"113.502038","s_place_y":"23.157692","s_sampling_userid":"4028936e647da27901647df5e2b6000f","s_sampling_username":"达元","s_ope_signature":"A201807100013.jpg","s_create_by":"4028936e647da27901647df5e2b6000f","s_create_date":"2018-07-10 17:20:59","s_update_by":"4028936e647da27901647df5e2b6000f","s_update_date":"2018-07-10 17:20:59","s_sheet_address":"","s_param1":"","s_param2":"","s_param3":"","s_personal":0,"t_id":58,"t_task_code":"","t_task_title":"0709","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":20,"t_sample_number":1,"t_task_sdate":"2018-07-09 00:00:00","t_task_edate":"2018-07-11 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":1,"t_task_announcer":"2c922b9a6208996e0162093432720002","t_task_cdate":"2018-07-09 17:30:01","t_remark":"","t_view_flag":0,"t_file_path":"","t_delete_flag":0,"t_create_by":"2c922b9a6208996e0162093432720002","t_create_date":"2018-07-09 17:30:01","t_update_by":"4028936e647da27901647df5e2b6000f","t_update_date":"2018-07-10 16:44:33","td_id":96,"td_task_id":58,"td_detail_code":"","td_sample_id":"3763","td_sample":"玉米","td_item_id":"cfbb4a8d0e584c9db28bd26ac500d876","td_item":"农药残留","td_task_fdate":"","td_receive_pointid":"","td_receive_point":"","td_receive_nodeid":274,"td_receive_node":"快检3","td_receive_userid":"","td_receive_username":"","td_receive_status":0,"td_task_total":20,"td_sample_number":1,"td_remark":"","qrcode":"http://fc.chinafst.cn:9002/fc/resources/qrcode/null","ope_signature":"http://fc.chinafst.cn:9002/fc/resources/opeSignaturePath/null"},{"sample_code":"A201807100013-2","food_id":"2852","food_name":"大蒜","sample_number":0.20,"purchase_amount":"","sample_date":"","purchase_date":"2018-07-10 00:00:00","item_id":"cfbb4a8d0e584c9db28bd26ac500d876","item_name":"农药残留","origin":"广西","supplier":"达元","supplier_address":"","supplier_person":"欢","supplier_phone":"5434343","batch_number":"p24343","status":0,"recevie_device":"DY-3000(BX1)_20180710161304","ope_shop_name":"","update_date":"","remark":"","param1":"","param2":"","param3":"","id":137744,"sampling_id":17727,"s_id":17727,"s_sampling_no":"A201807100013","s_sampling_date":"2018-07-10 17:20:59","s_point_id":274,"s_reg_id":4096,"s_reg_name":"大龙虾","s_reg_licence":"","s_reg_link_person":"","s_reg_link_phone":"","s_ope_id":65536,"s_ope_shop_code":"A_001","s_ope_shop_name":"蔬菜档1","s_qrcode":"A201807100013.png","s_task_id":58,"s_status":0,"s_place_x":"113.502038","s_place_y":"23.157692","s_sampling_userid":"4028936e647da27901647df5e2b6000f","s_sampling_username":"达元","s_ope_signature":"A201807100013.jpg","s_create_by":"4028936e647da27901647df5e2b6000f","s_create_date":"2018-07-10 17:20:59","s_update_by":"4028936e647da27901647df5e2b6000f","s_update_date":"2018-07-10 17:20:59","s_sheet_address":"","s_param1":"","s_param2":"","s_param3":"","s_personal":0,"t_id":58,"t_task_code":"","t_task_title":"0709","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":20,"t_sample_number":1,"t_task_sdate":"2018-07-09 00:00:00","t_task_edate":"2018-07-11 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":1,"t_task_announcer":"2c922b9a6208996e0162093432720002","t_task_cdate":"2018-07-09 17:30:01","t_remark":"","t_view_flag":0,"t_file_path":"","t_delete_flag":0,"t_create_by":"2c922b9a6208996e0162093432720002","t_create_date":"2018-07-09 17:30:01","t_update_by":"4028936e647da27901647df5e2b6000f","t_update_date":"2018-07-10 16:44:33","td_id":"","td_task_id":"","td_detail_code":"","td_sample_id":"","td_sample":"","td_item_id":"","td_item":"","td_task_fdate":"","td_receive_pointid":"","td_receive_point":"","td_receive_nodeid":"","td_receive_node":"","td_receive_userid":"","td_receive_username":"","td_receive_status":"","td_task_total":"","td_sample_number":"","td_remark":"","qrcode":"http://fc.chinafst.cn:9002/fc/resources/qrcode/null","ope_signature":"http://fc.chinafst.cn:9002/fc/resources/opeSignaturePath/null"}]},"attributes":"","resultCode":"0X00000"}
+
+发送17:38:57
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=944663716508280719551656125209358&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 17:18:57&param1=&param2=&param3=
+
+接收17:38:57
+{"success":true,"msg":"操作成功","obj":{"result":[]},"attributes":"","resultCode":"0X00000"}
+
+发送17:41:16
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=944663716508280719551656125209358&type=recevieSampling&serialNumber=DY-3000(BX1)_20180710161304&lastUpdateTime=2018-07-10 17:38:57&param1=&param2=&param3=
+
+接收17:41:16
+{"success":true,"msg":"操作成功","obj":{"result":[{"sample_code":"A201807100014-1","food_id":"3037","food_name":"猪肉","sample_number":0.20,"purchase_amount":2.00,"sample_date":"","purchase_date":"2018-07-10 00:00:00","item_id":"10ea3eecc9a346c986538450b4a84ef9","item_name":"沙丁胺醇","origin":"广州","supplier":"达元","supplier_address":"","supplier_person":"欢","supplier_phone":"1235585","batch_number":"p123","status":0,"recevie_device":"DY-3000(BX1)_20180710161304","ope_shop_name":"","update_date":"","remark":"","param1":"","param2":"","param3":"","id":137745,"sampling_id":17728,"s_id":17728,"s_sampling_no":"A201807100014","s_sampling_date":"2018-07-10 17:43:14","s_point_id":274,"s_reg_id":4096,"s_reg_name":"大龙虾","s_reg_licence":"","s_reg_link_person":"","s_reg_link_phone":"","s_ope_id":89489,"s_ope_shop_code":"we","s_ope_shop_name":"gg","s_qrcode":"A201807100014.png","s_task_id":58,"s_status":0,"s_place_x":"113.502409","s_place_y":"23.155867","s_sampling_userid":"4028936e647da27901647df5e2b6000f","s_sampling_username":"达元","s_ope_signature":"A201807100014.jpg","s_create_by":"4028936e647da27901647df5e2b6000f","s_create_date":"2018-07-10 17:43:14","s_update_by":"4028936e647da27901647df5e2b6000f","s_update_date":"2018-07-10 17:43:14","s_sheet_address":"","s_param1":"","s_param2":"","s_param3":"","s_personal":0,"t_id":58,"t_task_code":"","t_task_title":"0709","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":20,"t_sample_number":2,"t_task_sdate":"2018-07-09 00:00:00","t_task_edate":"2018-07-11 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":1,"t_task_announcer":"2c922b9a6208996e0162093432720002","t_task_cdate":"2018-07-09 17:30:01","t_remark":"","t_view_flag":0,"t_file_path":"","t_delete_flag":0,"t_create_by":"2c922b9a6208996e0162093432720002","t_create_date":"2018-07-09 17:30:01","t_update_by":"4028936e647da27901647df5e2b6000f","t_update_date":"2018-07-10 17:25:02","td_id":"","td_task_id":"","td_detail_code":"","td_sample_id":"","td_sample":"","td_item_id":"","td_item":"","td_task_fdate":"","td_receive_pointid":"","td_receive_point":"","td_receive_nodeid":"","td_receive_node":"","td_receive_userid":"","td_receive_username":"","td_receive_status":"","td_task_total":"","td_sample_number":"","td_remark":"","qrcode":"http://fc.chinafst.cn:9002/fc/resources/qrcode/null","ope_signature":"http://fc.chinafst.cn:9002/fc/resources/opeSignaturePath/null"}]},"attributes":"","resultCode":"0X00000"}
+

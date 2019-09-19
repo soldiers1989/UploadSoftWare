@@ -1,0 +1,42 @@
+发送09:13:13
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=172079931440795033866964800668864&serialNumber=DY-3500(I)_20180313091118&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:13:14
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:13:24
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=172079931440795033866964800668864&serialNumber=DY-3500(I)_20180313091118&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:13:24
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:13:34
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=172079931440795033866964800668864&serialNumber=DY-3500(I)_20180313091118&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:13:34
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:13:44
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=172079931440795033866964800668864&serialNumber=DY-3500(I)_20180313091118&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:13:44
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:13:54
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=172079931440795033866964800668864&serialNumber=DY-3500(I)_20180313091118&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:13:54
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:14:04
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=172079931440795033866964800668864&serialNumber=DY-3500(I)_20180313091118&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:14:04
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:14:14
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=172079931440795033866964800668864&serialNumber=DY-3500(I)_20180313091118&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:14:14
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+

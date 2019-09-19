@@ -1,0 +1,6 @@
+发送10:59:52
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=267945644443413560149421114193039&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:59:52
+{"attributes":"","obj":{"id":"4028936e615518f9016163e1982d0006","device_code":"gz002dy35002018","device_name":"DY3500(I)食品综合分析仪","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"29","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180412092415","delete_flag":0,"create_by":"1","create_date":"2018-02-05 10:53:04","update_by":"1","update_date":"2018-04-12 09:21:40","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+

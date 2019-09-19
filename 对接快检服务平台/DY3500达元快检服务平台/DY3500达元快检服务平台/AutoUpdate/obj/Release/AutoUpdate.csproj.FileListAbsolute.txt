@@ -1,0 +1,5 @@
+F:\Projects\SVN\DY-3500\AutoUpdate\bin\Release\AutoUpdate.exe.config
+F:\Projects\SVN\DY-3500\AutoUpdate\bin\Release\AutoUpdate.exe
+F:\Projects\SVN\DY-3500\AutoUpdate\obj\Release\AutoUpdate.FrmUpdate.resources
+F:\Projects\SVN\DY-3500\AutoUpdate\obj\Release\AutoUpdate.csproj.GenerateResource.Cache
+F:\Projects\SVN\DY-3500\AutoUpdate\obj\Release\AutoUpdate.exe

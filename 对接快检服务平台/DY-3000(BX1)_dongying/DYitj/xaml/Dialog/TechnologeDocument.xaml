@@ -1,0 +1,12 @@
+﻿<Window x:Class="AIO.xaml.Dialog.TechnologeDocument"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="操作技术文档" 
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen" Width="600" Height="400">
+    <Grid>
+        <DockPanel >
+            <RichTextBox Name="richTextBox" IsReadOnly="True" VerticalScrollBarVisibility="Visible"></RichTextBox>
+        </DockPanel>
+    </Grid>
+</Window>

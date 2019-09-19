@@ -1,0 +1,1310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="E:\Projects\DY-3000(BX1)\DYitj\bin\Release\DY-Detector.exe">
+   <Modules>
+    <Module Name="dy-detector.exe">
+     <Namespaces>
+      <Namespace Name="AIO">
+       <Types>
+        <Type Name="App" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'App' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Application', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdEditItemWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdEditItemWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdMeasureWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdMeasureWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdSelChannelWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdSelChannelWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'FgdSelChannelWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  'DataTable'。如果以前提供过 'FgdSelChannelWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdShowADWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdShowADWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Global" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetXmlByService(System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="Global.cs" Line="1490">'Global.GetXmlByService(string, string, string, string, string, string)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InternetGetConnectedState(System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'Global.InternetGetConnectedState(int, int)'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error">如代码中所声明的，P/Invoke 'Global.InternetGetConnectedState(int, int)' 的参数 'Description' 在 64 位 平台上的字节宽度将为 4。这是不正确的，因为此 API 的实际本机声明表明该参数在 64 位 平台上的字节宽度应为 8。请参考 MSDN Platform SDK 文档来获取帮助，确定应使用哪种数据类型来代替 'int'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MD5(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="Global.cs" Line="1368">'Global.MD5(string)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Global+AnHuiInterface" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ParsingXML(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="Global.cs" Line="1998">'Global.AnHuiInterface.ParsingXML(string)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Global+ATP" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#FindTheHid()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="Global.cs" Line="718">'Global.ATP.FindTheHid()' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GszEditItemWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszEditItemWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GszMeasureWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszMeasureWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GszReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#LoadBugInfo(System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Ganshizhi" File="GszReportWindow.xaml.cs" Line="639">可以在方法 'GszReportWindow.LoadBugInfo(string)' 中多次释放对象 'fs'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 639</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GszSelChannelWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszSelChannelWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GszWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GszWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'GszWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  'DataTable'。如果以前提供过 'GszWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="HmEditItemWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'HmEditItemWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="HmMeasureWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'HmMeasureWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="HmSelChannelWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'HmSelChannelWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="HmWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'HmWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'HmWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  'DataTable'。如果以前提供过 'HmWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="InputDialog" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'InputDialog' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ItemResultEdit" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ItemResultEdit' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjEditItemWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjEditItemWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjMeasureWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjMeasureWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjSelChannelWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjSelChannelWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JtjWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'JtjWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'JtjWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  'DataTable'。如果以前提供过 'JtjWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="LoginDisplay" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'LoginDisplay' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#GenerateItemBriefLayout(AIO.UserAccount)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Account" File="LoginDisplay.xaml.cs" Line="589">'LoginDisplay.GenerateItemBriefLayout(UserAccount)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RemoveAt(System.Collections.Generic.List`1&lt;AIO.UserAccount&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Account" File="LoginDisplay.xaml.cs" Line="248">'LoginDisplay.RemoveAt(List&lt;UserAccount&gt;)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ShowAllItems(System.Collections.Generic.List`1&lt;AIO.UserAccount&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Account" File="LoginDisplay.xaml.cs" Line="222">'LoginDisplay.ShowAllItems(List&lt;UserAccount&gt;)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LoginNameEdit" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'LoginNameEdit' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="LoginWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'LoginWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#CheckedUser()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Main" File="LoginWindow.xaml.cs" Line="160">'LoginWindow.CheckedUser()' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MainWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'MainWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="RecordWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'RecordWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#SaveFile(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Record" File="RecordWindow.xaml.cs" Line="1983">可以在方法 'RecordWindow.SaveFile(string)' 中多次释放对象 'fs'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 1983</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SettingsWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SettingsWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#UpdateStatus(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Main" File="SettingsWindow.xaml.cs" Line="1923">'SettingsWindow.UpdateStatus(string)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ShowError" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ShowError' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TaskDisplay" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TaskDisplay' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TestResultConserve" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TestResultConserve' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="WarnTaskShow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'WarnTaskShow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'WarnTaskShow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  'DataTable'。如果以前提供过 'WarnTaskShow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="WorkThread" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DownLoadAllData(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="WorkThread.cs" Line="2807">'WorkThread.DownLoadAllData(string, string, string, string, string, string, string, string)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WpfTaskFinishShow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'WpfTaskFinishShow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.AnHui">
+       <Types>
+        <Type Name="TestMoreMethodGetMac+IP_Adapter_Addresses" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AdapterName" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.AdapterName' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Description" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.Description' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DnsSuffix" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.DnsSuffix' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FirstAnycastAddress" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.FirstAnycastAddress' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FirstDnsServerAddress" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.FirstDnsServerAddress' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FirstMulticastAddress" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.FirstMulticastAddress' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FirstPrefix" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.FirstPrefix' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FirstUnicastAddress" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.FirstUnicastAddress' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FriendlyName" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.FriendlyName' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Next" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.IP_Adapter_Addresses.Next' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TestMoreMethodGetMac+MoreMethodGetMAC" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetAdaptersAddresses(System.UInt32,System.UInt32,System.IntPtr,System.IntPtr,System.UInt32&amp;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'TestMoreMethodGetMac.MoreMethodGetMAC.GetAdaptersAddresses(uint, uint, IntPtr, IntPtr, ref uint)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'TestMoreMethodGetMac.MoreMethodGetMAC.GetAdaptersAddresses(uint, uint, IntPtr, IntPtr, ref uint)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SendARP(System.Int32,System.Int32,System.Int64&amp;,System.Int32&amp;)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'TestMoreMethodGetMac.MoreMethodGetMAC.SendARP(int, int, ref long, ref int)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TestMoreMethodGetMac+NCB" Kind="Struct" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnNativeResourcesShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1049" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="50" Level="CriticalError">在 'TestMoreMethodGetMac.NCB' 上实现 IDisposable。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ncb_buffer" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.NCB.ncb_buffer' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ncb_event" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.NCB.ncb_event' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ncb_post" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalError">将 'TestMoreMethodGetMac.NCB.ncb_post' 设置为私有的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TestMoreMethodGetMac+Win32API" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Netbios(AIO.AnHui.TestMoreMethodGetMac+NCB&amp;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'TestMoreMethodGetMac.Win32API.Netbios(ref TestMoreMethodGetMac.NCB)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'TestMoreMethodGetMac.Win32API.Netbios(ref TestMoreMethodGetMac.NCB)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="XMLNode" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">将 [Serializable] 添加到 'XMLNode'，原因是此类型实现了 ISerializable。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.src">
+       <Types>
+        <Type Name="ExcelHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CreateExcel(System.Data.DataTable,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="ExcelHelper.cs" Line="133">'ExcelHelper.CreateExcel(DataTable, string)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImportExcel(System.String,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="ExcelHelper.cs" Line="74">'ExcelHelper.ImportExcel(string, int)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="InterfaceHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CheckUserCommunication(System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="InterfaceHelper.cs" Line="81">'InterfaceHelper.CheckUserCommunication(string, string, string)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HttpMath(System.String,System.String,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="InterfaceHelper.cs" Line="62">'InterfaceHelper.HttpMath(string, string, int, int)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Wisdom" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#HttpPostRequest(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="Wisdom.cs" Line="463">可以在方法 'Wisdom.HttpPostRequest(string)' 中多次释放对象 'objResponse.GetResponseStream()'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 463</Issue>
+             <Issue Certainty="75" Level="Warning" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="Wisdom.cs" Line="463">可以在方法 'Wisdom.HttpPostRequest(string)' 中多次释放对象 'sr'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 463</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WisdomCls" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'WisdomCls' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Insert()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="WisdomCls.cs" Line="62">'WisdomCls.Insert()' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InsertSample(DYSeriesDataSet.DataModel.clsTB_SAMPLING)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="WisdomCls.cs" Line="135">'WisdomCls.InsertSample(clsTB_SAMPLING)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="WisdomCls.cs" Line="91">'WisdomCls.Update()' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="XmlFiles" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'XmlFiles' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'XmlDocument', 'XmlNode'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="e:\Projects\DY-3000(BX1)\DYitj\src" File="XmlFiles.cs" Line="19">'XmlFiles.XmlFiles(string)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;XmlFiles..ctor(String)&#xD;&#xA;XmlDocument.Load(String):Void。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.ATP">
+       <Types>
+        <Type Name="AtpWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'AtpWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'AtpWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  'DeviceManagement'。如果以前提供过 'AtpWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#FindTheHid()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\ATP" File="AtpWindow.xaml.cs" Line="347">'AtpWindow.FindTheHid()' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getCount()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\ATP" File="AtpWindow.xaml.cs" Line="317">'AtpWindow.getCount()' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadAndWriteToDevice(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\ATP" File="AtpWindow.xaml.cs" Line="279">'AtpWindow.ReadAndWriteToDevice(string)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.Dialog">
+       <Types>
+        <Type Name="AddOrUpdateCompany" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'AddOrUpdateCompany' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="AddOrUpdateSample" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'AddOrUpdateSample' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="APlayerForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DllRegisterServer()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'APlayerForm.DllRegisterServer()'。</Issue>
+            </Message>
+            <Message TypeName="PInvokeEntryPointsShouldExist" Category="Microsoft.Interoperability" CheckId="CA1400" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="CriticalWarning">更正 'APlayerForm.DllRegisterServer()' 的声明，使它正确地指向 'AxInterop.APlayer3Lib.dll' 中的现有入口点。当前链接到的非托管入口点的名称是 DllRegisterServer。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'APlayerForm.DllRegisterServer()' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DllUnregisterServer()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'APlayerForm.DllUnregisterServer()'。</Issue>
+            </Message>
+            <Message TypeName="PInvokeEntryPointsShouldExist" Category="Microsoft.Interoperability" CheckId="CA1400" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="CriticalWarning">更正 'APlayerForm.DllUnregisterServer()' 的声明，使它正确地指向 'AxInterop.APlayer3Lib.dll' 中的现有入口点。当前链接到的非托管入口点的名称是 DllUnregisterServer。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'APlayerForm.DllUnregisterServer()' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CountryDataSearch" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CountryDataSearch' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CountryDataSearchShow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CountryDataSearchShow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CruveDataWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CruveDataWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ErrorMsg" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ErrorMsg' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FoodCategoriesWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FoodCategoriesWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ImportItems" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ImportItems' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="LawsAndRegulationsWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'LawsAndRegulationsWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'LawsAndRegulationsWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  'CheckReportForm'。如果以前提供过 'LawsAndRegulationsWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ManagementCompany" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ManagementCompany' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ManagementSample" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ManagementSample' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PromptWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'PromptWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchCompanyWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchCompanyWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchFoodTypeWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchFoodTypeWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchItem" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchItem' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchSample" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchSample' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchSampleidWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchSampleidWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#SearchCloud()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Dialog" File="SearchSampleidWindow.xaml.cs" Line="104">'SearchSampleidWindow.SearchCloud()' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SearchSampleType" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchSampleType' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchTaskWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchTaskWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="StandardRepositoryWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'StandardRepositoryWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'StandardRepositoryWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  'CheckReportForm'。如果以前提供过 'StandardRepositoryWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TaskDetailedWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TaskDetailedWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TechnologeDocument" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TechnologeDocument' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TimerWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TimerWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TraceTestWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TraceTestWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VideoPlayback" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'VideoPlayback' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.Fenguangdu">
+       <Types>
+        <Type Name="CalculatedCurve" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CalculatedCurve' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FgdTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FgdTest' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="RealTimeCurve" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'RealTimeCurve' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ShowCurve" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ShowCurve' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.HeavyMetal">
+       <Types>
+        <Type Name="CurveWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CurveWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'CurveWindow' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  'PerformanceCounter'。如果以前提供过 'CurveWindow'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="HmReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'HmReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.KjService">
+       <Types>
+        <Type Name="CheckTasks" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CheckTasks' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ReceiveTasks" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ReceiveTasks' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchCompanys" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchCompanys' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SearchReceiveTasks" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SearchReceiveTasks' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ShowCheckTasks" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ShowCheckTasks' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ShowReceiveTasks" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ShowReceiveTasks' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TaskMsg" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TaskMsg' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.Main">
+       <Types>
+        <Type Name="DataManagementWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'DataManagementWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="KnowledgeBaseWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'KnowledgeBaseWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TrainingModuleWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TrainingModuleWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VersionInfo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'VersionInfo' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.Print">
+       <Types>
+        <Type Name="CheckReportForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CheckReportForm_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Print" File="CheckReportForm.cs" Line="54">可以在方法 'CheckReportForm.CheckReportForm_Load(object, EventArgs)' 中多次释放对象 'regkey1'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 54</Issue>
+             <Issue Certainty="75" Level="Warning" Path="e:\Projects\DY-3000(BX1)\DYitj\xaml\Print" File="CheckReportForm.cs" Line="54">可以在方法 'CheckReportForm.CheckReportForm_Load(object, EventArgs)' 中多次释放对象 'regkey2'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 54</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FindWindow(System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'CheckReportForm.FindWindow(string, string)'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">为了降低安全风险，请将参数 'lpClassName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+            <Message Id="1" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">为了降低安全风险，请将参数 'lpWindowName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FindWindowEx(System.IntPtr,System.IntPtr,System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'CheckReportForm.FindWindowEx(IntPtr, IntPtr, string, string)'。</Issue>
+            </Message>
+            <Message Id="2" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">为了降低安全风险，请将参数 'lpClassName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+            <Message Id="3" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="NonBreaking">
+             <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">为了降低安全风险，请将参数 'lpWindowName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SendMessage(System.IntPtr,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'CheckReportForm.SendMessage(IntPtr, int, int, int)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'CheckReportForm.SendMessage(IntPtr, int, int, int)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PrintPreviewWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'PrintPreviewWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UpdateReportGSWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'UpdateReportGSWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UpdateReportWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'UpdateReportWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.Record">
+       <Types>
+        <Type Name="PrintPreview" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'PrintPreview' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="StatisticalAnalysisWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'StatisticalAnalysisWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TimerUploadWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TimerUploadWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AIO.xaml.TrainingModule">
+       <Types>
+        <Type Name="SecurityWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2018-06-29 03:27:42Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SecurityWindow' 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405">
+   <Name>COM 可见类型的基类型应对 COM 可见</Name>
+   <Description>COM 可见类型应具有 COM 一致可见的对象层次结构。</Description>
+   <Resolution Name="Default">{0} 被标记为 ComVisible(true)，但在其对象层次结构中具有下列 ComVisible(false) 类型: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182202.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>不要在构造函数中调用可重写的方法</Name>
+   <Description>不应通过构造函数调用类中定义的虚方法。如果某个派生类已重写该虚方法，则将在调用派生类的构造函数前，调用此派生类重写后的方法。</Description>
+   <Resolution Name="Default">{0} 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: {1}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237">
+   <Name>用 SerializableAttribute 标记 ISerializable 类型</Name>
+   <Description>System.Runtime.Serialization.ISerializable 接口允许该类型自定义自身的序列化，而 Serializable 特性使运行时能够将该类型识别为可序列化的类型。</Description>
+   <Resolution Name="Default">将 [Serializable] 添加到 {0}，原因是此类型实现了 ISerializable。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182350.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+   <Name>将 P/Invoke 移动到 NativeMethods 类</Name>
+   <Description>此类型包含具有 DllImport 特性的成员。具有 DllImport 特性的成员应包含在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中。</Description>
+   <Resolution Name="Default">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 {0}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182161.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901">
+   <Name>P/Invoke 声明应为可移植声明</Name>
+   <Description>.</Description>
+   <Resolution Name="Parameter">如代码中所声明的，P/Invoke {1} 的参数 {0} 在 {3} 平台上的字节宽度将为 {2}。这是不正确的，因为此 API 的实际本机声明表明该参数在 {3} 平台上的字节宽度应为 {4}。请参考 MSDN Platform SDK 文档来获取帮助，确定应使用哪种数据类型来代替 {5}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182284(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="portabilityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokeEntryPointsShouldExist" Category="Microsoft.Interoperability" CheckId="CA1400">
+   <Name>P/Invoke 入口点应该存在</Name>
+   <Description>使用 DLLImport 特性修饰的方法应指向现有的非托管入口点。任何编译时检查都无法确保那些使用 DLLImportAttribute 特性修饰的方法在所引用的非托管 dll 中实际存在。如果入口点不存在或指定的参数列表不正确，则会生成运行时异常。</Description>
+   <Resolution Name="Default">更正 {0} 的声明，使它正确地指向 {1} 中的现有入口点。当前链接到的非托管入口点的名称是 {2}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182208.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalWarning</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401">
+   <Name>P/Invokes 应该是不可见的</Name>
+   <Description>互操作层不应该是公共的。DllImport 特性不应该应用于可公开访问的成员(公共成员或受保护的成员)。</Description>
+   <Resolution Name="Default">更改 P/Invoke {0} 的可访问性，使它在自己的程序集外部不再是可见的。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182209.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalError</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="PointersShouldNotBeVisible" Category="Microsoft.Security" CheckId="CA2111">
+   <Name>指针应为不可见</Name>
+   <Description>应将 IntPtr 和 UIntPtr 字段声明为私有。公开非私有指针可能会导致安全漏洞。</Description>
+   <Resolution Name="Default">将 {0} 设置为私有的。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182306.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalError</MessageLevel>
+   <File Name="securityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200">
+   <Name>再次引发以保留堆栈详细信息</Name>
+   <Description>重复引发捕获的异常时，请使用 IL 再次引发指令保留原始堆栈详细信息。</Description>
+   <Resolution Name="Default">{0} 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182363.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101">
+   <Name>指定对 P/Invoke 字符串参数进行封送处理</Name>
+   <Description>在将字符串封送为 ANSI (在 Win9x 上为 Auto)时，某些字符可能会改变。如果启用了最佳匹配映射，则采用 Unicode 编码时显示样式不同的字符串将封送到相同的 ANSI 字符串，这可能会导致错误的安全决策。禁用最佳匹配映射会降低此风险，因为所有没有等效项的字符都将映射到“?”。另外，请注意，CharSet.Ansi 是所有字符串的默认封送设置；Unicode 封送必须显式指定为 DllImport 或 StructLayout 的 CharSet 设置，或者指定为具有 Unicode (或与系统相关的) UnmanagedType 的 MarshalAs 特性。</Description>
+   <Resolution Name="ParameterImplicitAnsi">为了降低安全风险，请将参数 {0} 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182319.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>具有可释放字段的类型应该是可释放的</Name>
+   <Description>声明可释放成员的类型也应实现 IDisposable。如果该类型没有任何非托管资源，请不要在其上实现终结器。</Description>
+   <Resolution Name="DependsOnFix">在 {0} 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员:  {1}。如果以前提供过 {0}，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnNativeResourcesShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1049">
+   <Name>拥有本机资源的类型应是可释放的</Name>
+   <Description>分配非托管资源的类型应实现 IDisposable，以便允许调用方根据需要释放这些资源。如果不能实现 IDisposable，则将导致非托管资源不可用或利用不足。</Description>
+   <Resolution Name="Default">在 {0} 上实现 IDisposable。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182173.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>不要多次释放对象</Name>
+   <Description>可以多次调用正确实现的 Dispose 方法，而不会引发异常。但是，并不保证所有情况下都会如此。若要避免生成 System.ObjectDisposedException，您不应对一个对象多次调用 Dispose。</Description>
+   <Resolution Name="Default">可以在方法 {1} 中多次释放对象 {0}。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 639</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

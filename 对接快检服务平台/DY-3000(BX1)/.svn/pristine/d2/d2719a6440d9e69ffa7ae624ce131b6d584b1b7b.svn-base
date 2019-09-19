@@ -1,0 +1,54 @@
+发送15:28:37
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收15:28:37
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+发送15:28:58
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收15:28:58
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+发送15:29:07
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收15:29:07
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+发送15:33:27
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收15:33:27
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"id":9,"app_type":"DY-3500(I)","app_name":"DY-3500(I)","version":"4","url_path":"http://fc.chinafst.cn:9002/update/fc/DY3500/DY3500_2.4.3_20180411.rar","description":"更新内容：1、格式化下载检测任务时间格式，兼容电脑任何时间格式；2、清空登录服务器地址、用户名、密码，用户首次使用必须填写服务器地址、用户名、密码并通信测试成功方可使用软件；","imp_date":"2018-04-11 00:00:00","delete_flag":0,"create_by":"","create_date":"2018-04-11 00:00:00","update_by":"","update_date":"","param1":"2.4.3","param2":"0","param3":""}}
+
+发送15:36:45
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收15:36:45
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"id":9,"app_type":"DY-3500(I)","app_name":"DY-3500(I)","version":"4","url_path":"http://fc.chinafst.cn:9002/update/fc/DY3500/DY3500_2.4.3_20180411.rar","description":"更新内容：1、格式化下载检测任务时间格式，兼容电脑任何时间格式；2、清空登录服务器地址、用户名、密码，用户首次使用必须填写服务器地址、用户名、密码并通信测试成功方可使用软件；","imp_date":"2018-04-11 00:00:00","delete_flag":0,"create_by":"","create_date":"2018-04-11 00:00:00","update_by":"","update_date":"","param1":"2.4.3","param2":"0","param3":""}}
+
+发送15:39:39
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收15:39:39
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"id":9,"app_type":"DY-3500(I)","app_name":"DY-3500(I)","version":"4","url_path":"http://fc.chinafst.cn:9002/update/fc/DY3500/DY3500_2.4.3_20180411.rar","description":"更新内容：1、格式化下载检测任务时间格式，兼容电脑任何时间格式；2、清空登录服务器地址、用户名、密码，用户首次使用必须填写服务器地址、用户名、密码并通信测试成功方可使用软件；","imp_date":"2018-04-11 00:00:00","delete_flag":0,"create_by":"","create_date":"2018-04-11 00:00:00","update_by":"","update_date":"","param1":"2.4.3","param2":"0","param3":""}}
+
+发送16:51:36
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收16:51:36
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"id":9,"app_type":"DY-3500(I)","app_name":"DY-3500(I)","version":"4","url_path":"http://fc.chinafst.cn:9002/update/fc/DY3500/DY3500_2.4.3_20180411.rar","description":"更新内容：1、格式化下载检测任务时间格式，兼容电脑任何时间格式；2、清空登录服务器地址、用户名、密码，用户首次使用必须填写服务器地址、用户名、密码并通信测试成功方可使用软件；","imp_date":"2018-04-11 00:00:00","delete_flag":0,"create_by":"","create_date":"2018-04-11 00:00:00","update_by":"","update_date":"","param1":"2.4.3","param2":"0","param3":""}}
+
+发送16:52:26
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收16:52:26
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"id":9,"app_type":"DY-3500(I)","app_name":"DY-3500(I)","version":"4","url_path":"http://fc.chinafst.cn:9002/update/fc/DY3500/DY3500_2.4.3_20180411.rar","description":"更新内容：1、格式化下载检测任务时间格式，兼容电脑任何时间格式；2、清空登录服务器地址、用户名、密码，用户首次使用必须填写服务器地址、用户名、密码并通信测试成功方可使用软件；","imp_date":"2018-04-11 00:00:00","delete_flag":0,"create_by":"","create_date":"2018-04-11 00:00:00","update_by":"","update_date":"","param1":"2.4.3","param2":"0","param3":""}}
+
+发送17:02:54
+http://fc.chinafst.cn:9002/fc/upload/checkVersion.do?appName=DY-3500(I)&param1=&param2=&param3=
+
+接收17:02:54
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"id":9,"app_type":"DY-3500(I)","app_name":"DY-3500(I)","version":"4","url_path":"http://fc.chinafst.cn:9002/update/fc/DY3500/DY3500_2.4.3_20180411.rar","description":"更新内容：1、格式化下载检测任务时间格式，兼容电脑任何时间格式；2、清空登录服务器地址、用户名、密码，用户首次使用必须填写服务器地址、用户名、密码并通信测试成功方可使用软件；","imp_date":"2018-04-11 00:00:00","delete_flag":0,"create_by":"","create_date":"2018-04-11 00:00:00","update_by":"","update_date":"","param1":"2.4.3","param2":"0","param3":""}}
+

@@ -1,0 +1,14 @@
+15:48:44
+System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 AIO.xaml.Dialog.CruveDataWindow.SettingCruve(tlsTtResultSecond model, String cruveDatas) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Dialog\CruveDataWindow.xaml.cs:行号 38
+   在 AIO.RecordWindow.miShowCruve_Click(Object sender, RoutedEventArgs e) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 1486
+
+15:48:52
+System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 AIO.xaml.Dialog.CruveDataWindow.SettingCruve(tlsTtResultSecond model, String cruveDatas) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Dialog\CruveDataWindow.xaml.cs:行号 38
+   在 AIO.RecordWindow.miShowCruve_Click(Object sender, RoutedEventArgs e) 位置 e:\Projects\DY-3000(BX1)\DYitj\xaml\Record\RecordWindow.xaml.cs:行号 1486
+

@@ -1,0 +1,48 @@
+发送09:35:15
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=995709910965296151088331390063548&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收09:35:15
+{"attributes":"","obj":{"id":"4028936e615518f9016163e1982d0006","device_code":"gz002dy35002018","device_name":"DY3500(I)食品综合分析仪","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"29","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180427095356","delete_flag":0,"create_by":"1","create_date":"2018-02-05 10:53:04","update_by":"1","update_date":"2018-04-27 09:53:49","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:39:16
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=496765968399589340304468670238404&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收09:39:16
+{"attributes":"","obj":{"id":"4028936e615518f9016163e1982d0006","device_code":"gz002dy35002018","device_name":"DY3500(I)食品综合分析仪","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"29","base_user_id":"","use_date":"","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180427095356","delete_flag":0,"create_by":"1","create_date":"2018-02-05 10:53:04","update_by":"1","update_date":"2018-04-27 09:53:49","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:55:29
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=334345881965702417433990598848877&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收09:55:29
+{"attributes":"","obj":{"id":"4028936e63008894016309f327a00a5e","device_code":"DY-3500(I)_0428","device_name":"DY-3500(I)食品综合分析仪","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"4028936e60fd97d00161021d41620066","base_user_id":"","use_date":"2018-04-28 00:00:00","month":"","warranty_period":"2019-06-28 00:00:00","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180428095513","delete_flag":0,"create_by":"1","create_date":"2018-04-28 09:52:00","update_by":"1","update_date":"2018-04-28 09:52:00","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送10:08:01
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=002897196444159091865355936170613&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:08:01
+{"attributes":"","obj":{"id":"4028936e63008894016309f327a00a5e","device_code":"DY-3500(I)_0428","device_name":"DY-3500(I)食品综合分析仪","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"4028936e60fd97d00161021d41620066","base_user_id":"","use_date":"2018-04-28 00:00:00","month":"","warranty_period":"2019-06-28 00:00:00","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180428095513","delete_flag":0,"create_by":"1","create_date":"2018-04-28 09:52:00","update_by":"1","update_date":"2018-04-28 09:52:00","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送10:08:59
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=084550916410185901036677406109756&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:08:59
+{"attributes":"","obj":{"id":"4028936e63008894016309f327a00a5e","device_code":"DY-3500(I)_0428","device_name":"DY-3500(I)食品综合分析仪","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"4028936e60fd97d00161021d41620066","base_user_id":"","use_date":"2018-04-28 00:00:00","month":"","warranty_period":"2019-06-28 00:00:00","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180428095513","delete_flag":0,"create_by":"1","create_date":"2018-04-28 09:52:00","update_by":"1","update_date":"2018-04-28 09:52:00","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送10:10:14
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=416441488544684449742775595749840&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:10:14
+{"attributes":"","obj":{"id":"4028936e63008894016309f327a00a5e","device_code":"DY-3500(I)_0428","device_name":"DY-3500(I)食品综合分析仪","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"4028936e60fd97d00161021d41620066","base_user_id":"","use_date":"2018-04-28 00:00:00","month":"","warranty_period":"2019-06-28 00:00:00","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180428095513","delete_flag":0,"create_by":"1","create_date":"2018-04-28 09:52:00","update_by":"1","update_date":"2018-04-28 09:52:00","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送10:29:06
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=020856553172382221804071153347444&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:29:06
+{"attributes":"","obj":{"id":"4028936e63008894016309f327a00a5e","device_code":"DY-3500(I)_0428","device_name":"DY-3500(I)食品综合分析仪","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"4028936e60fd97d00161021d41620066","base_user_id":"","use_date":"2018-04-28 00:00:00","month":"","warranty_period":"2019-06-28 00:00:00","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180428095513","delete_flag":0,"create_by":"1","create_date":"2018-04-28 09:52:00","update_by":"1","update_date":"2018-04-28 09:52:00","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送10:30:19
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=724893562870099742331254374087308&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收10:30:19
+{"attributes":"","obj":{"id":"4028936e63008894016309f327a00a5e","device_code":"DY-3500(I)_0428","device_name":"DY-3500(I)食品综合分析仪","device_style":"仪器设备","device_type_id":"2","depart_id":"4","point_id":"4028936e60fd97d00161021d41620066","base_user_id":"","use_date":"2018-04-28 00:00:00","month":"","warranty_period":"2019-06-28 00:00:00","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(I)_20180428095513","delete_flag":0,"create_by":"1","create_date":"2018-04-28 09:52:00","update_by":"1","update_date":"2018-04-28 09:52:00","brand":""},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+

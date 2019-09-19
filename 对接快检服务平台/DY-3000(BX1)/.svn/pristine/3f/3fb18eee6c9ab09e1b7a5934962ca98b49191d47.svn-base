@@ -1,0 +1,8 @@
+09:52:05
+System.Net.WebException: 请求失败，响应为空。
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 AIO.NewInterface.dataSync.checkUserConnection(String in0, String in1) 位置 e:\Projects\DY-3000(BX1)\DYitj\Web References\NewInterface\Reference.cs:行号 125
+   在 AIO.WorkThread.checkUserConnection(String url, String user, String password) 位置 e:\Projects\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 1874
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 e:\Projects\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 465
+

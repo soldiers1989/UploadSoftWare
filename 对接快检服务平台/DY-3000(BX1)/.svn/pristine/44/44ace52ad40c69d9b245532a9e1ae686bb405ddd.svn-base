@@ -1,0 +1,30 @@
+发送09:39:27
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=613617395414201691050507876936944&serialNumber=&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:39:28
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:39:38
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=613617395414201691050507876936944&serialNumber=&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:39:38
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:39:48
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=613617395414201691050507876936944&serialNumber=&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:39:48
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:39:58
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=613617395414201691050507876936944&serialNumber=&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:39:58
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送09:40:08
+http://fc.chinafst.cn:9002/fc/iSampling/samplingNumber.do?userToken=613617395414201691050507876936944&serialNumber=&lastUpdateTime=2017-11-24 09:49:17&param1=&param2=&param3=
+
+接收09:40:08
+{"attributes":"","obj":{"count":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+

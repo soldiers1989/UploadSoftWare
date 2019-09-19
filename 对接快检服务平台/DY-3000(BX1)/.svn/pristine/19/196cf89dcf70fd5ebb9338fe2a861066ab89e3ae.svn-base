@@ -1,0 +1,6 @@
+发送09:56:36
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=702757774171314282802632090030624&type=recevieSampling&serialNumber=DY-3500(I)_20180124155644&lastUpdateTime=2018-01-24 10:58:11&param1=&param2=&param3=
+
+接收09:56:36
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"result":[]}}
+

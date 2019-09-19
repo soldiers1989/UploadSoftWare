@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://localhost/FSWeb/DataDriver/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://localhost/FSWeb/DataDriver/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/FSWeb/DataDriver/">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="GetDataDriver">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ver" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDirstrictCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStdCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataDriverResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataDriverResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="sErr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetDataDriver">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtTable">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="companyname" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sType" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetDataDriverResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetDataDriverResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPartDataDriver">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ver" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPartDataDriverResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPartDataDriverResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="sErr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckConnection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckConnectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckConnectionResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sErr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="GetDataDriverSoapIn">
+    <part name="parameters" element="s0:GetDataDriver" />
+  </message>
+  <message name="GetDataDriverSoapOut">
+    <part name="parameters" element="s0:GetDataDriverResponse" />
+  </message>
+  <message name="SetDataDriverSoapIn">
+    <part name="parameters" element="s0:SetDataDriver" />
+  </message>
+  <message name="SetDataDriverSoapOut">
+    <part name="parameters" element="s0:SetDataDriverResponse" />
+  </message>
+  <message name="GetPartDataDriverSoapIn">
+    <part name="parameters" element="s0:GetPartDataDriver" />
+  </message>
+  <message name="GetPartDataDriverSoapOut">
+    <part name="parameters" element="s0:GetPartDataDriverResponse" />
+  </message>
+  <message name="CheckConnectionSoapIn">
+    <part name="parameters" element="s0:CheckConnection" />
+  </message>
+  <message name="CheckConnectionSoapOut">
+    <part name="parameters" element="s0:CheckConnectionResponse" />
+  </message>
+  <portType name="DataDriverSoap">
+    <operation name="GetDataDriver">
+      <documentation>该方法用于得到相关表的数据</documentation>
+      <input message="s0:GetDataDriverSoapIn" />
+      <output message="s0:GetDataDriverSoapOut" />
+    </operation>
+    <operation name="SetDataDriver">
+      <documentation>该方法用于写入相关表的数据</documentation>
+      <input message="s0:SetDataDriverSoapIn" />
+      <output message="s0:SetDataDriverSoapOut" />
+    </operation>
+    <operation name="GetPartDataDriver">
+      <documentation>该方法用于得到部分表的数据</documentation>
+      <input message="s0:GetPartDataDriverSoapIn" />
+      <output message="s0:GetPartDataDriverSoapOut" />
+    </operation>
+    <operation name="CheckConnection">
+      <documentation>该方法用于测试连接</documentation>
+      <input message="s0:CheckConnectionSoapIn" />
+      <output message="s0:CheckConnectionSoapOut" />
+    </operation>
+  </portType>
+  <binding name="DataDriverSoap" type="s0:DataDriverSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetDataDriver">
+      <soap:operation soapAction="http://localhost/FSWeb/DataDriver/GetDataDriver" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="SetDataDriver">
+      <soap:operation soapAction="http://localhost/FSWeb/DataDriver/SetDataDriver" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetPartDataDriver">
+      <soap:operation soapAction="http://localhost/FSWeb/DataDriver/GetPartDataDriver" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CheckConnection">
+      <soap:operation soapAction="http://localhost/FSWeb/DataDriver/CheckConnection" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="DataDriver">
+    <documentation>数据服务</documentation>
+    <port name="DataDriverSoap" binding="s0:DataDriverSoap">
+      <soap:address location="http://localhost/DataDriver/DataDriver.asmx" />
+    </port>
+  </service>
+</definitions>

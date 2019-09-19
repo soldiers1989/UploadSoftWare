@@ -1,0 +1,12 @@
+发送09:38:50
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=013165954764963702186355780022663&series=DY-3500(I)&mac=58:00:E3:C7:F0:35 &param1=&param2=&param3=
+
+接收09:38:50
+{"attributes":"","obj":"","msg":"该检测点下没有该系列仪器或均已被注册","success":false,"resultCode":"0X00007"}
+
+发送10:01:38
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=043856518328416070843757446377759&series=DY-3500(I)&mac=58:00:E3:C7:F0:35 &param1=&param2=&param3=
+
+接收10:01:38
+{"attributes":"","obj":"","msg":"该检测点下没有该系列仪器或均已被注册","success":false,"resultCode":"0X00007"}
+

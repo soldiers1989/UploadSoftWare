@@ -1,0 +1,50 @@
+﻿<Window x:Class="GPS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="170" Width="303" 
+        Icon="image/bitbug_favicon.ico"
+      
+        ResizeMode="NoResize"
+        WindowStyle="None" 
+        WindowState="Normal" 
+        Loaded="Window_Loaded"
+        Closed="Window_Closed"
+        Deactivated="Window_Deactivated" 
+        ShowInTaskbar="False"
+        
+        >
+    <Grid  >
+        <!--上-->
+        <Grid Height="28" VerticalAlignment="Top" Background="#7B68EE" >
+            <Label Content="位置信息" Foreground="White" FontSize="15"></Label>
+            <Label Name="labelclose" Content="X" FontSize="16" Foreground="White" Margin="0,0,10,0" HorizontalAlignment="Right"  MouseLeftButtonDown="Label_MouseLeftButtonDown" MouseEnter="Label_MouseEnter" MouseLeave="labelclose_MouseLeave"></Label>
+        </Grid>
+        <!--中-->
+        <Grid Height="100" VerticalAlignment="Top" Margin="0,30,0,0" >
+            
+            <StackPanel Height="120" VerticalAlignment="Top"  Margin="0,20,0,0">
+                <WrapPanel   Height="40" >
+                    <Label Content="当前省份：" FontSize="16" Width="100" Margin="40,0,0,0"></Label>
+                    <Label Name="labelProvince"  Content="" Width="100" FontSize="16"></Label>
+                </WrapPanel>
+                <WrapPanel   Height="40" >
+                    <Label Content="当前城市：" FontSize="16" Width="100" Margin="40,0,0,0"></Label>
+                    <Label  Name="labelCity" Content="" Width="100" FontSize="16"></Label>
+                    <Image Name="imageOnline" Width="35" Height="35" Margin="24,0,0,0"></Image>
+                </WrapPanel>
+            </StackPanel>
+            <WrapPanel Height="35" VerticalAlignment="Bottom" Visibility="Collapsed">
+                <Button Name="btnDetail" Width="60" Height="30" Content="查看详情"  Margin="50,0,0,0" Style="{StaticResource MyWpfButton}"></Button>
+                <Button Name="btnSet" Width="60" Height="30" Content="设置" Margin="60,0,0,0" Style="{StaticResource MyWpfButton}"></Button>
+            </WrapPanel>
+           
+        </Grid> 
+        <!--下-->
+        <Grid  Height="30" VerticalAlignment="Bottom" >
+            <Label Name="labelDetail" Content="查看详情>>>" Foreground="BlueViolet" FontSize="16" Width="110" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" MouseEnter="labelDetail_MouseEnter" MouseLeave="labelDetail_MouseLeave" MouseLeftButtonDown="labelDetail_MouseLeftButtonDown" ></Label>
+            <Label Name="labelSet" Content="设置" FontSize="16" Width="44" Height="30" Foreground="BlueViolet" HorizontalAlignment="Right" Margin="0,0,60,0" MouseEnter="labelDetail_MouseEnter" MouseLeave="labelDetail_MouseLeave" MouseLeftButtonDown="labelSet_MouseLeftButtonDown"></Label>
+            <Label Name="labelHide" Content="隐藏" FontSize="16" Width="43" Height="30" Foreground="BlueViolet" HorizontalAlignment="Right" Margin="0,0,10,0" MouseEnter="labelDetail_MouseEnter" MouseLeave="labelDetail_MouseLeave" MouseLeftButtonDown="labelHide_MouseLeftButtonDown"></Label>
+            
+        </Grid>
+    </Grid>
+</Window>

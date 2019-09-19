@@ -1,0 +1,6 @@
+发送18:19:33
+http://fc.chinafst.cn:9002/fc/interfaces/task/receiveTasks.do?userToken=459183007217051766234169222160922&lastUpdateTime=2018-05-15 09:07:49&pageNumber=
+
+接收18:19:33
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"tasks":[]}}
+

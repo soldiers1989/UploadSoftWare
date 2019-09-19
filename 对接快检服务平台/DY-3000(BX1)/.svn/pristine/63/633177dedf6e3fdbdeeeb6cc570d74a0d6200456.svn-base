@@ -1,0 +1,18 @@
+发送13:35:55
+http://fc.chinafst.cn:9005/dongying/interfaces/devices/registerDevice.do?userToken=857768959415518806260279442378592&series=DY-3500(P)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收13:35:55
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"id":"4028936e634483d6016349219ebb0577","device_code":"DY-3500P-001617","device_name":"胜利所3500P仪器","device_style":"仪器设备","device_type_id":"2","depart_id":"1525939686124wEx","point_id":"4028936e634483d60163491fa7620574","base_user_id":"","use_date":"2018-05-01 00:00:00","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(P)_20180516091734","delete_flag":0,"create_by":"4028936e634483d60163478dde2c0363","create_date":"2018-05-10 16:18:50","update_by":"1","update_date":"2018-05-16 09:17:22","brand":""}}
+
+发送13:38:12
+http://fc.chinafst.cn:9005/dongying/interfaces/devices/registerDevice.do?userToken=775523582768129311647977353526072&series=DY-3500(P)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收13:38:12
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"id":"4028936e634483d6016349219ebb0577","device_code":"DY-3500P-001617","device_name":"胜利所3500P仪器","device_style":"仪器设备","device_type_id":"2","depart_id":"1525939686124wEx","point_id":"4028936e634483d60163491fa7620574","base_user_id":"","use_date":"2018-05-01 00:00:00","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(P)_20180516091734","delete_flag":0,"create_by":"4028936e634483d60163478dde2c0363","create_date":"2018-05-10 16:18:50","update_by":"1","update_date":"2018-05-16 09:17:22","brand":""}}
+
+发送13:39:20
+http://fc.chinafst.cn:9005/dongying/interfaces/devices/registerDevice.do?userToken=221619979015359284138119141285528&series=DY-3500(P)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收13:39:20
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"id":"4028936e634483d6016349219ebb0577","device_code":"DY-3500P-001617","device_name":"胜利所3500P仪器","device_style":"仪器设备","device_type_id":"2","depart_id":"1525939686124wEx","point_id":"4028936e634483d60163491fa7620574","base_user_id":"","use_date":"2018-05-01 00:00:00","month":"","warranty_period":"","sorting":"","description":"","status":"","remark":"","mac_address":"C8:5B:76:C8:84:28 ","serial_number":"DY-3500(P)_20180516091734","delete_flag":0,"create_by":"4028936e634483d60163478dde2c0363","create_date":"2018-05-10 16:18:50","update_by":"1","update_date":"2018-05-16 09:17:22","brand":""}}
+

@@ -1,0 +1,10 @@
+E:\Projects\DY-3000(BX1)\BatteryManage\bin\Release\BatteryManage.exe
+E:\Projects\DY-3000(BX1)\BatteryManage\bin\Release\BatteryManage.pdb
+E:\Projects\DY-3000(BX1)\BatteryManage\bin\Release\ThreadMessaging.dll
+E:\Projects\DY-3000(BX1)\BatteryManage\bin\Release\ThreadMessaging.pdb
+E:\Projects\DY-3000(BX1)\BatteryManage\obj\Release\BatteryManage.BatteryManage.resources
+E:\Projects\DY-3000(BX1)\BatteryManage\obj\Release\BatteryManage.InfoShowForm.resources
+E:\Projects\DY-3000(BX1)\BatteryManage\obj\Release\BatteryManage.Properties.Resources.resources
+E:\Projects\DY-3000(BX1)\BatteryManage\obj\Release\BatteryManage.csproj.GenerateResource.Cache
+E:\Projects\DY-3000(BX1)\BatteryManage\obj\Release\BatteryManage.exe
+E:\Projects\DY-3000(BX1)\BatteryManage\obj\Release\BatteryManage.pdb

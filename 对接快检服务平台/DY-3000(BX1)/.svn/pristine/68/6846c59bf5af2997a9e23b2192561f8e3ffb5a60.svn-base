@@ -1,0 +1,32 @@
+11:08:31
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 D:\DY-Software\数据上传\对接快检服务平台\快检服务端州演示\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 1167
+
+11:11:20
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 D:\DY-Software\数据上传\对接快检服务平台\快检服务端州演示\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 1167
+
+11:12:46
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 D:\DY-Software\数据上传\对接快检服务平台\快检服务端州演示\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 1167
+
+11:13:20
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 D:\DY-Software\数据上传\对接快检服务平台\快检服务端州演示\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 1167
+
+11:14:53
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 D:\DY-Software\数据上传\对接快检服务平台\快检服务端州演示\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 1167
+
+11:15:53
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 D:\DY-Software\数据上传\对接快检服务平台\快检服务端州演示\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 1167
+
+11:17:38
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 D:\DY-Software\数据上传\对接快检服务平台\快检服务端州演示\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 1167
+
+11:20:19
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AIO.WorkThread.HandleMessage(Message msg) 位置 D:\DY-Software\数据上传\对接快检服务平台\快检服务端州演示\DY-3000(BX1)\DYitj\src\WorkThread.cs:行号 1167
+

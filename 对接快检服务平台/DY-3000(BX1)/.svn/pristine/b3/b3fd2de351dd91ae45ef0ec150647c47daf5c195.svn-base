@@ -1,0 +1,6 @@
+发送19:20:40
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=638100735014089732073266430053342&series=DY-3500(I)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收19:20:40
+{"success":false,"msg":"该检测点下没有该系列仪器或均已被注册","obj":"","attributes":"","resultCode":"0X00007"}
+

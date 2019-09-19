@@ -1,0 +1,48 @@
+发送11:08:31
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=746824520479824932944556701989531&type=recevieSampling&serialNumber=&lastUpdateTime=2018-11-26 16:37:15&param1=&param2=&param3=
+
+接收11:08:31
+{"success":false,"msg":"参数serialNumber不能为空","obj":"","attributes":"","resultCode":"0X00001"}
+
+发送11:11:20
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=768326404829343060506386374211460&type=recevieSampling&serialNumber=&lastUpdateTime=2018-11-28 11:08:31&param1=&param2=&param3=
+
+接收11:11:20
+{"success":false,"msg":"参数serialNumber不能为空","obj":"","attributes":"","resultCode":"0X00001"}
+
+发送11:12:46
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=319560840086205312423119557364120&type=recevieSampling&serialNumber=&lastUpdateTime=2018-11-28 11:11:20&param1=&param2=&param3=
+
+接收11:12:46
+{"success":false,"msg":"参数serialNumber不能为空","obj":"","attributes":"","resultCode":"0X00001"}
+
+发送11:13:19
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=219997665440579608044426227893554&type=recevieSampling&serialNumber=&lastUpdateTime=2018-11-28 11:12:46&param1=&param2=&param3=
+
+接收11:13:20
+{"success":false,"msg":"参数serialNumber不能为空","obj":"","attributes":"","resultCode":"0X00001"}
+
+发送11:14:53
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=475918556163326456978876924297048&type=recevieSampling&serialNumber=&lastUpdateTime=2018-11-28 11:13:19&param1=&param2=&param3=
+
+接收11:14:53
+{"success":false,"msg":"参数serialNumber不能为空","obj":"","attributes":"","resultCode":"0X00001"}
+
+发送11:15:53
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=649924064451828770556755370098360&type=recevieSampling&serialNumber=&lastUpdateTime=2018-11-28 11:14:53&param1=&param2=&param3=
+
+接收11:15:53
+{"success":false,"msg":"参数serialNumber不能为空","obj":"","attributes":"","resultCode":"0X00001"}
+
+发送11:17:38
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=646905267326868114294899944965725&type=recevieSampling&serialNumber=&lastUpdateTime=2018-11-28 11:15:53&param1=&param2=&param3=
+
+接收11:17:38
+{"success":false,"msg":"参数serialNumber不能为空","obj":"","attributes":"","resultCode":"0X00001"}
+
+发送11:20:19
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=245369563505895193632509930123850&type=recevieSampling&serialNumber=&lastUpdateTime=2018-11-28 11:17:38&param1=&param2=&param3=
+
+接收11:20:19
+{"success":false,"msg":"参数serialNumber不能为空","obj":"","attributes":"","resultCode":"0X00001"}
+

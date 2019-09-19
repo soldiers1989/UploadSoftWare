@@ -1,0 +1,114 @@
+﻿<Window x:Class="AIO.xaml.KjService.CheckTasks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SamplingTasks" 
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        FontFamily="SimHei" 
+        Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid>
+
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_kjfw.png" Margin="15,20" />
+            <Label Content="检测任务实时监测系统" Name="labelName" FontSize="34" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}" Margin="15,74,10,20" HorizontalContentAlignment="Center"/>
+            <Label Content="东营市食品药品监督管理局食品快检监管平台" x:Name="labelName_Copy" FontSize="36" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}" Margin="10,10,10,84" HorizontalContentAlignment="Center"/>
+            <Label Content="正在验证用户信息···" FontSize="16" Foreground="{StaticResource ForeGroudColorText}" HorizontalAlignment="Right" x:Name="LabelInfo" VerticalAlignment="Bottom" Width="484" HorizontalContentAlignment="Right" />
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" >
+            <Button Name="Btn_Refresh" Height="60" VerticalAlignment="Center" Margin="20,20,0,20" Content="刷  新" FontSize="24" Click="Btn_Refresh_Click" HorizontalAlignment="Left" Width="100" />
+            <Button Name="Btn_Show" Height="60" VerticalAlignment="Center" Margin="125,20,0,20" Content="查看详情" FontSize="24" Click="Btn_Show_Click" HorizontalAlignment="Left" Width="100" />
+            <Button Name="Btn_Receive" Height="60" VerticalAlignment="Center" Margin="230,20,0,20" Content="接  收" FontSize="24" Click="Btn_Receive_Click" HorizontalAlignment="Left" Width="100" />
+            <Button Name="Btn_Refuse" Height="60" VerticalAlignment="Center" Margin="335,20,0,20" Content="拒  收" FontSize="24" Click="Btn_Refuse_Click" HorizontalAlignment="Left" Width="100" />
+            <Button Visibility="Collapsed" Name="Btn_DataMsg" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,325,20"  Content="数据管理" FontSize="24" Click="Btn_DataMsg_Click"/>
+            <Button Visibility="Collapsed" Name="Btn_GoBack" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,220,20"  Content="手动检测" FontSize="24" Click="Btn_GoBack_Click"/>
+            <Button Name="Btn_StartCheck" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,115,20"  Content="开始检测" FontSize="24" Click="Btn_StartCheck_Click"/>
+            <Button Name="Btn_Exit" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,10,20"  Content="退  出" FontSize="24" Click="Btn_Exit_Click"/>
+            <ComboBox Name="Cmb_Method" Width="130" Height="60" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,220,20" SelectedIndex="0" FontSize="24" VerticalContentAlignment="Center" SelectionChanged="Cmb_Method_SelectionChanged">
+                <Label Content="功能选择"/>
+                <Label Content="手动检测"/>
+                <Label Content="数据管理"/>
+                <Label Content="系统设置"/>
+            </ComboBox>
+        </Grid>
+
+        <!-- 中 -->
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <StackPanel Orientation="Vertical" Margin="0,0,0,0">
+                <StackPanel VerticalAlignment="Center" Orientation="Vertical" Margin="12,0" Height="36">
+                    <Grid Height="35">
+                        <StackPanel Width="1000" Height="30"  Margin="0,2,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                            <StackPanel Height="30"  HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                                <Label FontSize="16" Content="任务编号" Height="30" VerticalContentAlignment="Center" />
+                                <TextBox Name="Txt_TaskCode" Width="135" FontSize="16" Height="25" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" />
+                            </StackPanel>
+                            <StackPanel Height="30"  Margin="10,0,0,0" Orientation="Horizontal" >
+                                <Label FontSize="16" Content="任务标题" Height="30" VerticalContentAlignment="Center"  />
+                                <TextBox Name="Txt_TaskTitle" Width="135" FontSize="16" Height="25" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" />
+                            </StackPanel>
+                            <StackPanel Height="30"  Margin="10,0,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                                <Label FontSize="16" Content="任务内容" Height="30" VerticalContentAlignment="Center" />
+                                <TextBox Name="Txt_TaskContent" Width="135" FontSize="16" Height="25" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" />
+                            </StackPanel>
+                            <StackPanel Height="30"  Margin="10,0,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" />
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+
+                <DataGrid Name="DataGridRecord" Height="480" ItemsSource="{Binding}" AutoGenerateColumns="false" IsReadOnly="True" SelectionChanged="DataGridRecord_SelectionChanged" MouseDoubleClick="DataGridRecord_MouseDoubleClick" LoadingRow="DataGridRecord_LoadingRow" FontSize="16" Margin="12,0" >
+                    <DataGrid.ContextMenu>
+                        <ContextMenu Name="DataGridMenu" StaysOpen="true">
+                            <MenuItem Name="miRefresh" Click="Btn_Refresh_Click" Header="刷新"/>
+                            <MenuItem Name="miShow" Click="Btn_Show_Click" Header="查看详情" />
+                            <MenuItem Name="miReceive" Click="Btn_Receive_Click" Header="接收" />
+                            <MenuItem Name="miRefuse" Click="Btn_Refuse_Click" Header="拒收" />
+                            <MenuItem Name="miStartCheck" Click="Btn_StartCheck_Click" Header="开始检测" />
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+                    <DataGrid.Columns>
+                        <DataGridCheckBoxColumn Header="是否已接收" Binding="{Binding Path = isReceive}"/>
+                        <DataGridTextColumn Header="抽样单编号" Binding="{Binding Path = sample_code}" Width="140"/>
+                        <!--抽样明细样品编号-->
+                        <DataGridTextColumn Header="被检单位" Binding="{Binding Path = s_reg_name}" Width="150"/>
+                        <DataGridTextColumn Header="档口编号" Binding="{Binding Path = s_ope_shop_code}" Width="80"/>
+                        <DataGridTextColumn Header="经营户名称" Binding="{Binding Path = s_ope_shop_name}" Width="100"/>
+                        <DataGridTextColumn Header="抽样明细ID" Binding="{Binding Path = id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="抽样单ID" Binding="{Binding Path = sampling_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="食品种类ID" Binding="{Binding Path = food_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="样品名称" Binding="{Binding Path = food_name}" Width="100"/>
+                        <DataGridTextColumn Header="抽检项目ID" Binding="{Binding Path = item_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="项目名称" Binding="{Binding Path = item_name}" Width="100"/>
+                        <DataGridTextColumn Header="检测模块" Binding="{Binding Path = resultType}" Width="100"/>
+                        <DataGridTextColumn Header="抽样时间" Binding="{Binding Path = s_sampling_date}" Width="175"/>
+                        <DataGridTextColumn Header="抽样数量（公斤）" Binding="{Binding Path = sample_number}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="进货数量（公斤）" Binding="{Binding Path = purchase_amount}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="检测时间" Binding="{Binding Path = sample_date}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="进货日期" Binding="{Binding Path = purchase_date}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="产地" Binding="{Binding Path = origin}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="供货商" Binding="{Binding Path = supplier}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="供货者/生产者地址" Binding="{Binding Path = supplier_address}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="供货者/生产者名联系人" Binding="{Binding Path = supplier_person}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="供货者/生产者联系电话" Binding="{Binding Path = supplier_phone}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="批号" Binding="{Binding Path = batch_number}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="状态" Binding="{Binding Path = status}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="接收仪器唯一标识" Binding="{Binding Path = recevie_device}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="备注" Binding="{Binding Path = remark}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="预留参数1" Binding="{Binding Path = param1}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="预留参数2" Binding="{Binding Path = param2}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="预留参数3" Binding="{Binding Path = param3}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="受检单位ID" Binding="{Binding Path = s_reg_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="主任务ID" Binding="{Binding Path = t_id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="任务标题" Binding="{Binding Path = t_task_title}" Width="200"/>
+                        <DataGridTextColumn Header="任务明细ID" Binding="{Binding Path = td_id}" Visibility="Collapsed"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

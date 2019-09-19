@@ -1,0 +1,18 @@
+发送08:58:07
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=669897001455381111738304622655944&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收08:58:07
+{"success":false,"msg":"该检测点下没有该系列仪器或均已被注册","obj":"","attributes":"","resultCode":"0X00007"}
+
+发送08:58:51
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=677260578881897322442098776754451&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收08:58:51
+{"success":false,"msg":"该检测点下没有该系列仪器或均已被注册","obj":"","attributes":"","resultCode":"0X00007"}
+
+发送08:59:34
+http://fc.chinafst.cn:9002/fc/interfaces/devices/registerDevice.do?userToken=974708438801111114313058660084274&series=DY-3000(BX1)&mac=C8:5B:76:C8:84:28 &param1=&param2=&param3=
+
+接收08:59:34
+{"success":false,"msg":"该检测点下没有该系列仪器或均已被注册","obj":"","attributes":"","resultCode":"0X00007"}
+

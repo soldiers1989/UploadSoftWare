@@ -1,0 +1,44 @@
+﻿<Window x:Class="AIO.JtjReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="JtjReportWindow"
+        Width="1024" Height="768"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="{StaticResource BackGroudColorGrid}"
+        FontFamily="SimHei" 
+        Loaded="Window_Loaded" Closing="Window_Closing" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid>
+        <!-- 上 -->
+        <Grid Margin="0,0,0,0" Height="150" VerticalAlignment="Top" Background="{StaticResource  BackGroudColorGridTop}" >
+            <Image Width="150" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/DY-Detector;component/assets/logo_v.png" Margin="15,20" />
+            <Label Content="检测结果" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource ForeGroudColorText}"/>
+            <Label Content="信息:" FontSize="20" Foreground="{StaticResource ForeGroudColorText}" HorizontalAlignment="Right" Name="LabelInfo" VerticalAlignment="Bottom" Width="500" Margin="0,0,10,107" HorizontalContentAlignment="Right" />
+        </Grid>
+
+        <!-- 下 -->
+        <Grid Margin="0,0,0,0" Height="100" VerticalAlignment="Bottom" Background="{StaticResource  BackGroudColorGridBottom}" >
+            <Button Name="ButtonPrint" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,20,0,20"  Content="打  印" FontSize="24" Click="ButtonPrint_Click" IsEnabled="False" />
+            <Button Name="ButtonPrev" Width="100" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,20,20,20"  Content="返  回" FontSize="24" Click="ButtonPrev_Click" IsEnabled="False"/>
+            <Button Content="保  存" Visibility="Collapsed" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="126,20,0,20" Name="btn_Save" VerticalAlignment="Center" Width="100" Click="ButtonSave_Click" />
+            <Button Content="上  传" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="126,20,0,20" Name="btn_upload" VerticalAlignment="Center" Width="100" Click="ButtonUpdate_Click" IsEnabled="False" />
+            <Button Content="查询数据" ToolTip="点击查看当前检测项目对应的检测数据！" FontSize="24" Height="60" HorizontalAlignment="Left" Margin="231,20,0,20" x:Name="Btn_ShowDatas" VerticalAlignment="Center" Width="100" Click="Btn_ShowDatas_Click" IsEnabled="False"/>
+            <RichTextBox Visibility="Collapsed" Name="txtCalcCT" HorizontalAlignment="Left" Height="80" Margin="489,10,0,0" VerticalAlignment="Top" Width="401">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text=""/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+        </Grid>
+
+        <!-- 中 -->
+        <Grid Margin="0,150,0,100" Background="{StaticResource BackGroudColorGridCenter}">
+            <StackPanel Width="800" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical"></StackPanel>
+            <ScrollViewer Width="1000" Height="500" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                <WrapPanel  Name="WrapPanelChannel" Width="900" Height="500">
+                </WrapPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

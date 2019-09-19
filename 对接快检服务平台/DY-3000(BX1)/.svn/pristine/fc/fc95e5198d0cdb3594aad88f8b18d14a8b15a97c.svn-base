@@ -1,0 +1,6 @@
+发送16:54:01
+http://fc.chinafst.cn:9002/fc/interfaces/task/receiveTasks.do?userToken=941059730544560871292518320870906&lastUpdateTime=2018-05-10 10:54:53&pageNumber=
+
+接收16:54:01
+{"attributes":"","msg":"操作成功","success":true,"resultCode":"0X00000","obj":{"tasks":[{"t_id":4,"t_task_code":"","t_task_title":"5010测试","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":5,"t_sample_number":2,"t_task_sdate":"2018-05-10 00:00:00","t_task_edate":"2018-05-10 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":"食安科技","t_task_announcer":"小米1","t_task_cdate":"2018-05-10 10:53:05","t_remark":"","t_view_flag":0,"t_delete_flag":0,"t_create_by":"1","t_create_date":"2018-05-10 10:53:05","t_update_by":"4028936e63008894016309f55a240a6f","t_update_date":"2018-05-14 09:28:05","d_id":3,"d_task_id":"4","d_detail_code":"","d_sample_id":"2843","d_sample":"青瓜","d_item_id":"cfbb4a8d0e584c9db28bd26ac500d876","d_item":"农药残留","d_task_fdate":"","d_receive_pointid":"","d_receive_point":"","d_receive_nodeid":"4028936e60fd97d00161021d41620066","d_receive_node":"越秀区食药监局","d_receive_userid":"","d_receive_username":"","d_receive_status":0,"d_task_total":5,"d_sample_number":2,"d_remark":""}]}}
+

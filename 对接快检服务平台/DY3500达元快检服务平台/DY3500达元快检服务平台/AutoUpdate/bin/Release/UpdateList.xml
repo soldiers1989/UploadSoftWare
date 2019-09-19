@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>DY-3500 autoUpdate</description>
+  <Updater>
+	<Url>http://192.168.19.54:8089/</Url>
+	<LastUpdateTime>2016-11-10</LastUpdateTime>
+  </Updater>
+  <Application applicationId="DY-Detector">
+    <EntryPoint>DY-Detector.exe</EntryPoint>
+    <Location>.</Location>
+	<Version>1.0.0.1</Version>
+  </Application>
+  <Files>
+	   <File Ver="1.0.0.1" Name="Accounts\FoodClass.dat" />
+	   <File Ver="1.0.0.1" Name="Accounts\userAccounts.dat" />
+	   <File Ver="1.0.0.1" Name="Data\local.Mdb"/>
+	   <File Ver="1.0.0.1" Name="Items\fgdItems.dat"/>
+	   <File Ver="1.0.0.1" Name="Items\fgdItems.xml"/>
+	   <File Ver="1.0.0.1" Name="Items\gszItems.dat"/>
+	   <File Ver="1.0.0.1" Name="Items\hmItems.dat"/>
+	   <File Ver="1.0.0.1" Name="Items\jtjItems.dat"/>
+	   <File Ver="1.0.0.1" Name="Others\deviceHole.dat"/>
+	   <File Ver="1.0.0.1" Name="ClassLibrary.dll"/>
+	   <File Ver="1.0.0.1" Name="DataSet.dll"/>
+	   <File Ver="1.0.0.1" Name="DY.Process.dll"/>
+	   <File Ver="1.0.0.1" Name="DY-Detector.exe"/>
+	   <File Ver="1.0.0.1" Name="DY-Detector.exe.config"/>
+	   <File Ver="1.0.0.1" Name="DynamicDataDisplay.dll"/>
+	   <File Ver="1.0.0.1" Name="ICSharpCode.SharpZipLib.dll"/>
+	   <File Ver="1.0.0.1" Name="JsonObject.dll"/>
+	   <File Ver="1.0.0.1" Name="Newtonsoft.Json.dll"/>
+	   <File Ver="1.0.0.1" Name="NPOI.dll"/>
+	   <File Ver="1.0.0.1" Name="NPOI.OOXML.dll"/>
+	   <File Ver="1.0.0.1" Name="NPOI.OpenXml4Net.dll"/>
+	   <File Ver="1.0.0.1" Name="NPOI.OpenXmlFormats.dll"/>
+	   <File Ver="1.0.0.1" Name="ThreadMessaging.dll"/>
+	   <File Ver="1.0.0.1" Name="WPFVisifire.Charts.dll"/>
+	   <File Ver="1.0.0.1" Name="WpfPerformance.exe"/>
+	   <File Ver="1.0.0.1" Name="UpdateList.xml"/>
+  </Files>
+</AutoUpdater>

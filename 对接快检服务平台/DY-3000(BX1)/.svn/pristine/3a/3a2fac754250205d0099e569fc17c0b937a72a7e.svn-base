@@ -1,0 +1,102 @@
+发送09:32:44
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=042595309306859531987936634507362&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-02 08:54:18&param1=&param2=&param3=
+
+接收09:32:44
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送10:38:59
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=182277698762539916002825763514325&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 09:32:44&param1=&param2=&param3=
+
+接收10:39:00
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送10:39:30
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=182277698762539916002825763514325&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 10:38:59&param1=&param2=&param3=
+
+接收10:39:30
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送10:40:31
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=182277698762539916002825763514325&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 10:39:30&param1=&param2=&param3=
+
+接收10:40:31
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送10:46:00
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=010394719132681703444252126762524&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 10:40:31&param1=&param2=&param3=
+
+接收10:46:00
+{"attributes":"","obj":{"result":[{"id":"4028936e6221c8980162278c8b020036","sampling_id":"52876ca238a31c7be5898f4011cfa6c4","sample_code":"A201803150006-01","food_id":"2843","food_name":"青瓜","sample_number":1.00,"purchase_amount":13.00,"sample_date":"","purchase_date":"2018-03-15 00:00:00","item_id":"cfbb4a8d0e584c9db28bd26ac500d876","item_name":"农药残留","origin":"da","supplier":"husb","supplier_address":"","supplier_person":"hsuhd","supplier_phone":"243","batch_number":"","status":0,"recevie_device":"DY-3500(I)_20180315093227","ope_shop_name":"","update_date":"","remark":"","param1":"","param2":"4028936e6221c89801622248275a0011","param3":"","s_id":"52876ca238a31c7be5898f4011cfa6c4","s_sampling_no":"A201803150006","s_sampling_date":"2018-03-15 10:45:45","s_point_id":"12","s_reg_id":"1520328545","s_reg_name":"东洲水产市场","s_reg_licence":"","s_reg_link_person":"","s_reg_link_phone":"","s_ope_id":"4028936e61fac1430161ff1351de0071","s_ope_shop_code":"DZ-002","s_ope_shop_name":"蔬菜档口","s_qrcode":"A201803150006.png","s_task_id":"4028936e6221c8980162224826fc0010","s_status":0,"s_place_x":"113.502037","s_place_y":"23.157703","s_sampling_userid":"4028936e620a261e0162195897c2001d","s_sampling_username":"增城检测员2","s_ope_signature":"A201803150006.jpg","s_create_by":"","s_create_date":"2018-03-15 10:45:45","s_update_by":"","s_update_date":"2018-03-15 10:45:45","s_sheet_address":"","s_param1":"","s_param2":"","s_param3":"","t_id":"4028936e6221c8980162224826fc0010","t_task_code":"","t_task_title":"1234567","t_task_content":"","t_task_detail_pId":"","t_project_id":"","t_task_type":"日常检查","t_task_source":"紧急","t_task_status":1,"t_task_total":30,"t_sample_number":0,"t_task_sdate":"2018-03-14 00:00:00","t_task_edate":"2018-03-30 00:00:00","t_task_pdate":"","t_task_fdate":"","t_task_departId":"10","t_task_announcer":"4028936e61e433a50161f94f89dd0029","t_task_cdate":"2018-03-14 10:12:57","t_remark":"","t_view_flag":0,"t_file_path":"","t_delete_flag":0,"t_create_by":"4028936e61e433a50161f94f89dd0029","t_create_date":"2018-03-14 10:12:57","t_update_by":"4028936e61e433a50161f94f89dd0029","t_update_date":"2018-03-14 10:12:57","td_id":"4028936e6221c89801622248275a0011","td_task_id":"4028936e6221c8980162224826fc0010","td_detail_code":"","td_sample_id":"1882","td_sample":"蔬菜类","td_item_id":"cfbb4a8d0e584c9db28bd26ac500d876","td_item":"农药残留","td_task_fdate":"","td_receive_pointid":"","td_receive_point":"","td_receive_nodeid":"11","td_receive_node":"增城1","td_receive_userid":"","td_receive_username":"","td_receive_status":0,"td_task_total":20,"td_sample_number":0,"td_remark":""}]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送11:14:11
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=984839766305204204703929791176187&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 10:46:00&param1=&param2=&param3=
+
+接收11:14:11
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送11:23:25
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=925187554004322652359641015621620&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 11:14:11&param1=&param2=&param3=
+
+接收11:23:25
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送11:33:24
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=720329095401736834096059475193507&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 11:23:25&param1=&param2=&param3=
+
+接收11:33:24
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送13:10:44
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=426672137910162393342754020945282&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 11:33:24&param1=&param2=&param3=
+
+接收13:10:44
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送13:11:35
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=426672137910162393342754020945282&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 13:10:44&param1=&param2=&param3=
+
+接收13:11:35
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送13:37:24
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=283086100108070120797305760405852&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 13:11:35&param1=&param2=&param3=
+
+接收13:37:24
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送13:37:32
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=283086100108070120797305760405852&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 13:37:24&param1=&param2=&param3=
+
+接收13:37:32
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送14:10:34
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=196528959624535986160109998773341&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 13:37:32&param1=&param2=&param3=
+
+接收14:10:34
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送14:10:36
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=196528959624535986160109998773341&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 14:10:34&param1=&param2=&param3=
+
+接收14:10:36
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送14:15:03
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=269920763669273990963925578988787&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 14:10:36&param1=&param2=&param3=
+
+接收14:15:03
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送15:03:32
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=887935104032617904189384790065225&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 14:15:03&param1=&param2=&param3=
+
+接收15:03:32
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送15:04:16
+http://fc.chinafst.cn:9002/fc/iSampling/downloadSampling.do?userToken=131604374200561743958317019715447&type=recevieSampling&serialNumber=DY-3500(I)_20180315093227&lastUpdateTime=2018-03-15 15:03:32&param1=&param2=&param3=
+
+接收15:04:16
+{"attributes":"","obj":{"result":[]},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+

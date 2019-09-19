@@ -1,0 +1,42 @@
+发送16:30:08
+http://fc.chinafst.cn:9002/fc/interfaces/taskMessage/taskMsgNumber.do?userToken=238673909180353720993392713137666&lastUpdateTime=2017-11-24 09:49:17
+
+接收16:30:08
+{"attributes":"","obj":{"total":2,"unread":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送16:30:18
+http://fc.chinafst.cn:9002/fc/interfaces/taskMessage/taskMsgNumber.do?userToken=238673909180353720993392713137666&lastUpdateTime=2017-11-24 09:49:17
+
+接收16:30:18
+{"attributes":"","obj":{"total":2,"unread":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送16:30:28
+http://fc.chinafst.cn:9002/fc/interfaces/taskMessage/taskMsgNumber.do?userToken=238673909180353720993392713137666&lastUpdateTime=2017-11-24 09:49:17
+
+接收16:30:28
+{"attributes":"","obj":{"total":2,"unread":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送16:30:38
+http://fc.chinafst.cn:9002/fc/interfaces/taskMessage/taskMsgNumber.do?userToken=238673909180353720993392713137666&lastUpdateTime=2017-11-24 09:49:17
+
+接收16:30:38
+{"attributes":"","obj":{"total":2,"unread":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送16:30:48
+http://fc.chinafst.cn:9002/fc/interfaces/taskMessage/taskMsgNumber.do?userToken=238673909180353720993392713137666&lastUpdateTime=2017-11-24 09:49:17
+
+接收16:30:48
+{"attributes":"","obj":{"total":2,"unread":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送16:30:58
+http://fc.chinafst.cn:9002/fc/interfaces/taskMessage/taskMsgNumber.do?userToken=238673909180353720993392713137666&lastUpdateTime=2017-11-24 09:49:17
+
+接收16:30:58
+{"attributes":"","obj":{"total":2,"unread":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
+发送16:31:08
+http://fc.chinafst.cn:9002/fc/interfaces/taskMessage/taskMsgNumber.do?userToken=238673909180353720993392713137666&lastUpdateTime=2017-11-24 09:49:17
+
+接收16:31:08
+{"attributes":"","obj":{"total":2,"unread":0},"msg":"操作成功","success":true,"resultCode":"0X00000"}
+
